@@ -1,0 +1,17 @@
+Title
+
+Distributed Edge-AI UAV & Ground Sensing IOT WSN Ecosystem for Multi-Tier Crop Health Analytics
+
+Methodology
+
+This platform delivers full-spectrum precision agritech analytics across diverse crop heights—from large mango trees to short wheat fields—entirely independent of cloud architecture. The system decouples critical processing domains into three hardware nodes. The UAV Flight Control Frame isolates flight stability (handled by a dedicated STM32 flight controller running ArduPilot and a micro-sensor array) from the Detachable AI Analytics Payload via optocouplers to prevent high-current inductive feedback.
+
+The AI Payload combines an Arduino Nano ESP32 sensor hub with an Orange Pi 5 Pro companion computer (6 TOPS NPU) executing a three-tiered offline computer vision model (YOLOv26-Nano, MobileViTv2, CoAtNet-0) compiled via RKNN-Toolkit2. Ground data is acquired by the Core Ground Module (Arduino Nano ESP32) polling capacitive soil moisture, micro-climate (BME280), and high-dynamic-range light sensors. Subsurface validation is scaled via a plug-and-play Add-On Module powered by an ESP32-C6 coprocessor that manages a 7-in-1 NPK/pH/EC probe via RS485 Modbus alongside multi-depth moisture check matrices.
+
+Python-based TinyML (TensorFlow Lite Micro) operates natively on the ground boards, compressing telemetry into localized anomaly stress indexes. Ground-to-air telemetry runs connectionless over 2.4GHz ESP-NOW profiles during flight passes. Final unified field reports are fetched offline by the farmer via local Wi-Fi AP or BLE direct transmissions into a decentralized smartphone SQLite database.
+
+Proposed Block Diagram
+
+Proposed Outcome
+
+The architecture establishes an affordable, ultra-reliable farming solution that avoids standard vulnerabilities. First, using structurally resilient 3C LiFePO4 battery dynamics managed by segmented, filtered power rails and emergency hardware-software shutdown interrupts completely eliminates field thermal runaway or crash-fire hazards. Second, 100% offline edge execution bypasses rural connectivity deficits, allowing real-time mapping of crop stress distributions without operational reliance on expensive cloud structures or specialized, toxic assemblies. Third, the plug-and-play non-toxic solderless modular design ensures rapid configuration adjustment and safe physical handling, delivering professional industrial-grade multi-tier analytic capabilities directly to resource-constrained agriculturalists.

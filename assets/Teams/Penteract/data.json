@@ -1,0 +1,119 @@
+{
+  "index": 54,
+  "id": "6ade070733bc6c51efc72cd2",
+  "registrationId": "AURA2K26-EX28RL",
+  "rawTeamName": "Penteract",
+  "folderName": "Penteract",
+  "folderRelPath": "assets/Teams/Penteract",
+  "projectTitle": "Anebilin",
+  "teamSize": 2,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 2,
+  "teamLeaderName": "Sayan Ghanty",
+  "teamLeaderEmail": "sayan.ghanty.ece28@heritageit.edu.in",
+  "teamLeaderPhone": "9883565913",
+  "teamMemberDetails": "Rohan Sarkar | HITK |  CHE | 2nd Year | 9836171619",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "Electronics & Communication",
+    "IoT & Smart Devices",
+    "Biomedical / Healthcare Devices",
+    "AI-Enabled Hardware",
+    "Assistive Technology"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Access to affordable health screening remains limited in rural and resource-constrained settings. Conventional blood tests often require needles, trained personnel, laboratory infrastructure, sample transport, and waiting time. These barriers can delay preliminary assessment and make repeated monitoring difficult in community settings. Anebilin is a portable, non-invasive multispectral screening device designed to obtain optical measurements from a finger scan. Its sensing unit uses the AS7343 14-channel spectral sensor to capture visible and near-infrared information. An ESP32-S3 microcontroller performs local signal acquisition, filtering, AC/DC decomposition, spectral normalization, and feature extraction. Near-infrared reference channels and spectral ratios help reduce the effects of skin pigmentation and tissue-related optical variation. Engineered features are processed by machine-learning models to estimate indicators including SpO₂, haemoglobin, bilirubin-related measures, heart rate, heart-rate variability, and respiratory rate. Results can be displayed locally and synchronized through Bluetooth to a digital dashboard. Anebilin combines multispectral sensing, physics-informed signal processing, and embedded machine learning in a compact platform. Rather than relying on a single optical channel or feeding unprocessed readings directly into a model, it analyzes spectral ratios, AC/DC components, and engineered features across multiple wavelengths. This broader spectral approach supports several preliminary indicators from one finger scan, while local processing reduces dependence on external computing infrastructure. Bluetooth connectivity supports digital record keeping and trend monitoring. The device aims to make preliminary screening more accessible, portable, and efficient in clinics, health camps, and community settings, supporting early assessment and follow-up. Anebilin is designed to complement healthcare services and assist screening and monitoring, not replace conventional laboratory tests or clinical diagnosis.",
+  "solutionDescription": "Access to affordable health screening remains limited in rural and resource-constrained settings. Conventional blood tests often require needles, trained personnel, laboratory infrastructure, sample transport, and waiting time. These barriers can delay preliminary assessment and make repeated monitoring difficult in community settings. Anebilin is a portable, non-invasive multispectral screening device designed to obtain optical measurements from a finger scan. Its sensing unit uses the AS7343 14-channel spectral sensor to capture visible and near-infrared information. An ESP32-S3 microcontroller performs local signal acquisition, filtering, AC/DC decomposition, spectral normalization, and feature extraction. Near-infrared reference channels and spectral ratios help reduce the effects of skin pigmentation and tissue-related optical variation. Engineered features are processed by machine-learning models to estimate indicators including SpO₂, haemoglobin, bilirubin-related measures, heart rate, heart-rate variability, and respiratory rate. Results can be displayed locally and synchronized through Bluetooth to a digital dashboard. Anebilin combines multispectral sensing, physics-informed signal processing, and embedded machine learning in a compact platform. Rather than relying on a single optical channel or feeding unprocessed readings directly into a model, it analyzes spectral ratios, AC/DC components, and engineered features across multiple wavelengths. This broader spectral approach supports several preliminary indicators from one finger scan, while local processing reduces dependence on external computing infrastructure. Bluetooth connectivity supports digital record keeping and trend monitoring. The device aims to make preliminary screening more accessible, portable, and efficient in clinics, health camps, and community settings, supporting early assessment and follow-up. Anebilin is designed to complement healthcare services and assist screening and monitoring, not replace conventional laboratory tests or clinical diagnosis.",
+  "innovationDescription": "Access to affordable health screening remains limited in rural and resource-constrained settings. Conventional blood tests often require needles, trained personnel, laboratory infrastructure, sample transport, and waiting time. These barriers can delay preliminary assessment and make repeated monitoring difficult in community settings. Anebilin is a portable, non-invasive multispectral screening device designed to obtain optical measurements from a finger scan. Its sensing unit uses the AS7343 14-channel spectral sensor to capture visible and near-infrared information. An ESP32-S3 microcontroller performs local signal acquisition, filtering, AC/DC decomposition, spectral normalization, and feature extraction. Near-infrared reference channels and spectral ratios help reduce the effects of skin pigmentation and tissue-related optical variation. Engineered features are processed by machine-learning models to estimate indicators including SpO₂, haemoglobin, bilirubin-related measures, heart rate, heart-rate variability, and respiratory rate. Results can be displayed locally and synchronized through Bluetooth to a digital dashboard. Anebilin combines multispectral sensing, physics-informed signal processing, and embedded machine learning in a compact platform. Rather than relying on a single optical channel or feeding unprocessed readings directly into a model, it analyzes spectral ratios, AC/DC components, and engineered features across multiple wavelengths. This broader spectral approach supports several preliminary indicators from one finger scan, while local processing reduces dependence on external computing infrastructure. Bluetooth connectivity supports digital record keeping and trend monitoring. The device aims to make preliminary screening more accessible, portable, and efficient in clinics, health camps, and community settings, supporting early assessment and follow-up. Anebilin is designed to complement healthcare services and assist screening and monitoring, not replace conventional laboratory tests or clinical diagnosis.",
+  "workingPrinciple": "Anebilin works on the principle of multispectral optical sensing combined with digital signal processing and machine learning to estimate physiological indicators non-invasively. During a scan, the user places a finger inside the device’s optical chamber, where optical measurements are collected across visible and near-infrared wavelengths. The AS7343 14-channel spectral sensor captures wavelength-dependent information associated with the interaction of light with biological tissue and blood. These measurements contain variations influenced by blood flow, tissue composition, skin pigmentation, and other optical factors. An ESP32-S3 microcontroller acquires the sensor data and processes it locally. The signal-processing pipeline applies filtering and noise reduction to improve measurement consistency, followed by AC/DC decomposition to separate pulsatile variations associated with blood-volume changes from relatively steady optical components. Spectral normalization and ratio-based analysis are then performed to reduce variations caused by illumination, tissue characteristics, and differences in skin pigmentation. Near-infrared reference channels provide additional information for compensating optical variability. From the processed signals, the system extracts engineered features, including spectral ratios, pulsatile metrics, and relationships between wavelength channels. These features are supplied to machine-learning models trained to estimate selected physiological indicators, including oxygen saturation (SpO2), haemoglobin, bilirubin-related indicators, heart rate, heart-rate variability, and respiratory rate. The calculated estimates are presented through the device interface and can be synchronized via Bluetooth with a digital dashboard for recording and trend monitoring. By combining multispectral measurements, physics-informed signal processing, and embedded machine learning, Anebilin aims to derive multiple preliminary health indicators from a single finger scan. Its outputs are intended for",
+  "majorHardwareComponents": [
+    "Anebilin utilizes several major hardware components to perform non-invasive multispectral health screening. The AS7343 14-channel multispectral sensor captures optical measurements across visible and near-infrared wavelengths",
+    "providing spectral data for physiological indicator estimation. The ESP32-S3 microcontroller serves as the central processing unit",
+    "responsible for sensor data acquisition",
+    "signal filtering",
+    "AC/DC decomposition",
+    "spectral normalization",
+    "feature extraction",
+    "and execution of machine-learning models. An enclosed optical sensing chamber",
+    "fabricated using PETG and TPU",
+    "provides a controlled environment for finger scanning by reducing ambient-light interference and improving measurement consistency. A local display interface presents the estimated health indicators and measurement results to the user. Bluetooth communication enables wireless transfer of measurement data to a digital dashboard for recording and longitudinal monitoring. The mechanical enclosure and supporting assembly protect the electronic components and maintain proper finger positioning during measurements. Together",
+    "these components enable Anebilin to acquire multispectral data",
+    "process it locally",
+    "and generate preliminary estimates of physiological indicators",
+    "including SpO2",
+    "haemoglobin",
+    "bilirubin-related indicators",
+    "heart rate",
+    "heart-rate variability",
+    "and respiratory rate. The exact models of the display",
+    "battery",
+    "and power-management components are not specified in the available project documentation."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Healthcare",
+    "Government / Public Services",
+    "Rural Communities",
+    "Urban Communities"
+  ],
+  "potentialImpact": "Anebilin has the potential to improve access to affordable, portable, and non-invasive preliminary health screening, particularly in rural communities and resource-constrained healthcare settings. By combining multispectral optical sensing with embedded processing and machine learning, the device aims to estimate multiple physiological indicators from a single finger scan without requiring blood collection for the measurement process. This could reduce dependence on needles, laboratory infrastructure, sample transportation, and trained personnel for initial screening, making the technology potentially useful in primary health centres, rural clinics, health camps, NGOs, and mobile healthcare units. Its compact design and local processing capabilities could enable screening in locations with limited computing infrastructure, while Bluetooth connectivity could support digital record keeping and longitudinal monitoring. The ability to assess several indicators through one device may help healthcare workers identify individuals who require further clinical evaluation and support follow-up in underserved populations. Anebilin could also contribute to community-level health monitoring by facilitating the collection of structured screening data, potentially helping healthcare organizations identify trends and plan targeted interventions. Its modular architecture offers opportunities for future expansion through additional sensors, improved estimation algorithms, and integration with digital health platforms. Ultimately, Anebilin aims to make preliminary health assessment more accessible, convenient, and scalable. Its real-world impact will depend on rigorous accuracy testing across diverse populations, clinical validation, usability evaluation, and appropriate regulatory assessment. The device is intended to complement established healthcare services and laboratory testing, not replace professional diagnosis or conventional clinical measurements.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3500,
+  "auraDemoHighlight": "Anebilin is worth seeing because it explores how multispectral sensing and embedded artificial intelligence can bring multiple preliminary health indicators into one compact, non-invasive device. Instead of relying on a single optical channel for a limited measurement, Anebilin uses the AS7343 14-channel spectral sensor to capture information across visible and near-infrared wavelengths. Its combination of spectral analysis, AC/DC signal decomposition, engineered features, and machine-learning models makes the approach distinctive. Powered by the ESP32-S3, the system processes measurements locally, demonstrating how advanced signal processing can be implemented on affordable embedded hardware. The most compelling aspect is its potential to obtain several preliminary indicators—including SpO₂, haemoglobin, bilirubin-related indicators, heart rate, and heart-rate variability—from a single finger scan without blood collection during the measurement. Its compact sensing chamber and Bluetooth-enabled digital monitoring also demonstrate a pathway toward practical use beyond conventional laboratory environments. Anebilin brings together hardware engineering, optical sensing, embedded AI, and healthcare accessibility in a tangible working prototype. It is not merely an idea on paper; it is an attempt to translate multidisciplinary engineering into a technology with potential social value, particularly for rural communities, health camps, and resource-constrained settings. Visitors can explore how optical signals become meaningful computational features and how these features can support preliminary health assessment. **Anebilin is worth seeing because it demonstrates a promising engineering approach to making multi-parameter preliminary screening more portable, accessible, and convenient.** Its performance and clinical usefulness remain subject to further testing and validation.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Anebilin incorporates safety considerations to support non-invasive preliminary health screening. Its optical measurement method does not require blood collection or needle insertion, reducing exposure to sharps, the risk of needle-related injuries, and the generation of associated biomedical waste during scanning. An enclosed optical sensing chamber, fabricated using PETG and TPU, is designed to minimize ambient-light interference and improve measurement consistency. Local data processing on the ESP32-S3 reduces dependence on external computing infrastructure during measurement. The device is intended for preliminary screening and monitoring rather than definitive diagnosis or replacement of conventional laboratory tests. Any abnormal or potentially high-risk readings should be followed by professional medical evaluation and appropriate confirmatory testing. Measurements should be interpreted cautiously because optical readings can be influenced by skin pigmentation, tissue characteristics, blood perfusion, and other physiological factors. The prototype's accuracy and performance require assessment across diverse populations and measurement conditions. Appropriate cleaning of the finger-contact surfaces, careful handling of electronic components, and inspection of the enclosure should be followed during demonstrations and use. The device should be operated according to its electrical and hardware requirements, with damaged components removed from service. **Anebilin is currently a preliminary screening prototype; formal clinical safety, accuracy certification, and regulatory approval have not yet been established.** Further technical testing, clinical validation, and regulatory assessment are necessary before medical-grade deployment.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": true,
+  "previousExhibitionDetails": "UDAAN 2.0 @ HITK |  Double Slash 4.0 @ JU | Hacktonix @ FIEM |",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-25T13:41:27.143Z",
+  "updatedAt": "2026-10-25T13:43:27.412Z",
+  "abstract": {
+    "originalName": "anebilin_aura_2026_abstract (2).pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792935685/aura-registrations/abstract-docs/anebilin_aura_2026_abstract%20%282%29.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Penteract/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Penteract/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792935684/aura-registrations/id-cards/oqey374ww6adp7yuy8g3.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Penteract/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792935684/aura-registrations/id-cards/xmvggpuyshfbfhhmdvft.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Penteract/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Penteract/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

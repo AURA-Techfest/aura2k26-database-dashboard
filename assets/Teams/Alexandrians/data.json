@@ -1,0 +1,107 @@
+{
+  "index": 38,
+  "id": "6aca5491ee87b3781d9500fc",
+  "registrationId": "AURA2K26-JBZM7D",
+  "rawTeamName": "Alexandrians",
+  "folderName": "Alexandrians",
+  "folderRelPath": "assets/Teams/Alexandrians",
+  "projectTitle": "Low-Cost Human Following Robot Using Shielded Dual-ESP32 Wi-Fi RSSI Sensing",
+  "teamSize": 3,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 3,
+  "teamLeaderName": "Shambo Ghosh",
+  "teamLeaderEmail": "shamboghosh786@gmail.com",
+  "teamLeaderPhone": "7908920876",
+  "teamMemberDetails": "Sayani Naha | Academy of Technology | ECE | 3rd | 9477733216\r\nSouvik Sil | Academy of Technology | ECE | 3rd | 8100089361",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "IoT & Smart Devices",
+    "Electronics & Communication",
+    "Embedded Systems",
+    "Mechatronics",
+    "Automation & Control"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem: Manual load carrying is a major part of work in warehouses, farms, hospitals, and for porters, especially in developing countries. Existing human-following robots rely on cameras, LiDAR, or heavy computation, making them expensive and power-hungry. Earlier low-cost Wi-Fi RSSI followers are simple but unreliable: noisy signals, left-right readings that flip at distance, and short operating range.\r\n\r\nSolution: We build a low-cost human-following robot that uses Wi-Fi RSSI from the user’s phone. Two ESP32 nodes at the robot’s left and right sides measure signal strength, and a third ESP32 controls the motors through two BTS7960 drivers. The robot steers toward the stronger signal, stops when the user is near, and moves forward when the user is far.\r\n\r\nInnovation: (1) A metal shield between the two antennas increases the left-right RSSI difference. (2) Median and moving-average filtering with a deadband and hysteresis removes jitter and false turns. (3) PWM-based differential steering gives smooth motion instead of abrupt turns. (4) A front distance sensor and signal-loss failsafe make it safe to use. (5) Upgraded hardware (ESP32 nodes, high-current drivers, 4S Li-ion pack) improves reliability. The system needs no camera or cloud, so it stays cheap, compact, and power-efficient, and the human makes route and obstacle decisions.",
+  "solutionDescription": "Problem: Manual load carrying is a major part of work in warehouses, farms, hospitals, and for porters, especially in developing countries. Existing human-following robots rely on cameras, LiDAR, or heavy computation, making them expensive and power-hungry. Earlier low-cost Wi-Fi RSSI followers are simple but unreliable: noisy signals, left-right readings that flip at distance, and short operating range.\r\n\r\nSolution: We build a low-cost human-following robot that uses Wi-Fi RSSI from the user’s phone. Two ESP32 nodes at the robot’s left and right sides measure signal strength, and a third ESP32 controls the motors through two BTS7960 drivers. The robot steers toward the stronger signal, stops when the user is near, and moves forward when the user is far.\r\n\r\nInnovation: (1) A metal shield between the two antennas increases the left-right RSSI difference. (2) Median and moving-average filtering with a deadband and hysteresis removes jitter and false turns. (3) PWM-based differential steering gives smooth motion instead of abrupt turns. (4) A front distance sensor and signal-loss failsafe make it safe to use. (5) Upgraded hardware (ESP32 nodes, high-current drivers, 4S Li-ion pack) improves reliability. The system needs no camera or cloud, so it stays cheap, compact, and power-efficient, and the human makes route and obstacle decisions.",
+  "innovationDescription": "Problem: Manual load carrying is a major part of work in warehouses, farms, hospitals, and for porters, especially in developing countries. Existing human-following robots rely on cameras, LiDAR, or heavy computation, making them expensive and power-hungry. Earlier low-cost Wi-Fi RSSI followers are simple but unreliable: noisy signals, left-right readings that flip at distance, and short operating range.\r\n\r\nSolution: We build a low-cost human-following robot that uses Wi-Fi RSSI from the user’s phone. Two ESP32 nodes at the robot’s left and right sides measure signal strength, and a third ESP32 controls the motors through two BTS7960 drivers. The robot steers toward the stronger signal, stops when the user is near, and moves forward when the user is far.\r\n\r\nInnovation: (1) A metal shield between the two antennas increases the left-right RSSI difference. (2) Median and moving-average filtering with a deadband and hysteresis removes jitter and false turns. (3) PWM-based differential steering gives smooth motion instead of abrupt turns. (4) A front distance sensor and signal-loss failsafe make it safe to use. (5) Upgraded hardware (ESP32 nodes, high-current drivers, 4S Li-ion pack) improves reliability. The system needs no camera or cloud, so it stays cheap, compact, and power-efficient, and the human makes route and obstacle decisions.",
+  "workingPrinciple": "The user carries a phone hotspot (or a small ESP32 tag). Two ESP32 sensing nodes, mounted at the left and right extremes of the robot and separated by a metal shield, connect to it and measure Wi-Fi RSSI. A median filter followed by an exponential moving average removes noise. The left-right RSSI difference gives the user’s bearing, and the average RSSI gives approximate distance. A third ESP32, the main controller, receives both values over UART and applies a deadband with hysteresis to prevent jitter. If the left reading is stronger, the robot steers left; if the right is stronger, it steers right; if balanced but weak, it moves forward; if strong (user close), it stops. PWM signals drive two BTS7960 motor drivers for smooth differential steering with soft start and stop. A front ultrasonic/ToF sensor maintains a safe following distance and stops the robot at obstacles. If the RSSI signal is lost, the robot stops automatically. No camera or cloud is needed.",
+  "majorHardwareComponents": [
+    "3x ESP32 DevKit V1 (2 RSSI sensing nodes",
+    "1 main controller)",
+    "4x Johnson 300 RPM DC geared motors",
+    "2x BTS7960 high-current motor drivers",
+    "4S 18650 Li-ion battery pack",
+    "buck converter (5 V logic supply)",
+    "front ultrasonic/ToF distance sensor",
+    "metal-shield partition between antennas",
+    "4WD chassis",
+    "power switch",
+    "wiring and connectors."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Industry",
+    "General Public",
+    "Persons with Disabilities"
+  ],
+  "potentialImpact": "A low-cost following robot can carry loads for people who do manual transport: warehouse workers, farmers, hospital staff, and porters. In India, where manual loading is common and labour is poorly paid, it reduces physical strain without changing existing work structure.\r\n\r\nIt can also support persons with disabilities and limited mobility. People who use crutches, walkers, or have reduced upper-body strength often cannot carry bags, tools, or shopping while moving. A robot that follows them hands-free can carry those items, which makes daily tasks, campus travel, and workplace movement more independent. The same applies to elderly users and in places like airports and hospitals.\r\n\r\nExisting human-following robots typically need cameras, LiDAR, or heavy computation, which raises cost. Our approach uses only Wi-Fi RSSI and microcontrollers, keeping the system affordable and low-power. The human makes route and obstacle decisions, so the robot needs no complex navigation. Dual-antenna shielding and filtering improve accuracy over earlier RSSI-only prototypes.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "The robot follows a person using only Wi-Fi signal strength, with no camera or heavy computing. We improve on a published RSSI follower by adding a metal shield between two ESP32 antennas to increase left-right signal contrast, real-time filtering with hysteresis, and PWM-based differential steering. The audience can walk in front of it and watch it track, turn, and stop on its own. We also present measured data (raw vs filtered signals, with and without the shield), showing the improvement. It’s a clear, hands-on demonstration of how low-cost RF sensing can solve a real mobility problem.",
+  "safetyHazards": [
+    "high_power_batteries"
+  ],
+  "safetyPrecautions": "The battery wiring is insulated and secured inside the chassis. Motor speed is limited in software with soft start and stop. The robot stops automatically if the RSSI signal is lost or an obstacle is detected by the front sensor. Logic circuits run through a regulated buck converter with common ground, to prevent brownouts. Testing is done in an open space with supervision and a kill switch accessible. Wheels and wiring are kept clear of users.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-10T15:06:57.027Z",
+  "updatedAt": "2026-10-14T18:49:27.866Z",
+  "abstract": {
+    "originalName": "Abstract_Human_Following_Robot.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791644816/aura-registrations/abstract-docs/Abstract_Human_Following_Robot.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Alexandrians/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Alexandrians/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791644816/aura-registrations/id-cards/cnjyejmwx3nn9hctrh3y.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Alexandrians/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791644815/aura-registrations/id-cards/fywl6e7uub7dl1y7n0kc.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Alexandrians/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791644815/aura-registrations/id-cards/rdrgy55ghcuycfyvznda.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Alexandrians/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

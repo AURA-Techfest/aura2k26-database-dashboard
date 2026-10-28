@@ -1,0 +1,98 @@
+{
+  "index": 32,
+  "id": "6ac7b8ef071f16c04dc808f1",
+  "registrationId": "AURA2K26-VR79LS",
+  "rawTeamName": "NEXUS",
+  "folderName": "NEXUS",
+  "folderRelPath": "assets/Teams/NEXUS",
+  "projectTitle": "D.I.S.H.A. – Driver Information Safety Via Hillroad Automation",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "HUSAIN RAIHAN LASKAR",
+  "teamLeaderEmail": "husain00819819@gmail.com",
+  "teamLeaderPhone": "9339195701",
+  "teamMemberDetails": "1. ARMAN ANSARY | ALIAH UNIVERSITY | EEN | 2025-2029 | 9907374595\r\n2. SOUMA JIT DAS | ALIAH UNIVERSITY | EEN | 2025-2029 | 7811035056\r\n3. SHAKIL PARVEZ MOLLA | EEN | 2025-2029 | 9242207985",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem staement:- Lack of real-time visibility and collision warning systems on blind mountain curves leads to severe head-on accidents due to driver's inability to detect oncoming traffic beyond static signage.\r\n\r\nSolution:- D.I.S.H.A. (Driver Information Safety Via Hillroad Automation) is a microcontroller-free, hardware-based collision prevention system designed for blind hill-road U-turns.IR sensors detect approaching vehicles from opposite sides of the curve. The sensor signals are processed through transistor-based analog switching circuits. Based on vehicle detection, the system automatically activates red and green LED traffic indicators to inform drivers which side has an approaching vehicle and help regulate right-of-way.\r\n\r\nInnovation:- The system uses simple, low-cost and easily available electronic components without Arduino, software, internet connectivity or complex programming. Its analog switching architecture provides immediate response with low maintenance requirements, making it suitable for remote hill roads where reliable infrastructure and technical support may be limited. The system can potentially be powered using a small DC source, battery or solar-powered setup.",
+  "solutionDescription": "Problem staement:- Lack of real-time visibility and collision warning systems on blind mountain curves leads to severe head-on accidents due to driver's inability to detect oncoming traffic beyond static signage.\r\n\r\nSolution:- D.I.S.H.A. (Driver Information Safety Via Hillroad Automation) is a microcontroller-free, hardware-based collision prevention system designed for blind hill-road U-turns.IR sensors detect approaching vehicles from opposite sides of the curve. The sensor signals are processed through transistor-based analog switching circuits. Based on vehicle detection, the system automatically activates red and green LED traffic indicators to inform drivers which side has an approaching vehicle and help regulate right-of-way.\r\n\r\nInnovation:- The system uses simple, low-cost and easily available electronic components without Arduino, software, internet connectivity or complex programming. Its analog switching architecture provides immediate response with low maintenance requirements, making it suitable for remote hill roads where reliable infrastructure and technical support may be limited. The system can potentially be powered using a small DC source, battery or solar-powered setup.",
+  "innovationDescription": "Problem staement:- Lack of real-time visibility and collision warning systems on blind mountain curves leads to severe head-on accidents due to driver's inability to detect oncoming traffic beyond static signage.\r\n\r\nSolution:- D.I.S.H.A. (Driver Information Safety Via Hillroad Automation) is a microcontroller-free, hardware-based collision prevention system designed for blind hill-road U-turns.IR sensors detect approaching vehicles from opposite sides of the curve. The sensor signals are processed through transistor-based analog switching circuits. Based on vehicle detection, the system automatically activates red and green LED traffic indicators to inform drivers which side has an approaching vehicle and help regulate right-of-way.\r\n\r\nInnovation:- The system uses simple, low-cost and easily available electronic components without Arduino, software, internet connectivity or complex programming. Its analog switching architecture provides immediate response with low maintenance requirements, making it suitable for remote hill roads where reliable infrastructure and technical support may be limited. The system can potentially be powered using a small DC source, battery or solar-powered setup.",
+  "workingPrinciple": "Working Principle:-\r\nIR sensors detect vehicles approaching the blind turn from either side. The sensor signals drive a BC547 NPN and BC557 PNP transistor-based switching circuit, which automatically activates the corresponding LED warning indicators to alert approaching drivers and reduce the risk of head-on collisions.",
+  "majorHardwareComponents": [
+    "Major Hardware Components:-\nIR sensors",
+    "BC547 (NPN) and BC557 (PNP) transistors",
+    "Red/Yellow LEDs",
+    "1kΩ",
+    "10kΩ and 220Ω resistors",
+    "battery",
+    "switches",
+    "connecting wires and breadboard."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Transportation"
+  ],
+  "potentialImpact": "D.I.S.H.A. can improve safety on narrow and blind hill-road turns by providing automatic visual warnings when an approaching vehicle is detected. It can benefit drivers, particularly in areas with limited visibility, by providing timely information about traffic approaching from the opposite direction. The low-cost, standalone design can potentially be adapted for remote roads where complex infrastructure may not be practical.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 1500,
+  "auraDemoHighlight": "D.I.S.H.A. demonstrates a simple yet practical approach to hill-road safety using low-cost electronic components. Its microcontroller-free design uses IR sensing and transistor-based switching to provide automatic visual warnings with minimal complexity. The prototype shows how a small hardware system can address a real-world road-safety problem without relying on internet connectivity or sophisticated software.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The prototype operates from a low-voltage battery supply. Proper resistor values are used to limit LED and circuit currents, and all connections are insulated and checked before operation. The circuit is mounted securely to prevent accidental short circuits or loose connections. The prototype is handled and demonstrated under safe operating conditions away from water and excessive heat.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-08T15:38:23.393Z",
+  "updatedAt": "2026-10-14T18:49:02.01Z",
+  "abstract": {
+    "originalName": "D.I.S.H.A. â Driver Information Safety Via Hillroad Automation.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791473902/aura-registrations/abstract-docs/D.I.S.H.A.%20%C3%A2%C2%80%C2%93%20Driver%20Information%20Safety%20Via%20Hillroad%20Automation.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/NEXUS/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/NEXUS/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791473902/aura-registrations/id-cards/a9d2hkgrvc0jgfxu5gn7.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/NEXUS/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791473902/aura-registrations/id-cards/lwqishrbllfnb8gjhlh9.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/NEXUS/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791473902/aura-registrations/id-cards/sd6gmdrf1eucw4hk8hiy.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/NEXUS/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791473902/aura-registrations/id-cards/poe1yu0hfwj2tvahelez.jpg",
+      "exists": true
+    }
+  ]
+}

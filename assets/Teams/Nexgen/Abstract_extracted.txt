@@ -1,0 +1,55 @@
+ENERGY WALLET
+
+Smart Renewable Energy Metering & Pay-as-you-use System
+
+AURA 2K26 • ABSTRACT IDEA
+
+THE IDEA
+
+Many charging services rely on fixed packages or time-based pricing, making it difficult for users to track the exact energy consumed or recover unused prepaid value. ENERGY WALLET proposes a transparent pay-as-you-use system that measures actual electrical energy consumption and charges users according to a configurable tariff.
+
+HOW IT WORKS
+
+The prototype will harvest solar energy and store it in a battery through suitable charge-management electronics. An energy-metering stage measures voltage, current, power and cumulative energy (Wh/kWh). An embedded controller such as an ESP32 calculates consumption and updates the user’s available energy credit. A load-control stage enables or disconnects the charging outlet according to available credit and system limits. A display shows energy used and remaining credit.
+
+PROPOSED BLOCK DIAGRAM
+
+SOLAR PV
+
+→
+
+BATTERYCharge management
+
+→
+
+ENERGY METERV • I • P • Wh/kWh
+
+USER CREDIT
+
+→
+
+ESP32 / MCUTariff + credit logic
+
+→
+
+LOAD CONTROLProtected switching
+
+DISPLAYEnergy / balance
+
+↔
+
+CONTROLLERConsumption update
+
+→
+
+CHARGING LOADMobile / demo EV load
+
+CORE INNOVATION
+
+Users purchase energy credit before a charging session and are charged only for the energy actually used. If a session ends with unused credit, the equivalent balance can be automatically returned to the user’s digital wallet or account, depending on the implemented payment method. The key innovation is integrating renewable energy, real-time metering, prepaid energy credit, controlled power delivery and automated unused-balance settlement in one compact system.
+
+PROPOSED OUTCOME & APPLICATIONS
+
+The prototype aims to demonstrate energy measurement, live credit deduction, load control and unused-balance settlement under controlled conditions. Potential applications include solar-powered mobile charging points, EV-charging demonstrations and community energy kiosks. Safe electrical isolation, calibrated metering and suitable protection would be required before deployment with high-power or public charging equipment.
+
+RENEWABLE ENERGY  |  SMART METERING  |  PAY-AS-YOU-USE  |  AUTO SETTLEMENT

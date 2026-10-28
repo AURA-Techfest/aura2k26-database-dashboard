@@ -1,0 +1,25 @@
+SENTINEL
+
+Smart Emergency Notification through Impact and Event Level Monitoring
+
+Problem Statement
+
+After an accident or sudden impact, a person may be unable to contact family members or request assistance promptly. This can be especially concerning for people travelling alone, elderly individuals, and others who may have difficulty making a manual emergency call.
+
+Proposed Solution and Methodology
+
+SENTINEL (Smart Emergency Notification through Impact and Event Level Monitoring) is a compact, watch-like wearable prototype intended to identify potentially dangerous impacts. An ADXL-series accelerometer measures acceleration, and an ESP32 microcontroller processes the readings against programmed criteria. When a possible event is detected, the device is intended to issue a warning and provide a cancellation button so the wearer can dismiss a false alarm. If the alert is not cancelled, the ESP32 can use Wi-Fi to send an emergency notification through an IoT-connected website to registered contacts. Detection thresholds and alert behaviour will be refined through controlled testing.
+
+Proposed Block Diagram
+
+[ADXL Accelerometer] → [ESP32: Event Analysis] → [Warning + Cancel Button]                                                    ↓ if not cancelled[Registered Contacts] ← [Website / IoT Service] ← [ESP32 Wi-Fi]
+
+Innovation
+
+SENTINEL combines impact sensing, embedded processing, a user-controlled alert cancellation mechanism, and web-based notifications in an affordable wearable concept. Its focus is portability and reducing dependence on manual emergency calls. The project integrates electronics, embedded programming, and web development in one system.
+
+Proposed Outcome
+
+The intended outcome is a prototype demonstrating the workflow from motion sensing to an emergency notification. Testing will focus on detection reliability, false alarms, response time, connectivity, and battery performance. SENTINEL is an assistive prototype and is not a certified medical or emergency-response device.
+
+Planned hardware: ESP32 development board, ADXL-series accelerometer module, push button, warning buzzer, battery with suitable charging/protection, and prototype enclosure.

@@ -1,0 +1,97 @@
+{
+  "index": 6,
+  "id": "6ab765a7d27ac77549de015e",
+  "registrationId": "AURA2K26-NYK9D8",
+  "rawTeamName": "War tech",
+  "folderName": "War tech",
+  "folderRelPath": "assets/Teams/War tech",
+  "projectTitle": "Kawach",
+  "teamSize": 2,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Zain mallick",
+  "teamLeaderEmail": "mzayn3908@gmail.com",
+  "teamLeaderPhone": "9199977855",
+  "teamMemberDetails": "Daniyal ajmal\r\nAliah university \r\nECE\r\n3rd",
+  "hardwareProjectCategories": [
+    "Electrical Systems"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Project Title: Low-Cost  Counter-Unmanned Aerial System (C-UAS) Prototype\r\nProblem Statement\r\nUnmanned Aerial Vehicles (UAVs) present significant security risks, including airspace intrusions, smuggling, and surveillance. Commercial Counter-UAS (C-UAS) systems—reliant on costly radar and high-power jammers—are economically inaccessible for academic institutions. There is a lack of affordable, hands-on prototypes demonstrating core electronic warfare concepts at a research level.\r\nProposed Solution & System Architecture\r\nThis project presents an accessible, low-cost (₹3,000–₹6,000) small-scale C-UAS prototype designed for educational demonstration. Built on commercial off-the-shelf components, the system integrates a complete detect-track-engage workflow across three main stages:\r\n1. Detection: A 24 GHz millimeter-wave radar module (LD2410) continuously scans the target area. It transmits microwave signals and analyzes reflected echoes to calculate range, relative velocity via Doppler shift, and target motion. Detection telemetry is relayed over UART to a central ESP32 microcontroller.\r\n2. Target Locking & Tracking: The ESP32 filters incoming radar data to isolate target trajectories. Once verified, it executes a closed-loop tracking algorithm that calculates azimuth and elevation vectors, driving a 2-DOF pan-tilt servo mechanism. This continuously aligns the directional neutralization payload toward the target, demonstrating autonomous fire-control orientation.\r\n3. Neutralization (Effector Stage): The architecture supports two lab-safe, low-power effector modes:\r\n Option A (RF Jamming / Soft-Kill): Generates targeted 2.4 GHz ISM band continuous wave/noise signals via ESP32 or CC1101, disrupting the command link of small test drones to force failsafe modes (RTH or land).\r\n Option B (Electromagnetic Transient Demo): Uses a high-voltage pulse circuit (capacitor discharge bank and coil triggered via MOSFET) to produce controlled, short-range electromagnetic interference for test-circuit disruption in a shielded setup.\r\nInnovation & Academic Impact\r\n Cost Accessibility: Delivers a functional multi-stage C-UAS framework at under 1% of the cost of commercial setups.\r\n Modular Integration: Combines mmWave sensing, microcontroller-driven target tracking, pan-tilt actuation, and electronic countermeasures into a single unified hardware stack.\r\n Hands-on Pedagogy: Serves as a practical platform for teaching radar signal processing, control systems, and electronic warfare fundamentals.\r\n Extensibility: Provides a foundation for future upgrades, including computer vision fusion, multi-frequency jamming, or machine learning-based drone signal classification.",
+  "solutionDescription": "Project Title: Low-Cost  Counter-Unmanned Aerial System (C-UAS) Prototype\r\nProblem Statement\r\nUnmanned Aerial Vehicles (UAVs) present significant security risks, including airspace intrusions, smuggling, and surveillance. Commercial Counter-UAS (C-UAS) systems—reliant on costly radar and high-power jammers—are economically inaccessible for academic institutions. There is a lack of affordable, hands-on prototypes demonstrating core electronic warfare concepts at a research level.\r\nProposed Solution & System Architecture\r\nThis project presents an accessible, low-cost (₹3,000–₹6,000) small-scale C-UAS prototype designed for educational demonstration. Built on commercial off-the-shelf components, the system integrates a complete detect-track-engage workflow across three main stages:\r\n1. Detection: A 24 GHz millimeter-wave radar module (LD2410) continuously scans the target area. It transmits microwave signals and analyzes reflected echoes to calculate range, relative velocity via Doppler shift, and target motion. Detection telemetry is relayed over UART to a central ESP32 microcontroller.\r\n2. Target Locking & Tracking: The ESP32 filters incoming radar data to isolate target trajectories. Once verified, it executes a closed-loop tracking algorithm that calculates azimuth and elevation vectors, driving a 2-DOF pan-tilt servo mechanism. This continuously aligns the directional neutralization payload toward the target, demonstrating autonomous fire-control orientation.\r\n3. Neutralization (Effector Stage): The architecture supports two lab-safe, low-power effector modes:\r\n Option A (RF Jamming / Soft-Kill): Generates targeted 2.4 GHz ISM band continuous wave/noise signals via ESP32 or CC1101, disrupting the command link of small test drones to force failsafe modes (RTH or land).\r\n Option B (Electromagnetic Transient Demo): Uses a high-voltage pulse circuit (capacitor discharge bank and coil triggered via MOSFET) to produce controlled, short-range electromagnetic interference for test-circuit disruption in a shielded setup.\r\nInnovation & Academic Impact\r\n Cost Accessibility: Delivers a functional multi-stage C-UAS framework at under 1% of the cost of commercial setups.\r\n Modular Integration: Combines mmWave sensing, microcontroller-driven target tracking, pan-tilt actuation, and electronic countermeasures into a single unified hardware stack.\r\n Hands-on Pedagogy: Serves as a practical platform for teaching radar signal processing, control systems, and electronic warfare fundamentals.\r\n Extensibility: Provides a foundation for future upgrades, including computer vision fusion, multi-frequency jamming, or machine learning-based drone signal classification.",
+  "innovationDescription": "Project Title: Low-Cost  Counter-Unmanned Aerial System (C-UAS) Prototype\r\nProblem Statement\r\nUnmanned Aerial Vehicles (UAVs) present significant security risks, including airspace intrusions, smuggling, and surveillance. Commercial Counter-UAS (C-UAS) systems—reliant on costly radar and high-power jammers—are economically inaccessible for academic institutions. There is a lack of affordable, hands-on prototypes demonstrating core electronic warfare concepts at a research level.\r\nProposed Solution & System Architecture\r\nThis project presents an accessible, low-cost (₹3,000–₹6,000) small-scale C-UAS prototype designed for educational demonstration. Built on commercial off-the-shelf components, the system integrates a complete detect-track-engage workflow across three main stages:\r\n1. Detection: A 24 GHz millimeter-wave radar module (LD2410) continuously scans the target area. It transmits microwave signals and analyzes reflected echoes to calculate range, relative velocity via Doppler shift, and target motion. Detection telemetry is relayed over UART to a central ESP32 microcontroller.\r\n2. Target Locking & Tracking: The ESP32 filters incoming radar data to isolate target trajectories. Once verified, it executes a closed-loop tracking algorithm that calculates azimuth and elevation vectors, driving a 2-DOF pan-tilt servo mechanism. This continuously aligns the directional neutralization payload toward the target, demonstrating autonomous fire-control orientation.\r\n3. Neutralization (Effector Stage): The architecture supports two lab-safe, low-power effector modes:\r\n Option A (RF Jamming / Soft-Kill): Generates targeted 2.4 GHz ISM band continuous wave/noise signals via ESP32 or CC1101, disrupting the command link of small test drones to force failsafe modes (RTH or land).\r\n Option B (Electromagnetic Transient Demo): Uses a high-voltage pulse circuit (capacitor discharge bank and coil triggered via MOSFET) to produce controlled, short-range electromagnetic interference for test-circuit disruption in a shielded setup.\r\nInnovation & Academic Impact\r\n Cost Accessibility: Delivers a functional multi-stage C-UAS framework at under 1% of the cost of commercial setups.\r\n Modular Integration: Combines mmWave sensing, microcontroller-driven target tracking, pan-tilt actuation, and electronic countermeasures into a single unified hardware stack.\r\n Hands-on Pedagogy: Serves as a practical platform for teaching radar signal processing, control systems, and electronic warfare fundamentals.\r\n Extensibility: Provides a foundation for future upgrades, including computer vision fusion, multi-frequency jamming, or machine learning-based drone signal classification.",
+  "workingPrinciple": "anti-drone system works in three stages: detection → tracking/locking → neutralization. a) Detection (Radar / RF sensing) • A mmWave radar module (e.g., LD2410) continuously scans the airspace in front of it. • The radar transmits microwave signals and analyzes the reflected echoes from moving objects.[nqdefense +2] • When a drone enters the detection zone, the radar measures: • Distance (range) • Relative speed (Doppler shift) • Direction (angle within its field of view) • This data is sent over UART to the microcontroller (ESP32/Arduino). In more advanced real systems, radar is combined with RF monitoring (listening to 2.4/5.8 GHz control links) and cameras, but for a small-scale project, radar alone demonstrates the core idea.[zentechnologies +2] b) Target Locking & Tracking • The microcontroller processes the radar data and decides whether the detected object matches a “drone-like” signature (moving, at certain range/speed). • If a threat is confirmed, the controller: • Commands two servos (pan & tilt) to orient the antenna/neutralizer toward the target direction. • Continuously updates servo angles as the radar provides new position data, creating a simple closed-loop tracking system. • This mimics a real target-locking system used in military C‑UAS (Counter-Unmanned Aircraft Systems). Neutralization : Low-power EMP-like pulse  • A small high-voltage pulse circuit (capacitor + spark gap + coil) is triggered by the microcontroller via a MOSFET/transistor. • The pulse creates a brief electromagnetic burst that can upset or reset a nearby test circuit, demonstrating the EMP concept. • Real systems use",
+  "majorHardwareComponents": [
+    "LD2420",
+    "ESP32",
+    "two servo motors(MG996)",
+    "DC-DC bost module",
+    "capacitor",
+    "12v battery",
+    "jumpers wires."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Government / Public Services"
+  ],
+  "potentialImpact": "Anti-drone (C‑UAS) systems are increasingly important because drones are now used everywhere—from delivery and agriculture to surveillance and attacks.\r\nKey application areas:\r\n•\tCritical infrastructure protection\r\n•\tAirports, power plants, refineries, data centers, and government buildings need to detect and stop unauthorized drones that could spy, drop payloads, or cause accidents.[zentechnologies +2]\r\n•\tMilitary and border security\r\n•\tArmies use C‑UAS to defend bases, convoys, and forward positions from reconnaissance and attack drones, especially after lessons from conflicts like Ukraine.[uasdefense +1]\r\n•\tPrisons and secure facilities\r\n•\tDrones are used to smuggle contraband into prisons; counter-drone jammers and detection systems reduce this risk.[github]\r\n•\tEvent security\r\n•\tLarge public events (stadiums, concerts, political rallies) use C‑UAS to prevent drone-based surveillance or attacks.[nqdefense +1]\r\n•\tCivil aviation safety\r\n•\tPreventing drone incursions near airports avoids flight disruptions and potential collisions.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 4500,
+  "auraDemoHighlight": "Relevance to current threats\r\n•\tDrone misuse (smuggling, spying, attacks) is a real and growing problem globally and in India. Your project addresses a high-impact, modern security challenge.[nqdefense +2]\r\n•\tIntegration of multiple technologies\r\n•\tCombines radar sensing, embedded systems, control theory (servo tracking), and RF/EMP concepts in one system.\r\n•\tShows understanding of sensor fusion, real-time processing, and actuation.\r\n•\tScalable concept\r\n•\tAlthough small, the architecture (detect → track → neutralize) is the same as in professional C‑UAS systems used by militaries and airports.[zentechnologies +2]\r\n•\tCost-effective innovation\r\n•\tDemonstrates that core ideas can be explored with very low-cost hardware, making advanced defense concepts accessible to students and researchers.[uasdefense +1]\r\n•\tInterdisciplinary learning\r\n•\tBridges electronics, communication, programming, and basic electromagnetics, which is excellent for a college project and future R&D.",
+  "safetyHazards": [
+    "none",
+    "high_voltage"
+  ],
+  "safetyPrecautions": "Use current-limited power supplies; avoid direct connection to mains for HV sections.\r\n•\tFor HV pulse circuits:\r\n•\tUse proper insulation on all high-voltage points.\r\n•\tKeep HV components inside a metal enclosure connected to earth ground where possible.\r\n•\tAdd bleeder resistors across capacitors to discharge them after power-off.\r\n•\tNever touch HV parts while powered; wait and verify discharge with a multimeter.\r\nRF safety\r\n•\tKeep RF transmission power as low as possible while still demonstrating the effect.\r\n•\tDo not operate RF jamming near:\r\n•\tWi-Fi routers used for important work\r\n•\tMedical equipment\r\n•\tAny communication systems outside your lab\r\n•\tLimit tests to short durations and document all tests.\r\nOperational safety\r\n•\tDo not test on real drones in open sky, near airports, roads, or crowds.\r\n•\tUse only toy drones inside the lab, under supervision.\r\n•\tEnsure no one stands directly in front of the HV antenna during pulse tests.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-26T06:26:47.321Z",
+  "updatedAt": "2026-10-11T17:31:42.27Z",
+  "abstract": {
+    "originalName": "Kawach.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790404005/aura-registrations/abstract-docs/Kawach.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/War tech/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/War tech/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790404006/aura-registrations/id-cards/efttfvul5j7uxnnay3n7.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/War tech/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790404006/aura-registrations/id-cards/zypsstxl8xsc4kzx5gfg.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/War tech/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/War tech/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

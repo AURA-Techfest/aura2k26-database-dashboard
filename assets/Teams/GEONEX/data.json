@@ -1,0 +1,115 @@
+{
+  "index": 24,
+  "id": "6abd587074ea1518a42952a4",
+  "registrationId": "AURA2K26-6MCNE2",
+  "rawTeamName": "GEONEX",
+  "folderName": "GEONEX",
+  "folderRelPath": "assets/Teams/GEONEX",
+  "projectTitle": "DRAIN-X",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Rahnuma Naaz",
+  "teamLeaderEmail": "rahnuma11100@gmail.com",
+  "teamLeaderPhone": "9064561623",
+  "teamMemberDetails": "Farhin Sardar, Aliah University, Geography, 2nd, 8274077701\r\nWasi Ahmed, Aliah University, Geography, 2nd, 7074211956\r\nAbdul Mannan Saheb, Aliah University, Geography, 2nd, 7364070118",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "Automation & Control",
+    "Mechatronics",
+    "Mechanical Systems",
+    "Environmental Technology"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Urban waterlogging is often caused not only by heavy rainfall but also by blocked inlets, accumulated plastic and organic waste, sediment deposition, restricted flow, and downstream backwater. Conventional drains generally depend on periodic manual inspection and cleaning, making it difficult to identify the actual cause of poor drainage during rainfall. This can delay intervention, increase maintenance effort, and cause further accumulation.\r\n\r\nDRAIN-X is a proposed intelligent stormwater drainage prototype that monitors drainage conditions using rainfall, water-level, and flow sensors. A microcontroller analyses the sensor data to identify abnormal hydraulic conditions and determine the likely cause. Based on the diagnosis, the system can activate an appropriate response. Leaves and plastic will be intercepted into a solid-waste chamber, while sand and silt will be separated into a sediment chamber. Conditions such as downstream backwater or rainfall exceeding drainage capacity will generate an alert instead of triggering unnecessary cleaning. After intervention, the system will recheck the hydraulic conditions to verify whether flow has improved.\r\n\r\nThe main innovation of DRAIN-X is its closed-loop approach: Sense, Diagnose, Decide, Act, and Verify. Unlike a basic smart drain that only detects water level or blockage, DRAIN-X aims to distinguish between different causes of drainage failure and respond selectively. Its separate handling of solid waste and sediment, combined with post-intervention verification, is designed to reduce unnecessary maintenance and improve drainage efficiency. The prototype will provide a platform for testing adaptive stormwater management under controlled conditions and support efficient urban drainage maintenance in future.",
+  "solutionDescription": "Urban waterlogging is often caused not only by heavy rainfall but also by blocked inlets, accumulated plastic and organic waste, sediment deposition, restricted flow, and downstream backwater. Conventional drains generally depend on periodic manual inspection and cleaning, making it difficult to identify the actual cause of poor drainage during rainfall. This can delay intervention, increase maintenance effort, and cause further accumulation.\r\n\r\nDRAIN-X is a proposed intelligent stormwater drainage prototype that monitors drainage conditions using rainfall, water-level, and flow sensors. A microcontroller analyses the sensor data to identify abnormal hydraulic conditions and determine the likely cause. Based on the diagnosis, the system can activate an appropriate response. Leaves and plastic will be intercepted into a solid-waste chamber, while sand and silt will be separated into a sediment chamber. Conditions such as downstream backwater or rainfall exceeding drainage capacity will generate an alert instead of triggering unnecessary cleaning. After intervention, the system will recheck the hydraulic conditions to verify whether flow has improved.\r\n\r\nThe main innovation of DRAIN-X is its closed-loop approach: Sense, Diagnose, Decide, Act, and Verify. Unlike a basic smart drain that only detects water level or blockage, DRAIN-X aims to distinguish between different causes of drainage failure and respond selectively. Its separate handling of solid waste and sediment, combined with post-intervention verification, is designed to reduce unnecessary maintenance and improve drainage efficiency. The prototype will provide a platform for testing adaptive stormwater management under controlled conditions and support efficient urban drainage maintenance in future.",
+  "innovationDescription": "Urban waterlogging is often caused not only by heavy rainfall but also by blocked inlets, accumulated plastic and organic waste, sediment deposition, restricted flow, and downstream backwater. Conventional drains generally depend on periodic manual inspection and cleaning, making it difficult to identify the actual cause of poor drainage during rainfall. This can delay intervention, increase maintenance effort, and cause further accumulation.\r\n\r\nDRAIN-X is a proposed intelligent stormwater drainage prototype that monitors drainage conditions using rainfall, water-level, and flow sensors. A microcontroller analyses the sensor data to identify abnormal hydraulic conditions and determine the likely cause. Based on the diagnosis, the system can activate an appropriate response. Leaves and plastic will be intercepted into a solid-waste chamber, while sand and silt will be separated into a sediment chamber. Conditions such as downstream backwater or rainfall exceeding drainage capacity will generate an alert instead of triggering unnecessary cleaning. After intervention, the system will recheck the hydraulic conditions to verify whether flow has improved.\r\n\r\nThe main innovation of DRAIN-X is its closed-loop approach: Sense, Diagnose, Decide, Act, and Verify. Unlike a basic smart drain that only detects water level or blockage, DRAIN-X aims to distinguish between different causes of drainage failure and respond selectively. Its separate handling of solid waste and sediment, combined with post-intervention verification, is designed to reduce unnecessary maintenance and improve drainage efficiency. The prototype will provide a platform for testing adaptive stormwater management under controlled conditions and support efficient urban drainage maintenance in future.",
+  "workingPrinciple": "DRAIN-X is an adaptive stormwater drainage prototype designed to detect, diagnose and respond to different causes of urban drainage failure. Controlled rainfall is introduced into a miniature urban drainage network containing an inlet, underground conduit and outlet. Rainfall intensity, water level and flow are continuously monitored using multiple sensors positioned at critical points. The sensor data are processed by a microcontroller using predefined hydraulic thresholds and decision logic to identify conditions such as solid-waste blockage, sediment accumulation, internal flow restriction, downstream backwater and rainfall exceeding drainage capacity. Based on the diagnosed condition, the control unit activates an appropriate response. Coarse debris such as leaves and plastic is mechanically intercepted and transferred to a separate solid-waste chamber, while sand and silt are directed towards a dedicated sediment-collection chamber through controlled flushing. When flooding is associated with downstream backwater or excessive rainfall rather than blockage, the system generates an alert without unnecessary cleaning. After intervention, water level and flow are measured again to verify whether drainage performance has recovered. Thus, DRAIN-X follows a closed-loop Sense → Diagnose → Decide → Act → Verify methodology for selective and resource-efficient stormwater management.",
+  "majorHardwareComponents": [
+    "ESP32/Arduino-based microcontroller",
+    "rainfall sensor",
+    "ultrasonic water-level sensors",
+    "water-flow sensor",
+    "debris/obstruction detection sensor",
+    "servo/stepper motor",
+    "motor driver",
+    "miniature water pump",
+    "solenoid valve",
+    "mechanical screening/raking mechanism",
+    "sediment flushing mechanism",
+    "drainage pipes and channels",
+    "solid-waste collection chamber",
+    "sediment-collection chamber",
+    "water reservoir",
+    "LED/LCD display",
+    "connecting wires",
+    "tubing",
+    "structural frame and power-supply unit."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "dc_power_supply",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Government / Public Services",
+    "Urban Communities"
+  ],
+  "potentialImpact": "DRAIN-X is intended to support urban drainage authorities and infrastructure managers in reducing waterlogging caused by identifiable drainage failures. Unlike conventional maintenance approaches that often depend on periodic manual inspection, the proposed system continuously monitors hydraulic conditions and distinguishes between solid-waste blockage, sediment accumulation, internal restriction, downstream backwater and rainfall exceeding drainage capacity. Its selective response can reduce unnecessary cleaning, improve maintenance efficiency and minimise the mixing of solid waste with sediment. Separate collection chambers may also facilitate subsequent waste handling and sediment management. The system is particularly relevant to flood-prone urban roads, institutional campuses, industrial areas, parking facilities and other critical drainage locations. At larger scales, the sensing and diagnostic framework could be adapted for integration with municipal stormwater infrastructure. The prototype will provide experimental data on diagnostic accuracy, response time and restoration of flow, creating a basis for further engineering development and field validation. Its low-cost architecture is intended to make intelligent drainage monitoring more accessible to resource-constrained urban environments.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 8000,
+  "auraDemoHighlight": "DRAIN-X is worth seeing because it takes a problem we see around us almost every monsoon—waterlogging—and asks a simple but important question: what is actually causing the drain to fail?\r\nA flooded road does not always mean that the drain is blocked. Sometimes leaves and plastic block the inlet, sometimes sand and silt build up inside, while in other situations the real problem may be excessive rainfall or water backing up from downstream. DRAIN-X is designed to identify these different situations and respond accordingly, rather than treating every problem in the same way.\r\nVisitors can actually watch this process happen in a working miniature urban drainage system. Controlled rainfall is introduced, sensors monitor the changing water and flow conditions, and the system decides what action is required. Solid waste is separated into one collection chamber, while sediment is handled separately. In situations where cleaning is unnecessary, the system simply generates an alert.\r\nThe most interesting part is that DRAIN-X checks whether its intervention actually worked by monitoring the drainage conditions again.\r\nIn short, DRAIN-X is not just a model of a drain. It is an attempt to make drainage more aware, selective and responsive—while using a problem that is familiar to almost every urban resident as the starting point for a practical engineering solution.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Safety will be given priority during the development and testing of the DRAIN-X prototype. Since the project combines water, electrical components, sensors, and moving mechanical parts, suitable precautions will be followed throughout the work.\r\nThe system will use a low-voltage power supply to reduce electrical hazards. All electrical connections will be properly insulated, and electronic components such as the microcontroller and sensors will be protected from direct contact with water. The power supply will always be switched off before changing wiring, repairing components, or carrying out maintenance.\r\nThe mechanical waste-removal mechanism will be designed with controlled movement and limited operating speed. Moving parts will be covered or positioned safely to prevent accidental contact during operation. Sharp edges and unnecessary exposed mechanical components will be avoided.\r\nDuring rainfall simulation, controlled quantities of water will be used to prevent sudden overflow. The prototype will be placed on a stable, level surface, and a designated collection area will be provided for discharged water. Any spilled water will be removed immediately to prevent slipping and protect electrical equipment.\r\nSolid waste such as leaves and plastic, along with collected sediment, will be handled carefully using separate collection chambers. Appropriate precautions will be followed during their removal and disposal.\r\nBefore every experimental trial, the drainage pathway, sensors, wiring, collection chambers, and mechanical components will be checked. Testing will be conducted in a controlled environment under continuous supervision to ensure the safe operation and reliable evaluation of DRAIN-X throughout all stages of testing.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-30T18:44:00.614Z",
+  "updatedAt": "2026-10-14T18:48:16.264Z",
+  "abstract": {
+    "originalName": "ABSTRACT.docx",
+    "url": "https://res.cloudinary.com/dxkje9whm/raw/upload/v1790793839/aura-registrations/abstract-docs/ABSTRACT",
+    "filename": "Abstract.docx",
+    "relPath": "assets/Teams/GEONEX/Abstract.docx",
+    "isDocx": true,
+    "exists": true,
+    "extractedText": "Title:\n\nIoT-Based Dynamic Health Monitoring and Distress Prediction System for Victims of Atrocities\n\nMethodology:\n\nThe proposed system integrates Internet of things (IoT) - based physiological monitoring, standardized psychological questionnaires, and an Android application for preliminary distress screening among victims of atrocities.\n\nHardware Development: A microcontroller is interfaced with a heart rate sensor, body temperature sensor, and Galvanic Skin Response (GSR) sensor to collect physiological parameters. An HC-05 Bluetooth module enables wireless communication between the hardware and the Android application.\n\nData Acquisition and Transmission: The microcontroller collects sensor measurements and transmits the data to the Android application, where the physiological parameters are displayed for real-time or periodic monitoring.\n\nAndroid Application Development: The application incorporates two standardized questionnaires: the Patient Health Questionnaire-9 (PHQ-9) for assessing depressive symptoms and the WHO-5 Well-Being Index for evaluating psychological well-being. Users respond to the questionnaire items through the mobile interface.\n\nScoring and Assessment: The application calculates questionnaire scores according to the respective scoring guidelines. Physiological measurements are evaluated alongside questionnaire results using a predefined assessment framework to support preliminary distress screening.\n\nRisk Classification and Recommendations: Based on the defined assessment criteria, the system categorizes screening results into low, borderline, moderate, and high-concern levels. Appropriate guidance is displayed, including self-care suggestions, recommendations for professional consultation, and relevant mental health service contact information.\n\nFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring SystemFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring SystemBlock Diagram: \n\nFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring System\n\nFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring System\n\nProposed Outcome:\n\nThe proposed system is expected to provide a functional IoT-based platform for physiological health monitoring and preliminary psychological distress screening among victims of atrocities. This system will enable the collection and visualization of physiological data alongside standardized psychological assessments using the PHQ-9 and WHO-5 questionnaires. The application will evaluate questionnaire scores and relevant physiological measurements using a predefined assessment framework to identify potential levels of distress and generate appropriate recommendations. Depending on the screening results, the system will provide guidance ranging from general well-being suggestions to recommendations for professional mental health consultation and referral. The proposed platform aims to improve accessibility to preliminary screening and facilitate timely identification of individuals who may require further psychological assessment. In future development, artificial intelligence and machine learning techniques may be incorporated to identify patterns in physiological and questionnaire data and improve screening performance."
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/GEONEX/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790793839/aura-registrations/id-cards/kfxbxzz57ab7rwswf0ak.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/GEONEX/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790793839/aura-registrations/id-cards/w8jq27zozlqc7svmaekq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/GEONEX/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790793839/aura-registrations/id-cards/qr6mz6lgisoi4ytwsyr5.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/GEONEX/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790793839/aura-registrations/id-cards/nhymtxgugwed9hceicrj.jpg",
+      "exists": true
+    }
+  ]
+}

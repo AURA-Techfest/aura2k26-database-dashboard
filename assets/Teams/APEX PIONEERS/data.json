@@ -1,0 +1,116 @@
+{
+  "index": 43,
+  "id": "6acf0c1df9caca02de6e4d75",
+  "registrationId": "AURA2K26-TYLYMS",
+  "rawTeamName": "APEX PIONEERS",
+  "folderName": "APEX PIONEERS",
+  "folderRelPath": "assets/Teams/APEX PIONEERS",
+  "projectTitle": "AEGIS - X",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "AFIFA SULTANA",
+  "teamLeaderEmail": "fahim211456@gmail.com",
+  "teamLeaderPhone": "6297112293",
+  "teamMemberDetails": "Member 1 \r\nName -FAHIM ABDULLAH\r\nINSTITUTION - ALIAH UNIVERSITY \r\nDEPARTMENT - PHYSICS \r\nPHONE NUMBER -9382815186\r\nMEMBER 2\r\nNAME- MD EKBAL HOSSAIN \r\nINSTITUTION- ALIAH UNIVERSITY \r\nDEPARTMENT - PHYSICS \r\nPHONE NUMBER - 8597900550\r\nMEMBER 3\r\nNAME - ANOYAR ALAM\r\nINSTITUTION - ALIAH UNIVERSITY \r\nDEPARTMENT - PHYSICS \r\nPHONE NUMBER -9332134849",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Automation & Control",
+    "Electronics & Communication",
+    "Mechatronics",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "1. Problem Statement\r\nDuring disasters such as fires, smoke incidents, and hazardous gas leaks, people may have only a limited time to escape safely. Smoke can reduce visibility, familiar exits may become dangerous, and panic can make evacuation decisions difficult. Traditional alarm systems can warn people about danger, but they do not necessarily identify blocked routes or recommend alternative exits. Emergency responders may also face risks when entering hazardous environments. Therefore, an affordable system that combines hazard detection, obstacle monitoring, and intelligent evacuation planning could provide valuable support. AEGIS-X addresses this challenge by demonstrating how robotics can help identify potential dangers and guide evacuation decisions in a controlled environment.\r\n2. Proposed Solution\r\nAEGIS-X is a smart mobile robot designed to detect potential hazards and identify alternative evacuation routes inside a miniature building. An ESP32 microcontroller processes sensor readings and coordinates the robot's movement, alerts, and route-selection algorithm.\r\nA flame sensor detects fire-related infrared signals, an MQ-2 sensor monitors smoke and certain combustible gases, and a temperature sensor measures temperature changes. An ultrasonic sensor detects obstacles along the robot's path. When readings indicate a potential hazard, the system activates a buzzer, displays a warning, and marks the affected corridor as unsafe within the programmed model.\r\nThe robot then evaluates available routes and selects an alternative accessible exit using a predefined path-planning algorithm. LED indicators display the recommended direction, while Wi-Fi can send alerts to a connected mobile device. This approach transforms hazard detection into actionable evacuation guidance rather than providing an alarm alone.\r\n3. Innovation Details\r\nThe main innovation of AEGIS-X is the integration of multi-sensor hazard monitoring, dynamic route selection, and robotic navigation within one coordinated prototype.\r\nIts key features include multi-sensor monitoring, alternative route calculation, obstacle avoidance, emergency alerts, and live status reporting. Unlike a basic sensor-based alarm, AEGIS-X demonstrates how hazard information can influence route decisions. Its performance can be evaluated through repeated tests measuring detection time, route-selection accuracy, obstacle-avoidance success, and false alarms.\r\nThe prototype has potential educational applications in schools, hospitals, offices, and industrial safety demonstrations. It provides a practical platform for exploring robotics, electronics, programming, and emergency planning.\r\nAEGIS-X is an educational prototype, not a replacement for certified fire-safety equipment or professional emergency services.\r\nOur mission is to transform intelligent detection into safer decisions, demonstrating how affordable robotics can contribute to disaster preparedness and the protection of human life.",
+  "solutionDescription": "1. Problem Statement\r\nDuring disasters such as fires, smoke incidents, and hazardous gas leaks, people may have only a limited time to escape safely. Smoke can reduce visibility, familiar exits may become dangerous, and panic can make evacuation decisions difficult. Traditional alarm systems can warn people about danger, but they do not necessarily identify blocked routes or recommend alternative exits. Emergency responders may also face risks when entering hazardous environments. Therefore, an affordable system that combines hazard detection, obstacle monitoring, and intelligent evacuation planning could provide valuable support. AEGIS-X addresses this challenge by demonstrating how robotics can help identify potential dangers and guide evacuation decisions in a controlled environment.\r\n2. Proposed Solution\r\nAEGIS-X is a smart mobile robot designed to detect potential hazards and identify alternative evacuation routes inside a miniature building. An ESP32 microcontroller processes sensor readings and coordinates the robot's movement, alerts, and route-selection algorithm.\r\nA flame sensor detects fire-related infrared signals, an MQ-2 sensor monitors smoke and certain combustible gases, and a temperature sensor measures temperature changes. An ultrasonic sensor detects obstacles along the robot's path. When readings indicate a potential hazard, the system activates a buzzer, displays a warning, and marks the affected corridor as unsafe within the programmed model.\r\nThe robot then evaluates available routes and selects an alternative accessible exit using a predefined path-planning algorithm. LED indicators display the recommended direction, while Wi-Fi can send alerts to a connected mobile device. This approach transforms hazard detection into actionable evacuation guidance rather than providing an alarm alone.\r\n3. Innovation Details\r\nThe main innovation of AEGIS-X is the integration of multi-sensor hazard monitoring, dynamic route selection, and robotic navigation within one coordinated prototype.\r\nIts key features include multi-sensor monitoring, alternative route calculation, obstacle avoidance, emergency alerts, and live status reporting. Unlike a basic sensor-based alarm, AEGIS-X demonstrates how hazard information can influence route decisions. Its performance can be evaluated through repeated tests measuring detection time, route-selection accuracy, obstacle-avoidance success, and false alarms.\r\nThe prototype has potential educational applications in schools, hospitals, offices, and industrial safety demonstrations. It provides a practical platform for exploring robotics, electronics, programming, and emergency planning.\r\nAEGIS-X is an educational prototype, not a replacement for certified fire-safety equipment or professional emergency services.\r\nOur mission is to transform intelligent detection into safer decisions, demonstrating how affordable robotics can contribute to disaster preparedness and the protection of human life.",
+  "innovationDescription": "1. Problem Statement\r\nDuring disasters such as fires, smoke incidents, and hazardous gas leaks, people may have only a limited time to escape safely. Smoke can reduce visibility, familiar exits may become dangerous, and panic can make evacuation decisions difficult. Traditional alarm systems can warn people about danger, but they do not necessarily identify blocked routes or recommend alternative exits. Emergency responders may also face risks when entering hazardous environments. Therefore, an affordable system that combines hazard detection, obstacle monitoring, and intelligent evacuation planning could provide valuable support. AEGIS-X addresses this challenge by demonstrating how robotics can help identify potential dangers and guide evacuation decisions in a controlled environment.\r\n2. Proposed Solution\r\nAEGIS-X is a smart mobile robot designed to detect potential hazards and identify alternative evacuation routes inside a miniature building. An ESP32 microcontroller processes sensor readings and coordinates the robot's movement, alerts, and route-selection algorithm.\r\nA flame sensor detects fire-related infrared signals, an MQ-2 sensor monitors smoke and certain combustible gases, and a temperature sensor measures temperature changes. An ultrasonic sensor detects obstacles along the robot's path. When readings indicate a potential hazard, the system activates a buzzer, displays a warning, and marks the affected corridor as unsafe within the programmed model.\r\nThe robot then evaluates available routes and selects an alternative accessible exit using a predefined path-planning algorithm. LED indicators display the recommended direction, while Wi-Fi can send alerts to a connected mobile device. This approach transforms hazard detection into actionable evacuation guidance rather than providing an alarm alone.\r\n3. Innovation Details\r\nThe main innovation of AEGIS-X is the integration of multi-sensor hazard monitoring, dynamic route selection, and robotic navigation within one coordinated prototype.\r\nIts key features include multi-sensor monitoring, alternative route calculation, obstacle avoidance, emergency alerts, and live status reporting. Unlike a basic sensor-based alarm, AEGIS-X demonstrates how hazard information can influence route decisions. Its performance can be evaluated through repeated tests measuring detection time, route-selection accuracy, obstacle-avoidance success, and false alarms.\r\nThe prototype has potential educational applications in schools, hospitals, offices, and industrial safety demonstrations. It provides a practical platform for exploring robotics, electronics, programming, and emergency planning.\r\nAEGIS-X is an educational prototype, not a replacement for certified fire-safety equipment or professional emergency services.\r\nOur mission is to transform intelligent detection into safer decisions, demonstrating how affordable robotics can contribute to disaster preparedness and the protection of human life.",
+  "workingPrinciple": "AEGIS-X is an intelligent disaster detection and smart evacuation robot designed to demonstrate hazard detection, obstacle avoidance, and alternative route planning in a miniature building. The system uses an ESP32 microcontroller to collect sensor readings, process information, and control the robot's movement.\r\nA flame sensor detects infrared signals associated with flames, while an MQ-2 sensor monitors smoke and certain combustible gases. A temperature sensor measures surrounding temperature, and an HC-SR04 ultrasonic sensor detects obstacles in the robot's path. The ESP32 compares sensor readings with predefined thresholds. When a potential hazard is detected, the system activates a buzzer and warning LEDs, while an OLED or LCD displays relevant information.\r\nFor evacuation demonstration, a miniature building model contains multiple corridors and exits. A predefined map and programmed route-planning algorithm represent the available paths. When a corridor is marked as hazardous in the simulation, the algorithm treats that corridor as unavailable and selects an alternative route toward a designated exit. The robot follows the selected route using its motor driver and four-wheel-drive mechanism. Ultrasonic measurements help it detect obstacles and adjust its movement when necessary.\r\nThe ESP32's Wi-Fi capability can transmit hazard notifications and sensor readings to a mobile device when the communication feature is implemented. The prototype is evaluated through controlled tests measuring hazard response time, route selection, obstacle avoidance, and false alarms. AEGIS-X is an educational demonstration system, not a certified emergency response or life-safety device.",
+  "majorHardwareComponents": [
+    "AEGIS-X integrates electronic sensors",
+    "an embedded controller",
+    "a mobile platform",
+    "and alert components to demonstrate disaster detection and smart evacuation.\nThe ESP32 microcontroller serves as the central processing unit. It collects sensor readings",
+    "processes information",
+    "controls motor movement",
+    "and supports Wi-Fi communication for mobile alerts. A flame sensor detects infrared signals associated with flames",
+    "while the MQ-2 sensor responds to smoke and certain combustible gases. A temperature sensor measures surrounding temperature",
+    "and an HC-SR04 ultrasonic sensor detects obstacles by measuring distance.\nA four-wheel-drive chassis provides mobility. Four DC geared motors drive the wheels",
+    "while an L298N motor driver controls their operation. A rechargeable battery pack powers the robot",
+    "with suitable voltage regulation providing the required supply to electronic components.\nAn OLED or LCD display presents sensor readings and system status. A buzzer and LEDs provide audible and visual warnings when sensor readings exceed predefined thresholds. Jumper wires",
+    "connectors",
+    "switches",
+    "and a breadboard support electrical connections and assembly.\nA miniature building model with multiple corridors and exits demonstrates evacuation route planning. A predefined map and programmed algorithm allow the robot to treat a simulated hazardous corridor as unavailable and select an alternative route. Wi-Fi connectivity can transmit hazard notifications when implemented and tested.\nTogether",
+    "these components create an educational prototype demonstrating hazard monitoring",
+    "obstacle detection",
+    "controlled movement",
+    "and alternative route planning under supervised conditions."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry",
+    "Healthcare",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "AEGIS-X is designed to benefit the general public, schools, colleges, hospitals, industries, offices, and emergency-management services by demonstrating how intelligent robotics can support hazard awareness and evacuation planning.\r\nFor the general public, the system demonstrates how potential hazards can trigger warnings and help identify alternative evacuation routes. In schools and colleges, it can support practical fire-safety education and emergency preparedness. Hospitals may benefit from exploring evacuation strategies for buildings with multiple corridors and exits. Industries and offices can use the prototype to demonstrate hazard monitoring and route-planning concepts, while public services and emergency planners can study its potential applications in controlled environments.\r\nAEGIS-X aims to improve current approaches by combining several functions in one system. Conventional alarm systems primarily alert occupants to danger, whereas AEGIS-X demonstrates how sensor information can influence route selection. Its environmental sensors monitor potential hazards, ultrasonic sensors detect obstacles, and a programmed algorithm selects an alternative route when a corridor is designated unsafe. Visual indicators, audible alarms, and a display communicate warnings clearly.\r\nThe prototype's performance will be evaluated through repeated experiments measuring detection response time, route-selection accuracy, obstacle avoidance, and false alarms. These measurements can identify weaknesses and guide future improvements.\r\nIts affordable, modular design also allows further development through improved sensors, mapping, and communication features. Although AEGIS-X is an educational prototype rather than a certified safety device, it demonstrates a promising approach to making evacuation planning more responsive, understandable, and accessible.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3700,
+  "auraDemoHighlight": "AEGIS-X deserves attention because it transforms a conventional hazard-detection concept into an interactive robotic demonstration of intelligent evacuation planning. Its most distinctive feature is the integration of environmental monitoring, obstacle detection, alternative route selection, and emergency alerts within one coordinated prototype.\r\nThe highlight of our project is its Smart Evacuation System. We will construct a miniature building with multiple corridors and exits. When a simulated hazard blocks one corridor, the programmed algorithm marks that route unavailable and selects an alternative accessible path. The robot then demonstrates navigation through the model, while LED indicators and a display communicate the recommended direction. This visible, real-time response allows judges and audiences to observe how hazard information influences the system's decisions.\r\nAnother impressive aspect is the combination of practical engineering disciplines. AEGIS-X integrates an ESP32 microcontroller, multiple sensors, motor control, wireless communication, and route-planning software into a student-built robotic prototype. Its modular design makes the system understandable, testable, and suitable for future improvements.\r\nWe will also evaluate its performance through repeated trials, recording route-selection accuracy, hazard-detection response time, obstacle-avoidance success, and false alarms. Presenting these results will demonstrate measurable performance rather than relying on appearance alone.\r\nAEGIS-X addresses an important human-safety challenge while offering an engaging live demonstration. Its combination of affordability, practical engineering, visible decision-making, and potential social benefit makes it a compelling innovation for AURA 2026.\r\nOur goal is to demonstrate how robotics can turn hazard information into clearer, more informed evacuation decisions.",
+  "safetyHazards": [
+    "moving_rotating_machinery"
+  ],
+  "safetyPrecautions": "The AEGIS-X prototype incorporates safety precautions to minimise risks during operation, testing, and demonstration. The robot uses a low-voltage rechargeable battery suitable for a small mobile system. All electrical connections are checked before operation to reduce the risk of short circuits, loose wiring, and overheating. Appropriate voltage regulation ensures that the ESP32 controller and sensors receive their required operating voltage. The battery is handled carefully and protected from water, excessive heat, and physical damage. The moving wheels and motors are potential mechanical hazards. During testing, hands, fingers, clothing, and loose objects are kept away from rotating wheels and moving components. The robot operates on a stable, clear surface to minimise collisions and unexpected movement. The power supply can be disconnected immediately if abnormal behaviour, loose wiring, or overheating occurs. The flame and smoke sensors are tested using safe simulation methods. Real fire, hazardous gases, and dangerous chemicals are avoided during demonstrations. Sensor readings are monitored because environmental conditions may cause false alarms or inaccurate detection. The battery, wiring, motor driver, and electronic components are inspected regularly to identify potential faults. The prototype is operated under supervision, and testing is conducted in a controlled environment. Its limitations are clearly acknowledged because sensor readings alone cannot guarantee accurate hazard detection or safe evacuation. AEGIS-X is intended for educational demonstration and experimental evaluation, not as a certified life-safety device. It does not replace professional fire alarms, established emergency procedures, or trained emergency personnel. These safeguards help reduce operational risks",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-14T04:59:09.697Z",
+  "updatedAt": "2026-10-14T18:49:53.297Z",
+  "abstract": {
+    "originalName": "Auraa.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791953948/aura-registrations/abstract-docs/Auraa.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/APEX PIONEERS/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/APEX PIONEERS/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791953948/aura-registrations/id-cards/ezuid7oubvyse4xnvvf1.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/APEX PIONEERS/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791953948/aura-registrations/id-cards/yhvjshiz7pwasxblevci.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/APEX PIONEERS/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791953948/aura-registrations/id-cards/kruzbh3eskrhwbp0s4lc.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/APEX PIONEERS/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791953948/aura-registrations/id-cards/ssr9tjna4nqixsadhini.jpg",
+      "exists": true
+    }
+  ]
+}

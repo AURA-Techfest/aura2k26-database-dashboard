@@ -1,0 +1,105 @@
+{
+  "index": 63,
+  "id": "6adf9afd24a8ca63ab856158",
+  "registrationId": "AURA2K26-HLTV4W",
+  "rawTeamName": "Red Logic Forge",
+  "folderName": "Red Logic Forge",
+  "folderRelPath": "assets/Teams/Red Logic Forge",
+  "projectTitle": "PLC-Based Digital Twin, Predictive Fault Detection Sensor and Actuator for Intelligent Industrial Automation",
+  "teamSize": 2,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Koushik Dey",
+  "teamLeaderEmail": "deykoushik676@gmail.com",
+  "teamLeaderPhone": "7477879205",
+  "teamMemberDetails": "Kashifa Perween | Aliah University | Electronics and Communication Engineering | 3rd Year | 9234230766",
+  "hardwareProjectCategories": [
+    "Automation & Control"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem Addressed\r\n\r\nIndustrial automation systems generally detect faults after a machine crosses a critical threshold or stops functioning. Problems such as motor overheating, abnormal current, excessive vibration, water leakage, and reduced flow can progressively damage equipment before conventional protection systems respond. This leads to unplanned downtime, production losses, costly maintenance, and reduced equipment life. Many existing predictive-maintenance solutions also require expensive industrial monitoring infrastructure, making them less accessible to small and medium-scale industries.\r\n\r\nHardware Solution\r\n\r\nWe propose a PLC-based Digital Twin and Predictive Fault Detection System for industrial equipment. Sensors continuously monitor critical parameters such as temperature, current, vibration, flow, and leakage. The sensor signals are processed through suitable signal-conditioning and optocoupler-based isolation circuits before being acquired by the PLC. The PLC controls the physical actuator, such as a motor or pump, and simultaneously transmits real-time operating data to a computing platform through industrial communication protocols.\r\n\r\nThe collected data is used to create a real-time Digital Twin that mirrors the operating state of the physical system. A fault-detection and prediction module analyses sensor values and their trends to identify abnormal behaviour and estimate potential failures.\r\n\r\nInnovation\r\n\r\nThe key innovation is the integration of PLC automation, real-time Digital Twin technology, sensor-based condition monitoring, and predictive fault detection into a cost-effective architecture. Unlike conventional systems that primarily provide an alarm after a fault occurs, our system attempts to identify early degradation patterns and warn the operator before a critical failure.\r\n\r\nThe Digital Twin also provides a visual representation of machine health, enabling real-time monitoring, fault simulation, and maintenance decision-making without directly interfering with the physical equipment. The proposed system is modular, scalable, and suitable for low-cost industrial retrofitting, making predictive maintenance more accessible to small and medium-scale industries while reducing downtime and improving equipment reliability.",
+  "solutionDescription": "Problem Addressed\r\n\r\nIndustrial automation systems generally detect faults after a machine crosses a critical threshold or stops functioning. Problems such as motor overheating, abnormal current, excessive vibration, water leakage, and reduced flow can progressively damage equipment before conventional protection systems respond. This leads to unplanned downtime, production losses, costly maintenance, and reduced equipment life. Many existing predictive-maintenance solutions also require expensive industrial monitoring infrastructure, making them less accessible to small and medium-scale industries.\r\n\r\nHardware Solution\r\n\r\nWe propose a PLC-based Digital Twin and Predictive Fault Detection System for industrial equipment. Sensors continuously monitor critical parameters such as temperature, current, vibration, flow, and leakage. The sensor signals are processed through suitable signal-conditioning and optocoupler-based isolation circuits before being acquired by the PLC. The PLC controls the physical actuator, such as a motor or pump, and simultaneously transmits real-time operating data to a computing platform through industrial communication protocols.\r\n\r\nThe collected data is used to create a real-time Digital Twin that mirrors the operating state of the physical system. A fault-detection and prediction module analyses sensor values and their trends to identify abnormal behaviour and estimate potential failures.\r\n\r\nInnovation\r\n\r\nThe key innovation is the integration of PLC automation, real-time Digital Twin technology, sensor-based condition monitoring, and predictive fault detection into a cost-effective architecture. Unlike conventional systems that primarily provide an alarm after a fault occurs, our system attempts to identify early degradation patterns and warn the operator before a critical failure.\r\n\r\nThe Digital Twin also provides a visual representation of machine health, enabling real-time monitoring, fault simulation, and maintenance decision-making without directly interfering with the physical equipment. The proposed system is modular, scalable, and suitable for low-cost industrial retrofitting, making predictive maintenance more accessible to small and medium-scale industries while reducing downtime and improving equipment reliability.",
+  "innovationDescription": "Problem Addressed\r\n\r\nIndustrial automation systems generally detect faults after a machine crosses a critical threshold or stops functioning. Problems such as motor overheating, abnormal current, excessive vibration, water leakage, and reduced flow can progressively damage equipment before conventional protection systems respond. This leads to unplanned downtime, production losses, costly maintenance, and reduced equipment life. Many existing predictive-maintenance solutions also require expensive industrial monitoring infrastructure, making them less accessible to small and medium-scale industries.\r\n\r\nHardware Solution\r\n\r\nWe propose a PLC-based Digital Twin and Predictive Fault Detection System for industrial equipment. Sensors continuously monitor critical parameters such as temperature, current, vibration, flow, and leakage. The sensor signals are processed through suitable signal-conditioning and optocoupler-based isolation circuits before being acquired by the PLC. The PLC controls the physical actuator, such as a motor or pump, and simultaneously transmits real-time operating data to a computing platform through industrial communication protocols.\r\n\r\nThe collected data is used to create a real-time Digital Twin that mirrors the operating state of the physical system. A fault-detection and prediction module analyses sensor values and their trends to identify abnormal behaviour and estimate potential failures.\r\n\r\nInnovation\r\n\r\nThe key innovation is the integration of PLC automation, real-time Digital Twin technology, sensor-based condition monitoring, and predictive fault detection into a cost-effective architecture. Unlike conventional systems that primarily provide an alarm after a fault occurs, our system attempts to identify early degradation patterns and warn the operator before a critical failure.\r\n\r\nThe Digital Twin also provides a visual representation of machine health, enabling real-time monitoring, fault simulation, and maintenance decision-making without directly interfering with the physical equipment. The proposed system is modular, scalable, and suitable for low-cost industrial retrofitting, making predictive maintenance more accessible to small and medium-scale industries while reducing downtime and improving equipment reliability.",
+  "workingPrinciple": "The proposed system works by continuously checking the condition of an industrial machine using sensors and a PLC. Sensors such as temperature, current and vibration sensors collect information from the machine while it is running. These signals are passed through suitable signal-conditioning and optocoupler isolation circuits before being sent to the PLC.\r\n\r\nThe PLC acts as the main control unit of the system. It receives the sensor readings, processes them according to the programmed logic and controls the actuator, such as a motor. At the same time, the collected data is sent to a computer or monitoring platform through a suitable communication interface.\r\n\r\nA Digital Twin is created on the software side to represent the actual machine. It receives the same real-time data and updates its condition according to what is happening in the physical system. This allows the operator to observe the machine's condition without directly interacting with the equipment.\r\n\r\nThe system continuously compares the current sensor readings with normal operating conditions. If the values start showing an unusual pattern, the system identifies it as a possible sign of a developing fault. The fault detection module then analyses the data and provides an early warning.\r\n\r\nIf the condition becomes critical, the PLC can take a protective action, such as stopping the motor. In this way, the system combines sensors, PLC control, a Digital Twin and predictive fault detection to monitor the machine and help prevent unexpected failures.",
+  "majorHardwareComponents": [
+    "raspberry pi pico 2w",
+    "opto isolator module",
+    "5V AC Supply",
+    "1 UPS",
+    "current sensor",
+    "vibration sensor",
+    "voltage measurement sensor",
+    "electrical power measurement sensor",
+    "smoke sensor",
+    "thermal measurement sensor",
+    "analog 3 axis accelerometer",
+    "cooling fan",
+    "optical isolator",
+    "electronics circuit breaker",
+    "solid state relay",
+    "motor driver"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "other",
+  "intendedBeneficiaries": [
+    "Industry"
+  ],
+  "potentialImpact": "The proposed system can help industries identify machine problems before they develop into major failures. Instead of waiting for a motor or other equipment to stop working, the system continuously monitors its condition and provides an early warning when unusual behaviour is detected.\r\n\r\nThe Digital Twin gives the operator a virtual representation of the physical machine and displays important parameters such as temperature, current and vibration in real time. This makes it easier to understand the machine’s condition without directly interfering with the equipment.\r\n\r\nOne of the major benefits is reducing unexpected breakdowns and production downtime. Early fault detection can also help industries plan maintenance at the right time, reducing unnecessary repairs and maintenance costs.\r\n\r\nThe system can be particularly useful for small and medium-sized industries because it can be built using commonly available sensors, PLCs and computing platforms instead of expensive monitoring systems. It can also improve safety by allowing the PLC to take protective actions, such as stopping the motor when a critical condition is detected.\r\n\r\nThe proposed system is also scalable. By changing the sensors, actuator and Digital Twin model, the same concept can be adapted for motors, pumps, conveyor systems and other automated industrial equipment.\r\n\r\nOverall, the project aims to make predictive maintenance more affordable and accessible while improving machine reliability, reducing downtime and helping industries make better maintenance decisions.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "The most unique aspect of our project is that it goes beyond simply detecting a fault after it occurs. It aims to identify early signs of a developing fault before the machine reaches a critical condition. By combining a PLC-controlled physical system with a real-time Digital Twin, the project creates a virtual representation of the machine that changes according to its actual operating condition.\r\n\r\nThe Digital Twin receives real-time sensor data and helps visualize important parameters such as temperature, current and vibration. The system compares this data with normal operating conditions and looks for unusual patterns. When abnormal behaviour is identified, it provides an early warning and can allow the PLC to take protective action when necessary.\r\n\r\nJudges should see this project because it combines industrial automation, sensors, PLC control, Digital Twin technology and predictive maintenance into one practical system. Unlike a conventional alarm system, the focus is on understanding machine behaviour and taking action before a major failure occurs.\r\n\r\nThe project is also designed to be low-cost, modular and scalable, so the same concept can be adapted to motors, pumps, conveyor systems and other industrial equipment.\r\n\r\nThe key idea is simple but impactful: instead of waiting for a machine to fail and then reacting, our system continuously monitors, predicts and helps prevent failure. This can reduce downtime, maintenance costs and equipment damage while making predictive maintenance more accessible to smaller industries.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "During the development of the project, several safety measures are considered to protect both the users and the hardware. The prototype is designed to operate at safe, low-voltage levels wherever possible, reducing the risk of electrical shock and component damage.\r\n\r\nOptocouplers are used to provide electrical isolation between the PLC control section and field-side circuits. Properly rated relays or contactors are used to control the motor actuator instead of connecting the actuator directly to the PLC output.\r\n\r\nA regulated power supply is used to provide stable voltage to the PLC, sensors and other electronic components. Fuses or suitable circuit protection are included where required to protect the system from overcurrent and short circuits.\r\n\r\nAll electrical connections are properly insulated and secured, and exposed conductors are avoided. Components are mounted properly to prevent loose connections or accidental contact during operation. The motor and moving parts are also kept away from direct handling while the system is running.\r\n\r\nEmergency shutdown or manual isolation is provided so that the actuator can be quickly disconnected if an abnormal condition occurs. Sensor readings and PLC logic are tested first under controlled conditions before operating the complete system.\r\n\r\nThe Digital Twin and fault-detection software are also tested using simulated fault conditions where possible, reducing the need to deliberately create dangerous physical faults.\r\n\r\nThese precautions help ensure that the prototype can be tested safely while protecting the operators, electronic components and actuator.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T18:25:01.001Z",
+  "updatedAt": "2026-10-26T18:27:01.133Z",
+  "abstract": {
+    "originalName": "Untitled document_261026235109.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039099/aura-registrations/abstract-docs/Untitled%20document_261026235109.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Red Logic Forge/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Red Logic Forge/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039099/aura-registrations/id-cards/phuiqcocqkej6wcdkala.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Red Logic Forge/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039099/aura-registrations/id-cards/nvxtlksaojtpo547dzdi.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Red Logic Forge/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Red Logic Forge/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

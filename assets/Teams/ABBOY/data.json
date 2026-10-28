@@ -1,0 +1,97 @@
+{
+  "index": 22,
+  "id": "6abd4aa65fda01fbe7a9c54d",
+  "registrationId": "AURA2K26-GE52CY",
+  "rawTeamName": "ABBOY",
+  "folderName": "ABBOY",
+  "folderRelPath": "assets/Teams/ABBOY",
+  "projectTitle": "Forever FitBand",
+  "teamSize": 2,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 2,
+  "teamLeaderName": "Smarajit Datta",
+  "teamLeaderEmail": "smarajitdatta6@gmail.com",
+  "teamLeaderPhone": "6291655258",
+  "teamMemberDetails": "Ankit Gupta | Hooghly Engineering & Technology College | Computer Science and Engineering | 3rd | 7003345530",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Biomedical / Healthcare Devices"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "PROBLEM\r\nDuring heat waves, floods, pollution events and earthquakes, people receive generic alerts but no warning that conditions are dangerous for them personally. Elderly and at-risk people living alone can fall and go unnoticed, and most health wearables depend on the cloud, so they stop helping exactly when networks fail.\r\n\r\nSOLUTION\r\nForever FitBand is an ESP32-S3 wrist wearable paired with a mobile app. The band measures heart rate and SpO2 (MAX30102), body temperature (DS18B20), motion (MPU6050) and ambient temperature, humidity and pressure (BME280), shows them on an OLED watch face, and streams them over Bluetooth Low Energy. The app detects falls, flags abnormal vitals, and warns of local heat, air-quality, flood, cyclone and earthquake risk. A fall or SOS starts a 10-second cancel window, then escalates to an emergency call, a caregiver and SMS with the user's vitals and location.\r\n\r\nINNOVATION\r\n- Fully on-device AI: fall-detection and activity CNNs (92% precision and recall on unseen test subjects) and an offline LLM health assistant. No cloud, and health data never leaves the phone.\r\n- Works without internet: offline hazard maps and cached risk data keep alerts running when networks fail.\r\n- Personal risk, not generic alerts: vitals are fused with heat index, air quality and hazard data.\r\n- Trustworthy readings: the band shows HR and SpO2 only after the signal settles and passes quality checks, and reports nothing when not worn.\r\n- Low cost: about ₹2,200 in parts.",
+  "solutionDescription": "PROBLEM\r\nDuring heat waves, floods, pollution events and earthquakes, people receive generic alerts but no warning that conditions are dangerous for them personally. Elderly and at-risk people living alone can fall and go unnoticed, and most health wearables depend on the cloud, so they stop helping exactly when networks fail.\r\n\r\nSOLUTION\r\nForever FitBand is an ESP32-S3 wrist wearable paired with a mobile app. The band measures heart rate and SpO2 (MAX30102), body temperature (DS18B20), motion (MPU6050) and ambient temperature, humidity and pressure (BME280), shows them on an OLED watch face, and streams them over Bluetooth Low Energy. The app detects falls, flags abnormal vitals, and warns of local heat, air-quality, flood, cyclone and earthquake risk. A fall or SOS starts a 10-second cancel window, then escalates to an emergency call, a caregiver and SMS with the user's vitals and location.\r\n\r\nINNOVATION\r\n- Fully on-device AI: fall-detection and activity CNNs (92% precision and recall on unseen test subjects) and an offline LLM health assistant. No cloud, and health data never leaves the phone.\r\n- Works without internet: offline hazard maps and cached risk data keep alerts running when networks fail.\r\n- Personal risk, not generic alerts: vitals are fused with heat index, air quality and hazard data.\r\n- Trustworthy readings: the band shows HR and SpO2 only after the signal settles and passes quality checks, and reports nothing when not worn.\r\n- Low cost: about ₹2,200 in parts.",
+  "innovationDescription": "PROBLEM\r\nDuring heat waves, floods, pollution events and earthquakes, people receive generic alerts but no warning that conditions are dangerous for them personally. Elderly and at-risk people living alone can fall and go unnoticed, and most health wearables depend on the cloud, so they stop helping exactly when networks fail.\r\n\r\nSOLUTION\r\nForever FitBand is an ESP32-S3 wrist wearable paired with a mobile app. The band measures heart rate and SpO2 (MAX30102), body temperature (DS18B20), motion (MPU6050) and ambient temperature, humidity and pressure (BME280), shows them on an OLED watch face, and streams them over Bluetooth Low Energy. The app detects falls, flags abnormal vitals, and warns of local heat, air-quality, flood, cyclone and earthquake risk. A fall or SOS starts a 10-second cancel window, then escalates to an emergency call, a caregiver and SMS with the user's vitals and location.\r\n\r\nINNOVATION\r\n- Fully on-device AI: fall-detection and activity CNNs (92% precision and recall on unseen test subjects) and an offline LLM health assistant. No cloud, and health data never leaves the phone.\r\n- Works without internet: offline hazard maps and cached risk data keep alerts running when networks fail.\r\n- Personal risk, not generic alerts: vitals are fused with heat index, air quality and hazard data.\r\n- Trustworthy readings: the band shows HR and SpO2 only after the signal settles and passes quality checks, and reports nothing when not worn.\r\n- Low cost: about ₹2,200 in parts.",
+  "workingPrinciple": "Forever FitBand is a wrist wearable built on an ESP32-S3 microcontroller that works with a companion mobile app.\r\n\r\n1. Sensing: a MAX30102 optical sensor measures heart rate and SpO2 using photoplethysmography (PPG) at 100 Hz. A DS18B20 measures body temperature, an MPU6050 measures motion, and a BME280 measures ambient temperature, humidity and pressure.\r\n2. Signal quality: the firmware filters the PPG signal, waits 2 seconds for it to settle, rejects irregular beats, and reports HR and SpO2 only after 4 clean beats. Skin-contact detection stops readings when the band is not worn.\r\n3. Communication: the band streams vitals, environment and motion data to the phone over Bluetooth Low Energy (BLE) and shows the time and readings on an OLED watch face.\r\n4. On-device intelligence: the phone runs small neural networks (1D-CNNs) for fall detection and activity recognition, compares vitals to the user's 7-day personal baseline, and fuses them with heat index, air quality and local disaster-hazard data (cached for offline use).\r\n5. Response: abnormal vitals trigger alerts, imminent disasters trigger a full-screen warning with a siren, and a detected fall or SOS starts a 10-second cancel countdown before escalating to an emergency call, a caregiver and SMS.\r\n\r\nAll processing happens on the phone, so no internet or cloud server is needed.",
+  "majorHardwareComponents": [
+    "- ESP32-S3 N16R8 microcontroller (dual-core",
+    "BLE",
+    "16 MB flash",
+    "8 MB PSRAM)\n- MAX30102 pulse oximeter and heart-rate sensor (PPG)\n- DS18B20 digital body-temperature sensor\n- MPU6050 accelerometer and gyroscope (motion",
+    "fall detection)\n- BME280 ambient temperature",
+    "humidity and pressure sensor\n- 0.96\" SSD1306 OLED display (watch face)\n- 500 mAh Li-ion battery with a 3.3 V regulator\n- Breadboard prototype with jumper wiring and a wrist strap\n- Android smartphone running the companion app (on-device AI processing)"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Healthcare"
+  ],
+  "potentialImpact": "Beneficiaries: elderly people and those living alone, people with chronic heart or respiratory conditions, outdoor workers exposed to heat, caregivers, and communities in disaster-prone areas.\r\n\r\nHow it improves current standards:\r\n- Personal, not generic, warnings: instead of broadcast weather alerts, it tells users when local heat, air quality, flood, cyclone or earthquake risk is dangerous for their own current vitals.\r\n- Faster help after falls: automatic fall detection with escalation to emergency services and caregivers, even if the person can't reach their phone.\r\n- Works when networks fail: all analysis, hazard data and the AI assistant run offline, which is exactly when cloud-based wearables stop helping.\r\n- Privacy by design: health data stays on the user's phone, unlike most commercial fitness trackers.\r\n- Affordable: built from about ₹2,200 of parts, far cheaper than commercial smartwatches with similar sensors, making it practical for low-income and rural users.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2200,
+  "auraDemoHighlight": "It is a complete working system, not a concept: real hardware on the wrist, real data on the phone, and real AI running without internet.\r\n\r\nVisitors can see:\r\n- Live heart rate and SpO2 from their own finger, with the band honestly showing \"measuring\" until the reading is stable instead of a fake number.\r\n- Fall detection triggering an alert with a 10-second \"I'm OK\" countdown and a simulated emergency call.\r\n- A disaster-risk map and a full-screen imminent-disaster warning with safety steps.\r\n- An AI health assistant answering questions with the phone in airplane mode.\r\n\r\nOur fall-detection model scores 92% precision and 92% recall on test subjects it never saw during training, and its threshold was chosen from data and real drop tests. Everything runs on-device, so no health data leaves the phone.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "- Low-voltage system: the whole device runs at 3.3 V from a small 500 mAh Li-ion cell through a regulator; there is no mains power.\r\n- The battery is kept away from sharp edges and heat, is not charged unattended, and is disconnected when not in use.\r\n- Wiring is checked for short circuits before powering on.\r\n- The optical sensor uses a low-power LED, safe for skin contact.\r\n- Emergency features run in test mode during demos, so no real calls or SMS are sent.\r\n- The disaster-alert siren is played at reduced volume in public demos.\r\n- The device is not a medical instrument; readings are shown as estimates, not diagnoses.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-30T17:45:10.477Z",
+  "updatedAt": "2026-10-14T18:48:04.99Z",
+  "abstract": {
+    "originalName": "ForeverFitBand_Abstract_AURA26.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790790308/aura-registrations/abstract-docs/ForeverFitBand_Abstract_AURA26.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/ABBOY/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/ABBOY/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790790309/aura-registrations/id-cards/a4jth77rrld0xzfmlcjn.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/ABBOY/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790790309/aura-registrations/id-cards/qjz5gxlmwydauely1ccm.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/ABBOY/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/ABBOY/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

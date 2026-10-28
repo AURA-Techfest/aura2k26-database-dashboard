@@ -1,0 +1,101 @@
+{
+  "index": 58,
+  "id": "6adecbd01177b5721ad6fef8",
+  "registrationId": "AURA2K26-EUBYMQ",
+  "rawTeamName": "Safe_Volt LABS",
+  "folderName": "Safe_Volt LABS",
+  "folderRelPath": "assets/Teams/Safe_Volt LABS",
+  "projectTitle": "DUAL-LAYER FIRE DEFENSE : PRE-FAULT ELECTRICAL MONITORING & YOLO-BASED SURVEILLANCE FOR HOSPITALS",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "ARINDAM DAS",
+  "teamLeaderEmail": "arindamdas9883@gmail.com",
+  "teamLeaderPhone": "9883281797",
+  "teamMemberDetails": "AFSANA KHATUN | ALIAH UNIVERSITY | ELECTRICAL | 3RD YEAR | 9734310075 \r\nSURJA PAL |  ALIAH UNIVERSITY | ELECTRICAL | 3RD YEAR | 9564051920\r\nYEASIN MALLICK  ALIAH UNIVERSITY | ELECTRICAL | 3RD YEAR | 8918743891",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems",
+    "Electrical Systems"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem Statement:\r\nElectrical fires in hospitals pose a severe risk to patient safety and critical medical equipment. Currently, many public healthcare facilities rely heavily on reactive safety measures, such as standard ceiling-mounted smoke detectors. The main limitation of these traditional systems is that they only trigger after an electrical fault has already escalated into a physical fire, which can lead to equipment damage, power loss, and emergency evacuations. While advanced predictive maintenance systems exist in the industry, they are often too expensive for underfunded public hospitals, leaving a gap in accessible, early-warning safety infrastructure.\r\n\r\nSolution:\r\nWe propose a dual-layer warning system designed to detect fire hazards earlier than traditional methods. The first layer monitors the electrical distribution boards directly. By tracking abnormal temperature rises, current overloads, and the presence of gases (VOCs) released by melting wire insulation, the hardware node can identify a degrading electrical joint before it actively catches fire. The second layer uses a YOLOv8 computer vision model analyzing CCTV camera feeds to monitor the physical hospital wards. This allows the system to visually identify open flames or smoke caused by external factors, providing an immediate secondary alert to the monitoring station.\r\n\r\nInnovation:\r\nThe primary innovation of this project is combining multi-parameter sensor fusion with local AI computer vision using low-cost hardware. Relying on a single sensor often leads to false alarms (e.g., triggering due to summer heat). Our system reduces these errors by cross-referencing electrical load, temperature, and gas levels using a threshold logic matrix to verify a real hazard. Additionally, running the YOLO vision model on a local computer ensures data privacy and fast processing without needing external cloud servers. By integrating affordable IoT microcontrollers (ESP32) with open-source AI, this prototype demonstrates a practical, cost-effective approach to upgrading fire safety in existing public healthcare facilities.",
+  "solutionDescription": "Problem Statement:\r\nElectrical fires in hospitals pose a severe risk to patient safety and critical medical equipment. Currently, many public healthcare facilities rely heavily on reactive safety measures, such as standard ceiling-mounted smoke detectors. The main limitation of these traditional systems is that they only trigger after an electrical fault has already escalated into a physical fire, which can lead to equipment damage, power loss, and emergency evacuations. While advanced predictive maintenance systems exist in the industry, they are often too expensive for underfunded public hospitals, leaving a gap in accessible, early-warning safety infrastructure.\r\n\r\nSolution:\r\nWe propose a dual-layer warning system designed to detect fire hazards earlier than traditional methods. The first layer monitors the electrical distribution boards directly. By tracking abnormal temperature rises, current overloads, and the presence of gases (VOCs) released by melting wire insulation, the hardware node can identify a degrading electrical joint before it actively catches fire. The second layer uses a YOLOv8 computer vision model analyzing CCTV camera feeds to monitor the physical hospital wards. This allows the system to visually identify open flames or smoke caused by external factors, providing an immediate secondary alert to the monitoring station.\r\n\r\nInnovation:\r\nThe primary innovation of this project is combining multi-parameter sensor fusion with local AI computer vision using low-cost hardware. Relying on a single sensor often leads to false alarms (e.g., triggering due to summer heat). Our system reduces these errors by cross-referencing electrical load, temperature, and gas levels using a threshold logic matrix to verify a real hazard. Additionally, running the YOLO vision model on a local computer ensures data privacy and fast processing without needing external cloud servers. By integrating affordable IoT microcontrollers (ESP32) with open-source AI, this prototype demonstrates a practical, cost-effective approach to upgrading fire safety in existing public healthcare facilities.",
+  "innovationDescription": "Problem Statement:\r\nElectrical fires in hospitals pose a severe risk to patient safety and critical medical equipment. Currently, many public healthcare facilities rely heavily on reactive safety measures, such as standard ceiling-mounted smoke detectors. The main limitation of these traditional systems is that they only trigger after an electrical fault has already escalated into a physical fire, which can lead to equipment damage, power loss, and emergency evacuations. While advanced predictive maintenance systems exist in the industry, they are often too expensive for underfunded public hospitals, leaving a gap in accessible, early-warning safety infrastructure.\r\n\r\nSolution:\r\nWe propose a dual-layer warning system designed to detect fire hazards earlier than traditional methods. The first layer monitors the electrical distribution boards directly. By tracking abnormal temperature rises, current overloads, and the presence of gases (VOCs) released by melting wire insulation, the hardware node can identify a degrading electrical joint before it actively catches fire. The second layer uses a YOLOv8 computer vision model analyzing CCTV camera feeds to monitor the physical hospital wards. This allows the system to visually identify open flames or smoke caused by external factors, providing an immediate secondary alert to the monitoring station.\r\n\r\nInnovation:\r\nThe primary innovation of this project is combining multi-parameter sensor fusion with local AI computer vision using low-cost hardware. Relying on a single sensor often leads to false alarms (e.g., triggering due to summer heat). Our system reduces these errors by cross-referencing electrical load, temperature, and gas levels using a threshold logic matrix to verify a real hazard. Additionally, running the YOLO vision model on a local computer ensures data privacy and fast processing without needing external cloud servers. By integrating affordable IoT microcontrollers (ESP32) with open-source AI, this prototype demonstrates a practical, cost-effective approach to upgrading fire safety in existing public healthcare facilities.",
+  "workingPrinciple": "Our system utilizes a parallel workflow.\r\n\r\nPhase 1: Invisible Pre-Fire Detection (Hardware)\r\nInside the electrical panel, the ZMCT103C continuously reads the AC load current. Simultaneously, a thermistor monitors the surface temperature of the critical junctions, while an MQ-2 sensor samples the enclosure's air. The ESP32 processes this using a threshold matrix. If current remains normal but the ambient temperature spikes, it may just be environmental heat. However, if the current is near capacity, the junction temperature rises sharply, and the MQ-2 detects VOCs (melting PVC insulation), the ESP32 confirms a \"Pre-Fire Hazard.\" It immediately triggers a local buzzer and sends a critical cutoff warning to the dashboard.\r\n\r\nPhase 2: Visible Fire Detection (Surveillance)\r\nIn the physical hospital corridors, live video feeds are routed to a central monitoring station. A Python script captures the stream and feeds it frame-by-frame into a pre-trained YOLOv8 neural network. The GPU analyzes the spatial grid of the video for the visual signatures of smoke and hydrocarbon flames.\r\n\r\nIf either the hardware node predicts a panel failure, or the AI detects a physical fire, the central dashboard logs the event, sounds the alarm, and pinpoints the exact zone of the hazard, allowing for targeted maintenance without a hospital-wide panic.",
+  "majorHardwareComponents": [
+    "1. ESP32 Microcontroller: The brain of the hardware node. It provides the necessary ADC pins for sensor data acquisition",
+    "processing power for the threshold matrix",
+    "and built-in Wi-Fi for transmitting telemetry to the central dashboard.\n\n2. ZMCT103C AC Current Transformer: A precision",
+    "non-invasive current sensor. It safely measures the AC load of the monitored circuit without requiring direct electrical contact with live wires",
+    "ensuring safe and accurate overload tracking.\n\n3. Temperature Sensor (10k NTC Thermistor / DS18B20): Placed directly against the wire insulation or circuit breaker casing to measure the localized thermal gradient caused by high-resistance loose connections.\n\n4. MQ-2 Gas / Smoke Sensor: Mounted at the top of the electrical enclosure to act as an \"electronic nose.\" It detects the specific chemical off-gassing and volatile organic compounds (VOCs) released by thermally degrading plastics before visible smoke appears.\n\n5. IP Camera / Smartphone Camera: Acts as the simulated hospital CCTV network",
+    "providing a high-speed",
+    "local Wi-Fi video stream (via SRT or MJPEG) to the processing computer.\n\n6. Central Processing Unit (PC with Nvidia RTX GPU): Handles the heavy computational lifting of running the YOLOv8 object detection model in real-time on the incoming video feeds."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "Healthcare",
+    "General Public",
+    "Government / Public Services",
+    "Persons with Disabilities"
+  ],
+  "potentialImpact": "This system is designed to democratize critical safety. In developing nations, government and public hospitals serve the vast majority of the population but operate on restrictive budgets. They simply cannot afford multi-million-dollar proprietary smart-building overhauls.\r\n\r\nThe real-world impact of this project is accessible prevention.\r\n\r\nPreservation of Life: By detecting the root cause of electrical fires early, it prevents catastrophic power outages to life-support zones (ventilators, incubators) caused by short circuits.\r\n\r\nElimination of Panic: It allows maintenance staff to preemptively repair a smoldering panel calmly, avoiding the massive risk of evacuating a high-dependency hospital wing.\r\n\r\nUpgrading Legacy Infrastructure: Because the hardware relies on affordable IoT sensors and the software utilizes existing CCTV cameras, this system can be retrofitted into decades-old hospital buildings without requiring extensive rewiring. It elevates the safety standards of underfunded public hospitals to match or exceed those of elite private institutions.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 2500,
+  "auraDemoHighlight": "Judges and audiences should pay attention because this project directly addresses a hidden but critical vulnerability in healthcare infrastructure. In a hospital—particularly in ICUs, NICUs, or operating theaters—a fire or sudden power outage is an immediate threat to patient survival. Traditional safety systems are purely reactive; they wait for smoke to fill a hallway. By the time a standard alarm triggers, life-support equipment is already compromised, and a highly dangerous patient evacuation is necessary.\r\n\r\nThe most impressive and unique aspect of this project is its shift from reaction to early prediction, engineered specifically for these zero-downtime environments. Instead of waiting for a fire to start, the system targets the root cause directly inside the electrical distribution boards. By tracking the precise moment a loose connection causes wire insulation to overheat and off-gas, it issues a targeted maintenance warning long before a spark ever ignites—preventing both the fire and the resulting power failure.\r\n\r\nCoupled with the AI vision layer, which instantly identifies hazards in the physical wards using existing cameras, the project showcases a complete safety ecosystem. It is compelling because it proves that advanced, life-saving predictive safety does not require prohibitively expensive hospital upgrades; it simply requires smart, purposeful engineering.",
+  "safetyHazards": [
+    "high_voltage",
+    "fire_combustion"
+  ],
+  "safetyPrecautions": "To ensure absolute safety during the exhibition and development, strict safeguards have been built into the prototype design:1. Galvanic Isolation: We utilize a ZMCT103C current transformer, meaning the ESP32 and our laptops are physically isolated from the AC voltage via magnetic induction. There is no direct electrical connection between the high-voltage load and the microcontrollers.2. Safe Fault Simulation: We do not create actual electrical shorts or open sparks. The \"loose connection\" is safely simulated using a controlled, enclosed ceramic power resistor in series with the load. It safely generates the precise I^2R heat required to trigger the thermal and gas sensors without risking an actual fire.3. Overcurrent Protection: The prototype circuit includes its own dedicated fast-acting fuse and a low-amperage Miniature Circuit Breaker (MCB) independent of the exhibition hall’s power supply, ensuring any accidental overload is instantly neutralized.4. Regulated Power Distribution: High-draw components like the MQ-2 heating coil are powered via a dedicated, heat-sinked voltage regulator, preventing thermal stress or failure of the ESP32’s internal power delivery system.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T03:41:04.244Z",
+  "updatedAt": "2026-10-26T03:43:04.462Z",
+  "abstract": {
+    "originalName": "SAFE_VOLT LABS.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792986062/aura-registrations/abstract-docs/SAFE_VOLT%20LABS.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Safe_Volt LABS/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Safe_Volt LABS/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792986062/aura-registrations/id-cards/xidckmybdrglq58bou0k.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Safe_Volt LABS/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792986062/aura-registrations/id-cards/wjp6cm0g2yigrsdrogxp.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Safe_Volt LABS/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792986062/aura-registrations/id-cards/hechu2rk4w00suhmd7et.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Safe_Volt LABS/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792986063/aura-registrations/id-cards/xpc3bcpy3uxvo0ohribh.jpg",
+      "exists": true
+    }
+  ]
+}

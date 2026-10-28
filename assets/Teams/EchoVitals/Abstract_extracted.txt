@@ -1,0 +1,93 @@
+EchoVitals
+
+A radar-based platform for contactless vital health sign sensing.
+
+ Heart rate and breathing monitoring in settings where wearable contact-based sensors are impractical.
+
+Arman Israfil1,  Sk Sahil Ahamed1,  Md Qais Khan1,  Md Faizan1
+
+1 Dept. of Electronics and Communication Engineering
+
+Aliah University
+
+Kolkata, India
+
+Abstract: EchoVitals is a low-cost, contactless platform that measures heart rate and breathing rate by reflecting a 60 GHz frequency-modulated continuous-wave (FMCW) radar signal off the chest wall, with no electrodes, straps, or wires. Contact-based sensors are impractical for burn and infectious patients, infants, and high-stress operators, and are uncomfortable for long-term wear (Fig. 1). An integrated FMCW radar module performs on-chip range-gating and phase extraction to separate the heartbeat's sub-millimetre motion from the much larger motion of breathing, and a lightweight host-side layer validates and smooths the resulting readings. We target accuracy comparable to the module's rated performance across the deployment settings in Fig. 2.
+
+Index Terms : contactless vital-sign monitoring, 60 GHz FMCW radar, mmWave sensing, heart rate, respiration rate.
+
+I. Introduction
+
+A. Problem statement & why and where contact-based devices fail :Continuous contact sensing such as ECG pads, chest straps, and clip-on pulse oximeters  requires wiring. Also, for adhesive types, skin contact is impractical in case of burn and infectious patients, easily irritated for neonates(infants), and restrictive for drivers and pilots. Fig. 1 summarises the recurring failure modes this creates.
+
+Fig. 1. Recurring failure modes of contact-based vital sign sensors.
+
+B. Proposed solution:  EchoVitals senses the chest wall directly using a compact radar-on-module: a self-contained transceiver and antenna array paired with an onboard digital signal processor that runs the full frequency-modulated continuous-wave (FMCW) ranging and vital-sign extraction pipeline in hardware. The short wavelength at this frequency band gives the module's phase-based ranging technique the sensitivity needed to resolve the chest wall's sub-millimetre cardiac displacement beneath its much larger respiratory motion, with no external amplification stage. The module reports breathing rate, heart rate, target range, and target count over a standard serial link; the ESP32 microcontroller forwards these values to a host script for validation, smoothing, and display.
+
+C. Deployment settings:  This applies wherever continuous contact sensing is impractical: infants and NICU care, burn and infectious-disease wards, drivers, pilots and train operators, elderly bed and bathroom monitoring, smart mattresses for sleep tracking, and fitness or gym use i.e mapped in Fig. 2. Longer-range scenarios such as search-and-rescue remain future work: the module's rated sensing range (0.4–1.5 m) is built for a fixed, near-body mount, not a moving drone.
+
+Fig. 2. Target deployment settings for contactless vital sign sensing.
+
+II. Proposed Implementation
+
+We build around a single integrated 60 GHz FMCW radar-on-module, which keeps the sensing hardware to one component and removes the need for a discrete amplification stage. The module communicates over a 4-wire serial link (5V, GND, TX, RX) directly to the ESP32 microcontroller; Table I lists the resulting stack.
+
+Layer
+
+Technology
+
+Role
+
+Sensing
+
+Integrated 60 GHz FMCW radar-on-module with onboard DSP
+
+Chirp-based ranging and phase extraction; outputs breathing rate, heart rate, range, and target count
+
+Link
+
+Serial (UART), 115200 baud, 4 wires (5V / GND / TX / RX)
+
+Module to ESP32 microcontroller
+
+Microcontroller
+
+ESP32, C/C++ (Arduino IDE)
+
+Forwards frames to host over USB serial or WiFi
+
+Host processing
+
+Python 3, PySerial
+
+Frame parsing, validity gating, temporal smoothing
+
+Display
+
+Matplotlib / Streamlit; SSD1306 OLED (I2C, optional)
+
+Live heart rate and breathing rate
+
+Validation
+
+Reference pulse oximeter; manual 60 s breath count
+
+Accuracy check against module output
+
+Table I. Technology stack.
+
+III. Methodology
+
+The sensing stage is built around a single-chip 60 GHz FMCW radar transceiver. The module emits a sequence of linear frequency chirps and mixes each received echo with the transmitted chirp to produce an intermediate frequency beat signal whose frequency encodes target range. A range-FFT across each chirp resolves the subject's chest wall as a single range bin, and the phase of that bin is tracked chirp-to-chirp to recover sub-millimetre surface displacement,  the basis of micro-Doppler vital-sign sensing. Onboard firmware separates this phase history into two frequency bands: a low-frequency, high-amplitude component corresponding to respiration, and a higher-frequency, low-amplitude component corresponding to the heartbeat, and reports both as periodic rate values together with a target count and range estimate.
+
+On the host side, EchoVitals treats these periodic values as a lightweight telemetry stream rather than a raw waveform. A parsing layer reads each frame; a validity gate cross-checks the reported target count and range against the expected monitoring zone and discards frames where no subject is present or the subject has left the sensing envelope; and a short moving-average stage smooths the surviving readings before they reach the display. The signal-processing burden , chirp generation, range-gating, and respiration/cardiac band separation is carried entirely by the radar module's onboard DSP, keeping the host implementation small and auditable. The complete signal path and power distribution are shown in Fig. 3.
+
+Fig. 3. 60 GHz FMCW system block diagram showing signal path and power distribution.
+
+IV. Desired Output and Expected Results
+
+A working prototype displaying live heart rate and breathing rate on a bedside dashboard, mounted 0.4–1.5 m from a seated or lying subject. We will validate against a reference pulse oximeter for heart rate and a manual 60-second breath count for breathing rate, across at least four consenting team volunteers, and record the module's own reported target confidence alongside each reading. Manufacturer-published figures for this class of module report respiratory accuracy around 90% and cardiac accuracy in the 85–95% range depending on test conditions; we report our own measured error rather than assuming a datasheet figure holds in our setup.
+
+V. Conclusion
+
+EchoVitals shows that reliable, contact-free vital-sign monitoring is achievable with a single integrated 60 GHz FMCW radar module, a microcontroller, and a lightweight validation layer  without the fragile analog front end or complex filtering pipeline that raw-radar approaches typically require. The system measures heart rate and breathing directly from chest-wall motion, targets accuracy comparable to its sensor class through reference-validated testing and is designed for deployment across the patient groups and environments outlined in this proposal. It offers a practical, low-cost foundation for non-contact patient monitoring that can be extended toward broader clinical and field use.

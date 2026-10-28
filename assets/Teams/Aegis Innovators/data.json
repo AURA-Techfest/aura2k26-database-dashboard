@@ -1,0 +1,92 @@
+{
+  "index": 23,
+  "id": "6abd52a93d1543685c70bbfc",
+  "registrationId": "AURA2K26-Y2AV77",
+  "rawTeamName": "Aegis Innovators",
+  "folderName": "Aegis Innovators",
+  "folderRelPath": "assets/Teams/Aegis Innovators",
+  "projectTitle": "Shield Band: A Sustainable Forensic-Grade Personal Safety Wearable",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Astana Parvin",
+  "teamLeaderEmail": "astanaparvin9434231722@gmail.com",
+  "teamLeaderPhone": "8597379637",
+  "teamMemberDetails": "Member Name - Manine Khatun \r\nInstitution - Aliah University \r\nDepartment - Mathematics and Statistics \r\nYear - 3rd Year\r\nPhone - 9593597174\r\n\r\nMember Name - Sarfaraj Siddiqui \r\nInstitution - Aliah University \r\nDepartment - Mathematics and Statistics \r\nYear - 3rd Year\r\nPhone - 9083356465",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems",
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Wearable Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Shield Band addresses the gap between an emergency situation and timely assistance, especially when a user cannot access or unlock a smartphone. It is a low-cost, smartphone-independent personal safety wearable designed for students, women, children, night-shift workers and other vulnerable users.\r\nThe proposed hardware integrates an ESP32-CAM microcontroller, GPS module, microphone, OLED display and a tactile SOS push-button. The device follows a privacy-first approach: the camera and microphone remain inactive during normal operation and activate only after the user deliberately presses the SOS button. Upon activation, the GPS acquires the user's location while the camera and microphone capture time-linked audio-visual evidence. A GSM/LTE module sends an automated SMS containing a Google Maps location link to pre-configured emergency contacts. Where internet connectivity is available, emergency metadata and captured evidence can be securely transmitted to a cloud platform for authorized response personnel.\r\nThe innovation lies in combining smartphone-independent emergency activation, location-aware alerts, event-triggered evidence capture and secure cloud storage in a compact wearable. Sustainability is incorporated through proposed biodegradable or bio-reinforced housing, low-power operation and supplementary solar charging. The target prototype cost is below approximately ₹2,500, supporting accessibility and scalability.",
+  "solutionDescription": "Shield Band addresses the gap between an emergency situation and timely assistance, especially when a user cannot access or unlock a smartphone. It is a low-cost, smartphone-independent personal safety wearable designed for students, women, children, night-shift workers and other vulnerable users.\r\nThe proposed hardware integrates an ESP32-CAM microcontroller, GPS module, microphone, OLED display and a tactile SOS push-button. The device follows a privacy-first approach: the camera and microphone remain inactive during normal operation and activate only after the user deliberately presses the SOS button. Upon activation, the GPS acquires the user's location while the camera and microphone capture time-linked audio-visual evidence. A GSM/LTE module sends an automated SMS containing a Google Maps location link to pre-configured emergency contacts. Where internet connectivity is available, emergency metadata and captured evidence can be securely transmitted to a cloud platform for authorized response personnel.\r\nThe innovation lies in combining smartphone-independent emergency activation, location-aware alerts, event-triggered evidence capture and secure cloud storage in a compact wearable. Sustainability is incorporated through proposed biodegradable or bio-reinforced housing, low-power operation and supplementary solar charging. The target prototype cost is below approximately ₹2,500, supporting accessibility and scalability.",
+  "innovationDescription": "Shield Band addresses the gap between an emergency situation and timely assistance, especially when a user cannot access or unlock a smartphone. It is a low-cost, smartphone-independent personal safety wearable designed for students, women, children, night-shift workers and other vulnerable users.\r\nThe proposed hardware integrates an ESP32-CAM microcontroller, GPS module, microphone, OLED display and a tactile SOS push-button. The device follows a privacy-first approach: the camera and microphone remain inactive during normal operation and activate only after the user deliberately presses the SOS button. Upon activation, the GPS acquires the user's location while the camera and microphone capture time-linked audio-visual evidence. A GSM/LTE module sends an automated SMS containing a Google Maps location link to pre-configured emergency contacts. Where internet connectivity is available, emergency metadata and captured evidence can be securely transmitted to a cloud platform for authorized response personnel.\r\nThe innovation lies in combining smartphone-independent emergency activation, location-aware alerts, event-triggered evidence capture and secure cloud storage in a compact wearable. Sustainability is incorporated through proposed biodegradable or bio-reinforced housing, low-power operation and supplementary solar charging. The target prototype cost is below approximately ₹2,500, supporting accessibility and scalability.",
+  "workingPrinciple": "Shield Band operates as a privacy-first, event-triggered personal safety wearable. During normal operation, the camera and microphone remain inactive and the system stays in a low-power standby state. When the user deliberately presses the physical SOS button, the ESP32-CAM exits the low-power state and initiates the emergency workflow. The GPS module acquires the user's current geographical coordinates, while the camera and microphone activate to capture time-linked audio-visual evidence.\r\nA GSM/LTE communication module provides cellular connectivity and sends an automated SMS alert containing a Google Maps location link to pre-configured emergency contacts. Where Internet connectivity is available, emergency metadata and captured evidence are transmitted through an encrypted connection to a secure cloud platform. Authorized campus safety or response personnel can access the location information and cloud-stored evidence through a dashboard.\r\nThe OLED display provides local feedback regarding system readiness, alert status and recording state. The system therefore separates the immediate cellular alert pathway from the Internet-based evidence and dashboard pathway, while maintaining privacy by activating audio-visual recording only after an SOS trigger.",
+  "majorHardwareComponents": [
+    "ESP32-CAM: Main microcontroller and camera unit responsible for controlling the emergency workflow and capturing visual evidence.\nGPS Module: Acquires the user's geographical coordinates for location-aware emergency alerts.\nMicrophone: Captures audio evidence after the SOS trigger.\nTactile SOS Push-Button: Provides deliberate physical activation of the emergency workflow.\nGSM/LTE Communication Module: Enables cellular communication and sends an automated SMS containing a Google Maps location link to pre-configured emergency contacts.\nOLED Display: Provides local feedback such as system readiness",
+    "alert status and recording state.\nRechargeable Power System"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public"
+  ],
+  "potentialImpact": "Shield Band is designed to benefit students, women, children, night-shift workers and other users who may require a rapidly accessible emergency mechanism. It addresses situations where a person may not be able to unlock a smartphone or depend on a mobile application during an emergency. The physical SOS button enables immediate activation of an emergency workflow, while GPS provides location information for responders.\r\n\r\nThe system can improve current personal safety approaches by combining smartphone-independent emergency activation, location-aware alerts and event-triggered audio-visual evidence capture in one wearable. The camera and microphone remain inactive during normal operation and activate only after an SOS trigger, supporting a privacy-first approach. Where Internet connectivity is available, emergency metadata and captured evidence can be securely transmitted to a cloud platform for authorized access.\r\n\r\nThe proposed low-cost design, targeted at approximately ₹2,500, also supports accessibility and scalability. Sustainable housing, low-power operation and supplementary solar harvesting further support resource-conscious product development.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2500,
+  "auraDemoHighlight": "Shield Band combines multiple emergency functions into a compact wearable while maintaining a privacy-first operating principle. Its most distinctive feature is that the camera and microphone are not continuously active; they are triggered only when the user deliberately presses the SOS button. This allows the system to capture time-linked audio-visual evidence during an emergency while reducing unnecessary routine surveillance.\r\n\r\nThe device also separates the emergency communication pathway from the evidence pathway. GSM/LTE can send an immediate SMS containing the user's location to pre-configured emergency contacts, while Internet connectivity can be used to transmit emergency metadata and captured evidence to a secure cloud platform.\r\n\r\nThe project further incorporates sustainability through proposed biodegradable or bio-reinforced housing, low-power operation and supplementary solar harvesting. With a proposed prototype cost of approximately ₹2,500, Shield Band explores an accessible and scalable approach to personal safety technology.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Shield Band is designed as a low-power wearable safety system. The electronics operate in a low-power standby state, reducing unnecessary energy consumption. The camera and microphone remain inactive during normal operation and are activated only after a deliberate SOS trigger, supporting privacy and controlled operation. The system uses a physical SOS button for intentional emergency activation and an OLED display to provide local feedback on system readiness, alert status and recording state. The proposed enclosure uses biodegradable or bio-reinforced materials, while supplementary solar harvesting is considered as part of the sustainable power design. During prototype development and testing, the electronic and power components should be handled according to their component specifications and manufacturer safety requirements.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "external_assistance",
+  "previouslyExhibited": true,
+  "previousExhibitionDetails": "Udaan 2.0, on 26th August 2026",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-30T18:19:21.093Z",
+  "updatedAt": "2026-10-14T18:48:10.356Z",
+  "abstract": {
+    "originalName": "Shield_Band_AURA_2K26_Final.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790792360/aura-registrations/abstract-docs/Shield_Band_AURA_2K26_Final.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Aegis Innovators/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Aegis Innovators/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790792359/aura-registrations/id-cards/mmsazf3wg3e90dq2ebuq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Aegis Innovators/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790792359/aura-registrations/id-cards/xixv15cqzzyweimsex0g.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Aegis Innovators/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790792359/aura-registrations/id-cards/abyeqqjjpx65ho4ba9fg.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Aegis Innovators/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "index": 3,
+  "id": "6aab8e37d78f9ec1b3b4926a",
+  "registrationId": "AURA2K26-DE3VV6",
+  "rawTeamName": "Rising Alpha",
+  "folderName": "Rising Alpha",
+  "folderRelPath": "assets/Teams/Rising Alpha",
+  "projectTitle": "FIREGAURD AUTONOMOUS FIRE - RESPONSE ROBOT CAR",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Sudipta Manna",
+  "teamLeaderEmail": "sudiptamanna946@gmail.com",
+  "teamLeaderPhone": "9339742946",
+  "teamMemberDetails": "Md Ibrahim Sk    |    Aliah University (Newtown)   |    Electrical Engineering   |   2nd  Year   |    7384762656\r\nMd Iunus Nabi Biswas   |   Aliah university (Newtown)   |    Electrical Engineering   |   2nd Year   |   9641294933",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Embedded Systems",
+    "Automation & Control",
+    "Mechatronics",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Autonomous System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "Problem Statement:\r\nFire incidents can spread rapidly, while approaching a fire manually can expose people to high temperature, smoke, flames, and other hazards. Conventional firefighting methods may also face difficulties when the fire location is difficult or unsafe to access. A compact autonomous system capable of detecting and responding to a fire can help reduce human exposure during initial firefighting.\r\nHardware Solution:\r\nWe propose FireGuard, an autonomous fire-response robotic vehicle based on an ESP32 microcontroller. The robot uses multiple flame sensors to detect the direction of a fire and a temperature sensor to monitor the surrounding thermal condition. It autonomously moves toward the detected fire and uses ultrasonic sensing mounted on a servo mechanism to detect obstacles and select a safer path. A motor-driven water pump and directional nozzle are used to spray water toward the detected fire. An audio module and speaker provide alerts such as “Fire detected” during operation.\r\nInnovation:\r\nThe innovation lies in integrating fire detection, temperature monitoring, autonomous movement, obstacle avoidance, directional firefighting, and audio alerting into a single compact robotic platform. The system prioritizes fire-response safety by allowing obstacle detection to override movement commands when an obstacle is encountered.",
+  "solutionDescription": "Problem Statement:\r\nFire incidents can spread rapidly, while approaching a fire manually can expose people to high temperature, smoke, flames, and other hazards. Conventional firefighting methods may also face difficulties when the fire location is difficult or unsafe to access. A compact autonomous system capable of detecting and responding to a fire can help reduce human exposure during initial firefighting.\r\nHardware Solution:\r\nWe propose FireGuard, an autonomous fire-response robotic vehicle based on an ESP32 microcontroller. The robot uses multiple flame sensors to detect the direction of a fire and a temperature sensor to monitor the surrounding thermal condition. It autonomously moves toward the detected fire and uses ultrasonic sensing mounted on a servo mechanism to detect obstacles and select a safer path. A motor-driven water pump and directional nozzle are used to spray water toward the detected fire. An audio module and speaker provide alerts such as “Fire detected” during operation.\r\nInnovation:\r\nThe innovation lies in integrating fire detection, temperature monitoring, autonomous movement, obstacle avoidance, directional firefighting, and audio alerting into a single compact robotic platform. The system prioritizes fire-response safety by allowing obstacle detection to override movement commands when an obstacle is encountered.",
+  "innovationDescription": "Problem Statement:\r\nFire incidents can spread rapidly, while approaching a fire manually can expose people to high temperature, smoke, flames, and other hazards. Conventional firefighting methods may also face difficulties when the fire location is difficult or unsafe to access. A compact autonomous system capable of detecting and responding to a fire can help reduce human exposure during initial firefighting.\r\nHardware Solution:\r\nWe propose FireGuard, an autonomous fire-response robotic vehicle based on an ESP32 microcontroller. The robot uses multiple flame sensors to detect the direction of a fire and a temperature sensor to monitor the surrounding thermal condition. It autonomously moves toward the detected fire and uses ultrasonic sensing mounted on a servo mechanism to detect obstacles and select a safer path. A motor-driven water pump and directional nozzle are used to spray water toward the detected fire. An audio module and speaker provide alerts such as “Fire detected” during operation.\r\nInnovation:\r\nThe innovation lies in integrating fire detection, temperature monitoring, autonomous movement, obstacle avoidance, directional firefighting, and audio alerting into a single compact robotic platform. The system prioritizes fire-response safety by allowing obstacle detection to override movement commands when an obstacle is encountered.",
+  "workingPrinciple": "FireGuard Autonomous Fire-Response Robot Car is designed as an embedded autonomous robotic system controlled by an ESP32 microcontroller. The system integrates fire detection, temperature monitoring, obstacle avoidance, navigation toward the fire, and water-based fire suppression.\r\nThe workflow begins with three flame sensors positioned to detect the presence and approximate direction of a flame. When a flame is detected, the ESP32 processes the sensor signals and determines the direction in which the robot should move. A temperature sensor provides additional information about the surrounding thermal condition and can support fire-event confirmation.\r\nDuring movement, an ultrasonic sensor mounted on a servo motor continuously scans the surroundings. The ultrasonic sensor measures the distance to obstacles using the time-of-flight principle. If an obstacle is detected in the robot's path, the ESP32 gives obstacle avoidance higher priority than normal movement. The servo rotates the ultrasonic sensor to scan different directions, allowing the controller to select a safer available path and adjust the robot's movement.\r\nAfter reaching a suitable position near the detected fire, the ESP32 activates a DC water pump through a motor/relay driver. Water is delivered through a directional nozzle toward the detected flame. The flame-sensor readings can be used to determine the required spraying direction.\r\nAn audio module and speaker provide predefined voice alerts, such as “Fire detected” or “Fire alarm.” The entire system operates according to programmed decision logic, enabling automatic sensing, movement, obstacle avoidance, and fire-response actions with minimal human intervention.",
+  "majorHardwareComponents": [
+    "ESP32 Development Board – Main controller for sensing",
+    "decision-making and control.\n3× Flame Sensors – Detect the presence and direction of fire.\nTemperature Sensor – Monitors surrounding temperature.\nUltrasonic Sensor (HC-SR04) – Detects obstacles and measures distance.\nServo Motor – Rotates the ultrasonic sensor for environmental scanning.\n4× DC Gear Motors – Drive the four wheels of the robot.\nMotor Driver – Controls the direction and speed of the DC motors.\nDC Water Pump – Pumps water for fire suppression.\nServo Motor / Nozzle Mechanism – Directs the water spray toward the fire.\nAudio Module + Speaker – Provides predefined fire-alert messages.\nBattery/Power Supply – Provides power to the controller",
+    "motors",
+    "sensors and pump.\nRobot Chassis & Wheels – Mechanical structure of the vehicle."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry",
+    "Rural Communities",
+    "Urban Communities",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "FireGuard can benefit firefighters, industrial workers, building occupants, and communities by providing an autonomous first-response system for small or developing fire incidents. It can be particularly useful in locations where approaching a fire may expose people to heat, smoke, or other hazards.\r\nCompared with conventional manual first-response methods, FireGuard aims to improve safety and response by combining multiple functions in one robotic platform. It can detect a flame, monitor temperature, move toward the detected fire, identify obstacles and change its path, and activate a water pump for suppression. An audio alert can also notify nearby people of fire detection. The integration of automatic sensing, movement, obstacle avoidance, and firefighting reduces the need for continuous human intervention during the initial response.\r\nThe system is designed as a low-cost, compact prototype that can potentially be adapted for indoor industrial areas, workshops, warehouses, and other suitable environments.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 3500,
+  "auraDemoHighlight": "FireGuard stands out because it brings together fire detection, autonomous movement, obstacle avoidance, and initial fire suppression in a single compact robotic platform. Instead of requiring a person to immediately approach a potentially dangerous fire, the robot is designed to detect the fire, determine its direction, move toward it, and respond by activating a water-spraying mechanism.\r\nThe most impressive aspect of FireGuard is its priority-based autonomous decision-making. While moving toward a fire, the robot continuously checks its surroundings using an ultrasonic sensor. If an obstacle appears, obstacle avoidance takes priority over the fire-directed movement, allowing the robot to search for a safer path rather than simply continuing forward.\r\nThe use of multiple flame sensors also enables the robot to estimate the direction of the fire, while a temperature sensor provides additional environmental information. A servo-mounted ultrasonic sensor allows wider environmental scanning, and an audio module can provide immediate alerts when fire is detected.\r\nFireGuard is not presented as a replacement for professional firefighting systems. Instead, it demonstrates how embedded electronics, sensors, robotics, and automatic decision-making can work together to create a potential first-response safety system. Its modular design also provides scope for future improvements and real-world adaptation.",
+  "safetyHazards": [
+    "high_temperature",
+    "moving_rotating_machinery",
+    "fire_combustion",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "The proposed FireGuard robot incorporates multiple safeguards to improve the safety of the system and people nearby. The ESP32 control system will include an emergency stop/power-disconnection mechanism so the robot can be stopped immediately during abnormal operation. Obstacle detection using the ultrasonic sensor will have higher priority than normal movement, helping prevent collisions. The motors, servo mechanisms and rotating parts will be securely mounted, with wiring routed away from moving components. Electrical connections will be insulated and the battery/power section will be securely enclosed and protected against short circuits or overheating. \r\n\r\nBecause the system uses water near electronic components, the water tank, pump and tubing will be physically separated from sensitive electronics and checked for leakage. The robot will not be intended for use on energized electrical fires, since water can create serious electrical hazards. \r\n\r\nFire-related testing, if conducted, will be performed only under responsible adult supervision in a controlled environment with appropriate fire-safety arrangements. The prototype will also include an audio alert such as “Fire detected” to provide an immediate warning.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-17T06:52:39.675Z",
+  "updatedAt": "2026-10-11T17:31:25.835Z",
+  "abstract": {
+    "originalName": "Project Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789627959/aura-registrations/abstract-docs/Project%20Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Rising Alpha/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Rising Alpha/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789627958/aura-registrations/id-cards/g181wycyjilvx6beewg4.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Rising Alpha/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789627958/aura-registrations/id-cards/wcpvlnrprew8exltk6d3.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Rising Alpha/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789627958/aura-registrations/id-cards/zitk6rbfzeilayrbribi.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Rising Alpha/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

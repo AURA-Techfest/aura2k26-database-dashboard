@@ -1,0 +1,92 @@
+{
+  "index": 50,
+  "id": "6ad61d06d013411f7f895522",
+  "registrationId": "AURA2K26-RK9F9K",
+  "rawTeamName": "ALPHA TECH",
+  "folderName": "ALPHA TECH",
+  "folderRelPath": "assets/Teams/ALPHA TECH",
+  "projectTitle": "SAFE BAND (SMART SAFETY WEARABLE)",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "SOUMYAJIT SARDER",
+  "teamLeaderEmail": "soumyajitsarder77@gmail.com",
+  "teamLeaderPhone": "8637505062",
+  "teamMemberDetails": "ILHAN HASSAN-ALIAH UNIVERSITY-ELECTRICAL ENGINEERING-3RD YEAR-6289534937\r\nMD MASUD ALAM SARDER-ALIAH UNIVERSITY-ELECTRICAL ENGINEERING-1ST YEAR-7364989631\r\nMAMAN RASHID SHAIKH- ALIAH UNIVERSITY-ELECTRICAL ENGINEERING-1ST YEAR -6297573119",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "In emergencies, women often cannot reach for or use a phone to call for help. Fear, restraint or a sudden attack leaves no time, and most safety apps need several manual steps before any alert is sent.\r\n\r\nSafeBand is a low-cost, screenless wearable safety band. An ESP32 microcontroller continuously reads a heart rate sensor (MAX30102) and a motion sensor (MPU6050). When a sudden heart rate spike occurs together with violent, irregular motion, the band vibrates for 10 seconds so the wearer can cancel a false alarm. If it is not cancelled, the band sends a Bluetooth signal to a companion mobile app. The app automatically calls the emergency number and sends an SMS with live GPS location to trusted contacts, while the band sounds a loud siren. A triple-press SOS button also allows an instant manual alert.\r\n\r\nInnovation:\r\n- Two-signal detection (heart rate plus motion) reduces false alarms.\r\n- A 10-second cancel window prevents unnecessary alerts.\r\n- The band needs no SIM or GPS because the phone handles calling and location, which keeps cost and size low.\r\n- Hands-free automatic detection works even when the user cannot touch her phone.\r\n- Safe by design: it uses siren and vibration, not electric shock.",
+  "solutionDescription": "In emergencies, women often cannot reach for or use a phone to call for help. Fear, restraint or a sudden attack leaves no time, and most safety apps need several manual steps before any alert is sent.\r\n\r\nSafeBand is a low-cost, screenless wearable safety band. An ESP32 microcontroller continuously reads a heart rate sensor (MAX30102) and a motion sensor (MPU6050). When a sudden heart rate spike occurs together with violent, irregular motion, the band vibrates for 10 seconds so the wearer can cancel a false alarm. If it is not cancelled, the band sends a Bluetooth signal to a companion mobile app. The app automatically calls the emergency number and sends an SMS with live GPS location to trusted contacts, while the band sounds a loud siren. A triple-press SOS button also allows an instant manual alert.\r\n\r\nInnovation:\r\n- Two-signal detection (heart rate plus motion) reduces false alarms.\r\n- A 10-second cancel window prevents unnecessary alerts.\r\n- The band needs no SIM or GPS because the phone handles calling and location, which keeps cost and size low.\r\n- Hands-free automatic detection works even when the user cannot touch her phone.\r\n- Safe by design: it uses siren and vibration, not electric shock.",
+  "innovationDescription": "In emergencies, women often cannot reach for or use a phone to call for help. Fear, restraint or a sudden attack leaves no time, and most safety apps need several manual steps before any alert is sent.\r\n\r\nSafeBand is a low-cost, screenless wearable safety band. An ESP32 microcontroller continuously reads a heart rate sensor (MAX30102) and a motion sensor (MPU6050). When a sudden heart rate spike occurs together with violent, irregular motion, the band vibrates for 10 seconds so the wearer can cancel a false alarm. If it is not cancelled, the band sends a Bluetooth signal to a companion mobile app. The app automatically calls the emergency number and sends an SMS with live GPS location to trusted contacts, while the band sounds a loud siren. A triple-press SOS button also allows an instant manual alert.\r\n\r\nInnovation:\r\n- Two-signal detection (heart rate plus motion) reduces false alarms.\r\n- A 10-second cancel window prevents unnecessary alerts.\r\n- The band needs no SIM or GPS because the phone handles calling and location, which keeps cost and size low.\r\n- Hands-free automatic detection works even when the user cannot touch her phone.\r\n- Safe by design: it uses siren and vibration, not electric shock.",
+  "workingPrinciple": "SafeBand works by continuously monitoring the wearer's heart rate and body movements using a heart-rate sensor and a motion sensor connected to an ESP32 microcontroller. The sensor data is analysed to identify unusual heart-rate patterns combined with violent movements that may indicate a dangerous situation. If potential danger is detected, the band vibrates for 10 seconds, giving the wearer an opportunity to cancel a false alarm by tapping. If the alert is not cancelled, the system activates the buzzer and communicates with a connected mobile application through Bluetooth Low Energy (BLE). The application can send emergency calls and SMS messages to predefined contacts, along with GPS-based location information and a live tracking link. The user can also manually trigger a silent SOS alert by pressing the dedicated button three times. This combination of automatic detection and manual activation helps users request assistance quickly, even when accessing a phone is difficult.",
+  "majorHardwareComponents": [
+    "1. ESP32 Microcontroller: Main controller for processing sensor data and managing system operations.\n2. Heart-Rate Sensor: Continuously monitors the wearer's heart rate.\n3. Motion Sensor: Detects body movement and unusual physical activity.\n4. SOS Push Button: Allows manual emergency alert activation through a triple press.\n5. Buzzer: Produces a loud sound to attract attention during an emergency.\n6. Vibration Motor: Provides silent alerts and a warning before emergency activation.\n7. Bluetooth Low Energy (BLE): Enables communication between the band and the mobile application.\n8. Battery: Supplies portable power to the wearable device.\n9. GPS-enabled Mobile Phone: Provides location information for emergency alerts through the connected application.\n\nThese components work together to support emergency detection",
+    "user warnings",
+    "and communication with trusted contacts."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public"
+  ],
+  "potentialImpact": "SafeBand can benefit women, students, elderly people, and individuals who may face emergencies while travelling or working alone. It helps users request assistance without needing to unlock a phone or navigate a safety application. By combining automatic danger detection, manual SOS activation, vibration alerts, a buzzer, and location sharing through a connected mobile application, SafeBand aims to reduce delays in emergency communication. It can notify trusted contacts and help them identify the user's location more quickly. Its wearable, screenless design offers a simple and portable approach to personal safety. Future improvements such as AI-based detection and voice-triggered alerts could further enhance its reliability and usability.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3000,
+  "auraDemoHighlight": "SafeBand solves a real problem: in an emergency, a woman often cannot reach for or unlock her phone. Our band acts before she has to.\r\n\r\nWhat makes it worth seeing:\r\n- It detects danger automatically by combining two signals, a sudden heart rate spike and violent motion, so ordinary activities like running rarely trigger it.\r\n- A 10-second vibration countdown lets the wearer cancel a false alarm, which keeps the system practical for daily use.\r\n- It is screenless and low-cost. The phone handles calling and GPS, so the band needs no SIM or GPS module.\r\n- A triple-press SOS button gives an instant manual alert, and a loud siren draws attention nearby.\r\n- It is built to be safe: sirens and vibration only, no electric shock.\r\n\r\nJudges can see the full chain in action: sensing, confirmation, Bluetooth signal, app alert with live location, and siren. It is a simple, affordable idea that could genuinely help women, students and elderly people who travel or work alone.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "SafeBand is designed to be safe for the wearer at every level.\r\n\r\n- Low voltage only: the whole device runs on a small 3.7V rechargeable battery. There is no high voltage, high current or mains connection in the wearable.\r\n- Protected battery: the LiPo battery is used with a charging module that has overcharge and short-circuit protection. It is enclosed inside the band case.\r\n- Enclosed electronics: all wires, the ESP32 and the sensors are sealed inside a smooth case, so the wearer never touches exposed circuits. There are no sharp parts.\r\n- No electric shock: we deliberately chose a siren and vibration alerts instead of any shock mechanism, to avoid injury from false alarms.\r\n- Skin safety: the part touching the wrist is a smooth, non-toxic strap and sensor window. The sensor uses low-power light, so there is no harmful radiation.\r\n- False alarm control: a 10-second vibration countdown lets the wearer cancel before any alert is sent.\r\n- Safe demo: during testing we use only friends' numbers, never real emergency numbers, to avoid false emergency calls.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-19T13:37:10.199Z",
+  "updatedAt": "2026-10-19T13:39:10.303Z",
+  "abstract": {
+    "originalName": "SafeBand_Presentation-1.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792417029/aura-registrations/abstract-docs/SafeBand_Presentation-1.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/ALPHA TECH/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/ALPHA TECH/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792417029/aura-registrations/id-cards/cmozbtignnslkn1yqvnd.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/ALPHA TECH/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792417029/aura-registrations/id-cards/wrhmyfmu2bt9rlnj7jze.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/ALPHA TECH/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792417029/aura-registrations/id-cards/dq6yheqxr37sx57jpo9h.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/ALPHA TECH/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792417029/aura-registrations/id-cards/mndmkjg0n9urnpyvitdl.jpg",
+      "exists": true
+    }
+  ]
+}

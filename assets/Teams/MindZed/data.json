@@ -1,0 +1,95 @@
+{
+  "index": 29,
+  "id": "6ac3d34a44616724030e6942",
+  "registrationId": "AURA2K26-N9K8P8",
+  "rawTeamName": "MindZed",
+  "folderName": "MindZed",
+  "folderRelPath": "assets/Teams/MindZed",
+  "projectTitle": "BioArc v2",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Md Noor Hasan Ansari",
+  "teamLeaderEmail": "mdnoorhasan1720@gmail.com",
+  "teamLeaderPhone": "9662925898",
+  "teamMemberDetails": "Md Abdul Kadir Jillani | Aliah university | CSE | 4 | 9830509865\r\nMd Shahabuddin | Aliah University | CSE | 4 | 8910297699\r\nArsalan Ahmed | Aliah University | CEN | 1 | 9875584694",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Automation & Control",
+    "AI-Enabled Hardware",
+    "Renewable Energy / Clean Technology",
+    "Environmental Technology"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement\r\nRising atmospheric CO₂ emissions, increasing wastewater volumes, and the limitations of conventional green infrastructure create a need for compact, resource-efficient biological systems. Traditional approaches often require large land areas, continuous manual supervision, and separate systems for environmental treatment and resource recovery. At the same time, high-density microalgae cultivation is sensitive to changes in temperature, lighting, aeration, liquid level, and growth conditions, making stable operation difficult.\r\n\r\nSolution\r\nBioArc is a compact, automated microalgae photobioreactor designed to combine carbon capture, oxygen generation, wastewater nutrient utilization, and biomass recovery in a single system. Microalgae use CO₂ during photosynthesis while growing in a controlled reactor. The system is designed to use treated municipal wastewater as a nutrient-rich cultivation medium, helping recycle wastewater while supporting algal growth. The resulting biomass can be further utilized as a feedstock for products such as biofuels, biopolymers, fertilizers, and other bio-products.\r\n\r\nInnovation Details\r\nBioArc combines biological processing with autonomous hardware and intelligent software control. An ESP32-based edge controller integrates optical, temperature, environmental, and liquid-level sensing with automated pumps, valves, lighting, and agitation. A low-cost RGB sensor is used with our Green Excess Index (GEI) method to estimate algal biomass without relying on expensive laboratory optical instruments. The controller also uses an autonomous finite-state workflow to manage cultivation, monitoring, dosing, and harvesting.\r\n\r\nThe software layer adds real-time MQTT/WebSocket telemetry, remote monitoring, offline control, historical analytics, and an AI copilot capable of interacting with the reactor through controlled actuator commands. This makes BioArc more than an algae-growing device: it is a compact, intelligent biological resource-recovery system designed to turn environmental inputs into useful outputs.",
+  "solutionDescription": "Problem Statement\r\nRising atmospheric CO₂ emissions, increasing wastewater volumes, and the limitations of conventional green infrastructure create a need for compact, resource-efficient biological systems. Traditional approaches often require large land areas, continuous manual supervision, and separate systems for environmental treatment and resource recovery. At the same time, high-density microalgae cultivation is sensitive to changes in temperature, lighting, aeration, liquid level, and growth conditions, making stable operation difficult.\r\n\r\nSolution\r\nBioArc is a compact, automated microalgae photobioreactor designed to combine carbon capture, oxygen generation, wastewater nutrient utilization, and biomass recovery in a single system. Microalgae use CO₂ during photosynthesis while growing in a controlled reactor. The system is designed to use treated municipal wastewater as a nutrient-rich cultivation medium, helping recycle wastewater while supporting algal growth. The resulting biomass can be further utilized as a feedstock for products such as biofuels, biopolymers, fertilizers, and other bio-products.\r\n\r\nInnovation Details\r\nBioArc combines biological processing with autonomous hardware and intelligent software control. An ESP32-based edge controller integrates optical, temperature, environmental, and liquid-level sensing with automated pumps, valves, lighting, and agitation. A low-cost RGB sensor is used with our Green Excess Index (GEI) method to estimate algal biomass without relying on expensive laboratory optical instruments. The controller also uses an autonomous finite-state workflow to manage cultivation, monitoring, dosing, and harvesting.\r\n\r\nThe software layer adds real-time MQTT/WebSocket telemetry, remote monitoring, offline control, historical analytics, and an AI copilot capable of interacting with the reactor through controlled actuator commands. This makes BioArc more than an algae-growing device: it is a compact, intelligent biological resource-recovery system designed to turn environmental inputs into useful outputs.",
+  "innovationDescription": "Problem Statement\r\nRising atmospheric CO₂ emissions, increasing wastewater volumes, and the limitations of conventional green infrastructure create a need for compact, resource-efficient biological systems. Traditional approaches often require large land areas, continuous manual supervision, and separate systems for environmental treatment and resource recovery. At the same time, high-density microalgae cultivation is sensitive to changes in temperature, lighting, aeration, liquid level, and growth conditions, making stable operation difficult.\r\n\r\nSolution\r\nBioArc is a compact, automated microalgae photobioreactor designed to combine carbon capture, oxygen generation, wastewater nutrient utilization, and biomass recovery in a single system. Microalgae use CO₂ during photosynthesis while growing in a controlled reactor. The system is designed to use treated municipal wastewater as a nutrient-rich cultivation medium, helping recycle wastewater while supporting algal growth. The resulting biomass can be further utilized as a feedstock for products such as biofuels, biopolymers, fertilizers, and other bio-products.\r\n\r\nInnovation Details\r\nBioArc combines biological processing with autonomous hardware and intelligent software control. An ESP32-based edge controller integrates optical, temperature, environmental, and liquid-level sensing with automated pumps, valves, lighting, and agitation. A low-cost RGB sensor is used with our Green Excess Index (GEI) method to estimate algal biomass without relying on expensive laboratory optical instruments. The controller also uses an autonomous finite-state workflow to manage cultivation, monitoring, dosing, and harvesting.\r\n\r\nThe software layer adds real-time MQTT/WebSocket telemetry, remote monitoring, offline control, historical analytics, and an AI copilot capable of interacting with the reactor through controlled actuator commands. This makes BioArc more than an algae-growing device: it is a compact, intelligent biological resource-recovery system designed to turn environmental inputs into useful outputs.",
+  "workingPrinciple": "BioArc uses a controlled microalgae cultivation cycle to convert environmental inputs into useful outputs.\r\nFirst, the reactor receives a nutrient-rich cultivation medium, with CO₂ supplied for algal growth. Microalgae grow under controlled lighting, temperature, aeration, and mixing conditions. During cultivation, sensors continuously monitor key parameters such as temperature, liquid level, and algal growth density.\r\nAn onboard ESP32 controller processes sensor data and manages the reactor’s pumps, valves, lights, and agitator through an autonomous control workflow. Optical measurements are used to estimate biomass growth, allowing the system to determine when the culture reaches the required density. \r\nAt sufficient biomass density, BioArc initiates the harvesting cycle, removes the algal biomass, and resets the reactor for the next cultivation cycle. The process therefore creates a continuous loop of cultivation → monitoring → growth assessment → harvesting → regeneration.",
+  "majorHardwareComponents": [
+    "Major Hardware Components\n- ESP32 Microcontroller\n- TCS34725 RGB Color Sensor\n- DS18B20 Temperature Sensor\n- BME280 Environmental Sensor\n- Aeration / CO₂ Pump\n- Grow Light Array\n- Agitator Motor"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "Government / Public Services",
+    "General Public"
+  ],
+  "potentialImpact": "Potential Real-World Impact\r\nBioArc aims to:\r\n- Capture CO₂ and generate oxygen through microalgae cultivation.\r\n- Reuse nutrient-rich municipal wastewater for algal growth and water recovery.\r\n- Convert algal biomass into useful products such as biofuel, biogas, and biopolymers.\r\n- Provide a compact, deployable environmental solution for urban and industrial settings.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 9000,
+  "auraDemoHighlight": "One compact system, multiple environmental outputs:\r\nCO₂ capture + O₂ generation + wastewater utilization + valuable algal biomass.\r\nIt combines real hardware, biological processing, and autonomous control into a single working prototype rather than treating each problem separately.",
+  "safetyHazards": [
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Safety Precautions Taken\r\n- Automated monitoring of temperature, liquid level, and culture conditions.\r\n- Controlled operation of pumps, lights, valves, and agitator through the ESP32.\r\n- Offline fallback control to maintain safe operation during network failure.\r\n- Automated process states prevent unsafe simultaneous actuator operation.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": true,
+  "previousExhibitionDetails": "HexaFalls 2.0",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-05T16:41:46.294Z",
+  "updatedAt": "2026-10-14T18:48:46.237Z",
+  "abstract": {
+    "originalName": "BioArc_Reactor_2.0.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791218505/aura-registrations/abstract-docs/BioArc_Reactor_2.0.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/MindZed/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/MindZed/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791218505/aura-registrations/id-cards/v1hgfdsmicmhptssfnkc.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/MindZed/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791218505/aura-registrations/id-cards/onoyvbg2zltva99uzqgg.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/MindZed/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791218505/aura-registrations/id-cards/yuf8etyemki1pddi9w8w.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/MindZed/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791218505/aura-registrations/id-cards/hrlbsuc9feu3y52szrwq.jpg",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "index": 18,
+  "id": "6abbefe40eb8993e6aff30fd",
+  "registrationId": "AURA2K26-LRXP8E",
+  "rawTeamName": "SLYTHERINS",
+  "folderName": "SLYTHERINS",
+  "folderRelPath": "assets/Teams/SLYTHERINS",
+  "projectTitle": "DUAL AXIS SOLAR TRACKING PANEL WITH DIGITAL DASHBOARD AND CONTROL PANEL",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "AZLFAH MAQSOOD",
+  "teamLeaderEmail": "maqazzie@gmail.com",
+  "teamLeaderPhone": "9433575487",
+  "teamMemberDetails": "MD TAHFEEMUL HODA | ALIAH UNIERSITY | ECE | 2ND YEAR | 9046924854\r\nFAUZIA ANWAR | ALIAH UNIVERSITY | EEN | 2ND YEAR | 8910769300",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "Environmental Technology"
+  ],
+  "prototypeType": "Smart Product",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement\r\nConventional fixed solar panels cannot continuously face the Sun throughout the day. As the Sun changes its position, the angle of sunlight falling on the panel changes, reducing the effective solar energy captured. Manual adjustment is inefficient, requires human intervention, and cannot respond continuously to changing sunlight conditions. Additionally, basic solar tracking systems often lack real-time monitoring, making it difficult to observe panel performance, diagnose issues, or optimize operation.\r\n\r\nSolution\r\nWe propose a Dual-Axis Automatic Solar Tracking System with a Digital Dashboard. The system uses multiple LDR sensors to detect the direction of maximum sunlight and two servo motors to adjust the panel along both horizontal and vertical axes. An Arduino continuously compares the light intensity from the sensors and moves the panel toward the direction receiving the strongest sunlight.\r\nA digital dashboard connected through Bluetooth (HC-05) provides real-time information such as voltage, current, power output, panel inclination, and compass direction. The system also supports different operating modes, including automatic sunlight tracking, preset positioning, and manual control through the dashboard.\r\n\r\nInnovation Details\r\n*Dual-Axis Tracking: Automatically adjusts both horizontal and vertical angles to maintain better alignment with the Sun.\r\n*Closed-Loop Light Detection: Uses multiple LDRs to continuously compare sunlight intensity and correct the panel position.\r\n*Real-Time Digital Dashboard: Displays important electrical and positional parameters in a single interface.\r\n*Multi-Mode Operation: Allows automatic tracking, scheduled/preset positioning, and manual touch control.\r\n*Wireless Monitoring & Control: HC-05 Bluetooth enables communication between the Arduino system and a smartphone without requiring Wi-Fi or a router.\r\n*Performance Monitoring: Voltage and current measurements can be used to calculate real-time power and evaluate the effectiveness of solar tracking.\r\n*Expandable Architecture: The system can later be upgraded with IoT connectivity, cloud data logging, weather sensors, predictive tracking, or energy-efficiency analytics.",
+  "solutionDescription": "Problem Statement\r\nConventional fixed solar panels cannot continuously face the Sun throughout the day. As the Sun changes its position, the angle of sunlight falling on the panel changes, reducing the effective solar energy captured. Manual adjustment is inefficient, requires human intervention, and cannot respond continuously to changing sunlight conditions. Additionally, basic solar tracking systems often lack real-time monitoring, making it difficult to observe panel performance, diagnose issues, or optimize operation.\r\n\r\nSolution\r\nWe propose a Dual-Axis Automatic Solar Tracking System with a Digital Dashboard. The system uses multiple LDR sensors to detect the direction of maximum sunlight and two servo motors to adjust the panel along both horizontal and vertical axes. An Arduino continuously compares the light intensity from the sensors and moves the panel toward the direction receiving the strongest sunlight.\r\nA digital dashboard connected through Bluetooth (HC-05) provides real-time information such as voltage, current, power output, panel inclination, and compass direction. The system also supports different operating modes, including automatic sunlight tracking, preset positioning, and manual control through the dashboard.\r\n\r\nInnovation Details\r\n*Dual-Axis Tracking: Automatically adjusts both horizontal and vertical angles to maintain better alignment with the Sun.\r\n*Closed-Loop Light Detection: Uses multiple LDRs to continuously compare sunlight intensity and correct the panel position.\r\n*Real-Time Digital Dashboard: Displays important electrical and positional parameters in a single interface.\r\n*Multi-Mode Operation: Allows automatic tracking, scheduled/preset positioning, and manual touch control.\r\n*Wireless Monitoring & Control: HC-05 Bluetooth enables communication between the Arduino system and a smartphone without requiring Wi-Fi or a router.\r\n*Performance Monitoring: Voltage and current measurements can be used to calculate real-time power and evaluate the effectiveness of solar tracking.\r\n*Expandable Architecture: The system can later be upgraded with IoT connectivity, cloud data logging, weather sensors, predictive tracking, or energy-efficiency analytics.",
+  "innovationDescription": "Problem Statement\r\nConventional fixed solar panels cannot continuously face the Sun throughout the day. As the Sun changes its position, the angle of sunlight falling on the panel changes, reducing the effective solar energy captured. Manual adjustment is inefficient, requires human intervention, and cannot respond continuously to changing sunlight conditions. Additionally, basic solar tracking systems often lack real-time monitoring, making it difficult to observe panel performance, diagnose issues, or optimize operation.\r\n\r\nSolution\r\nWe propose a Dual-Axis Automatic Solar Tracking System with a Digital Dashboard. The system uses multiple LDR sensors to detect the direction of maximum sunlight and two servo motors to adjust the panel along both horizontal and vertical axes. An Arduino continuously compares the light intensity from the sensors and moves the panel toward the direction receiving the strongest sunlight.\r\nA digital dashboard connected through Bluetooth (HC-05) provides real-time information such as voltage, current, power output, panel inclination, and compass direction. The system also supports different operating modes, including automatic sunlight tracking, preset positioning, and manual control through the dashboard.\r\n\r\nInnovation Details\r\n*Dual-Axis Tracking: Automatically adjusts both horizontal and vertical angles to maintain better alignment with the Sun.\r\n*Closed-Loop Light Detection: Uses multiple LDRs to continuously compare sunlight intensity and correct the panel position.\r\n*Real-Time Digital Dashboard: Displays important electrical and positional parameters in a single interface.\r\n*Multi-Mode Operation: Allows automatic tracking, scheduled/preset positioning, and manual touch control.\r\n*Wireless Monitoring & Control: HC-05 Bluetooth enables communication between the Arduino system and a smartphone without requiring Wi-Fi or a router.\r\n*Performance Monitoring: Voltage and current measurements can be used to calculate real-time power and evaluate the effectiveness of solar tracking.\r\n*Expandable Architecture: The system can later be upgraded with IoT connectivity, cloud data logging, weather sensors, predictive tracking, or energy-efficiency analytics.",
+  "workingPrinciple": "Working Principle\r\nThe Dual-Axis Solar Tracking System works by continuously detecting the direction of maximum sunlight and adjusting the solar panel accordingly.\r\nFour LDR (Light Dependent Resistor) sensors are placed around the panel to measure light intensity from different directions. The Arduino reads these sensor values and compares the light levels. If one side receives more sunlight, the controller drives the corresponding servo motor to rotate the panel toward that direction.\r\nTwo servo motors provide dual-axis movement: one controls the horizontal (azimuth) angle, while the other controls the vertical (elevation) angle. This allows the panel to follow the Sun throughout the day.\r\nVoltage and current sensors measure the panel's electrical output, allowing the Arduino to calculate real-time power. The panel's position and other operating parameters can also be monitored.\r\nAn HC-05 Bluetooth module wirelessly sends this data to a smartphone digital dashboard, where users can monitor power generation, panel angles, and operating modes. The dashboard can also provide manual control and preset positioning when required.",
+  "majorHardwareComponents": [
+    "ARDUINO UNO REV 3\nHC-05\nLDRs\nACS712\n5V SOLAR PANEL\nSG90 SERVO MOTORS"
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Industry",
+    "Agriculture",
+    "General Public"
+  ],
+  "potentialImpact": "Potential Real-World Impact\r\nThe proposed Dual-Axis Solar Tracking System with Digital Dashboard can improve the practical utilization of solar energy by keeping the panel better aligned with the Sun throughout the day. This can help increase energy collection compared with a fixed panel under suitable conditions.\r\nKey Impacts:\r\n*Higher Solar Energy Utilization: Continuous tracking can improve sunlight exposure and potentially increase daily energy generation.\r\n*Reduced Manual Intervention: Automatic movement eliminates the need for users to repeatedly adjust the panel.\r\n*Real-Time Monitoring: The digital dashboard allows users to monitor voltage, current, power, panel angle, and operating status remotely.\r\n*Better Maintenance: Continuous performance data can help identify abnormal output and potential system problems.\r\n*Educational & Research Applications: The system provides a practical platform for learning solar energy, embedded systems, sensors, motor control, and wireless communication.\r\n*Scalability: The concept can be adapted for rooftop systems, small-scale solar installations, agricultural applications, and standalone power systems.\r\n*Sustainable Energy Adoption: By improving the utilization of available sunlight, the system can contribute to more efficient use of renewable energy and support the transition toward cleaner power generation.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1200,
+  "auraDemoHighlight": "Why Our Project Is Worth Seeing...\r\nOur project is worth seeing because it combines renewable energy, automation, embedded systems, and digital monitoring into one practical solution. Unlike a conventional fixed solar panel, our dual-axis tracker actively follows the direction of maximum sunlight, demonstrating how intelligent control can improve solar-energy utilization.\r\nWhat makes the project particularly engaging is its interactive digital dashboard. Users can see real-time voltage, current, power, panel angle, and operating status, while also switching between automatic, preset, and manual control modes.\r\nThe project is also designed as a working prototype rather than just a theoretical concept. Visitors can observe the panel physically responding to changes in light and interact with the system through the dashboard.\r\nIts modular design provides opportunities for future upgrades such as IoT connectivity, cloud data logging, weather-based control, energy analytics, and predictive solar tracking.\r\nOverall, the project demonstrates how smart automation can make renewable-energy systems more efficient, measurable, and user-friendly, making it relevant for both educational demonstrations and future real-world applications.",
+  "safetyHazards": [
+    "none",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Safety Precautions\r\n*Electrical Safety: Proper insulation and secure connections were maintained to prevent short circuits, overheating, and accidental contact with exposed wires.\r\n*Motor & Mechanical Safety: The panel and servo motors were securely mounted, with movement limits considered to prevent excessive rotation or mechanical damage.\r\n*Power Supply Safety: The system was operated within the rated voltage and current limits of the Arduino, sensors, and motors, with an appropriate external power supply used where required.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-29T17:05:40.49Z",
+  "updatedAt": "2026-10-11T17:32:39.948Z",
+  "abstract": {
+    "originalName": "Aura2k26.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790701539/aura-registrations/abstract-docs/Aura2k26.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/SLYTHERINS/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/SLYTHERINS/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790701539/aura-registrations/id-cards/oyd2bjez0b8rdbhoysll.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/SLYTHERINS/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790701539/aura-registrations/id-cards/acjh9rb7fhs9j57acvnq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/SLYTHERINS/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790701539/aura-registrations/id-cards/ysaqcbek0k9bpvx0cpoi.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/SLYTHERINS/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

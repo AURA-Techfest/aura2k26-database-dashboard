@@ -1,0 +1,95 @@
+{
+  "index": 14,
+  "id": "6abb9ba8f7271ea45edd6643",
+  "registrationId": "AURA2K26-SHK8W5",
+  "rawTeamName": "Nexora",
+  "folderName": "Nexora",
+  "folderRelPath": "assets/Teams/Nexora",
+  "projectTitle": "IoT-Enabled Embedded LPG Safety & Emergency Response System",
+  "teamSize": 4,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 4,
+  "teamLeaderName": "Prachi Sinha",
+  "teamLeaderEmail": "prachisinha323606@gmail.com",
+  "teamLeaderPhone": "7277989204",
+  "teamMemberDetails": "Member 1\r\n Anurag Singh \r\nHooghly Engineering and Technology College \r\nDept ECE \r\n4th yr \r\n9073705905\r\nEmail anuragsinghthakur2005@gmail.com\r\nMember-2 \r\nSwagata Mukherjee \r\nHooghly Engineering and Technology College \r\nDept ECE \r\n4th yr \r\n8017068773\r\nEmail swagatamukherjee572@gmail.com\r\nMember 3\r\nSayan Bhattacharya \r\nHooghly Engineering and Technology College \r\nDept ECE \r\n4th yr \r\n 98308 89864\r\nsayanbhattacharya133@gmail.com",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "LPG leakage is a major safety concern in homes, kitchens, and small establishments, as undetected gas leakage can lead to fire, explosion, health hazards, and property damage. Conventional systems often provide only a basic alarm and may not offer continuous remote monitoring or automated emergency response. In many situations, the user may also be away from the premises and unable to respond immediately. Therefore, there is a need for a smart, low-cost system that can continuously monitor LPG leakage and related environmental conditions, provide instant alerts, and initiate appropriate emergency actions automatically.\r\nOur project addresses this problem by developing an IoT-enabled embedded LPG safety and emergency response system using ESP32, gas and environmental sensors, local warning devices, automatic response mechanisms, and Blynk-based remote monitoring and control.",
+  "solutionDescription": "LPG leakage is a major safety concern in homes, kitchens, and small establishments, as undetected gas leakage can lead to fire, explosion, health hazards, and property damage. Conventional systems often provide only a basic alarm and may not offer continuous remote monitoring or automated emergency response. In many situations, the user may also be away from the premises and unable to respond immediately. Therefore, there is a need for a smart, low-cost system that can continuously monitor LPG leakage and related environmental conditions, provide instant alerts, and initiate appropriate emergency actions automatically.\r\nOur project addresses this problem by developing an IoT-enabled embedded LPG safety and emergency response system using ESP32, gas and environmental sensors, local warning devices, automatic response mechanisms, and Blynk-based remote monitoring and control.",
+  "innovationDescription": "LPG leakage is a major safety concern in homes, kitchens, and small establishments, as undetected gas leakage can lead to fire, explosion, health hazards, and property damage. Conventional systems often provide only a basic alarm and may not offer continuous remote monitoring or automated emergency response. In many situations, the user may also be away from the premises and unable to respond immediately. Therefore, there is a need for a smart, low-cost system that can continuously monitor LPG leakage and related environmental conditions, provide instant alerts, and initiate appropriate emergency actions automatically.\r\nOur project addresses this problem by developing an IoT-enabled embedded LPG safety and emergency response system using ESP32, gas and environmental sensors, local warning devices, automatic response mechanisms, and Blynk-based remote monitoring and control.",
+  "workingPrinciple": "The system uses an ESP32 microcontroller to continuously monitor LPG leakage and environmental conditions. An MQ-6 sensor detects LPG concentration, while the DHT11 monitors temperature and humidity and an IR flame sensor detects the presence of flame. The ESP32 processes the sensor readings and determines whether the environment is normal or hazardous. During a detected LPG leakage or fire condition, the system activates a buzzer and LED indicators and automatically operates the exhaust fan and servo-based safety demonstration mechanism. An OLED display provides local system status. The ESP32 is connected to the Blynk IoT platform through Wi-Fi, enabling remote monitoring, control and notifications through a smartphone. The system therefore combines real-time sensing, embedded decision-making, local emergency response and IoT-based remote supervision. The prototype is designed as a safe educational demonstration and is not connected to or used to modify a real LPG cylinder or regulator.",
+  "majorHardwareComponents": [
+    "ESP32 DevKit – main controller; MQ-6 LPG gas sensor – leakage detection; DHT11 – temperature and humidity monitoring; IR flame sensor – flame detection; 0.96-inch I2C OLED – real-time status display; relay module – switching control; 5V DC exhaust fan – ventilation during hazardous conditions; MG90S servo motor – safety mechanism demonstration; active buzzer – audible alarm; RGB LEDs – visual status indication; resistors",
+    "breadboard and jumper wires – circuit interfacing and prototyping; DC power supply – system power source. Blynk IoT is used for remote monitoring and control through Wi-Fi."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "dc_power_supply",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry"
+  ],
+  "potentialImpact": "The system can benefit households, small kitchens, hostels, shops and other LPG-using environments by providing continuous monitoring and faster response to gas leakage and fire-related hazards. Unlike a basic alarm-only system, the proposed solution combines sensing, local warning, automatic response and IoT-based remote monitoring. Blynk connectivity allows users to check system status and receive alerts remotely. The concept can help demonstrate how affordable embedded and IoT technologies can improve awareness and reduce response time during hazardous situations. The prototype can also serve as an educational platform for developing future certified LPG safety products with improved sensing, reliability and safety mechanisms.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "This project is worth seeing because it goes beyond simple LPG leakage detection by combining real-time sensing, automatic emergency response and IoT-based remote monitoring in a single embedded system. The ESP32 acts as the central decision-making unit, while the MQ-6, DHT11 and flame sensor continuously monitor hazardous conditions. When an abnormal condition is detected, the system provides immediate local alerts and activates response mechanisms such as the exhaust fan and servo-based safety demonstration. Blynk further allows the user to monitor and control the system remotely through a smartphone. The prototype demonstrates a practical combination of embedded systems, IoT and safety automation in a compact, low-cost educational model.",
+  "safetyHazards": [
+    "moving_rotating_machinery",
+    "high_temperature"
+  ],
+  "safetyPrecautions": "The prototype uses a low-voltage DC power supply and is designed as a safe educational demonstration model. The system is not connected to or used to modify a real LPG cylinder or regulator. The LPG detection function is demonstrated using an MQ-6 sensor in a controlled setup. Moving components such as the exhaust fan and servo mechanism are positioned to minimize accidental contact. Electrical connections are properly insulated and secured to reduce the risk of short circuits. The prototype is operated on a stable surface, and the demonstration area is kept clear of unnecessary combustible materials. The system is tested under controlled conditions before demonstration, and the emergency response mechanism is implemented as a safe model demonstration.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-29T11:06:16.889Z",
+  "updatedAt": "2026-10-11T17:32:19.627Z",
+  "abstract": {
+    "originalName": "LPGAbstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790679975/aura-registrations/abstract-docs/LPGAbstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Nexora/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Nexora/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790679976/aura-registrations/id-cards/whaboq4cunwhfcovfjy8.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Nexora/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790679975/aura-registrations/id-cards/ddc1zc3apjosvanggeh6.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Nexora/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790679975/aura-registrations/id-cards/z2dn1eeicq0uwqoje1sp.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Nexora/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790679975/aura-registrations/id-cards/arrrvwgwnkepcwbn3bj3.jpg",
+      "exists": true
+    }
+  ]
+}

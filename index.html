@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA 2K26 — Hardware & IoT Database Dashboard</title>
+  
+  <!-- Fallback Web Fonts for SEASONS (High-contrast elegant serif) and Proxima Nova (Modern geometric sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- App Container -->
+  <div class="app-layout">
+    
+    <!-- Top Bar (Mobile / Responsive) -->
+    <header class="app-header">
+      <div class="header-brand">
+        <button id="sidebarToggle" class="sidebar-toggle-btn" aria-label="Toggle Sidebar">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+        <div class="brand-titles">
+          <h1 class="brand-name">AURA 2K26</h1>
+          <span class="brand-subtitle">Hardware & IoT Innovation Database</span>
+        </div>
+      </div>
+      
+      <div class="header-stats-strip">
+        <div class="stat-pill"><span class="stat-num" id="totalTeamsCount">64</span> <span class="stat-label">Teams</span></div>
+        <div class="stat-pill"><span class="stat-num" id="workingTeamsCount">43</span> <span class="stat-label">Prototypes</span></div>
+        <div class="stat-pill"><span class="stat-num" id="aiCount">26</span> <span class="stat-label">AI-Enabled</span></div>
+        <div class="stat-pill"><span class="stat-num" id="iotCount">38</span> <span class="stat-label">IoT-Connected</span></div>
+      </div>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="action-btn" title="Toggle Appearance">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Sidebar (Team Explorer) -->
+    <aside class="app-sidebar" id="appSidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title-row">
+          <span class="sidebar-heading">TEAMS CATALOG</span>
+          <span class="teams-badge" id="teamsFilteredBadge">64 Teams</span>
+        </div>
+        
+        <!-- Search Input -->
+        <div class="search-box">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Search team, project, leader..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" title="Clear search" style="display:none;">&times;</button>
+          <kbd class="shortcut-hint">/</kbd>
+        </div>
+
+        <!-- Filter Chips -->
+        <div class="filter-chips-container">
+          <button class="filter-chip active" data-filter="all">All (64)</button>
+          <button class="filter-chip" data-filter="fully_working">Fully Working</button>
+          <button class="filter-chip" data-filter="minor_limitations">Minor Limitations</button>
+          <button class="filter-chip" data-filter="ai">AI</button>
+          <button class="filter-chip" data-filter="iot">IoT</button>
+          <button class="filter-chip" data-filter="all_aliah">All Aliah</button>
+          <button class="filter-chip" data-filter="mixed">Mixed</button>
+          <button class="filter-chip" data-filter="all_other">Other Inst.</button>
+        </div>
+
+        <!-- Sort Bar -->
+        <div class="sort-bar">
+          <label for="sortSelect">Sort:</label>
+          <select id="sortSelect" class="sort-select">
+            <option value="id_asc">Registration Order (#1 - #64)</option>
+            <option value="name_asc">Team Name (A → Z)</option>
+            <option value="name_desc">Team Name (Z → A)</option>
+            <option value="cost_asc">Cost (Low → High)</option>
+            <option value="cost_desc">Cost (High → Low)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Team List -->
+      <nav class="team-nav-list" id="teamNavList" role="tablist" aria-label="Teams List">
+        <!-- Injected dynamically via JS -->
+      </nav>
+      
+      <div class="sidebar-footer">
+        <span>AURA 2K26 Technical Exhibition</span>
+        <span class="dot-indicator online"></span>
+      </div>
+    </aside>
+
+    <!-- Main Content Area (Filled Form & Integrated Viewers) -->
+    <main class="app-main" id="appMain">
+      
+      <!-- Top Control Bar inside main area -->
+      <div class="main-control-bar">
+        <div class="breadcrumb" id="breadcrumb">
+          <span class="crumb-root">Teams</span>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current" id="crumbCurrent">Select a team</span>
+        </div>
+
+        <div class="nav-shortcuts">
+          <button id="prevTeamBtn" class="nav-step-btn" title="Previous Team (Left Arrow)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+            <span>Previous</span>
+          </button>
+          <span class="nav-counter" id="navCounter">1 / 64</span>
+          <button id="nextTeamBtn" class="nav-step-btn" title="Next Team (Right Arrow)">
+            <span>Next</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+          <button id="printBtn" class="icon-action-btn" title="Print this team's form">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+          </button>
+          <a id="downloadTeamJsonBtn" class="icon-action-btn" title="Download data.json" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Team Details Container -->
+      <article class="team-article" id="teamArticle">
+        <!-- Rendered by app.js -->
+        <div class="empty-state">
+          <div class="empty-spinner"></div>
+          <h2>Loading Teams Data...</h2>
+        </div>
+      </article>
+
+    </main>
+
+  </div>
+
+  <!-- Image Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-container">
+      <div class="lightbox-topbar">
+        <span class="lightbox-title" id="lightboxTitle">Member ID Card</span>
+        <div class="lightbox-controls">
+          <a id="lightboxDownloadBtn" class="lightbox-btn" download title="Download ID Image">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+          <button id="lightboxCloseBtn" class="lightbox-btn close-btn" title="Close (ESC)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="lightbox-image-wrapper">
+        <img id="lightboxImg" src="" alt="Member ID Card Enlarged">
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/teams_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

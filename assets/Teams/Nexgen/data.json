@@ -1,0 +1,103 @@
+{
+  "index": 40,
+  "id": "6aca7f625275cf77a5f3e1e8",
+  "registrationId": "AURA2K26-2QGC6P",
+  "rawTeamName": "Nexgen",
+  "folderName": "Nexgen",
+  "folderRelPath": "assets/Teams/Nexgen",
+  "projectTitle": "Nexgen",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "SK SUJAUDDIN",
+  "teamLeaderEmail": "sks049061@gmail.com",
+  "teamLeaderPhone": "7501414425",
+  "teamMemberDetails": "Member 1 : Nazmus sakib / Aliah University / BCA/2nd year/+917384088548\r\n\r\nMember 2 : Fahmid Choudhury / Aliah University / ECE /3rd year /+919332589823\r\n\r\nMember 3 : Suhail Hasan / Aliah University / ECE / 3rd year / +916294724171",
+  "hardwareProjectCategories": [
+    "Electronics & Communication",
+    "IoT & Smart Devices",
+    "Embedded Systems",
+    "Robotics",
+    "Renewable Energy / Clean Technology"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "Conventional charging and energy consumption systems generally charge users based on fixed packages, time-based usage, or estimated consumption. This can lead to inefficient energy utilization, difficulty in tracking actual consumption, and unused prepaid value. Our project, ENERGY WALLET, proposes a smart pay-as-you-use renewable energy system that measures electrical energy consumption in real time and converts it into a transparent energy credit system.\r\n\r\nThe system will collect energy primarily from renewable sources such as solar panels and store it in a battery-based energy storage system. Users can purchase an energy credit instead of purchasing a fixed charging service. The embedded system continuously measures voltage, current, power and cumulative energy consumption in Wh/kWh. It automatically controls the connected load and deducts the actual consumed energy from the user's energy balance.\r\n\r\nFor example, if a user purchases ₹100 worth of energy credit but consumes only ₹70 worth of energy, the remaining ₹30 will automatically be returned as a digital balance/refund according to the configured tariff. The system can be applied to mobile charging stations, electric vehicle charging, community charging points and other low-to-medium power applications.\r\n\r\nThe key innovation is the combination of renewable energy harvesting, real-time energy metering, prepaid energy credits, automated load control and automatic unused-balance settlement in a single system. This can make renewable energy usage more transparent, measurable and user-centric.",
+  "solutionDescription": "Conventional charging and energy consumption systems generally charge users based on fixed packages, time-based usage, or estimated consumption. This can lead to inefficient energy utilization, difficulty in tracking actual consumption, and unused prepaid value. Our project, ENERGY WALLET, proposes a smart pay-as-you-use renewable energy system that measures electrical energy consumption in real time and converts it into a transparent energy credit system.\r\n\r\nThe system will collect energy primarily from renewable sources such as solar panels and store it in a battery-based energy storage system. Users can purchase an energy credit instead of purchasing a fixed charging service. The embedded system continuously measures voltage, current, power and cumulative energy consumption in Wh/kWh. It automatically controls the connected load and deducts the actual consumed energy from the user's energy balance.\r\n\r\nFor example, if a user purchases ₹100 worth of energy credit but consumes only ₹70 worth of energy, the remaining ₹30 will automatically be returned as a digital balance/refund according to the configured tariff. The system can be applied to mobile charging stations, electric vehicle charging, community charging points and other low-to-medium power applications.\r\n\r\nThe key innovation is the combination of renewable energy harvesting, real-time energy metering, prepaid energy credits, automated load control and automatic unused-balance settlement in a single system. This can make renewable energy usage more transparent, measurable and user-centric.",
+  "innovationDescription": "Conventional charging and energy consumption systems generally charge users based on fixed packages, time-based usage, or estimated consumption. This can lead to inefficient energy utilization, difficulty in tracking actual consumption, and unused prepaid value. Our project, ENERGY WALLET, proposes a smart pay-as-you-use renewable energy system that measures electrical energy consumption in real time and converts it into a transparent energy credit system.\r\n\r\nThe system will collect energy primarily from renewable sources such as solar panels and store it in a battery-based energy storage system. Users can purchase an energy credit instead of purchasing a fixed charging service. The embedded system continuously measures voltage, current, power and cumulative energy consumption in Wh/kWh. It automatically controls the connected load and deducts the actual consumed energy from the user's energy balance.\r\n\r\nFor example, if a user purchases ₹100 worth of energy credit but consumes only ₹70 worth of energy, the remaining ₹30 will automatically be returned as a digital balance/refund according to the configured tariff. The system can be applied to mobile charging stations, electric vehicle charging, community charging points and other low-to-medium power applications.\r\n\r\nThe key innovation is the combination of renewable energy harvesting, real-time energy metering, prepaid energy credits, automated load control and automatic unused-balance settlement in a single system. This can make renewable energy usage more transparent, measurable and user-centric.",
+  "workingPrinciple": "ENERGY WALLET works on the principle of real-time electrical energy measurement and pay-as-you-use energy management. Solar panels generate electricity, which is regulated by a charge controller and stored in a battery. An energy metering module measures voltage, current, power and cumulative energy consumption in Wh/kWh. An ESP32 microcontroller processes these measurements and calculates the consumed energy cost using a predefined tariff. Users purchase prepaid energy credits before starting a charging session. The system continuously deducts the cost of actual consumption from the available credit and displays the remaining balance. A load-control circuit automatically disconnects the output when the purchased credit is exhausted or a safety limit is reached. If the session ends early, the unused balance can be returned to the user's digital wallet or account through the implemented settlement mechanism. The prototype will demonstrate renewable energy utilization, transparent metering, controlled power delivery and fair pay-as-you-use charging.",
+  "majorHardwareComponents": [
+    "1. ESP32 development board for measurement processing and system control.\n2. Solar photovoltaic panel as the primary renewable energy source.\n3. Solar charge controller and rechargeable battery for energy storage.\n4. Electrical energy metering module or suitable voltage and current sensors for measuring power and energy consumption.\n5. Relay or MOSFET-based load switching circuit with appropriate electrical protection.\n6. OLED/LCD display for showing energy consumed",
+    "remaining energy credit and estimated cost.\n7. DC charging output",
+    "USB power module and suitable connectors for the demonstration load.\n8. Push buttons or an input interface for selecting and initiating a charging session.\n9. Wi-Fi connectivity through ESP32 for optional IoT monitoring and transaction records.\n10. Connecting wires",
+    "PCB or breadboard",
+    "fuses and enclosure."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "solar",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry",
+    "Transportation",
+    "Rural Communities",
+    "Urban Communities"
+  ],
+  "potentialImpact": "ENERGY WALLET can make renewable electricity more accessible, transparent and affordable for everyday users. It is designed for students, commuters, EV users, small businesses and communities that need convenient charging services. By measuring actual energy consumption instead of charging only by time or fixed packages, the system helps users understand how much electricity they use and pay fairly for it. Solar energy and battery storage can support charging during suitable operating conditions and reduce dependence on conventional grid electricity. The prepaid energy-credit model allows users to select an affordable budget, while unused credit can be returned through a digital balance or refund mechanism. Potential applications include solar-powered mobile charging stations, community charging points and future EV-charging infrastructure. The project promotes renewable-energy awareness, transparent billing and efficient electricity use. Its wider impact will depend on accurate metering, safe hardware design, reliable payment integration and cost-effective deployment.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "ENERGY WALLET introduces a simple but powerful idea: users should pay for the electrical energy they actually consume, not for unused charging time or an entire prepaid package. Unlike a conventional charging unit, our proposed system combines renewable energy, real-time energy metering, prepaid energy credits, automatic load control and unused-balance settlement in one platform. Users can monitor their energy consumption and remaining balance while the system calculates charges according to actual usage. The concept can be developed for solar-powered mobile charging stations, community energy kiosks and future EV-charging applications. Its distinctive feature is the combination of transparent energy accounting and a pay-as-you-use model, designed to make clean energy services more user-friendly. Our prototype aims to demonstrate how embedded systems can help create a fairer, smarter and more sustainable energy ecosystem.",
+  "safetyHazards": [
+    "fire_combustion"
+  ],
+  "safetyPrecautions": "The ENERGY WALLET prototype will be designed with electrical safety as a priority. Initial testing will use low-voltage DC power to minimize the risk of electric shock. A properly rated fuse and overcurrent protection will be incorporated to protect against short circuits and excessive current. The solar panel will be connected through a suitable charge controller, and the battery will use appropriate charging and protection circuitry to reduce the risk of overcharging, overheating and damage. All wiring, connectors and components will be selected according to their voltage and current ratings. Exposed conductive parts will be insulated, and the circuit will be housed in a secure enclosure to prevent accidental contact. The load-control circuit will disconnect the output when the available energy credit is exhausted or an unsafe operating condition is detected, where supported by the implemented design. Testing will be conducted in a dry, supervised environment, with the power disconnected before making wiring changes. The initial demonstration will use a low-voltage charging load rather than a full-size electric vehicle charger. Any future high-power or public charging application will require appropriate electrical isolation, certified protection devices and professional safety assessment.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-10T18:09:38.769Z",
+  "updatedAt": "2026-10-14T18:49:37.756Z",
+  "abstract": {
+    "originalName": "ENERGY_WALLET_AURA_2K26_Submission.docx",
+    "url": "https://res.cloudinary.com/dxkje9whm/raw/upload/v1791655776/aura-registrations/abstract-docs/ENERGY_WALLET_AURA_2K26_Submission",
+    "filename": "Abstract.docx",
+    "relPath": "assets/Teams/Nexgen/Abstract.docx",
+    "isDocx": true,
+    "exists": true,
+    "extractedText": "ENERGY WALLET\n\nSmart Renewable Energy Metering & Pay-as-you-use System\n\nAURA 2K26 • ABSTRACT IDEA\n\nTHE IDEA\n\nMany charging services rely on fixed packages or time-based pricing, making it difficult for users to track the exact energy consumed or recover unused prepaid value. ENERGY WALLET proposes a transparent pay-as-you-use system that measures actual electrical energy consumption and charges users according to a configurable tariff.\n\nHOW IT WORKS\n\nThe prototype will harvest solar energy and store it in a battery through suitable charge-management electronics. An energy-metering stage measures voltage, current, power and cumulative energy (Wh/kWh). An embedded controller such as an ESP32 calculates consumption and updates the user’s available energy credit. A load-control stage enables or disconnects the charging outlet according to available credit and system limits. A display shows energy used and remaining credit.\n\nPROPOSED BLOCK DIAGRAM\n\nSOLAR PV\n\n→\n\nBATTERYCharge management\n\n→\n\nENERGY METERV • I • P • Wh/kWh\n\nUSER CREDIT\n\n→\n\nESP32 / MCUTariff + credit logic\n\n→\n\nLOAD CONTROLProtected switching\n\nDISPLAYEnergy / balance\n\n↔\n\nCONTROLLERConsumption update\n\n→\n\nCHARGING LOADMobile / demo EV load\n\nCORE INNOVATION\n\nUsers purchase energy credit before a charging session and are charged only for the energy actually used. If a session ends with unused credit, the equivalent balance can be automatically returned to the user’s digital wallet or account, depending on the implemented payment method. The key innovation is integrating renewable energy, real-time metering, prepaid energy credit, controlled power delivery and automated unused-balance settlement in one compact system.\n\nPROPOSED OUTCOME & APPLICATIONS\n\nThe prototype aims to demonstrate energy measurement, live credit deduction, load control and unused-balance settlement under controlled conditions. Potential applications include solar-powered mobile charging points, EV-charging demonstrations and community energy kiosks. Safe electrical isolation, calibrated metering and suitable protection would be required before deployment with high-power or public charging equipment.\n\nRENEWABLE ENERGY  |  SMART METERING  |  PAY-AS-YOU-USE  |  AUTO SETTLEMENT"
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Nexgen/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791655777/aura-registrations/id-cards/ubji1qqkwqxc8ksrygrb.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Nexgen/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791655778/aura-registrations/id-cards/ryov6mcqtsd1xysspzvv.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Nexgen/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791655777/aura-registrations/id-cards/ygd4qzw7qcm58tp3ldzc.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Nexgen/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791655777/aura-registrations/id-cards/ds7dv6d5ubjtmbcxs6lv.jpg",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "index": 46,
+  "id": "6ad0756fd5cce1f001e80d34",
+  "registrationId": "REG-046",
+  "rawTeamName": "Sahaara",
+  "folderName": "Sahaara",
+  "folderRelPath": "assets/Teams/Sahaara",
+  "projectTitle": "IoT-Based Dynamic Health Monitoring and Distress Prediction System for Victims of Atrocities",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "ASHIM MONDAL",
+  "teamLeaderEmail": "ashim.au.een@gmail.com",
+  "teamLeaderPhone": "8016550610",
+  "teamMemberDetails": "Meherun Nesa | Aliah University | NURSING | 3rd Year | 6294295119\r\nJasmina Parvin Mallik | Aliah University | NURSING | 3rd Year | 8372925732\r\nShabnam sultana | Aliah University | NURSING | 3rd Year | 6296533258",
+  "hardwareProjectCategories": [
+    "Biomedical / Healthcare Devices",
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Other",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Victims of atrocities may experience severe psychological distress, emotional trauma, anxiety, depression, and other mental health challenges. However, timely identification of psychological distress is often difficult due to limited access to mental healthcare services, social stigma, lack of continuous health monitoring, and difficulties in communicating psychological symptoms. Conventional assessment methods primarily depend on interviews, self-reported questionnaires, and clinical evaluations, which may not always facilitate timely preliminary screening or continuous observation of physiological changes associated with stress.\r\nThere is a need for an accessible, technology-assisted system that combines physiological health monitoring with standardized psychological screening to support the early identification of potential distress among victims of atrocities. Such a system should collect physiological parameters, assess questionnaire responses, calculate an appropriate screening score, classify the potential level of distress, and provide relevant guidance for further action.\r\nThe proposed solution is an IoT-based psychological distress screening and health monitoring system integrating portable physiological sensors with an Android application. The system consists of heart rate sensor, temperature, and GSR sensor collect physiological parameters that may be associated with stress or emotional arousal. An application incorporates questionnaire-based assessments using the PHQ-9 and WHO-5. Physiological measurements and questionnaire results are processed according to a defined assessment methodology to determine the screening category. Based on the screening results, the application displays appropriate guidance for low, moderate, borderline, or high-concern cases. For high-concern cases, it can provide mental health professional contact details and encourage prompt clinical evaluation.",
+  "solutionDescription": "Victims of atrocities may experience severe psychological distress, emotional trauma, anxiety, depression, and other mental health challenges. However, timely identification of psychological distress is often difficult due to limited access to mental healthcare services, social stigma, lack of continuous health monitoring, and difficulties in communicating psychological symptoms. Conventional assessment methods primarily depend on interviews, self-reported questionnaires, and clinical evaluations, which may not always facilitate timely preliminary screening or continuous observation of physiological changes associated with stress.\r\nThere is a need for an accessible, technology-assisted system that combines physiological health monitoring with standardized psychological screening to support the early identification of potential distress among victims of atrocities. Such a system should collect physiological parameters, assess questionnaire responses, calculate an appropriate screening score, classify the potential level of distress, and provide relevant guidance for further action.\r\nThe proposed solution is an IoT-based psychological distress screening and health monitoring system integrating portable physiological sensors with an Android application. The system consists of heart rate sensor, temperature, and GSR sensor collect physiological parameters that may be associated with stress or emotional arousal. An application incorporates questionnaire-based assessments using the PHQ-9 and WHO-5. Physiological measurements and questionnaire results are processed according to a defined assessment methodology to determine the screening category. Based on the screening results, the application displays appropriate guidance for low, moderate, borderline, or high-concern cases. For high-concern cases, it can provide mental health professional contact details and encourage prompt clinical evaluation.",
+  "innovationDescription": "Victims of atrocities may experience severe psychological distress, emotional trauma, anxiety, depression, and other mental health challenges. However, timely identification of psychological distress is often difficult due to limited access to mental healthcare services, social stigma, lack of continuous health monitoring, and difficulties in communicating psychological symptoms. Conventional assessment methods primarily depend on interviews, self-reported questionnaires, and clinical evaluations, which may not always facilitate timely preliminary screening or continuous observation of physiological changes associated with stress.\r\nThere is a need for an accessible, technology-assisted system that combines physiological health monitoring with standardized psychological screening to support the early identification of potential distress among victims of atrocities. Such a system should collect physiological parameters, assess questionnaire responses, calculate an appropriate screening score, classify the potential level of distress, and provide relevant guidance for further action.\r\nThe proposed solution is an IoT-based psychological distress screening and health monitoring system integrating portable physiological sensors with an Android application. The system consists of heart rate sensor, temperature, and GSR sensor collect physiological parameters that may be associated with stress or emotional arousal. An application incorporates questionnaire-based assessments using the PHQ-9 and WHO-5. Physiological measurements and questionnaire results are processed according to a defined assessment methodology to determine the screening category. Based on the screening results, the application displays appropriate guidance for low, moderate, borderline, or high-concern cases. For high-concern cases, it can provide mental health professional contact details and encourage prompt clinical evaluation.",
+  "workingPrinciple": "The proposed system operates by integrating physiological health monitoring, questionnaire-based psychological assessment, and automated distress screening through an IoT-enabled hardware device and an Android application. \r\n\r\nInitially, the heart rate, body temperature, and Galvanic Skin Response (GSR) sensors collect physiological parameters from the user. A microcontroller processes the sensor outputs and transmits the collected data wirelessly to the Android application through the HC-05 Bluetooth module. \r\n\r\nSimultaneously, the Android application administers two standardized psychological assessment tools: the Patient Health Questionnaire-9 (PHQ-9) and the WHO-5 Well-Being Index. The user's responses are recorded, and the corresponding scores are calculated according to the established scoring guidelines.\r\n\r\n The physiological measurements and questionnaire results are then evaluated using a predefined assessment framework to support preliminary psychological distress screening. Based on the applicable assessment criteria, the application displays a screening category, such as low, borderline, moderate, or high concern, along with appropriate recommendations. These recommendations may include general well-being guidance, continued monitoring, or consultation with a qualified mental health professional. Relevant mental health service contact information can also be provided when necessary.",
+  "majorHardwareComponents": [
+    "Arduino Uno",
+    "heart rate sensors",
+    "temperature sensors",
+    "Galvanic Skin Response sensors",
+    "OLED"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Healthcare"
+  ],
+  "potentialImpact": "The proposed system can support the early identification of potential psychological distress among victims of atrocities through accessible, technology-assisted health monitoring and standardized psychological screening. By combining physiological sensors with an Android application, it may facilitate preliminary assessment in resource-limited settings and encourage timely referral to mental health professionals. The system has the potential to improve awareness of mental well-being, support healthcare workers in monitoring vulnerable individuals, and reduce barriers to accessing psychological support.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1800,
+  "auraDemoHighlight": "Our project uniquely combines IoT-based physiological monitoring with standardized psychological assessments in a single, affordable, and portable Android-based system. Its key strength is integrating Engineering and Medical expertise to support preliminary distress screening among victims of atrocities, helping identify individuals who may need timely professional mental health support.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "NA",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-15T06:40:47.653Z",
+  "updatedAt": "2026-10-15T06:40:47.653Z",
+  "abstract": {
+    "originalName": "Abstract.docx",
+    "url": "https://res.cloudinary.com/dxkje9whm/raw/upload/v1792046447/aura-registrations/abstract-docs/ABSTRACT",
+    "filename": "Abstract.docx",
+    "relPath": "assets/Teams/Sahaara/Abstract.docx",
+    "isDocx": true,
+    "exists": true,
+    "extractedText": "Title:\n\nIoT-Based Dynamic Health Monitoring and Distress Prediction System for Victims of Atrocities\n\nMethodology:\n\nThe proposed system integrates Internet of things (IoT) - based physiological monitoring, standardized psychological questionnaires, and an Android application for preliminary distress screening among victims of atrocities.\n\nHardware Development: A microcontroller is interfaced with a heart rate sensor, body temperature sensor, and Galvanic Skin Response (GSR) sensor to collect physiological parameters. An HC-05 Bluetooth module enables wireless communication between the hardware and the Android application.\n\nData Acquisition and Transmission: The microcontroller collects sensor measurements and transmits the data to the Android application, where the physiological parameters are displayed for real-time or periodic monitoring.\n\nAndroid Application Development: The application incorporates two standardized questionnaires: the Patient Health Questionnaire-9 (PHQ-9) for assessing depressive symptoms and the WHO-5 Well-Being Index for evaluating psychological well-being. Users respond to the questionnaire items through the mobile interface.\n\nScoring and Assessment: The application calculates questionnaire scores according to the respective scoring guidelines. Physiological measurements are evaluated alongside questionnaire results using a predefined assessment framework to support preliminary distress screening.\n\nRisk Classification and Recommendations: Based on the defined assessment criteria, the system categorizes screening results into low, borderline, moderate, and high-concern levels. Appropriate guidance is displayed, including self-care suggestions, recommendations for professional consultation, and relevant mental health service contact information.\n\nFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring SystemFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring SystemBlock Diagram: \n\nFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring System\n\nFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring System\n\nProposed Outcome:\n\nThe proposed system is expected to provide a functional IoT-based platform for physiological health monitoring and preliminary psychological distress screening among victims of atrocities. This system will enable the collection and visualization of physiological data alongside standardized psychological assessments using the PHQ-9 and WHO-5 questionnaires. The application will evaluate questionnaire scores and relevant physiological measurements using a predefined assessment framework to identify potential levels of distress and generate appropriate recommendations. Depending on the screening results, the system will provide guidance ranging from general well-being suggestions to recommendations for professional mental health consultation and referral. The proposed platform aims to improve accessibility to preliminary screening and facilitate timely identification of individuals who may require further psychological assessment. In future development, artificial intelligence and machine learning techniques may be incorporated to identify patterns in physiological and questionnaire data and improve screening performance."
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Sahaara/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792046446/aura-registrations/id-cards/t8k3zyhe3j0nrzyjzir5.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Sahaara/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792046446/aura-registrations/id-cards/hgtuwtcusts9uqbxmkvq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Sahaara/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792046446/aura-registrations/id-cards/a6zt9oltjf0rk0ftov4b.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Sahaara/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792046446/aura-registrations/id-cards/fywutfzjq0dukmgag4id.jpg",
+      "exists": true
+    }
+  ]
+}

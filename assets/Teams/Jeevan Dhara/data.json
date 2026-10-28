@@ -1,0 +1,112 @@
+{
+  "index": 35,
+  "id": "6ac9ed272799adf946c2f0b2",
+  "registrationId": "AURA2K26-3GKLD6",
+  "rawTeamName": "Jeevan Dhara",
+  "folderName": "Jeevan Dhara",
+  "folderRelPath": "assets/Teams/Jeevan Dhara",
+  "projectTitle": "Jeevan Drop",
+  "teamSize": 3,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 3,
+  "teamLeaderName": "Sharukh Khan",
+  "teamLeaderEmail": "41.o.sharukhkhan@gmail.com",
+  "teamLeaderPhone": "7477750144",
+  "teamMemberDetails": "Abhirup Chakraborty | Institute of Engineering & Management, Kolkata | Mechanical Engineering | 4th | 9831148603\r\nSiddharth | Insttitute of Engineering & Management, Kolkata | Mechanical Engineering | 4th | 7033177666",
+  "hardwareProjectCategories": [
+    "Mechanical Systems"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "The present problem statement focuses on the destruction of the infrastructure that provides clean drinking water along with the health problem which occurs due to the same in flood plains prone to flooding. These areas, where moving rivers loaded with a lot of sediment coming from the mountains pass through, experience destruction every year because of the extreme weather conditions prevailing upstream. The main problem arises in its very beginning when the water starts flooding into the region and causes problems for millions of people living there, making it impossible for them to cope with the situation. The five key issues are the following: Total Infrastructure Flooding: There is total destruction of the primary water infrastructure. The existing water sources like hand pumps, wells, and ponds are all totally flooded, structurally damaged, or clogged with thick silt. Hence, there is no source of safe drinking water for the displaced population who often have to drink contaminated water for survival. Extreme Biological Contamination: The biological contamination of the available surface water becomes extremely toxic. Flooded open defecation sites and sewage systems result in high pathogen load in the standing pools of water. Since the desperate populations are using this water for drinking and sanitation purposes, there is rampant spread of deadly waterborne diseases like cholera, typhoid, acute diarrhea, and hepatitis. Turbidity Challenges: The specific nature of these flood waters makes it impossible to purify the water through the traditional methods. Since the flood waters come from mountainous rivers, there is heavy sediment and silt load which results in extremely high turbidity. Grid Dependent Paralysis: Due to infrastructure dependency, there is absolute systemic paralysis. In every instance of disasters, there are power blackouts which will stop the working of all piped water systems and the municipal mechanical pumps. All water purification and distribution systems which use electricity grid become paralyzed. Relief and Economic Constraints: Economic constraints and stretched logistics in disaster relief result in the population being stranded. In every emergency relief camp, there is no enough amount of clean water. Moreover, the technology of water purification which can filter water for drinking purposes is expensive. Thus, there is a dire need for developing a cheap and highly durable method of water purification system that does not require any electricity but at the same time is effective in purifying highly turbid water and removing deadly biological pathogens.",
+  "solutionDescription": "The present problem statement focuses on the destruction of the infrastructure that provides clean drinking water along with the health problem which occurs due to the same in flood plains prone to flooding. These areas, where moving rivers loaded with a lot of sediment coming from the mountains pass through, experience destruction every year because of the extreme weather conditions prevailing upstream. The main problem arises in its very beginning when the water starts flooding into the region and causes problems for millions of people living there, making it impossible for them to cope with the situation. The five key issues are the following: Total Infrastructure Flooding: There is total destruction of the primary water infrastructure. The existing water sources like hand pumps, wells, and ponds are all totally flooded, structurally damaged, or clogged with thick silt. Hence, there is no source of safe drinking water for the displaced population who often have to drink contaminated water for survival. Extreme Biological Contamination: The biological contamination of the available surface water becomes extremely toxic. Flooded open defecation sites and sewage systems result in high pathogen load in the standing pools of water. Since the desperate populations are using this water for drinking and sanitation purposes, there is rampant spread of deadly waterborne diseases like cholera, typhoid, acute diarrhea, and hepatitis. Turbidity Challenges: The specific nature of these flood waters makes it impossible to purify the water through the traditional methods. Since the flood waters come from mountainous rivers, there is heavy sediment and silt load which results in extremely high turbidity. Grid Dependent Paralysis: Due to infrastructure dependency, there is absolute systemic paralysis. In every instance of disasters, there are power blackouts which will stop the working of all piped water systems and the municipal mechanical pumps. All water purification and distribution systems which use electricity grid become paralyzed. Relief and Economic Constraints: Economic constraints and stretched logistics in disaster relief result in the population being stranded. In every emergency relief camp, there is no enough amount of clean water. Moreover, the technology of water purification which can filter water for drinking purposes is expensive. Thus, there is a dire need for developing a cheap and highly durable method of water purification system that does not require any electricity but at the same time is effective in purifying highly turbid water and removing deadly biological pathogens.",
+  "innovationDescription": "The present problem statement focuses on the destruction of the infrastructure that provides clean drinking water along with the health problem which occurs due to the same in flood plains prone to flooding. These areas, where moving rivers loaded with a lot of sediment coming from the mountains pass through, experience destruction every year because of the extreme weather conditions prevailing upstream. The main problem arises in its very beginning when the water starts flooding into the region and causes problems for millions of people living there, making it impossible for them to cope with the situation. The five key issues are the following: Total Infrastructure Flooding: There is total destruction of the primary water infrastructure. The existing water sources like hand pumps, wells, and ponds are all totally flooded, structurally damaged, or clogged with thick silt. Hence, there is no source of safe drinking water for the displaced population who often have to drink contaminated water for survival. Extreme Biological Contamination: The biological contamination of the available surface water becomes extremely toxic. Flooded open defecation sites and sewage systems result in high pathogen load in the standing pools of water. Since the desperate populations are using this water for drinking and sanitation purposes, there is rampant spread of deadly waterborne diseases like cholera, typhoid, acute diarrhea, and hepatitis. Turbidity Challenges: The specific nature of these flood waters makes it impossible to purify the water through the traditional methods. Since the flood waters come from mountainous rivers, there is heavy sediment and silt load which results in extremely high turbidity. Grid Dependent Paralysis: Due to infrastructure dependency, there is absolute systemic paralysis. In every instance of disasters, there are power blackouts which will stop the working of all piped water systems and the municipal mechanical pumps. All water purification and distribution systems which use electricity grid become paralyzed. Relief and Economic Constraints: Economic constraints and stretched logistics in disaster relief result in the population being stranded. In every emergency relief camp, there is no enough amount of clean water. Moreover, the technology of water purification which can filter water for drinking purposes is expensive. Thus, there is a dire need for developing a cheap and highly durable method of water purification system that does not require any electricity but at the same time is effective in purifying highly turbid water and removing deadly biological pathogens.",
+  "workingPrinciple": "There’s nothing complicated happening inside JEEVAN-DROP, just gravity doing all the work. You fit the rubber-grip connector onto a tap or a raised dispenser, and from there, water simply flows downward through three stacked filtration layers, no electricity or pumps needed. First, it passes through a polypropylene mesh that catches the mud, silt, and sand, the kind of thick sediment you’d expect in floodwater. This step matters more than it sounds, because without it, the finer layers below would clog almost instantly. Next, the water moves through activated carbon, which doesn’t strain out particles so much as pull contaminants onto its surface: chlorine, pesticides, and the smells and off-tastes that make murky water hard to drink. The real heart of the system, though, is the last stage: a 0.2-micron ceramic disc paired with maifan mineral balls. The ceramic’s pores are so fine that bacteria and parasites simply can’t fit through; they’re blocked by size alone, not killed with chemicals. And while that’s happening, the mineral balls are quietly doing something different, releasing small amounts of calcium, magnesium, and potassium into the water, which brings the pH into a healthy range and makes the water taste like water again, not like a filter. By the time it reaches the spout, the water has been cleaned three separate ways, physically, chemically, and biologically, without the person using it having to do anything at all.",
+  "majorHardwareComponents": [
+    "Rubber-Grip Connector – Fits onto a tap or raised dispenser; creates a leak-free",
+    "gravity-fed inlet without needing electricity or tools.\nPP Mesh Pre-filter – A woven polypropylene mesh that mechanically strains out mud",
+    "silt",
+    "sand",
+    "and suspended solids before water reaches the finer stages.\nActivated Carbon Filter – Works through adsorption; removes chlorine",
+    "pesticides",
+    "volatile organic compounds",
+    "and odour-causing substances that affect taste and smell.\nCeramic Disc (0.2-micron) – The core microbial barrier; its fine pore structure physically blocks bacteria and parasites through size-exclusion",
+    "without using any chemicals.\nMaifan Mineral Balls – Placed alongside the ceramic disc; slowly release trace calcium",
+    "magnesium",
+    "and potassium to naturally stabilize pH (7.0–8.5) and improve taste.\n3D-Printed Housing – The outer cartridge body",
+    "printed in food-safe PLA/PETG; holds all three filtration stages in a compact",
+    "stacked",
+    "field-replaceable structure.\nTogether",
+    "these components form a self-contained",
+    "modular filtration unit: each part is either a purchasable",
+    "market-sourced media (mesh",
+    "carbon",
+    "ceramic",
+    "minerals) or a 3D-printed structural piece",
+    "making the design both low-cost and easy to repair or upgrade in the field."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "other",
+  "intendedBeneficiaries": [
+    "Rural Communities",
+    "Government / Public Services",
+    "General Public"
+  ],
+  "potentialImpact": "If this actually reaches the field, the difference it could make isn’t abstract, it’s immediate. Picture a family in North Bihar during the monsoon, their hand pump underwater, their only option a stretch of muddy floodwater outside their door, where the choices are grim: drink it anyway and risk cholera or typhoid, wait for a relief truck that might not come in time, or try to boil water with firewood that’s already soaked through. JEEVAN-DROP changes that equation, since clipping it onto whatever tap or water point is still standing turns that same contaminated water into something safe to give a child within seconds. What makes this matter isn’t just the filtration, it’s the price: at around ₹120 a unit, this isn’t a device for the few who can afford imported filters costing ten times as much, but one built for mass distribution, the kind relief agencies could actually hand out by the hundreds, not the dozens, needing no electricity, no spare parts, and no training manual, just gravity and three honest layers of filtration doing their job. Beyond the immediate relief, there’s a longer-term shift worth imagining too, fewer diarrheal deaths, fewer overwhelmed health camps, fewer families forced to choose between thirst and sickness. It’s a small, inexpensive object, but in the middle of a flood, when every other system has failed, something this simple might be exactly what people need most.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 120,
+  "auraDemoHighlight": "This prototype is unique on it's own, because it is made for community service and at a very low and affordable cost. Moreover, this filter is a gravity based filteration system, which means it doesn't require any type of fuel or energy to work, fetch your water pass it through the filter and you have your clean water, it can attach to any tap opening, with a help of a rubber grip, helping in filteration directly through water barels and dispensers.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "We kept things careful at every step of putting this together. Once a part came off the printer, it got washed properly before any filter media went in, just to make sure no dust or leftover bits of plastic ended up somewhere they shouldn’t. We ran our hands over every edge and joint, especially around the interlocking lip, since that’s the bit people will actually be touching and twisting each time they swap a cartridge, and nobody should have to deal with a rough or sharp edge there. The seals between the three layers got extra attention too, because if one of those seals is even slightly loose, water starts sneaking past the filters instead of going through them, which kind of defeats the whole point of building this in the first place. We also made sure everything slides apart and locks back together smoothly, so a person using this in the middle of a flood doesn’t need a tool or any real strength to open it up. That said, we’re not pretending this is a finished, certified product yet. Right now it’s a working prototype built to prove the idea holds up. Getting it properly lab-tested and certified is the next real step before anyone should trust it for everyday drinking water.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-10T07:45:43.178Z",
+  "updatedAt": "2026-10-14T18:49:14.853Z",
+  "abstract": {
+    "originalName": "JEEVAN DHARA.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791618342/aura-registrations/abstract-docs/JEEVAN%20DHARA.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Jeevan Dhara/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Jeevan Dhara/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791618342/aura-registrations/id-cards/juddcsxx6wstjfxc30he.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Jeevan Dhara/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791618342/aura-registrations/id-cards/tvyiklzeb1frzhvez8ah.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Jeevan Dhara/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791618342/aura-registrations/id-cards/io6a0cq1zklgpmqjgzhe.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Jeevan Dhara/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

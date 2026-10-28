@@ -1,0 +1,109 @@
+{
+  "index": 11,
+  "id": "6aba784a872cf26c69fc2ba9",
+  "registrationId": "AURA2K26-849TM6",
+  "rawTeamName": "\"TECHWALK\"",
+  "folderName": "TECHWALK",
+  "folderRelPath": "assets/Teams/TECHWALK",
+  "projectTitle": "SMART BLIND STICK",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "MD SABAB ALAM",
+  "teamLeaderEmail": "mdsababalam9427@gmail.com",
+  "teamLeaderPhone": "9883229209",
+  "teamMemberDetails": "1) UMME RUMAN KHATUN , 7003157040\r\n2) MD ZUNED SHAREYAR , 8391899464",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "Electronics & Communication",
+    "IoT & Smart Devices",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "PROBLEM STATEMENT :-\r\n\r\nVisually impaired people often face difficulties while walking independently, especially in crowded streets, unfamiliar areas, and places with unexpected obstacles. Traditional white canes mainly help users detect obstacles through physical contact, but they may not provide sufficient warning about obstacles located at different heights or about hazards such as water on the walking path. This can increase the risk of collisions, falls, and accidents. There is therefore a need for an affordable, lightweight, and easy-to-use assistive device that can provide early warnings about common hazards while allowing the user to move more independently.\r\n\r\nSOLUTION :-\r\n\r\nThe proposed Smart Blind Stick is an electronic assistive device designed to improve the safety and awareness of visually impaired users. An Arduino Nano acts as the main controller and processes information from different sensors.\r\n\r\nAn ultrasonic sensor continuously detects obstacles in front of the user by transmitting ultrasonic waves and measuring the time taken for the reflected waves to return. The Arduino converts this time into distance. According to the detected distance, the system generates different warning patterns using a buzzer and vibration motor. For example, a distant obstacle can produce slower alerts, while a nearby obstacle can produce faster alerts, allowing the user to understand the approximate distance without looking at the device.\r\n\r\nA water detection sensor can identify water on the ground and generate a separate warning. This helps the user recognize potentially slippery or flooded areas. The system can be powered using a rechargeable battery, making the stick portable and practical for everyday use.\r\n\r\nINNOVATION :-\r\n\r\nThe key innovation of the project is the combination of distance-based obstacle detection, vibration/audio feedback, and water detection in a compact and low-cost device. Instead of providing only a simple obstacle warning, the Smart Blind Stick communicates the approximate danger level through changing beep and vibration patterns.\r\n\r\nThe system is designed using easily available and inexpensive electronic components, making it suitable for student-level development and potentially accessible to users with limited financial resources. The modular design also allows future upgrades such as GPS-based location tracking, emergency alerts, GSM communication, and IoT connectivity.\r\n\r\nThe project demonstrates how embedded electronics can be applied to solve a real-world accessibility problem and provide visually impaired users with additional environmental awareness and safer mobility.",
+  "solutionDescription": "PROBLEM STATEMENT :-\r\n\r\nVisually impaired people often face difficulties while walking independently, especially in crowded streets, unfamiliar areas, and places with unexpected obstacles. Traditional white canes mainly help users detect obstacles through physical contact, but they may not provide sufficient warning about obstacles located at different heights or about hazards such as water on the walking path. This can increase the risk of collisions, falls, and accidents. There is therefore a need for an affordable, lightweight, and easy-to-use assistive device that can provide early warnings about common hazards while allowing the user to move more independently.\r\n\r\nSOLUTION :-\r\n\r\nThe proposed Smart Blind Stick is an electronic assistive device designed to improve the safety and awareness of visually impaired users. An Arduino Nano acts as the main controller and processes information from different sensors.\r\n\r\nAn ultrasonic sensor continuously detects obstacles in front of the user by transmitting ultrasonic waves and measuring the time taken for the reflected waves to return. The Arduino converts this time into distance. According to the detected distance, the system generates different warning patterns using a buzzer and vibration motor. For example, a distant obstacle can produce slower alerts, while a nearby obstacle can produce faster alerts, allowing the user to understand the approximate distance without looking at the device.\r\n\r\nA water detection sensor can identify water on the ground and generate a separate warning. This helps the user recognize potentially slippery or flooded areas. The system can be powered using a rechargeable battery, making the stick portable and practical for everyday use.\r\n\r\nINNOVATION :-\r\n\r\nThe key innovation of the project is the combination of distance-based obstacle detection, vibration/audio feedback, and water detection in a compact and low-cost device. Instead of providing only a simple obstacle warning, the Smart Blind Stick communicates the approximate danger level through changing beep and vibration patterns.\r\n\r\nThe system is designed using easily available and inexpensive electronic components, making it suitable for student-level development and potentially accessible to users with limited financial resources. The modular design also allows future upgrades such as GPS-based location tracking, emergency alerts, GSM communication, and IoT connectivity.\r\n\r\nThe project demonstrates how embedded electronics can be applied to solve a real-world accessibility problem and provide visually impaired users with additional environmental awareness and safer mobility.",
+  "innovationDescription": "PROBLEM STATEMENT :-\r\n\r\nVisually impaired people often face difficulties while walking independently, especially in crowded streets, unfamiliar areas, and places with unexpected obstacles. Traditional white canes mainly help users detect obstacles through physical contact, but they may not provide sufficient warning about obstacles located at different heights or about hazards such as water on the walking path. This can increase the risk of collisions, falls, and accidents. There is therefore a need for an affordable, lightweight, and easy-to-use assistive device that can provide early warnings about common hazards while allowing the user to move more independently.\r\n\r\nSOLUTION :-\r\n\r\nThe proposed Smart Blind Stick is an electronic assistive device designed to improve the safety and awareness of visually impaired users. An Arduino Nano acts as the main controller and processes information from different sensors.\r\n\r\nAn ultrasonic sensor continuously detects obstacles in front of the user by transmitting ultrasonic waves and measuring the time taken for the reflected waves to return. The Arduino converts this time into distance. According to the detected distance, the system generates different warning patterns using a buzzer and vibration motor. For example, a distant obstacle can produce slower alerts, while a nearby obstacle can produce faster alerts, allowing the user to understand the approximate distance without looking at the device.\r\n\r\nA water detection sensor can identify water on the ground and generate a separate warning. This helps the user recognize potentially slippery or flooded areas. The system can be powered using a rechargeable battery, making the stick portable and practical for everyday use.\r\n\r\nINNOVATION :-\r\n\r\nThe key innovation of the project is the combination of distance-based obstacle detection, vibration/audio feedback, and water detection in a compact and low-cost device. Instead of providing only a simple obstacle warning, the Smart Blind Stick communicates the approximate danger level through changing beep and vibration patterns.\r\n\r\nThe system is designed using easily available and inexpensive electronic components, making it suitable for student-level development and potentially accessible to users with limited financial resources. The modular design also allows future upgrades such as GPS-based location tracking, emergency alerts, GSM communication, and IoT connectivity.\r\n\r\nThe project demonstrates how embedded electronics can be applied to solve a real-world accessibility problem and provide visually impaired users with additional environmental awareness and safer mobility.",
+  "workingPrinciple": "WORKING PRINCIPLE :-\r\n\r\nThe SMARTGUARD Smart Stick works by continuously detecting obstacles and water hazards in the user’s surroundings. The system is controlled by an ESP32 microcontroller, which receives information from different sensors and converts it into simple warning signals.\r\n\r\nA front ultrasonic/ToF distance sensor continuously measures the distance between the stick and objects ahead. When an obstacle is detected within a predefined range, the ESP32 processes the sensor data and activates a vibration motor and buzzer/speaker to warn the user. The vibration provides a tactile alert, allowing the user to understand that an obstacle is present without depending only on sound.\r\n\r\nA water sensor is positioned near the lower part of the stick to detect water or puddles on the walking path. When water is detected, the sensor sends a signal to the ESP32. The controller identifies it as a water hazard and produces a different vibration pattern and/or audio alert so that the user can distinguish it from a normal obstacle.\r\n\r\nThe system therefore uses hazard-specific feedback: one alert pattern for obstacles and another for water. This makes the information easier to understand while walking.\r\n\r\nThe ESP32 continuously repeats this sensing–processing–alert cycle in real time. The project is designed as a low-cost assistive system that improves environmental awareness and helps visually impaired users identify common walking hazards more safely and independently.",
+  "majorHardwareComponents": [
+    "MAJOR HARDWARE COMPONENTS :-\n\nThe SMARTGUARD Smart Stick uses a combination of sensors",
+    "a microcontroller",
+    "and alert devices to detect obstacles and water hazards.\n\n1. ARDUINO NANO : The Arduino Nano is the main control unit of the system. It receives signals from the sensors",
+    "processes the data",
+    "identifies hazards",
+    "and activates the appropriate warning devices.\n\n\n2. FRONT DISTANCE SENSOR : An ultrasonic or ToF sensor is placed at the front of the stick to measure the distance between the user and obstacles. When an object comes within a predefined range",
+    "the Arduino Nano triggers an alert.\n\n\n3. WATER SENSOR : A water detection sensor is positioned near the bottom of the stick. It detects water or puddles on the walking path and sends a signal to the Arduino Nano.\n\n\n4. VIBRATION MOTOR : The vibration motor provides tactile feedback. Different vibration patterns can be used to distinguish between an obstacle and water.\n\n\n5. BUZZER / SPEAKER : The buzzer or speaker provides an audio warning whenever a hazard is detected. Different sound patterns can represent different hazards.\n\n\n6. RECHARGEBLE BATTERY : A Li-ion battery supplies power to the Arduino Nano",
+    "sensors",
+    "and alert devices.\n\n\n7. TP4056 CHARGING MODULE : This module is used to recharge the Li-ion battery safely.\n\n\n8. WIRE",
+    "SWITCH",
+    "ENCLOSURE: These provide electrical connections",
+    "power control",
+    "and physical protection for the electronics.\n\n\n\nTogether",
+    "these components form a compact",
+    "low-cost",
+    "real-time hazard detection system that helps visually impaired users identify obstacles and water hazards while walking."
+  ],
+  "useAi": true,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Persons with Disabilities"
+  ],
+  "potentialImpact": "POTENTIAL REAL WORLD IMPACT :-\r\n\r\nThe Smart Blind Stick can significantly improve the safety, mobility, and independence of visually impaired people. The system uses an Arduino Nano, ultrasonic sensors, and a water-detection sensor to identify common hazards that may be difficult to detect using a conventional white cane.\r\n\r\nObstacle detection: Detects objects in the user’s path and provides different buzzer patterns according to the approximate distance of the obstacle.\r\n\r\nWater hazard detection: Identifies water on the walking surface and alerts the user, helping prevent slips and falls.\r\n\r\nImproved independence: Allows visually impaired users to navigate familiar and unfamiliar surroundings with greater confidence.\r\n\r\nLow-cost solution: Uses affordable and easily available electronic components, making the technology more accessible.\r\n\r\nUseful in daily environments: Can assist on roads, footpaths, corridors, campuses, and other public areas.\r\n\r\nScope for future development: GPS, emergency-alert systems, vibration feedback, and IoT connectivity can be added to make the stick more intelligent.\r\n\r\n\r\nOverall, the project aims to transform a conventional walking stick into an affordable electronic assistive device that provides real-time hazard warnings and supports safer mobility.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 2500,
+  "auraDemoHighlight": "THE PROJECT WORTH :-\r\n\r\nThe Smart Blind Stick is worth seeing because it converts a simple traditional walking stick into an intelligent safety device using affordable electronics.\r\n\r\n🚶 Solves a real problem: Helps visually impaired people detect hazards while walking.\r\n\r\n📡 Real-time detection: Ultrasonic sensors detect obstacles and provide immediate alerts.\r\n\r\n💧 Detects water hazards: The water sensor can warn the user about water on the walking path.\r\n\r\n🔊 Easy-to-understand alerts: Different buzzer patterns can indicate how close an obstacle is.\r\n\r\n💰 Low-cost and practical: The prototype can be built at around ₹1,500, making it suitable for affordable assistive technology.\r\n\r\n⚙️ ECE-focused innovation: Combines sensors, Arduino Nano, signal processing, and alert systems in one compact device.\r\n\r\n🚀 Future-ready: GPS, emergency alerts, vibration feedback, and IoT features can be added later.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "SAFETY PRECAUTIONS TAKEN :-\r\n\r\nLow-voltage components are used to reduce electrical hazards.\r\n\r\nAll electronic connections are properly insulated to prevent short circuits.\r\n\r\nThe Arduino Nano and sensors are securely mounted on the stick to prevent loose connections.\r\n\r\nWires are properly routed and fixed so they do not interfere with walking.\r\n\r\nThe water sensor is positioned to detect water while keeping the main electronic circuit protected from moisture.\r\n\r\nA battery with suitable voltage is used to power the circuit safely.\r\n\r\nThe buzzer provides immediate audible alerts without requiring the user to look at the device.\r\n\r\nThe stick is tested at different obstacle distances before demonstration.\r\n\r\nThe system is designed as an assistive prototype and should not replace normal safety awareness or other mobility assistance.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-28T14:23:06.924Z",
+  "updatedAt": "2026-10-11T17:32:06.537Z",
+  "abstract": {
+    "originalName": "1000113722.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790605385/aura-registrations/abstract-docs/1000113722.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/TECHWALK/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/TECHWALK/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790605385/aura-registrations/id-cards/hy0llaoouyl2crsafpha.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/TECHWALK/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790605385/aura-registrations/id-cards/fqoqcfomux2n3p1q1soa.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/TECHWALK/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790605385/aura-registrations/id-cards/ak5tiytnysaris7td7sd.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/TECHWALK/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

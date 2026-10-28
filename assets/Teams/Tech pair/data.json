@@ -1,0 +1,94 @@
+{
+  "index": 48,
+  "id": "6ad0fe154dedb92b791c33f1",
+  "registrationId": "AURA2K26-FY7JTK",
+  "rawTeamName": "Tech pair",
+  "folderName": "Tech pair",
+  "folderRelPath": "assets/Teams/Tech pair",
+  "projectTitle": "​Smart Access Control System using Arduino",
+  "teamSize": 4,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 4,
+  "teamLeaderName": "Piyush kumar",
+  "teamLeaderEmail": "piyush91424121@gmail.com",
+  "teamLeaderPhone": "9142412138",
+  "teamMemberDetails": "Manish kumar, debojyoti benerjee , Sekh Asraful Haque",
+  "hardwareProjectCategories": [
+    "Embedded Systems"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement:\r\nTraditional security systems rely heavily on physical keys or basic identification methods, which are vulnerable to loss, unauthorized copying, and security breaches. In sensitive environments like research labs, server rooms, and confidential offices, restricted access is essential, but existing smart access solutions are often expensive, complex to integrate, or lack real-time control features.\r\n​Hardware Solution:\r\nTo address this challenge, we developed a smart, reliable, and cost-effective access control system powered by an Arduino board integrated with a 4x4 membrane keypad and electronic locking mechanism. The user enters a secure passcode via the keypad, which is instantly processed by the micro-controller logic. Upon successful passcode authentication, the system signals the actuator to unlock the door, displaying access status clearly on an interface. Incorrect attempts trigger local alerts to prevent unauthorized entry.\r\n​Innovation Details:\r\nOur system’s key innovation lies in its compact, stand-alone architecture combining high reliability with modular scalability. It offers customizable passcodes, low power consumption, and fast input processing without needing complex server setups. Additionally, the system is designed to easily integrate with IoT modules (such as Wi-Fi/Bluetooth) for real-time remote monitoring, activity logging, and instant security notifications, making embedded security accessible and efficient for practical applications.",
+  "solutionDescription": "Problem Statement:\r\nTraditional security systems rely heavily on physical keys or basic identification methods, which are vulnerable to loss, unauthorized copying, and security breaches. In sensitive environments like research labs, server rooms, and confidential offices, restricted access is essential, but existing smart access solutions are often expensive, complex to integrate, or lack real-time control features.\r\n​Hardware Solution:\r\nTo address this challenge, we developed a smart, reliable, and cost-effective access control system powered by an Arduino board integrated with a 4x4 membrane keypad and electronic locking mechanism. The user enters a secure passcode via the keypad, which is instantly processed by the micro-controller logic. Upon successful passcode authentication, the system signals the actuator to unlock the door, displaying access status clearly on an interface. Incorrect attempts trigger local alerts to prevent unauthorized entry.\r\n​Innovation Details:\r\nOur system’s key innovation lies in its compact, stand-alone architecture combining high reliability with modular scalability. It offers customizable passcodes, low power consumption, and fast input processing without needing complex server setups. Additionally, the system is designed to easily integrate with IoT modules (such as Wi-Fi/Bluetooth) for real-time remote monitoring, activity logging, and instant security notifications, making embedded security accessible and efficient for practical applications.",
+  "innovationDescription": "Problem Statement:\r\nTraditional security systems rely heavily on physical keys or basic identification methods, which are vulnerable to loss, unauthorized copying, and security breaches. In sensitive environments like research labs, server rooms, and confidential offices, restricted access is essential, but existing smart access solutions are often expensive, complex to integrate, or lack real-time control features.\r\n​Hardware Solution:\r\nTo address this challenge, we developed a smart, reliable, and cost-effective access control system powered by an Arduino board integrated with a 4x4 membrane keypad and electronic locking mechanism. The user enters a secure passcode via the keypad, which is instantly processed by the micro-controller logic. Upon successful passcode authentication, the system signals the actuator to unlock the door, displaying access status clearly on an interface. Incorrect attempts trigger local alerts to prevent unauthorized entry.\r\n​Innovation Details:\r\nOur system’s key innovation lies in its compact, stand-alone architecture combining high reliability with modular scalability. It offers customizable passcodes, low power consumption, and fast input processing without needing complex server setups. Additionally, the system is designed to easily integrate with IoT modules (such as Wi-Fi/Bluetooth) for real-time remote monitoring, activity logging, and instant security notifications, making embedded security accessible and efficient for practical applications.",
+  "workingPrinciple": "The system operates on a digital input-verification and actuator control principle. A 4x4 matrix membrane keypad is continuously scanned by the Arduino microcontroller to detect keypress inputs from the user. When a sequence of keys is pressed, the microcontroller captures the digital signals and compares the entered passcode string against a predefined, secure passcode stored in its EEPROM/flash memory.\r\n​If the entered passcode matches the stored security key, the microcontroller sends a control signal (HIGH output) to a relay driver module. This energizes the relay switch, which in turn activates the electronic door lock mechanism (such as a solenoid lock or DC motor) to open the door for a designated timeframe. Simultaneously, visual indicators (LEDs) and a buzzer provide success feedback.\r\n​If the passcode is incorrect, the system denies access, triggers a warning beep via the buzzer, and increments an error counter. After a set number of consecutive failed attempts, a temporary lockout or local security alarm is activated to prevent brute-force attacks. The system continuously resets its input buffer to await the next authorized user authentication request.",
+  "majorHardwareComponents": [
+    "Arduino Microcontroller Board: Acts as the central processing unit and brain of the system",
+    "running the compiled control code to process inputs and manage outputs.  \n​4x4 Matrix Membrane Keypad: Used as the primary user input interface for entering secure numeric or alphanumeric passcodes.  \n​Relay Module (1-Channel/2-Channel): Serves as an electrically operated switch that allows the low-voltage Arduino output to safely control the higher-voltage electronic lock mechanism.  \n​Electronic Lock Mechanism: A solenoid lock or electromechanical door strike that physically locks or unlocks the door upon receiving the relay trigger.  \n​Buzzer and LED Indicators: Provides auditory beeps and visual cues for successful access",
+    "error warnings",
+    "and alert notifications.  \n​Power Supply Unit: Regulated DC power source (such as a 5V/12V adapter or battery) to supply stable operating voltage to the Arduino board and connected hardware peripherals.  \n​Connecting Wires and Breadboard / PCB: Used for secure electrical interconnections between the components."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Industry",
+    "General Public"
+  ],
+  "potentialImpact": "​This system provides a highly secure, reliable, and cost-effective access control solution that significantly improves upon traditional mechanical lock vulnerabilities such as lost keys or unauthorized key duplication.  \r\n​Who benefits from this?\r\nEducational institutions, research laboratories, small-to-medium enterprises, corporate offices, and residential spaces benefit directly by securing sensitive rooms and private areas without high installation costs.  \r\n​How does it improve current standards?\r\nWhile high-end biometric or smart card systems are expensive and complex to maintain, our embedded Arduino-based keypad solution offers an accessible, low-power, and robust alternative. It eliminates the dependency on physical keys, prevents unauthorized entry through digital passcode verification, and introduces affordable automated security for everyday practical use.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "Judges and visitors should pay attention to this project because it transforms standard, expensive security infrastructure into an affordable, highly efficient, and practical plug-and-play solution.  \r\n​Most Impressive & Unique Aspects:\r\n​Reliable Standalone Performance: It successfully bridges the gap between high-end commercial biometric systems and vulnerable traditional key locks by offering robust digital passcode authentication.  \r\n​Cost-Effectiveness & Simplicity: Built using widely accessible components like an Arduino and a membrane keypad, the entire unit is extremely budget-friendly while maintaining professional-grade reliability.  \r\n​Scalable Architecture: The design features clean modular integration, making it effortlessly adaptable for future expansions such as IoT cloud logging or wireless alerting.  \r\n​This project demonstrates how smart engineering can solve everyday physical security challenges efficiently and economically.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Although our embedded system operates on a low and safe voltage level (5V/12V) with minimal physical hazards, standard electrical safety measures have been strictly integrated:  \r\n​Low-Voltage Operation: The core microcontroller and keypad operate entirely on low DC voltage, completely eliminating any risk of electric shock during handling or demonstration.  \r\n​Isolated Switching: A relay module is used to safely isolate the low-power Arduino control circuit from any external locking mechanism or power supply.  \r\n​Proper Insulation and Wiring: All electronic wiring, pin connections, and power modules are securely insulated and checked to prevent short circuits, loose contacts, or overheating.  \r\n​Fail-Safe Mechanism: The system is designed to default to a secure state in case of power interruption, ensuring reliable operation without hazardous failures.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-15T16:23:49.689Z",
+  "updatedAt": "2026-10-15T16:25:49.791Z",
+  "abstract": {
+    "originalName": "Abstract Write-up.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792081427/aura-registrations/abstract-docs/Abstract%20Write-up.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Tech pair/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Tech pair/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792081428/aura-registrations/id-cards/nptill53iqgiq9gb6jan.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Tech pair/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792081428/aura-registrations/id-cards/gbpqyh2by6faarawqd43.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Tech pair/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792081427/aura-registrations/id-cards/paomtzs1gt5aroihvrbr.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Tech pair/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792081427/aura-registrations/id-cards/day2p83f8ici22pfk3qe.jpg",
+      "exists": true
+    }
+  ]
+}

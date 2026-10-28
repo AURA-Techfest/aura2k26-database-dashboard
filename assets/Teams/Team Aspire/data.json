@@ -1,0 +1,103 @@
+{
+  "index": 61,
+  "id": "6adf5e6494d7a27d25941e0d",
+  "registrationId": "AURA2K26-MDE593",
+  "rawTeamName": "Team Aspire",
+  "folderName": "Team Aspire",
+  "folderRelPath": "assets/Teams/Team Aspire",
+  "projectTitle": "FloodGrid",
+  "teamSize": 2,
+  "teamAffiliation": "mixed",
+  "aliahMembers": 1,
+  "otherInstitutionMembers": 1,
+  "teamLeaderName": "Sourik Seikh",
+  "teamLeaderEmail": "souriksk@gmail.com",
+  "teamLeaderPhone": "7892702345",
+  "teamMemberDetails": "Name - INzamam UL Huda \r\nInstitution - IEM(Salt Lake)\r\nDepartment- IT\r\nYear-1st\r\nPhone -9046100657",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "1. Problem Statement\r\n\r\nUrban waterlogging is a recurring problem, particularly during heavy rainfall and monsoon seasons. Blocked or overloaded drainage systems can cause road flooding, traffic congestion, property damage, and safety risks. In many areas, drain conditions are monitored through periodic manual inspections, which may not provide timely information about rapidly rising water levels. The absence of continuous, accessible monitoring makes it difficult to identify critical locations early and prioritize maintenance. There is a need for an affordable, scalable, and technology-driven solution that improves awareness of drainage conditions and supports timely preventive action.\r\n\r\n2. Proposed Solution\r\n\r\nFloodGrid is an IoT-based smart drainage monitoring system designed to monitor water levels at multiple locations through interconnected Arduino UNO R4 WiFi nodes. Each node uses an HC-SR04 ultrasonic sensor to measure the distance to the water surface and estimate the water depth and percentage of the monitored drain's capacity occupied by water. An OLED display provides local readings, while Wi-Fi communication enables the nodes to share information over a common network.\r\n\r\nOne Arduino acts as the master node, collecting readings from the second node and displaying the combined information on a centralized web dashboard. The dashboard presents water-level measurements, node connectivity, and warnings when readings exceed predefined thresholds. This allows users to identify locations that may require inspection or preventive maintenance. The prototype is designed for future expansion to additional monitoring nodes and advanced data-management features.\r\n\r\n3. Innovation Details\r\n\r\nFloodGrid integrates low-cost ultrasonic sensing, embedded computing, wireless communication, and centralized visualization into a modular monitoring system. Its key innovation is the ability to observe multiple drainage locations through one interface rather than relying solely on isolated measurements or manual inspections.\r\n\r\nThe system provides contactless water-level measurement, local visual feedback, and centralized monitoring using readily available hardware. Its modular architecture supports future enhancements such as historical data logging, cloud connectivity, rainfall integration, remote notifications, and analysis of recurring high-water conditions.\r\n\r\nFloodGrid aims to make drainage monitoring more accessible and proactive by transforming water-level measurements into actionable information. While the prototype does not independently confirm blockages or prevent flooding, it demonstrates a practical foundation for smarter urban drainage management and improved flood-risk awareness.",
+  "solutionDescription": "1. Problem Statement\r\n\r\nUrban waterlogging is a recurring problem, particularly during heavy rainfall and monsoon seasons. Blocked or overloaded drainage systems can cause road flooding, traffic congestion, property damage, and safety risks. In many areas, drain conditions are monitored through periodic manual inspections, which may not provide timely information about rapidly rising water levels. The absence of continuous, accessible monitoring makes it difficult to identify critical locations early and prioritize maintenance. There is a need for an affordable, scalable, and technology-driven solution that improves awareness of drainage conditions and supports timely preventive action.\r\n\r\n2. Proposed Solution\r\n\r\nFloodGrid is an IoT-based smart drainage monitoring system designed to monitor water levels at multiple locations through interconnected Arduino UNO R4 WiFi nodes. Each node uses an HC-SR04 ultrasonic sensor to measure the distance to the water surface and estimate the water depth and percentage of the monitored drain's capacity occupied by water. An OLED display provides local readings, while Wi-Fi communication enables the nodes to share information over a common network.\r\n\r\nOne Arduino acts as the master node, collecting readings from the second node and displaying the combined information on a centralized web dashboard. The dashboard presents water-level measurements, node connectivity, and warnings when readings exceed predefined thresholds. This allows users to identify locations that may require inspection or preventive maintenance. The prototype is designed for future expansion to additional monitoring nodes and advanced data-management features.\r\n\r\n3. Innovation Details\r\n\r\nFloodGrid integrates low-cost ultrasonic sensing, embedded computing, wireless communication, and centralized visualization into a modular monitoring system. Its key innovation is the ability to observe multiple drainage locations through one interface rather than relying solely on isolated measurements or manual inspections.\r\n\r\nThe system provides contactless water-level measurement, local visual feedback, and centralized monitoring using readily available hardware. Its modular architecture supports future enhancements such as historical data logging, cloud connectivity, rainfall integration, remote notifications, and analysis of recurring high-water conditions.\r\n\r\nFloodGrid aims to make drainage monitoring more accessible and proactive by transforming water-level measurements into actionable information. While the prototype does not independently confirm blockages or prevent flooding, it demonstrates a practical foundation for smarter urban drainage management and improved flood-risk awareness.",
+  "innovationDescription": "1. Problem Statement\r\n\r\nUrban waterlogging is a recurring problem, particularly during heavy rainfall and monsoon seasons. Blocked or overloaded drainage systems can cause road flooding, traffic congestion, property damage, and safety risks. In many areas, drain conditions are monitored through periodic manual inspections, which may not provide timely information about rapidly rising water levels. The absence of continuous, accessible monitoring makes it difficult to identify critical locations early and prioritize maintenance. There is a need for an affordable, scalable, and technology-driven solution that improves awareness of drainage conditions and supports timely preventive action.\r\n\r\n2. Proposed Solution\r\n\r\nFloodGrid is an IoT-based smart drainage monitoring system designed to monitor water levels at multiple locations through interconnected Arduino UNO R4 WiFi nodes. Each node uses an HC-SR04 ultrasonic sensor to measure the distance to the water surface and estimate the water depth and percentage of the monitored drain's capacity occupied by water. An OLED display provides local readings, while Wi-Fi communication enables the nodes to share information over a common network.\r\n\r\nOne Arduino acts as the master node, collecting readings from the second node and displaying the combined information on a centralized web dashboard. The dashboard presents water-level measurements, node connectivity, and warnings when readings exceed predefined thresholds. This allows users to identify locations that may require inspection or preventive maintenance. The prototype is designed for future expansion to additional monitoring nodes and advanced data-management features.\r\n\r\n3. Innovation Details\r\n\r\nFloodGrid integrates low-cost ultrasonic sensing, embedded computing, wireless communication, and centralized visualization into a modular monitoring system. Its key innovation is the ability to observe multiple drainage locations through one interface rather than relying solely on isolated measurements or manual inspections.\r\n\r\nThe system provides contactless water-level measurement, local visual feedback, and centralized monitoring using readily available hardware. Its modular architecture supports future enhancements such as historical data logging, cloud connectivity, rainfall integration, remote notifications, and analysis of recurring high-water conditions.\r\n\r\nFloodGrid aims to make drainage monitoring more accessible and proactive by transforming water-level measurements into actionable information. While the prototype does not independently confirm blockages or prevent flooding, it demonstrates a practical foundation for smarter urban drainage management and improved flood-risk awareness.",
+  "workingPrinciple": "FloodGrid is an IoT-based smart drainage monitoring system designed to monitor water levels at multiple drain locations and provide early warnings of potential waterlogging.\r\n\r\nEach monitoring node uses an HC-SR04 ultrasonic sensor to measure the distance between the sensor and the water surface. An Arduino UNO R4 WiFi processes the measurements to calculate the estimated water depth and percentage of drain capacity occupied by water, based on the predefined dimensions of the monitoring setup.\r\n\r\nThe readings are displayed locally on a 128×64 OLED screen. Using built-in Wi-Fi connectivity, the monitoring nodes communicate over a shared wireless network. One Arduino acts as the master node, hosting a centralized web dashboard and collecting readings from the second node.\r\n\r\nThe dashboard displays water levels, estimated fill percentages, node connectivity status, and high-water warnings in a single interface. When the water level exceeds a predefined threshold, the system indicates a potential high-water condition, enabling users to identify locations requiring inspection or preventive action.\r\n\r\nFloodGrid features a modular design that can be expanded by adding more monitoring nodes. The system aims to provide affordable, real-time drainage monitoring and centralized observation, helping users respond more quickly to rising water levels and potential urban waterlogging. Future improvements may include historical data logging, cloud integration, and remote notifications for wider deployment.",
+  "majorHardwareComponents": [
+    "1. Arduino UNO R4 WiFi: The main microcontroller responsible for processing sensor readings",
+    "calculating water levels",
+    "managing wireless communication",
+    "and hosting the central dashboard.\n\n2. HC-SR04 Ultrasonic Sensor: Measures the distance between the sensor and the water surface without direct contact",
+    "enabling estimation of water depth and drain fill percentage.\n\n3. 128×64 I²C OLED Display: Displays real-time water-level measurements",
+    "system status",
+    "and warnings locally at each monitoring node.\n\n4. Wi-Fi Connectivity: The built-in Wi-Fi capability of the Arduino UNO R4 WiFi enables communication between monitoring nodes and the centralized dashboard over a shared wireless network.\n\n5. Power Supply: A suitable regulated power source supplies power to the microcontroller",
+    "sensor",
+    "and display for continuous operation.\n\n6. Breadboard and Jumper Wires: Used for circuit assembly",
+    "electrical connections",
+    "and testing during prototype development.\n\n7. Drain Simulation Setup: A container or model drain is used to simulate changing water levels and test the monitoring system under controlled conditions.\n\nFloodGrid initially uses two Arduino UNO R4 WiFi boards",
+    "each paired with an ultrasonic sensor and an OLED display. One board functions as the master node",
+    "collecting measurements from the second node and presenting the combined information through a centralized web dashboard. The modular hardware architecture allows additional monitoring nodes to be incorporated in future versions."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "usb",
+  "intendedBeneficiaries": [
+    "Industry",
+    "General Public"
+  ],
+  "potentialImpact": "FloodGrid aims to improve urban drainage management through real-time water-level monitoring and early warnings of potential waterlogging. During heavy rainfall and monsoon seasons, rising water levels in drains can contribute to road flooding, traffic disruption, property damage, and public safety risks.\r\n\r\nBy deploying IoT-enabled monitoring nodes at multiple drainage locations, FloodGrid can help authorities identify areas experiencing unusually high water levels through a centralized web dashboard. Timely information can support faster inspections, drain cleaning, and preventive measures before conditions worsen.\r\n\r\nThe system is designed to be affordable, modular, and scalable, making it suitable for demonstration in residential areas, educational campuses, local drainage networks, and other urban environments. Its wireless communication capabilities reduce the need for continuous manual observation at every monitored location.\r\n\r\nFloodGrid can also serve as a foundation for future smart-city applications by incorporating historical data logging, rainfall sensors, cloud connectivity, and remote notifications. These enhancements could help identify recurring waterlogging hotspots, improve maintenance planning, and support data-driven decisions in urban infrastructure management.\r\n\r\nThe primary potential impact of FloodGrid is to improve awareness of rising drain water levels, encourage timely intervention, and contribute to safer, more resilient urban communities. Although the prototype does not directly prevent flooding or confirm drain blockages, it demonstrates how accessible IoT technology can support more proactive drainage monitoring and flood-risk management.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "FloodGrid is an innovative IoT-based smart drainage monitoring system designed to address the real-world problem of urban waterlogging. It demonstrates how affordable electronics and wireless technology can be used to improve drainage monitoring and support early warnings during heavy rainfall.\r\n\r\nWhat makes FloodGrid worth seeing is its ability to monitor multiple drain locations through interconnected Arduino UNO R4 WiFi nodes and display their water-level readings on a single centralized web dashboard. Using ultrasonic sensors, the system measures water levels without direct contact with the water and identifies when readings exceed predefined thresholds.\r\n\r\nThe project combines embedded systems, IoT communication, sensor technology, and web-based visualization in a practical, interactive prototype. Visitors can observe changing sensor readings, compare water levels across monitoring nodes, and see how high-water warnings are generated in real time.\r\n\r\nFloodGrid is designed to be affordable, modular, and scalable, offering potential applications in residential communities, educational campuses, and urban drainage networks. Its architecture can be extended with cloud-based data logging, remote notifications, and additional monitoring locations.\r\n\r\nUnlike a purely theoretical concept, FloodGrid demonstrates a practical approach to making drainage conditions more visible and supporting timely inspections and preventive action. By connecting physical infrastructure with digital monitoring, the project highlights how accessible IoT technology can contribute to smarter cities and more resilient communities.\r\n\r\nFloodGrid represents a step toward proactive drainage management, where timely information can help people respond more effectively to rising water levels and potential waterlogging.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "FloodGrid is designed with basic electrical and operational safety measures to ensure safe testing and demonstration.\r\n\r\n1. Low-Voltage Operation: The prototype operates using a 5V USB power supply, reducing electrical hazards during normal operation.\r\n\r\n2. Secure Electrical Connections: All components, including the Arduino UNO R4 WiFi, ultrasonic sensors, and OLED displays, are connected carefully to prevent short circuits, loose connections, and accidental damage.\r\n\r\n3. Water-Electronics Separation: The electronic components are positioned away from the water container to minimize the risk of water splashes reaching the circuitry. Protective enclosures can be used for additional safety.\r\n\r\n4. Sensor Placement: The ultrasonic sensors are mounted securely above the simulated water surface to prevent direct contact with water and ensure stable measurements.\r\n\r\n5. Power Isolation During Maintenance: The power supply is disconnected before changing wiring, adjusting connections, or troubleshooting hardware.\r\n\r\n6. Controlled Testing Environment: Initial testing is conducted using a small, controlled drain model rather than an actual drainage system, reducing exposure to contaminated water and other environmental hazards.\r\n\r\n7. Wireless Communication Safety: The system uses Wi-Fi for data communication, avoiding the need for long signal cables between monitoring nodes.\r\n\r\n8. Regular Inspection: Wiring, power connections, sensor mounting, and component temperatures are checked during operation to identify potential faults.\r\n\r\nThese precautions help improve the safety and reliability of the FloodGrid prototype. Before deployment in real drainage environments, additional measures such as waterproof enclosures, corrosion protection, and appropriate electrical isolation would be required.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T14:06:28.054Z",
+  "updatedAt": "2026-10-26T14:08:28.201Z",
+  "abstract": {
+    "originalName": "FloodGrid_Abstract_Idea.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793023587/aura-registrations/abstract-docs/FloodGrid_Abstract_Idea.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Team Aspire/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Team Aspire/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793023587/aura-registrations/id-cards/frlk3axdphocvdlfdalw.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Team Aspire/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793023587/aura-registrations/id-cards/egoz65wjyhgi5uc20eoo.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Team Aspire/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Team Aspire/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

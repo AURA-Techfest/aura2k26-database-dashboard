@@ -1,0 +1,101 @@
+{
+  "index": 47,
+  "id": "6ad09d5ce8557c436d78e000",
+  "registrationId": "REG-047",
+  "rawTeamName": "Mindmates",
+  "folderName": "Mindmates",
+  "folderRelPath": "assets/Teams/Mindmates",
+  "projectTitle": "Development of a Digital Mental Health and Psychological Support System for Students in Higher Education",
+  "teamSize": 4,
+  "teamAffiliation": "mixed",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 1,
+  "teamLeaderName": "Mrinmoy Samanta",
+  "teamLeaderEmail": "mrinmoysamanta627@gmail.com",
+  "teamLeaderPhone": "8346898532",
+  "teamMemberDetails": "Mrinmoy Samanta \r\nGurunanak institute of technology \r\nB.Tech(ECE)\r\n2025-2029\r\n8346898532\r\nNusrat Khatun \r\nAliah University \r\nBsc nursing \r\n2024 -2028 \r\n8348888078\r\nTahmeda Akhtara \r\nAliah University \r\nNursing (Bsc)\r\n2024-2028\r\n9332393379\r\nRasida Parvin \r\nAliah University \r\nBsc nursing \r\n2024- 2028\r\n9732617895",
+  "hardwareProjectCategories": [
+    "Biomedical / Healthcare Devices"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "MindMate University is an IoT-based mental wellness support prototype designed to help users monitor selected physiological indicators and access appropriate support resources. Many students experience stress and emotional difficulties but may not recognize the need for timely support. The proposed system uses an ESP32 microcontroller connected to a MAX30102 sensor for heart rate and estimated SpO₂ measurement, a GSR sensor for skin conductance, and a web dashboard for displaying available readings. A live PPG waveform and ESP32 connection status can help users observe sensor activity. The website also provides a questionnaire, assessment results, counselling information, and emergency support options. LED and buzzer alerts may indicate configured conditions. The innovation is the integration of low-cost hardware, real-time monitoring, and accessible web-based support in one prototype. The system is intended for wellness awareness and is not a medical diagnostic device. Physiological readings alone cannot diagnose stress or mental health conditions.",
+  "solutionDescription": "MindMate University is an IoT-based mental wellness support prototype designed to help users monitor selected physiological indicators and access appropriate support resources. Many students experience stress and emotional difficulties but may not recognize the need for timely support. The proposed system uses an ESP32 microcontroller connected to a MAX30102 sensor for heart rate and estimated SpO₂ measurement, a GSR sensor for skin conductance, and a web dashboard for displaying available readings. A live PPG waveform and ESP32 connection status can help users observe sensor activity. The website also provides a questionnaire, assessment results, counselling information, and emergency support options. LED and buzzer alerts may indicate configured conditions. The innovation is the integration of low-cost hardware, real-time monitoring, and accessible web-based support in one prototype. The system is intended for wellness awareness and is not a medical diagnostic device. Physiological readings alone cannot diagnose stress or mental health conditions.",
+  "innovationDescription": "MindMate University is an IoT-based mental wellness support prototype designed to help users monitor selected physiological indicators and access appropriate support resources. Many students experience stress and emotional difficulties but may not recognize the need for timely support. The proposed system uses an ESP32 microcontroller connected to a MAX30102 sensor for heart rate and estimated SpO₂ measurement, a GSR sensor for skin conductance, and a web dashboard for displaying available readings. A live PPG waveform and ESP32 connection status can help users observe sensor activity. The website also provides a questionnaire, assessment results, counselling information, and emergency support options. LED and buzzer alerts may indicate configured conditions. The innovation is the integration of low-cost hardware, real-time monitoring, and accessible web-based support in one prototype. The system is intended for wellness awareness and is not a medical diagnostic device. Physiological readings alone cannot diagnose stress or mental health conditions.",
+  "workingPrinciple": "The system uses an ESP32 microcontroller to collect physiological sensor readings and transmit available data to a web dashboard through Wi-Fi. The MAX30102 sensor measures heart rate and estimates SpO₂, while the GSR sensor measures skin conductance. The ESP32 processes the sensor data and sends it to the website, where users can view live readings, connection status, and a PPG waveform when valid sensor data is available. The website also provides a questionnaire, assessment results, counselling information, and emergency support resources. LEDs and a buzzer can provide alerts based on configured conditions. The system displays unavailable readings as \"--\" when the ESP32 or a sensor is disconnected. It is a wellness-support prototype, not a medical diagnostic system.",
+  "majorHardwareComponents": [
+    "The major hardware components are ESP32 development board",
+    "MAX30102 heart rate and SpO₂ sensor",
+    "GSR sensor module",
+    "temperature sensor",
+    "OLED display",
+    "status LEDs",
+    "buzzer",
+    "breadboard",
+    "jumper wires",
+    "and USB power supply. The ESP32 provides processing and Wi-Fi connectivity. The MAX30102 collects optical pulse signals",
+    "while the GSR sensor measures skin conductance. The temperature sensor provides an additional temperature reading if integrated. The OLED displays selected information locally",
+    "and LEDs and the buzzer provide configured visual and audible alerts. A web dashboard displays the available readings and support information."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "usb",
+  "intendedBeneficiaries": [
+    "Healthcare"
+  ],
+  "potentialImpact": "MindMate University aims to improve awareness of mental wellness among students by combining physiological monitoring with accessible support information. It may help users observe changes in heart rate, estimated SpO₂, and skin conductance while providing questionnaire-based assessments, counselling information, and emergency contacts. The low-cost ESP32-based design could support educational demonstrations and future wellness projects. The web dashboard enables users to view available readings without requiring an expensive touchscreen. The prototype does not replace professional assessment, and its readings should not be used alone to determine mental health status or medical emergencies.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "**Why This Project Is Worth Seeing**\r\n\r\nMindSense is an innovative student-focused mental wellness monitoring and psychological support system designed to promote awareness of mental well-being among higher education students. Its most impressive feature is the integration of real-time physiological monitoring with a digital platform that can help students understand their wellness status and access appropriate support resources.\r\n\r\nThe system uses an ESP32 microcontroller with sensors such as MAX30102 and GSR to collect physiological data, including heart rate, SpO₂, and skin conductance. The collected readings can be displayed on a web-based dashboard, enabling live monitoring when the hardware and sensors are properly connected. A PPG graph, visual status indicators, and alert features further improve the demonstration.\r\n\r\nAnother unique aspect of MindSense is its combination of sensor-based monitoring, questionnaire responses, and access to psychological support information, including QR-code-based resources. The project aims to make mental wellness technology more accessible and affordable for students by using low-cost electronic components and a website instead of an expensive touchscreen interface.\r\n\r\nMindSense is worth seeing because it combines embedded systems, IoT, web technology, and student well-being in one practical project. It demonstrates how affordable technology can support mental health awareness and encourage students to seek appropriate help when needed. It is intended as a wellness-support prototype, not a medical diagnostic system.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The prototype operates using a low-voltage USB power supply. All wiring and sensor connections are checked before powering the device. The circuit is kept away from water and conductive surfaces, and exposed connections are handled carefully. Components are used within their specified voltage limits. The device is disconnected before changing wiring. The prototype is used for educational wellness monitoring only and is not intended to provide medical diagnosis or replace professional healthcare support.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-15T09:31:08.513Z",
+  "updatedAt": "2026-10-15T09:31:08.513Z",
+  "abstract": {
+    "originalName": "aura Title.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792056667/aura-registrations/abstract-docs/aura%20Title.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Mindmates/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Mindmates/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792056668/aura-registrations/id-cards/fl8k0qirqdd0mguokcef.png",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Mindmates/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792056667/aura-registrations/id-cards/qx55r0vwz6zuapvov1lg.png",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Mindmates/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792056667/aura-registrations/id-cards/ikeqo00dwgpzuhnrjg5z.png",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Mindmates/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792056667/aura-registrations/id-cards/elfpirqw2kwzhe8n7eax.png",
+      "exists": true
+    }
+  ]
+}

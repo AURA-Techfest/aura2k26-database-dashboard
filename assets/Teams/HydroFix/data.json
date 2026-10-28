@@ -1,0 +1,100 @@
+{
+  "index": 12,
+  "id": "6abaa49f6b098e7ecbd28055",
+  "registrationId": "AURA2K26-4VZWNU",
+  "rawTeamName": "HydroFix",
+  "folderName": "HydroFix",
+  "folderRelPath": "assets/Teams/HydroFix",
+  "projectTitle": "Autonomous Robotic arm",
+  "teamSize": 2,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Md Ali",
+  "teamLeaderEmail": "zaynakash777@gmail.com",
+  "teamLeaderPhone": "8001342389",
+  "teamMemberDetails": "Mir Soleman Ali,",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Embedded Systems",
+    "AI-Enabled Hardware"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem:\r\nAffordable autonomous robotic systems for small-scale object handling are not easily accessible to students, educational institutions, and small-scale applications.\r\n\r\nSolution:\r\nPickBot is a low-cost autonomous robotic arm that uses computer vision and servo-controlled mechanisms to detect objects and perform pick-and-place tasks with minimal human intervention.",
+  "solutionDescription": "Problem:\r\nAffordable autonomous robotic systems for small-scale object handling are not easily accessible to students, educational institutions, and small-scale applications.\r\n\r\nSolution:\r\nPickBot is a low-cost autonomous robotic arm that uses computer vision and servo-controlled mechanisms to detect objects and perform pick-and-place tasks with minimal human intervention.",
+  "innovationDescription": "Problem:\r\nAffordable autonomous robotic systems for small-scale object handling are not easily accessible to students, educational institutions, and small-scale applications.\r\n\r\nSolution:\r\nPickBot is a low-cost autonomous robotic arm that uses computer vision and servo-controlled mechanisms to detect objects and perform pick-and-place tasks with minimal human intervention.",
+  "workingPrinciple": "System Specifications & Technical Details:\r\nESP32-based 5-DOF robotic arm with servo motors and a gripper, equipped with a camera for computer-vision-based object detection, wireless communication, and autonomous pick-and-place control using embedded software and intelligent motion planning.",
+  "majorHardwareComponents": [
+    "ESP32 microcontroller",
+    "5 servo motors",
+    "robotic arm mechanism",
+    "gripper",
+    "camera module",
+    "motor power supply",
+    "and mechanical frame/body."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Industry",
+    "Transportation",
+    "Agriculture"
+  ],
+  "potentialImpact": "Potential Real-World Impact:\r\nEnables affordable autonomous automation for small-scale industries, warehouses, laboratories, and educational institutions by reducing repetitive manual work and making robotic technology more accessible.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "PickBot demonstrates how low-cost hardware, computer vision, and autonomous control can be combined to transform a simple robotic arm into an intelligent system capable of perceiving and interacting with real-world objects.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Nothing",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-28T17:32:15.482Z",
+  "updatedAt": "2026-10-11T17:32:10.893Z",
+  "abstract": {
+    "originalName": "PickBot_Hackathon_Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790616734/aura-registrations/abstract-docs/PickBot_Hackathon_Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/HydroFix/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/HydroFix/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790616734/aura-registrations/id-cards/cywxmodao3if2nnwoczf.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/HydroFix/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790616734/aura-registrations/id-cards/qntze1vnqf93gwgdzlgs.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/HydroFix/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/HydroFix/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

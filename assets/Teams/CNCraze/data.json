@@ -1,0 +1,106 @@
+{
+  "index": 17,
+  "id": "6abbc41373bce36ff66c525d",
+  "registrationId": "AURA2K26-W2UVHA",
+  "rawTeamName": "CNCraze",
+  "folderName": "CNCraze",
+  "folderRelPath": "assets/Teams/CNCraze",
+  "projectTitle": "Hybrid Multitool CNC Engraving Machine",
+  "teamSize": 2,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 2,
+  "teamLeaderName": "Saugata Samanta",
+  "teamLeaderEmail": "saugatasamanta2005@gmail.com",
+  "teamLeaderPhone": "7074230847",
+  "teamMemberDetails": "Najmul Islam Molla | Swami Vivekananda Institenute Of Science & Technology | EEE | 4th yr | 9433670755",
+  "hardwareProjectCategories": [
+    "Automation & Control"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement\r\n\r\nSmall-scale artisans, craftsmen, carpenters and rural entrepreneurs often depend on manual methods for producing customized wooden products, decorative designs, nameplates, keyrings and similar items. This limits production speed, repeatability and design flexibility. Conventional CNC and engraving systems can also be difficult to adopt for small workshops because of their size, cost, fixed configurations and dependence on external servicing. For users in rural and semi-urban areas, equipment downtime and maintenance support can further affect productivity. There is therefore a need for a compact, adaptable and accessible digital manufacturing solution that can support different types of customized production within limited workspace.\r\n\r\nProposed Solution\r\n\r\nNeoCNC-X is a compact hybrid digital manufacturing platform designed to combine CNC-based machining and laser engraving capabilities within a single machine platform. It is intended to provide a practical solution for prototyping, customization, engraving and small-scale manufacturing. The platform is designed around a scalable machine concept, allowing different working sizes to be developed according to customer requirements rather than forcing every user into a single standard configuration. Its digital workflow enables designs to be converted into machine-executable instructions, reducing dependence on conventional manual production and supporting more consistent output. The approach is particularly suited to small workshops, artisans and emerging manufacturing users seeking a compact digital fabrication solution.\r\n\r\nInnovation\r\n\r\nThe innovation of NeoCNC-X is not presented as a single isolated component, but as an integrated manufacturing architecture that brings multiple capabilities into one adaptable platform. The concept focuses on creating a common operational foundation through which different manufacturing functions can be incorporated without requiring completely separate machines. The architecture is designed with modularity, scalability and future expandability in mind, allowing the platform to evolve according to application and customer requirements.",
+  "solutionDescription": "Problem Statement\r\n\r\nSmall-scale artisans, craftsmen, carpenters and rural entrepreneurs often depend on manual methods for producing customized wooden products, decorative designs, nameplates, keyrings and similar items. This limits production speed, repeatability and design flexibility. Conventional CNC and engraving systems can also be difficult to adopt for small workshops because of their size, cost, fixed configurations and dependence on external servicing. For users in rural and semi-urban areas, equipment downtime and maintenance support can further affect productivity. There is therefore a need for a compact, adaptable and accessible digital manufacturing solution that can support different types of customized production within limited workspace.\r\n\r\nProposed Solution\r\n\r\nNeoCNC-X is a compact hybrid digital manufacturing platform designed to combine CNC-based machining and laser engraving capabilities within a single machine platform. It is intended to provide a practical solution for prototyping, customization, engraving and small-scale manufacturing. The platform is designed around a scalable machine concept, allowing different working sizes to be developed according to customer requirements rather than forcing every user into a single standard configuration. Its digital workflow enables designs to be converted into machine-executable instructions, reducing dependence on conventional manual production and supporting more consistent output. The approach is particularly suited to small workshops, artisans and emerging manufacturing users seeking a compact digital fabrication solution.\r\n\r\nInnovation\r\n\r\nThe innovation of NeoCNC-X is not presented as a single isolated component, but as an integrated manufacturing architecture that brings multiple capabilities into one adaptable platform. The concept focuses on creating a common operational foundation through which different manufacturing functions can be incorporated without requiring completely separate machines. The architecture is designed with modularity, scalability and future expandability in mind, allowing the platform to evolve according to application and customer requirements.",
+  "innovationDescription": "Problem Statement\r\n\r\nSmall-scale artisans, craftsmen, carpenters and rural entrepreneurs often depend on manual methods for producing customized wooden products, decorative designs, nameplates, keyrings and similar items. This limits production speed, repeatability and design flexibility. Conventional CNC and engraving systems can also be difficult to adopt for small workshops because of their size, cost, fixed configurations and dependence on external servicing. For users in rural and semi-urban areas, equipment downtime and maintenance support can further affect productivity. There is therefore a need for a compact, adaptable and accessible digital manufacturing solution that can support different types of customized production within limited workspace.\r\n\r\nProposed Solution\r\n\r\nNeoCNC-X is a compact hybrid digital manufacturing platform designed to combine CNC-based machining and laser engraving capabilities within a single machine platform. It is intended to provide a practical solution for prototyping, customization, engraving and small-scale manufacturing. The platform is designed around a scalable machine concept, allowing different working sizes to be developed according to customer requirements rather than forcing every user into a single standard configuration. Its digital workflow enables designs to be converted into machine-executable instructions, reducing dependence on conventional manual production and supporting more consistent output. The approach is particularly suited to small workshops, artisans and emerging manufacturing users seeking a compact digital fabrication solution.\r\n\r\nInnovation\r\n\r\nThe innovation of NeoCNC-X is not presented as a single isolated component, but as an integrated manufacturing architecture that brings multiple capabilities into one adaptable platform. The concept focuses on creating a common operational foundation through which different manufacturing functions can be incorporated without requiring completely separate machines. The architecture is designed with modularity, scalability and future expandability in mind, allowing the platform to evolve according to application and customer requirements.",
+  "workingPrinciple": "NeoCNC-X operates on the principle of computer-controlled digital manufacturing, where a digital design is converted into coordinated machine movements and tool operations to produce the required physical output. The process begins with the preparation of a digital design using appropriate CAD/CAM or engraving software. The design is then translated into G-code, containing the required coordinates, movement paths and operational commands.\r\n\r\nThe generated G-code is processed by the GRBL-based control system, which interprets the commands and generates control signals for the machine’s motion system. These signals drive the respective X, Y and Z axes, providing controlled and coordinated positioning of the selected manufacturing tool.\r\n\r\nBased on the required application, the machine operates through either CNC spindle machining or laser engraving. In spindle mode, the rotating cutting tool removes material according to the programmed tool path. In laser mode, controlled laser energy produces the required engraving or marking pattern on the workpiece. Both operations utilize the machine’s coordinated motion architecture to reproduce the programmed design accurately.\r\n\r\nThe overall workflow is therefore:\r\n\r\nDigital Design → G-code Generation → GRBL Control → X-Y-Z Motion → Tool Operation → Material Processing → Final Output\r\n\r\nThis principle enables NeoCNC-X to convert digital designs into physical products through a controlled, repeatable and adaptable manufacturing process.",
+  "majorHardwareComponents": [
+    "The major electronic and hardware components of NeoCNC-X include an Arduino Uno microcontroller with GRBL firmware",
+    "CNC Shield V3",
+    "stepper motor drivers",
+    "and stepper motors for precise X-Y-Z axis movement. The machine incorporates a  DC spindle motor for CNC machining and a laser module for engraving. A DC power supply provides the required electrical power",
+    "while relay modules and an MOSFET are used for controlled switching of the spindle and laser. An boost converter supports voltage regulation",
+    "and cooling fans/cooling modules provide thermal management for reliable operation. Other essential hardware includes the CNC frame",
+    "lead screws",
+    "couplings",
+    "linear guides",
+    "work bed",
+    "and modular tool-head assembly."
+  ],
+  "useAi": true,
+  "useIot": false,
+  "powerSource": "dc_power_supply",
+  "intendedBeneficiaries": [
+    "Industry",
+    "Education",
+    "Rural Communities",
+    "Persons with Disabilities"
+  ],
+  "potentialImpact": "NeoCNC-X is primarily designed to benefit rural artisans, craftsmen, carpenters, small-scale manufacturers, handicraft producers, and customization businesses that require affordable and flexible digital manufacturing capabilities. In many rural and semi-urban areas, small products such as wooden toys, nameplates, key rings, decorative items, customized gifts, and craft components are still produced manually, requiring significant time and skilled labour. Existing CNC and laser systems can be costly, have fixed machine dimensions, and may create difficulties in maintenance and servicing when technical support is located far from the user. NeoCNC-X addresses these limitations through a compact, modular, and customizable machine architecture that combines CNC spindle machining and laser engraving on a common X-Y-Z motion platform. The system improves current working standards by shifting selected manufacturing operations from predominantly manual processes toward computer-controlled, repeatable, and digitally driven production. Its Arduino-based GRBL control system, modular tool-head arrangement, and offline G-code execution reduce dependence on continuous computer operation and provide greater flexibility during production. The use of commonly available electronic components such as Arduino Uno, CNC Shield, stepper motors, and motor drivers can also support easier local maintenance and component replacement. Integrated power management, controlled switching, and dedicated cooling contribute to safer and more stable operation. The customizable machine size allows users to select a suitable working envelope according to their workspace and production requirements. Consequently, NeoCNC-X can help reduce production time, improve repeatability and design flexibility, support small-batch customization, and make digital manufacturing technology more accessible to users who may not be able to adopt",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 35000,
+  "auraDemoHighlight": "NeoCNC-X deserves attention because it is not simply another CNC machine—it is a compact, modular digital manufacturing platform built around practical accessibility. By combining CNC spindle machining and laser engraving on a shared X-Y-Z platform, it brings multiple manufacturing capabilities into a single system while remaining adaptable to different workspace and production requirements. Its use of readily available components, offline G-code operation, modular tool heads, controlled power management, and integrated cooling focuses on real-world usability, maintainability, and affordability. More importantly, NeoCNC-X connects digital manufacturing technology with rural artisans, craftsmen, carpenters, and small-scale producers, helping bridge the gap between traditional craftsmanship and modern automated production.",
+  "safetyHazards": [
+    "water_near_electrical_equipment",
+    "fire_combustion",
+    "laser_intense_light",
+    "high_current"
+  ],
+  "safetyPrecautions": "NeoCNC-X incorporates multiple safety measures for reliable operation, including controlled power switching, relay-based isolation, MOSFET-controlled laser activation, dedicated cooling, and electrical separation of high-current loads. For laser operation, the system is designed with a controlled laser ON/OFF mechanism and enclosed/guarded working area, along with appropriate laser safety eyewear and operating precautions to minimize accidental exposure.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": true,
+  "previousExhibitionDetails": "NeoCNC-X has been exhibited and demonstrated across multiple innovation and technology platforms, including Techathon 3.0 organized by the Patent Information Centre (PIC), West Bengal State Council of Science & Technology, where the project secured Runner-Up in the Best Solution category. The project was also showcased at Heritage Institute of Technology Techfest, NITTTR, and the Global Entrepreneurship Summit (GES 2026) at IIT Kharagpur, providing opportunities to demonstrate its working prototype, technical approach, and potential applications to judges, innovators, academicians, and technology-focused audiences. These exhibitions have helped provide practical exposure and external validation of NeoCNC-X as a compact hybrid CNC and laser-based digital manufacturing platform.",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-29T13:58:43.013Z",
+  "updatedAt": "2026-10-11T17:32:35.135Z",
+  "abstract": {
+    "originalName": "Aura_Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790690322/aura-registrations/abstract-docs/Aura_Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/CNCraze/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/CNCraze/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790690322/aura-registrations/id-cards/gpyyv4io4hfjewdu5swe.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/CNCraze/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790690322/aura-registrations/id-cards/hlr5djemxpknjlesnfpw.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/CNCraze/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/CNCraze/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

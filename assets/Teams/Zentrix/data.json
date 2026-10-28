@@ -1,0 +1,96 @@
+{
+  "index": 30,
+  "id": "6ac62d92d0d49fb80b735147",
+  "registrationId": "AURA2K26-HYKYME",
+  "rawTeamName": "Zentrix",
+  "folderName": "Zentrix",
+  "folderRelPath": "assets/Teams/Zentrix",
+  "projectTitle": "Smart Water Monitoring System for Drain Overflow & Pipeline Leakage Detection",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Aalia Irshad",
+  "teamLeaderEmail": "aaliairshad842@gmail.com",
+  "teamLeaderPhone": "7439912565",
+  "teamMemberDetails": "Abdullahil Kafi ,Aliah university ,9339158498\r\nMd Miraj Ali ,Aliah university, 9735587576\r\nMd Kamal Akhtar,aliah university,9062138135",
+  "hardwareProjectCategories": [
+    "Other",
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Electronics & Communication"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Urban areas face two major water-related problems: drain overflow and underground pipeline leakage. During heavy rainfall, overflowing drains can cause waterlogging, traffic disruption and road damage. Pipeline leaks can also waste large amounts of water and may remain undetected because they occur underground. Our Smart Water Monitoring System provides an early-warning solution using sensors and a microcontroller. An ultrasonic water-level sensor continuously monitors the water level inside a drain. When the water rises above a predefined critical level, the system activates an alert. For underground pipelines, flow and pressure sensors monitor the normal water conditions. An unusual pressure drop or unexpected flow change can indicate a possible leakage. The sensor data is processed by an Arduino, which compares the readings with preset safe values and activates a buzzer, LED or display when an abnormal condition is detected. The system helps reduce water wastage, flooding, road damage and unnecessary inspection work. Its main innovation is combining drain-overflow and pipeline-leakage monitoring into one compact, low-cost hardware system for early detection and faster response.",
+  "solutionDescription": "Urban areas face two major water-related problems: drain overflow and underground pipeline leakage. During heavy rainfall, overflowing drains can cause waterlogging, traffic disruption and road damage. Pipeline leaks can also waste large amounts of water and may remain undetected because they occur underground. Our Smart Water Monitoring System provides an early-warning solution using sensors and a microcontroller. An ultrasonic water-level sensor continuously monitors the water level inside a drain. When the water rises above a predefined critical level, the system activates an alert. For underground pipelines, flow and pressure sensors monitor the normal water conditions. An unusual pressure drop or unexpected flow change can indicate a possible leakage. The sensor data is processed by an Arduino, which compares the readings with preset safe values and activates a buzzer, LED or display when an abnormal condition is detected. The system helps reduce water wastage, flooding, road damage and unnecessary inspection work. Its main innovation is combining drain-overflow and pipeline-leakage monitoring into one compact, low-cost hardware system for early detection and faster response.",
+  "innovationDescription": "Urban areas face two major water-related problems: drain overflow and underground pipeline leakage. During heavy rainfall, overflowing drains can cause waterlogging, traffic disruption and road damage. Pipeline leaks can also waste large amounts of water and may remain undetected because they occur underground. Our Smart Water Monitoring System provides an early-warning solution using sensors and a microcontroller. An ultrasonic water-level sensor continuously monitors the water level inside a drain. When the water rises above a predefined critical level, the system activates an alert. For underground pipelines, flow and pressure sensors monitor the normal water conditions. An unusual pressure drop or unexpected flow change can indicate a possible leakage. The sensor data is processed by an Arduino, which compares the readings with preset safe values and activates a buzzer, LED or display when an abnormal condition is detected. The system helps reduce water wastage, flooding, road damage and unnecessary inspection work. Its main innovation is combining drain-overflow and pipeline-leakage monitoring into one compact, low-cost hardware system for early detection and faster response.",
+  "workingPrinciple": "The system uses sensors and a microcontroller to continuously monitor drain water levels and underground pipeline conditions. An ultrasonic water-level sensor measures the distance between the sensor and the water surface. As the water level rises, the measured distance decreases. When the water reaches a predefined critical level, the microcontroller detects the condition and activates a buzzer/LED alert. For pipeline monitoring, flow and pressure sensors measure the normal water flow and pressure inside the pipe. A sudden pressure drop or an unexpected change in flow can indicate a possible leakage. The sensor readings are processed by an Arduino/ESP32, which compares them with preset safe limits. If an abnormal condition is detected, the system generates an immediate warning. This enables early detection of drain overflow and pipeline leakage, helping reduce water wastage, flooding and damage.",
+  "majorHardwareComponents": [
+    "Arduino/ESP32 microcontroller – processes sensor readings and controls the system.\n• Ultrasonic water-level sensor – measures the water level in the drain.\n• Flow sensor – monitors the flow of water through the pipeline.\n• Pressure sensor – detects unusual pressure changes that may indicate leakage.\n• Buzzer – provides an audible warning when an abnormal condition is detected.\n• LED indicators – show normal and warning conditions.\n• LCD/OLED display – can display water level and sensor status.\n• Mini water pump – circulates water in the prototype model.\n• Pipes and connectors – represent the underground pipeline system.\n• Breadboard",
+    "jumper wires and power supply – connect and power the electronic components."
+  ],
+  "useAi": true,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Government / Public Services",
+    "Other"
+  ],
+  "potentialImpact": "The system can benefit households, municipalities, water-supply authorities and urban infrastructure managers. It provides early warnings for drain overflow and possible underground pipeline leakage, allowing problems to be addressed before they become severe. Drain monitoring can help reduce waterlogging, road damage and disruption during heavy rainfall. Pipeline monitoring can help identify possible leaks early, reducing unnecessary water wastage and helping maintenance teams locate problem areas more efficiently. The system can also reduce the need for frequent manual inspection of difficult-to-access pipelines and drains. Because the prototype uses commonly available sensors and a microcontroller, it has the potential to be developed into a low-cost monitoring solution for homes, buildings and urban infrastructure. In the future, IoT connectivity could be added to send alerts remotely to maintenance teams or authorities.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 4000,
+  "auraDemoHighlight": "This project is worth seeing because it combines two important water-management problems in one smart system: drain overflow and underground pipeline leakage. The system uses sensors to continuously monitor water conditions and provides an early warning when abnormal conditions are detected. Its main advantage is early detection, which can help reduce water wastage, flooding, road damage and unnecessary manual inspection. The prototype is compact, practical and can be developed using affordable, easily available electronic components. It also has scope for future improvement through IoT-based remote monitoring and mobile alerts. The project demonstrates how simple sensor technology can be applied to solve real-world urban water-management problems.",
+  "safetyHazards": [
+    "none",
+    "fire_combustion"
+  ],
+  "safetyPrecautions": "The prototype uses low-voltage electrical components and is designed for safe demonstration. Electrical connections are properly insulated and secured to prevent accidental short circuits. The electronic components are kept away from unnecessary water exposure. The water flow is limited to the small demonstration model, and the pump and moving parts are handled carefully. The system is operated under supervision during demonstrations. Proper wiring, secure connections and a suitable power supply are used to reduce electrical and mechanical risks.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-07T11:31:30.172Z",
+  "updatedAt": "2026-10-14T18:48:51.853Z",
+  "abstract": {
+    "originalName": "Smart_Water_Monitoring_AURA2K26_Submission-1.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791372689/aura-registrations/abstract-docs/Smart_Water_Monitoring_AURA2K26_Submission-1.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Zentrix/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Zentrix/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791372689/aura-registrations/id-cards/l89zzexxgfh4no6jflje.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Zentrix/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791372689/aura-registrations/id-cards/cbqrwmcikjhq4u5hv80u.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Zentrix/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791372689/aura-registrations/id-cards/zbwjzpjteqvouousfdk1.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Zentrix/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791372689/aura-registrations/id-cards/xjcwwvklc3tso8lsntjr.png",
+      "exists": true
+    }
+  ]
+}

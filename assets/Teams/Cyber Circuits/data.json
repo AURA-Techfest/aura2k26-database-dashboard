@@ -1,0 +1,101 @@
+{
+  "index": 56,
+  "id": "6ade16184232d0d3a140b4b5",
+  "registrationId": "AURA2K26-PV7BPL",
+  "rawTeamName": "Cyber Circuits",
+  "folderName": "Cyber Circuits",
+  "folderRelPath": "assets/Teams/Cyber Circuits",
+  "projectTitle": "An IoT-Based Intelligent Drainage Monitoring and Early Blockage Detection System",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Parvez alam",
+  "teamLeaderEmail": "parvezacademy26@gmail.com",
+  "teamLeaderPhone": "9432334547",
+  "teamMemberDetails": "Shaheer and shahnawaz from electronics and communication dept 2nd year . Ahmed ali from electrical department 2nd year .aliah university.",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem: Urban drains often get partially blocked by plastic, leaves, mud and stones, especially during heavy rain. Conventional drains give no early warning, and overflow becomes visible only after the flow is already restricted, causing waterlogging, road damage and health risks.\r\nSolution: We propose a low-cost IoT-based drainage monitoring system built around an ESP32. A rain sensor detects rainfall and starts monitoring. Two water-level sensors, one upstream (A) and one downstream (B), measure the water level inside the drain. The ESP32 calculates the difference D = A − B and, together with the rainfall condition, classifies the drain as Normal, Warning or Blockage Alert. LEDs and a buzzer give local indication, and Wi-Fi sends a remote notification.\r\nInnovation: The system does not rely on a single high-water-level threshold. Two-point differential monitoring combined with rainfall context detects abnormal drainage behaviour earlier and reduces false alarms from ordinary water-level changes. The modular design can be extended with extra sensor nodes to cover more drain sections, supporting preventive inspection and faster response before severe overflow.",
+  "solutionDescription": "Problem: Urban drains often get partially blocked by plastic, leaves, mud and stones, especially during heavy rain. Conventional drains give no early warning, and overflow becomes visible only after the flow is already restricted, causing waterlogging, road damage and health risks.\r\nSolution: We propose a low-cost IoT-based drainage monitoring system built around an ESP32. A rain sensor detects rainfall and starts monitoring. Two water-level sensors, one upstream (A) and one downstream (B), measure the water level inside the drain. The ESP32 calculates the difference D = A − B and, together with the rainfall condition, classifies the drain as Normal, Warning or Blockage Alert. LEDs and a buzzer give local indication, and Wi-Fi sends a remote notification.\r\nInnovation: The system does not rely on a single high-water-level threshold. Two-point differential monitoring combined with rainfall context detects abnormal drainage behaviour earlier and reduces false alarms from ordinary water-level changes. The modular design can be extended with extra sensor nodes to cover more drain sections, supporting preventive inspection and faster response before severe overflow.",
+  "innovationDescription": "Problem: Urban drains often get partially blocked by plastic, leaves, mud and stones, especially during heavy rain. Conventional drains give no early warning, and overflow becomes visible only after the flow is already restricted, causing waterlogging, road damage and health risks.\r\nSolution: We propose a low-cost IoT-based drainage monitoring system built around an ESP32. A rain sensor detects rainfall and starts monitoring. Two water-level sensors, one upstream (A) and one downstream (B), measure the water level inside the drain. The ESP32 calculates the difference D = A − B and, together with the rainfall condition, classifies the drain as Normal, Warning or Blockage Alert. LEDs and a buzzer give local indication, and Wi-Fi sends a remote notification.\r\nInnovation: The system does not rely on a single high-water-level threshold. Two-point differential monitoring combined with rainfall context detects abnormal drainage behaviour earlier and reduces false alarms from ordinary water-level changes. The modular design can be extended with extra sensor nodes to cover more drain sections, supporting preventive inspection and faster response before severe overflow.",
+  "workingPrinciple": "A rain sensor first detects rainfall and signals the ESP32 microcontroller to start drainage monitoring. Two water-level sensors are placed inside the drain: Sensor A on the upstream side and Sensor B on the downstream side. The ESP32 continuously reads both values.\r\nDuring normal flow, A and B stay close to each other. When a blockage forms, water accumulates upstream while the downstream level stays comparatively lower. The ESP32 calculates the difference D = A − B and evaluates it together with the rainfall condition.\r\nBased on this, a three-level decision logic classifies the drain as Normal, Warning or Blockage Alert. Green, yellow and red LEDs with a buzzer give local indication, and the ESP32 sends a remote notification over Wi-Fi.\r\nBecause it uses two-point differential monitoring with rainfall context instead of a single high-water threshold, it detects blockage earlier and reduces false alarms.",
+  "majorHardwareComponents": [
+    "ESP32 microcontroller (with built-in Wi-Fi)",
+    "2 × water-level sensors (Sensor A upstream",
+    "Sensor B downstream)",
+    "rain sensor module",
+    "green/yellow/red LEDs",
+    "buzzer",
+    "resistors",
+    "breadboard or PCB",
+    "jumper wires",
+    "5V power supply or rechargeable battery with power module",
+    "small drain/channel model for the prototype."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "Urban residents, municipal bodies and city planners benefit most. Blocked drains cause waterlogging, damaged roads, traffic jams, mosquito breeding and disease spread during monsoon. Today, blockages are found only after water overflows or when people complain, and inspection is manual and reactive.\r\nOur system gives an early warning before overflow happens, so authorities can inspect and clear only the drains that need attention instead of checking all of them. This saves time, labour and repair costs, and reduces flood-related losses.\r\nCompared with single-threshold level alarms, the two-point differential method with rainfall context detects abnormal flow earlier and gives fewer false alarms. Being low-cost and modular, it can be scaled across many drain sections, supporting smarter and safer cities.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3000,
+  "auraDemoHighlight": "Our project solves a real city problem: drain blockages that are noticed only after water has already overflowed. Instead of waiting for a high-water alarm, it compares the water level on both sides of a drain (D = A − B) and uses rainfall as context, so it can warn of a blockage early.\r\nThe most unique aspect is this two-point differential method. It is simple, low-cost (about ₹3,000) and uses only an ESP32 and basic sensors, yet gives three-level status: Normal, Warning and Blockage Alert.\r\nJudges can see it working live. When we partially block the model drain during simulated rain, the status changes in real time, the LEDs and buzzer react, and a Wi-Fi notification is sent.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The prototype runs on low-voltage DC (5V battery supply), so there is no mains or high-voltage exposure. All electronics (ESP32, wiring, buzzer, LEDs) are kept in a sealed, insulated enclosure away from the water. Only the sensor probes are placed in the drain model, and their exposed contacts are waterproofed with insulation. A fuse or protection circuit is used with the battery, and the charging module has overcharge protection. The drain model uses a plastic container with no sharp edges. The demo area is kept dry, and wiring is neatly secured to avoid short circuits.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-25T14:45:44.909Z",
+  "updatedAt": "2026-10-25T14:47:45.016Z",
+  "abstract": {
+    "originalName": "DOC-20260928-WA0009.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792939543/aura-registrations/abstract-docs/DOC-20260928-WA0009.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Cyber Circuits/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Cyber Circuits/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792939544/aura-registrations/id-cards/jt0fyqactt4cwnlczquk.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Cyber Circuits/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792939543/aura-registrations/id-cards/kukkegrmrskcpz2u22oe.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Cyber Circuits/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792939543/aura-registrations/id-cards/mvngeolb0cxjzxz6ojoq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Cyber Circuits/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792939543/aura-registrations/id-cards/n5ye0iowtofi08jambmk.jpg",
+      "exists": true
+    }
+  ]
+}

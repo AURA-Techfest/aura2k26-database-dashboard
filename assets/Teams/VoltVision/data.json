@@ -1,0 +1,96 @@
+{
+  "index": 27,
+  "id": "6abe8e37a6daff02386ec5be",
+  "registrationId": "AURA2K26-D2EWRE",
+  "rawTeamName": "VoltVision",
+  "folderName": "VoltVision",
+  "folderRelPath": "assets/Teams/VoltVision",
+  "projectTitle": "IoT-Enabled Distribution Transformer Health Monitoring and Online IEEE C57.91 Thermal Insulation Degradation Estimation System",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "ARIJ HUSSAIN",
+  "teamLeaderEmail": "arijhussain8@gmail.com",
+  "teamLeaderPhone": "7364829329",
+  "teamMemberDetails": "SOUVICK HALDER | ALIAH UNIVERSITY | ELECTRICAL ENGINEERING | 3RD YEAR | 8145447548\r\nTAOSIF AHASAN | ALIAH UNIVERSITY | ELECTRICAL ENGINEERING | 3RD YEAR | 7811087200\r\nENAMUL HAQUE | ALIAH UNIVERSITY | ELECTRICAL ENGINEERING | 3RD YEAR | 9430880942",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Electrical Systems",
+    "Safety & Security Systems",
+    "Electronics & Communication",
+    "Embedded Systems"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem Statement\r\n\r\nDistribution transformers are critical components of electrical distribution networks and operate continuously under varying electrical and thermal stresses. Conventional transformer protection systems primarily respond to immediate faults such as overcurrent, short circuits, and excessive temperature. However, they generally do not provide continuous estimation of \"long-term thermal insulation degradation\" or the remaining useful life of the transformer.\r\n\r\nLow-cost IoT monitoring systems can measure parameters such as voltage, current, and temperature, but many systems simply transmit sensor readings or generate basic threshold-based alarms. They lack the ability to correlate multiple operating parameters, identify the probable cause of abnormal conditions, and quantify the cumulative effect of thermal stress on transformer insulation. This creates a gap between simple monitoring and predictive transformer health assessment.\r\n\r\n Proposed Solution\r\n\r\nThe proposed system is an \"IoT-Enabled Distribution Transformer Health Monitoring and Online IEEE C57.91 Thermal Insulation Degradation Estimation System\" designed as a low-cost prototype using a 12 V test transformer and an ESP32 microcontroller.\r\n\r\nThe system continuously measures \"AC voltage, load current, top-oil temperature, and oil-level condition\" using appropriate sensors. The ESP32 processes these measurements locally and calculates the transformer hot-spot temperature using an IEEE C57.91-based thermal model. From the estimated hot-spot temperature, the \"Aging Acceleration Factor (FAA)\" is calculated to estimate cumulative thermal aging, dynamic Loss of Life (LOL), and Remaining Useful Life (RUL).\r\n\r\nThe processed parameters are displayed locally on a 16×2 LCD and transmitted to the \"Blynk IoT platform\" for remote monitoring. A cooling fan and buzzer are automatically controlled when predefined abnormal conditions are detected.\r\n\r\nInnovation Details\r\n\r\nThe key innovation is the combination of 'IoT monitoring, edge-based anomaly classification, and online thermal aging estimation' in a single low-cost system.\r\n\r\nInstead of only reporting sensor values, the system analyzes combinations of electrical and thermal parameters to distinguish between:\r\n\r\n- Severe Overload: High current + high temperature\r\n- Downstream Fault/Spike: High current + normal temperature\r\n- Cooling System Failure: Normal current + high temperature\r\n- Oil Hazard: Abnormal oil-level condition\r\n\r\nFurthermore, the system converts real-time thermal stress into a quantitative \"insulation aging indicator using the IEEE C57.91 methodology\", providing an early indication of cumulative transformer degradation rather than responding only after a major failure occurs.\r\n\r\nThe proposed prototype therefore demonstrates how an affordable ESP32-based platform can combine \"condition monitoring, predictive thermal assessment, automated protection, and IoT-based visualization\" for smarter transformer maintenance.",
+  "solutionDescription": "Problem Statement\r\n\r\nDistribution transformers are critical components of electrical distribution networks and operate continuously under varying electrical and thermal stresses. Conventional transformer protection systems primarily respond to immediate faults such as overcurrent, short circuits, and excessive temperature. However, they generally do not provide continuous estimation of \"long-term thermal insulation degradation\" or the remaining useful life of the transformer.\r\n\r\nLow-cost IoT monitoring systems can measure parameters such as voltage, current, and temperature, but many systems simply transmit sensor readings or generate basic threshold-based alarms. They lack the ability to correlate multiple operating parameters, identify the probable cause of abnormal conditions, and quantify the cumulative effect of thermal stress on transformer insulation. This creates a gap between simple monitoring and predictive transformer health assessment.\r\n\r\n Proposed Solution\r\n\r\nThe proposed system is an \"IoT-Enabled Distribution Transformer Health Monitoring and Online IEEE C57.91 Thermal Insulation Degradation Estimation System\" designed as a low-cost prototype using a 12 V test transformer and an ESP32 microcontroller.\r\n\r\nThe system continuously measures \"AC voltage, load current, top-oil temperature, and oil-level condition\" using appropriate sensors. The ESP32 processes these measurements locally and calculates the transformer hot-spot temperature using an IEEE C57.91-based thermal model. From the estimated hot-spot temperature, the \"Aging Acceleration Factor (FAA)\" is calculated to estimate cumulative thermal aging, dynamic Loss of Life (LOL), and Remaining Useful Life (RUL).\r\n\r\nThe processed parameters are displayed locally on a 16×2 LCD and transmitted to the \"Blynk IoT platform\" for remote monitoring. A cooling fan and buzzer are automatically controlled when predefined abnormal conditions are detected.\r\n\r\nInnovation Details\r\n\r\nThe key innovation is the combination of 'IoT monitoring, edge-based anomaly classification, and online thermal aging estimation' in a single low-cost system.\r\n\r\nInstead of only reporting sensor values, the system analyzes combinations of electrical and thermal parameters to distinguish between:\r\n\r\n- Severe Overload: High current + high temperature\r\n- Downstream Fault/Spike: High current + normal temperature\r\n- Cooling System Failure: Normal current + high temperature\r\n- Oil Hazard: Abnormal oil-level condition\r\n\r\nFurthermore, the system converts real-time thermal stress into a quantitative \"insulation aging indicator using the IEEE C57.91 methodology\", providing an early indication of cumulative transformer degradation rather than responding only after a major failure occurs.\r\n\r\nThe proposed prototype therefore demonstrates how an affordable ESP32-based platform can combine \"condition monitoring, predictive thermal assessment, automated protection, and IoT-based visualization\" for smarter transformer maintenance.",
+  "innovationDescription": "Problem Statement\r\n\r\nDistribution transformers are critical components of electrical distribution networks and operate continuously under varying electrical and thermal stresses. Conventional transformer protection systems primarily respond to immediate faults such as overcurrent, short circuits, and excessive temperature. However, they generally do not provide continuous estimation of \"long-term thermal insulation degradation\" or the remaining useful life of the transformer.\r\n\r\nLow-cost IoT monitoring systems can measure parameters such as voltage, current, and temperature, but many systems simply transmit sensor readings or generate basic threshold-based alarms. They lack the ability to correlate multiple operating parameters, identify the probable cause of abnormal conditions, and quantify the cumulative effect of thermal stress on transformer insulation. This creates a gap between simple monitoring and predictive transformer health assessment.\r\n\r\n Proposed Solution\r\n\r\nThe proposed system is an \"IoT-Enabled Distribution Transformer Health Monitoring and Online IEEE C57.91 Thermal Insulation Degradation Estimation System\" designed as a low-cost prototype using a 12 V test transformer and an ESP32 microcontroller.\r\n\r\nThe system continuously measures \"AC voltage, load current, top-oil temperature, and oil-level condition\" using appropriate sensors. The ESP32 processes these measurements locally and calculates the transformer hot-spot temperature using an IEEE C57.91-based thermal model. From the estimated hot-spot temperature, the \"Aging Acceleration Factor (FAA)\" is calculated to estimate cumulative thermal aging, dynamic Loss of Life (LOL), and Remaining Useful Life (RUL).\r\n\r\nThe processed parameters are displayed locally on a 16×2 LCD and transmitted to the \"Blynk IoT platform\" for remote monitoring. A cooling fan and buzzer are automatically controlled when predefined abnormal conditions are detected.\r\n\r\nInnovation Details\r\n\r\nThe key innovation is the combination of 'IoT monitoring, edge-based anomaly classification, and online thermal aging estimation' in a single low-cost system.\r\n\r\nInstead of only reporting sensor values, the system analyzes combinations of electrical and thermal parameters to distinguish between:\r\n\r\n- Severe Overload: High current + high temperature\r\n- Downstream Fault/Spike: High current + normal temperature\r\n- Cooling System Failure: Normal current + high temperature\r\n- Oil Hazard: Abnormal oil-level condition\r\n\r\nFurthermore, the system converts real-time thermal stress into a quantitative \"insulation aging indicator using the IEEE C57.91 methodology\", providing an early indication of cumulative transformer degradation rather than responding only after a major failure occurs.\r\n\r\nThe proposed prototype therefore demonstrates how an affordable ESP32-based platform can combine \"condition monitoring, predictive thermal assessment, automated protection, and IoT-based visualization\" for smarter transformer maintenance.",
+  "workingPrinciple": "Working Principle\r\nThe proposed system works by continuously monitoring the electrical, thermal, and oil-level conditions of a distribution transformer and using the measured data to estimate its health and insulation aging.\r\nThe ZMPT101B voltage sensor measures the transformer’s AC voltage, while the ACS712 current sensor measures the load current. The DS18B20 temperature sensor measures the top-oil temperature, and the HC-SR04 ultrasonic sensor monitors the oil-level condition. All sensor outputs are processed by the ESP32 microcontroller.\r\n\r\n\r\nThe calculated hot-spot temperature is then used to determine the Aging Acceleration Factor (FAA). By continuously accumulating the aging effect, the system estimates the transformer’s Loss of Life (LOL) and Remaining Useful Life (RUL).\r\nThe ESP32 also performs edge-based anomaly classification by correlating current, temperature, and oil-level measurements. It can identify conditions such as severe overload, downstream current spikes, cooling-system failure, and low-oil hazards.\r\nWhen abnormal conditions occur, the system can activate a cooling fan through the relay and generate an alarm using the buzzer. The measured and calculated parameters are displayed on the 16×2 LCD and transmitted to the Blynk IoT platform for remote monitoring.\r\nThus, the system follows:\r\nSensing → Data Processing → Thermal Estimation → Aging Calculation → Fault Diagnosis → Protection → IoT Monitoring.",
+  "majorHardwareComponents": [
+    "ESP32 Dev Board  \n12 V Test/Distribution Transformer  \nZMPT101B AC Voltage Sensor  \nACS712 5A Current Sensor  \nDS18B20 Waterproof Temperature Sensor  \nHC-SR04 Ultrasonic Sensor  \n16×2 I2C LCD Display  \n5 V Relay Module  \nDC Cooling Fan  \nPiezo Buzzer  \n4.7 kΩ Resistor  \n1 kΩ Resistor  \n2 kΩ Resistor  \nBreadboard/PCB  \nJumper Wires  \nDC Power Supply / Adapter"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "dc_power_supply",
+  "intendedBeneficiaries": [
+    "Industry",
+    "Government / Public Services",
+    "Rural Communities"
+  ],
+  "potentialImpact": "The proposed system can improve distribution transformer monitoring, maintenance, and reliability by moving from conventional reactive protection toward condition-based and predictive monitoring.\r\nIn practical distribution networks, transformers operate continuously under varying loads and temperatures. The proposed system continuously monitors voltage, current, temperature, and oil-level conditions, allowing abnormal operating conditions to be detected at an early stage. By applying an IEEE C57.91-based thermal aging model, the system can also estimate the effect of thermal stress on transformer insulation life, providing information beyond simple threshold-based alarms.\r\nThe edge-based diagnostic system can help distinguish between different abnormal conditions, such as severe overload, abnormal current spikes, cooling-system failure, and low-oil conditions. This can help maintenance personnel understand the possible cause of an abnormal condition and take appropriate action before serious damage occurs.\r\nThe IoT functionality allows transformer parameters and health indicators to be monitored remotely through a Blynk-based dashboard, reducing the need for continuous physical inspection. Automatic cooling and alarm functions can provide an additional layer of protection during abnormal conditions.\r\nBecause the prototype uses low-cost sensors and an ESP32, the concept can potentially be adapted for affordable monitoring of small distribution transformers, rural substations, educational laboratories, and other low-voltage transformer applications.\r\nOverall, the project demonstrates a pathway toward low-cost, data-driven transformer condition monitoring, potentially helping reduce unexpected failures, improve maintenance planning, and increase transformer operational reliability.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 1500,
+  "auraDemoHighlight": "This project is worth seeing because it shows how a simple, low-cost setup can be used to monitor the health of a transformer in a smarter way. Instead of only showing voltage, current, or temperature, the system also tries to understand what those values mean for the transformer.\r\n- Real-time monitoring: Voltage, current, temperature, and oil level are continuously monitored.\r\n- Early warning: The system can identify abnormal conditions before they develop into serious problems.\r\n- Transformer aging estimation: It uses the IEEE C57.91 thermal model to estimate hot-spot temperature and the effect of heat on insulation aging.\r\n- Loss of Life and RUL: The system estimates how much useful life has been consumed and the remaining useful life of the transformer.\r\n- Different fault conditions: It can distinguish between conditions such as overload, sudden current increase, cooling failure, and low oil level.\r\n- Automatic action: A cooling fan can be switched on automatically when the temperature rises, while a buzzer provides an alarm during critical conditions.\r\n- IoT-based monitoring: Important readings and transformer health information can be viewed remotely through the Blynk dashboard.\r\n- Low-cost prototype: The project is designed using easily available components and costs around ₹1,500, making it affordable for an academic prototype",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The project uses a 12 V test transformer instead of directly experimenting with high-voltage distribution equipment.\r\nThe ESP32 and its sensors are operated at their recommended voltage levels to prevent damage to the controller and other components.\r\nThe ZMPT101B and ACS712 are used to electrically isolate or safely measure the transformer voltage and current.\r\nA 1 kΩ/2 kΩ voltage divider is used on the HC-SR04 Echo line so that the voltage reaching the ESP32 GPIO remains within a safe range.\r\nA 4.7 kΩ pull-up resistor is provided for reliable operation of the DS18B20 temperature sensor.\r\nAll connections are checked carefully before switching on the power supply to avoid short circuits or incorrect connections.\r\nExposed wires and terminals are properly insulated to reduce the risk of accidental contact.\r\nThe relay and cooling fan are operated within their rated voltage and current limits.\r\nThe transformer is not operated continuously under excessive load, and abnormal temperature rise is avoided during testing.\r\nThe prototype is kept on a dry and stable surface, away from water and conductive materials.\r\nPower is disconnected before changing wiring, replacing components, or troubleshooting the circuit.\r\nA suitable fuse/current-limiting protection should be used in the transformer supply during practical testing.\r\nThe system's automatic fan and buzzer functions provide an additional warning when abnormal operating conditions are detected.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-01T16:45:43.903Z",
+  "updatedAt": "2026-10-14T18:48:34.951Z",
+  "abstract": {
+    "originalName": "Aura Project.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790873143/aura-registrations/abstract-docs/Aura%20Project.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/VoltVision/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/VoltVision/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790873142/aura-registrations/id-cards/va9t8bnewqkqgbk5k75f.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/VoltVision/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790873142/aura-registrations/id-cards/xjimwqflscw6ipqncmn7.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/VoltVision/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790873142/aura-registrations/id-cards/qibkokbo6ikugzf9ja1p.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/VoltVision/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790873143/aura-registrations/id-cards/uaaufz3xaxgcunixz9yg.jpg",
+      "exists": true
+    }
+  ]
+}

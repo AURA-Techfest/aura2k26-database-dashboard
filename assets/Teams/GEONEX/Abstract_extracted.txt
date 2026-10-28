@@ -1,0 +1,27 @@
+Title:
+
+IoT-Based Dynamic Health Monitoring and Distress Prediction System for Victims of Atrocities
+
+Methodology:
+
+The proposed system integrates Internet of things (IoT) - based physiological monitoring, standardized psychological questionnaires, and an Android application for preliminary distress screening among victims of atrocities.
+
+Hardware Development: A microcontroller is interfaced with a heart rate sensor, body temperature sensor, and Galvanic Skin Response (GSR) sensor to collect physiological parameters. An HC-05 Bluetooth module enables wireless communication between the hardware and the Android application.
+
+Data Acquisition and Transmission: The microcontroller collects sensor measurements and transmits the data to the Android application, where the physiological parameters are displayed for real-time or periodic monitoring.
+
+Android Application Development: The application incorporates two standardized questionnaires: the Patient Health Questionnaire-9 (PHQ-9) for assessing depressive symptoms and the WHO-5 Well-Being Index for evaluating psychological well-being. Users respond to the questionnaire items through the mobile interface.
+
+Scoring and Assessment: The application calculates questionnaire scores according to the respective scoring guidelines. Physiological measurements are evaluated alongside questionnaire results using a predefined assessment framework to support preliminary distress screening.
+
+Risk Classification and Recommendations: Based on the defined assessment criteria, the system categorizes screening results into low, borderline, moderate, and high-concern levels. Appropriate guidance is displayed, including self-care suggestions, recommendations for professional consultation, and relevant mental health service contact information.
+
+Figure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring SystemFigure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring SystemBlock Diagram: 
+
+Figure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring System
+
+Figure 1:  Block Diagram of the Proposed IoT-Based Psychological Distress Screening and Health Monitoring System
+
+Proposed Outcome:
+
+The proposed system is expected to provide a functional IoT-based platform for physiological health monitoring and preliminary psychological distress screening among victims of atrocities. This system will enable the collection and visualization of physiological data alongside standardized psychological assessments using the PHQ-9 and WHO-5 questionnaires. The application will evaluate questionnaire scores and relevant physiological measurements using a predefined assessment framework to identify potential levels of distress and generate appropriate recommendations. Depending on the screening results, the system will provide guidance ranging from general well-being suggestions to recommendations for professional mental health consultation and referral. The proposed platform aims to improve accessibility to preliminary screening and facilitate timely identification of individuals who may require further psychological assessment. In future development, artificial intelligence and machine learning techniques may be incorporated to identify patterns in physiological and questionnaire data and improve screening performance.

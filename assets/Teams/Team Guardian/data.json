@@ -1,0 +1,103 @@
+{
+  "index": 37,
+  "id": "6aca410375e4e48d9cf8569a",
+  "registrationId": "AURA2K26-TA83X9",
+  "rawTeamName": "Team Guardian",
+  "folderName": "Team Guardian",
+  "folderRelPath": "assets/Teams/Team Guardian",
+  "projectTitle": "Classroom Energy guardian-Detect empty classrooms and automatically manages light/fan",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Afreen Kainat",
+  "teamLeaderEmail": "akainat723@gmail.com",
+  "teamLeaderPhone": "8902584073",
+  "teamMemberDetails": "MD MINHAJ HUSSAIN\r\nAliah university \r\nElectronic and communication department \r\n1st year \r\n9007066165\r\nSk Avan Aktar\r\nAliah University \r\nElectrical department \r\n1st year\r\n8918094707\r\nSWEETY PATRA \r\nAliah University \r\nElectrical department \r\n1st year \r\n6295298095",
+  "hardwareProjectCategories": [
+    "Electrical Systems"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "*The Problem* \r\nSchools waste a massive amount of electricity every day. Students and teachers frequently forget to turn off lights, fans,  when they leave for lunch, recess, or at the end of the day. While smart building systems can fix this, they usually require complex computer programming, stable Wi-Fi networks, and constant software updates. For many schools, these high-tech systems are simply too expensive, difficult to install, and hard to maintain.\r\n *The Solution* \r\nThe Classroom Energy Guardian fixes this problem using a *100% offline* ,  and *zero-Wi-Fi* approach. Instead of using smart computers or apps, it relies on rugged, standalone motion sensors installed directly into the classroom ceiling. These sensors act like automated light switches. When they detect people moving, they keep the power on. When the room is empty, they automatically cut the power. To protect  from damage caused by sudden shutting off and on, a heavy-duty electrical switch (called a contactor) is used alongside a built-in time delay.\r\n *The Innovation* \r\nThe true innovation of this project is its low-tech, plug-and-play simplicity. It achieves the exact same energy savings as a high-tech smart school without needing a single line of code or an internet connection. Adjustments are made easily using small, physical dials right on the sensor. It even features a built-in daylight sensor, meaning the lights will stay off if the sun is already keeping the room bright, saving even more power. By removing the need for Wi-Fi and programming, this system creates an affordable, fail-safe solution that any local electrician can install. It instantly *cuts school electricity bills by up to 40%* with absolutely zero software maintenance.",
+  "solutionDescription": "*The Problem* \r\nSchools waste a massive amount of electricity every day. Students and teachers frequently forget to turn off lights, fans,  when they leave for lunch, recess, or at the end of the day. While smart building systems can fix this, they usually require complex computer programming, stable Wi-Fi networks, and constant software updates. For many schools, these high-tech systems are simply too expensive, difficult to install, and hard to maintain.\r\n *The Solution* \r\nThe Classroom Energy Guardian fixes this problem using a *100% offline* ,  and *zero-Wi-Fi* approach. Instead of using smart computers or apps, it relies on rugged, standalone motion sensors installed directly into the classroom ceiling. These sensors act like automated light switches. When they detect people moving, they keep the power on. When the room is empty, they automatically cut the power. To protect  from damage caused by sudden shutting off and on, a heavy-duty electrical switch (called a contactor) is used alongside a built-in time delay.\r\n *The Innovation* \r\nThe true innovation of this project is its low-tech, plug-and-play simplicity. It achieves the exact same energy savings as a high-tech smart school without needing a single line of code or an internet connection. Adjustments are made easily using small, physical dials right on the sensor. It even features a built-in daylight sensor, meaning the lights will stay off if the sun is already keeping the room bright, saving even more power. By removing the need for Wi-Fi and programming, this system creates an affordable, fail-safe solution that any local electrician can install. It instantly *cuts school electricity bills by up to 40%* with absolutely zero software maintenance.",
+  "innovationDescription": "*The Problem* \r\nSchools waste a massive amount of electricity every day. Students and teachers frequently forget to turn off lights, fans,  when they leave for lunch, recess, or at the end of the day. While smart building systems can fix this, they usually require complex computer programming, stable Wi-Fi networks, and constant software updates. For many schools, these high-tech systems are simply too expensive, difficult to install, and hard to maintain.\r\n *The Solution* \r\nThe Classroom Energy Guardian fixes this problem using a *100% offline* ,  and *zero-Wi-Fi* approach. Instead of using smart computers or apps, it relies on rugged, standalone motion sensors installed directly into the classroom ceiling. These sensors act like automated light switches. When they detect people moving, they keep the power on. When the room is empty, they automatically cut the power. To protect  from damage caused by sudden shutting off and on, a heavy-duty electrical switch (called a contactor) is used alongside a built-in time delay.\r\n *The Innovation* \r\nThe true innovation of this project is its low-tech, plug-and-play simplicity. It achieves the exact same energy savings as a high-tech smart school without needing a single line of code or an internet connection. Adjustments are made easily using small, physical dials right on the sensor. It even features a built-in daylight sensor, meaning the lights will stay off if the sun is already keeping the room bright, saving even more power. By removing the need for Wi-Fi and programming, this system creates an affordable, fail-safe solution that any local electrician can install. It instantly *cuts school electricity bills by up to 40%* with absolutely zero software maintenance.",
+  "workingPrinciple": "The system switches the classroom light, fan, and projector on when people are present and off when the room stays empty. An ESP32 board controls everything.\r\nA PIR (Passive Infrared) sensor is fixed inside the room. Every warm body gives out infrared radiation. When a person moves, the infrared reaching the sensor changes, and the sensor sends a HIGH signal to the ESP32. With no movement, the signal stays LOW.\r\nEach time motion is detected, the ESP32 restarts a timer and keeps the room marked as occupied. A relay module, which is an electrically controlled switch, keeps the light, fan, and projector powered.\r\nIf no motion is detected for a set time, for example 5 minutes, the ESP32 sounds a buzzer as a warning. Pressing a cancel button or moving restarts the timer. Otherwise, the ESP32 switches the relays off and the appliances lose power. When the PIR senses movement again, everything switches back on.\r\nAn INA219 sensor measures the voltage and current of the loads to calculate energy used and saved. A 12 V adapter powers the loads, and an LM2596 converter steps it down to 5 V for the ESP32, PIR, and relay.",
+  "majorHardwareComponents": [
+    "ESP32 board: the main controller. It reads the sensor",
+    "runs the timer",
+    "and controls the relays.\n\nPIR sensor (HC-SR501): detects human movement by sensing changes in infrared radiation.\n\n4-channel relay module: an electrically controlled switch that turns the light",
+    "fan",
+    "and projector on or off.\n\nINA219 power sensor: measures the voltage and current of the loads to calculate energy used and saved.\n\nActive buzzer: gives a warning beep before shutdown.\n\nPush button: cancels the shutdown during the warning period.\nLEDs and resistors: show the system state: occupied",
+    "warning",
+    "or empty.\n\n12 V 3 A DC adapter: powers the loads and the electronics.\nLM2596 buck\n\nconverter: steps 12 V down to 5 V for the ESP32",
+    "PIR",
+    "and relay.\n470 µF capacitor: keeps the 5 V supply steady so relay clicks don't reset the ESP32.\nInline fuse: protects the circuit from a short circuit.\n\nBreadboard",
+    "jumper wires",
+    "hookup wire",
+    "and terminal blocks: make the electrical connections."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "Education",
+    "Government / Public Services",
+    "Industry"
+  ],
+  "potentialImpact": "Classrooms often leave lights and fans running when nobody is inside. The Classroom Energy Guardian removes this waste automatically, without relying on teachers or students to remember.\r\n\r\nEnvironmental impact: Switching off appliances in empty rooms cuts unnecessary electricity use, which lowers grid demand and the institution's carbon footprint. As a visible example of green technology, it also teaches students the value of saving energy and builds a habit of conservation.\r\n\r\nEconomic impact: Lighting and cooling make up a large part of a school's electricity bill, so reducing idle running time lowers costs. Fans and light fixtures also run fewer hours, which reduces wear and delays replacement, cutting maintenance spending. The hardware, such as a PIR sensor and a microcontroller, is inexpensive, so the investment can be recovered in a short time.\r\n\r\nTechnical potential: The system can grow from a standalone unit into a connected network that sends occupancy and energy data from every classroom to a central dashboard, so administrators can see where energy is being wasted. Over time, this data can show usage patterns that help schedule lighting and cooling better. The same sensor could also support after-hours intrusion alerts.\r\n\r\nMarket potential: Most schools cannot afford to rewire their buildings, so an easy-to-install, modular retrofit unit suits them well. It also fits smart campus and energy-saving initiatives, and can be installed one classroom at a time as budgets allow.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2500,
+  "auraDemoHighlight": "⚡ Automatic Energy Saving: Prevents electricity wastage caused by lights and fans being left ON.\r\n👀 Smart Occupancy Detection: Detects whether people are present inside the classroom.\r\n🤖 Automatic Control: Reduces the need for manual switching of electrical appliances.\r\n💰 Cost Saving: Lower unnecessary electricity consumption can reduce electricity bills.\r\n🌱 Eco-Friendly: Helps reduce energy wastage and supports a greener campus.\r\n🏫 Real-World Application: Can be implemented in classrooms, laboratories, offices, libraries, and other institutional spaces.\r\n\r\n• The Problem It Solves: Standard automatic sensors immediately cut the lights and fans when they don't see movement, which can leave students stuck in the dark if they sit completely still during a quiet exam or study session.\r\n• The Warning State: Instead of shutting down instantly when the 5-minute timer hits zero, the controller first sounds an audible buzzer alarm. This serves as a clear audio warning that the system thinks the room is empty.\r\n•  When a person hears the buzzer, they have two ways to keep the power on without needing a mobile app or programming:\r\n\t*Wave their hands or stand up so the sensor catches their movement.\r\n\tOr * physically tap a manual \"Cancel\" button on the wall or switchboard.\r\n\r\nWhy worth seeing?\r\nBecause this project converts a common everyday problem—electricity wastage in empty classrooms—into an automatic, practical, and sustainable solution. It combines automation, energy efficiency, and real-world usefulness in one simple system",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Low-voltage design: We built the prototype on a 12 V DC supply and used no mains (230 V) wiring, so there was no shock risk during building or testing.\r\nFuse protection: An inline fuse was added to the power line to cut the supply in case of a short circuit.\r\nVoltage check: Before connecting the ESP32, PIR sensor, and relay, we set the LM2596 converter to exactly 5 V using a multimeter.\r\nPower off while wiring: We changed connections only when the circuit was unplugged.\r\nStep-by-step testing: Each part (PIR sensor, relay, power sensor) was tested separately with small loads before everything was connected together.\r\nIsolated relay: We used an optocoupler-isolated relay module and kept every load within its rating.\r\nStable supply: A capacitor was added across the 5 V supply, and a common ground was used, to prevent resets and unstable behaviour.\r\nInsulation and neat wiring: Connections were made with terminal blocks and insulation tape or heat shrink, and wires were routed away from the fan blades.\r\nFire safety: The model classroom is made of foam board, so hot parts and loose wires were kept clear of it, and the circuit was never left running unattended.\r\nSoldering safety: Soldering was done in a ventilated area with the iron resting on a stand.\r\nDry workspace: Liquids were kept away from the electronics.\r\nSafe failure design: A warning buzzer sounds before shutdown, and a cancel button and manual override are included.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-10T13:43:31.115Z",
+  "updatedAt": "2026-10-14T18:49:23.595Z",
+  "abstract": {
+    "originalName": "Classroom Energy guardian-Detect empty classrooms and automatically manages_20261009_141522_0000.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791639810/aura-registrations/abstract-docs/Classroom%20Energy%20guardian-Detect%20empty%20classrooms%20and%20automatically%20manages_20261009_141522_0000.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Team Guardian/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Team Guardian/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791639810/aura-registrations/id-cards/pm47yfmnrcxg3c6ssdoa.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Team Guardian/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791639810/aura-registrations/id-cards/lusibixb2fhcd1xf4vxq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Team Guardian/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791639810/aura-registrations/id-cards/peps7gk2rfkjrywv4oaj.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Team Guardian/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791639810/aura-registrations/id-cards/snivp1ojvzh6ctwkwne2.jpg",
+      "exists": true
+    }
+  ]
+}

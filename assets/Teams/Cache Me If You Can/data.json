@@ -1,0 +1,119 @@
+{
+  "index": 13,
+  "id": "6abaa9c3d21450140ef800e2",
+  "registrationId": "AURA2K26-HMW249",
+  "rawTeamName": "Cache Me If You Can",
+  "folderName": "Cache Me If You Can",
+  "folderRelPath": "assets/Teams/Cache Me If You Can",
+  "projectTitle": "KRISHIDRISHTI",
+  "teamSize": 4,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 4,
+  "teamLeaderName": "Mayukh Dey Dhara",
+  "teamLeaderEmail": "mayukhdeydhara17@gmail.com",
+  "teamLeaderPhone": "9330290195",
+  "teamMemberDetails": "Shreejib Das | TECHNO MAIN SALT LAKE | CSE(DS) | 1st yr,2026-2030 | 9051877529\r\nAnushka Singh | TECHNO MAIN SALT LAKE | CSE(DS) | 1st yr,2026-2030 | 9836805847\r\nNeevv Khillan | TECHNO MAIN SALT LAKE | CSE(AIML) | 1st yr,2026-2030 | 8535941159",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Electronics & Communication",
+    "Embedded Systems",
+    "Electrical Systems",
+    "Automation & Control",
+    "AI-Enabled Hardware",
+    "Assistive Technology",
+    "Smart Agriculture",
+    "Environmental Technology"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Agriculture remains the backbone of many economies, yet farmers continue to face challenges such as irregular irrigation, crop diseases, unpredictable weather conditions, and inefficient resource utilization. Traditional farming methods often rely on manual observation and experience, which can lead to delayed decisions, water wastage, reduced crop yields, and financial losses. Small and medium-scale farmers are especially affected due to limited access to advanced agricultural technologies and expert guidance.\r\n\r\nKRISHIDRISHTI addresses these challenges through an intelligent agriculture decision-support system that leverages the power of IoT, Artificial Intelligence, and data analytics. The system continuously collects real-time field data using sensors that monitor soil moisture, temperature, humidity, rainfall, and light intensity. This data is transmitted through an ESP32-based communication layer to a cloud-enabled backend where it is securely stored and analyzed.\r\n\r\nThe core innovation of KRISHIDRISHTI lies in transforming raw environmental data into actionable farming recommendations. Instead of simply displaying sensor readings, the platform provides irrigation suggestions, crop-health insights, pest and disease detection, and yield estimation support. Farmers can upload crop images, which are processed by AI models to identify potential diseases and pests. The integrated AI assistant, KrishiSaathi, explains recommendations in a simple and understandable manner, enabling farmers to make informed decisions.\r\n\r\nAnother innovative aspect is the platform's focus on explainable intelligence. Every recommendation is accompanied by a reason, helping farmers understand why a specific action is suggested. This increases trust and encourages technology adoption among rural communities.\r\n\r\nThe solution also incorporates farm economics analysis by estimating operational costs, expected revenue, and profit margins. This feature helps farmers optimize not only crop productivity but also financial planning.\r\n\r\nKRISHIDRISHTI is designed to be scalable, affordable, and accessible. By combining IoT hardware, AI-powered analytics, multilingual support, and a farmer-friendly interface, it creates a complete ecosystem for precision agriculture. The system reduces water consumption, improves crop health management, minimizes losses caused by diseases, and supports sustainable farming practices. Through intelligent automation and data-driven insights, KRISHIDRISHTI empowers farmers to achieve higher productivity while conserving valuable agricultural resources.",
+  "solutionDescription": "Agriculture remains the backbone of many economies, yet farmers continue to face challenges such as irregular irrigation, crop diseases, unpredictable weather conditions, and inefficient resource utilization. Traditional farming methods often rely on manual observation and experience, which can lead to delayed decisions, water wastage, reduced crop yields, and financial losses. Small and medium-scale farmers are especially affected due to limited access to advanced agricultural technologies and expert guidance.\r\n\r\nKRISHIDRISHTI addresses these challenges through an intelligent agriculture decision-support system that leverages the power of IoT, Artificial Intelligence, and data analytics. The system continuously collects real-time field data using sensors that monitor soil moisture, temperature, humidity, rainfall, and light intensity. This data is transmitted through an ESP32-based communication layer to a cloud-enabled backend where it is securely stored and analyzed.\r\n\r\nThe core innovation of KRISHIDRISHTI lies in transforming raw environmental data into actionable farming recommendations. Instead of simply displaying sensor readings, the platform provides irrigation suggestions, crop-health insights, pest and disease detection, and yield estimation support. Farmers can upload crop images, which are processed by AI models to identify potential diseases and pests. The integrated AI assistant, KrishiSaathi, explains recommendations in a simple and understandable manner, enabling farmers to make informed decisions.\r\n\r\nAnother innovative aspect is the platform's focus on explainable intelligence. Every recommendation is accompanied by a reason, helping farmers understand why a specific action is suggested. This increases trust and encourages technology adoption among rural communities.\r\n\r\nThe solution also incorporates farm economics analysis by estimating operational costs, expected revenue, and profit margins. This feature helps farmers optimize not only crop productivity but also financial planning.\r\n\r\nKRISHIDRISHTI is designed to be scalable, affordable, and accessible. By combining IoT hardware, AI-powered analytics, multilingual support, and a farmer-friendly interface, it creates a complete ecosystem for precision agriculture. The system reduces water consumption, improves crop health management, minimizes losses caused by diseases, and supports sustainable farming practices. Through intelligent automation and data-driven insights, KRISHIDRISHTI empowers farmers to achieve higher productivity while conserving valuable agricultural resources.",
+  "innovationDescription": "Agriculture remains the backbone of many economies, yet farmers continue to face challenges such as irregular irrigation, crop diseases, unpredictable weather conditions, and inefficient resource utilization. Traditional farming methods often rely on manual observation and experience, which can lead to delayed decisions, water wastage, reduced crop yields, and financial losses. Small and medium-scale farmers are especially affected due to limited access to advanced agricultural technologies and expert guidance.\r\n\r\nKRISHIDRISHTI addresses these challenges through an intelligent agriculture decision-support system that leverages the power of IoT, Artificial Intelligence, and data analytics. The system continuously collects real-time field data using sensors that monitor soil moisture, temperature, humidity, rainfall, and light intensity. This data is transmitted through an ESP32-based communication layer to a cloud-enabled backend where it is securely stored and analyzed.\r\n\r\nThe core innovation of KRISHIDRISHTI lies in transforming raw environmental data into actionable farming recommendations. Instead of simply displaying sensor readings, the platform provides irrigation suggestions, crop-health insights, pest and disease detection, and yield estimation support. Farmers can upload crop images, which are processed by AI models to identify potential diseases and pests. The integrated AI assistant, KrishiSaathi, explains recommendations in a simple and understandable manner, enabling farmers to make informed decisions.\r\n\r\nAnother innovative aspect is the platform's focus on explainable intelligence. Every recommendation is accompanied by a reason, helping farmers understand why a specific action is suggested. This increases trust and encourages technology adoption among rural communities.\r\n\r\nThe solution also incorporates farm economics analysis by estimating operational costs, expected revenue, and profit margins. This feature helps farmers optimize not only crop productivity but also financial planning.\r\n\r\nKRISHIDRISHTI is designed to be scalable, affordable, and accessible. By combining IoT hardware, AI-powered analytics, multilingual support, and a farmer-friendly interface, it creates a complete ecosystem for precision agriculture. The system reduces water consumption, improves crop health management, minimizes losses caused by diseases, and supports sustainable farming practices. Through intelligent automation and data-driven insights, KRISHIDRISHTI empowers farmers to achieve higher productivity while conserving valuable agricultural resources.",
+  "workingPrinciple": "KRISHIDRISHTI operates through a systematic pipeline that converts field observations into intelligent farming decisions. The workflow follows the sequence: Sense → Transmit → Store → Analyze → Explain → Act.\r\n\r\nThe process begins with IoT sensors deployed in agricultural fields. These sensors continuously monitor important environmental parameters such as soil moisture, temperature, humidity, rainfall, and sunlight exposure. The collected readings are processed by an ESP32 microcontroller, which acts as the central data acquisition unit.\r\n\r\nThe ESP32 transmits the collected information to a backend server through a communication network. Once received, the data is stored in a structured SQL database for historical tracking and future analysis. A Flask-based application processes incoming information and performs trend analysis, threshold monitoring, and predictive assessment.\r\n\r\nThe analytics engine evaluates environmental conditions to determine irrigation requirements, detect crop stress, and identify potential risks. AI algorithms compare sensor patterns with agricultural datasets to generate recommendations. Farmers can additionally upload crop images, which are analyzed using machine learning models for pest and disease identification.\r\n\r\nThe system then converts analytical results into simple recommendations through the KrishiSaathi advisory platform. Notifications, alerts, and suggestions are generated in a user-friendly format and delivered through the farmer dashboard. Each recommendation includes a clear explanation, ensuring transparency and trust.\r\n\r\nThe farmer can then take corrective actions such as adjusting irrigation schedules, applying treatments, or implementing preventive measures. This closed-loop process enables continuous monitoring and improvement, allowing data-driven decision-making throughout the farming cycle.",
+  "majorHardwareComponents": [
+    "KRISHIDRISHTI utilizes a set of carefully selected hardware components that work together to collect accurate agricultural data and facilitate intelligent decision-making.\n\nThe primary component is the ESP32 microcontroller",
+    "which serves as the central processing and communication unit. It receives data from various sensors",
+    "performs preliminary processing",
+    "and transmits information to the backend server through wireless connectivity.\n\nThe soil moisture sensor measures the water content present in the soil. This sensor is critical for determining irrigation requirements and preventing overwatering or underwatering conditions.\n\nA temperature sensor monitors ambient environmental temperature",
+    "which directly influences crop growth",
+    "evaporation rates",
+    "and disease development. Alongside it",
+    "a humidity sensor measures atmospheric moisture levels",
+    "helping assess plant health and weather-related risks.\n\nThe system also incorporates a rainfall sensor that detects precipitation events and assists in adjusting irrigation recommendations accordingly. This prevents unnecessary water usage during rainy periods and contributes to water conservation.\n\nA light intensity sensor measures sunlight exposure received by crops. Light data helps evaluate growing conditions and identify environmental factors affecting crop productivity.\n\nSupporting hardware includes a regulated power supply",
+    "communication modules integrated within the ESP32",
+    "connecting wires",
+    "protective sensor housings",
+    "and field deployment accessories. A smartphone or computer acts as the user interface for accessing recommendations and monitoring field conditions.\n\nTogether",
+    "these components create a low-cost",
+    "scalable",
+    "and reliable monitoring network capable of collecting real-time agricultural data. The hardware architecture ensures accurate sensing",
+    "efficient communication",
+    "and seamless integration with the AI-powered analytics platform."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Agriculture",
+    "Rural Communities",
+    "General Public",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "KRISHIDRISHTI has the potential to significantly transform modern agricultural practices by enabling data-driven farming decisions. One of its most important impacts is efficient water management. By providing precise irrigation recommendations based on soil and weather conditions, the system reduces water wastage and promotes sustainable resource utilization.\r\n\r\nThe platform also contributes to improved crop health. Early detection of pests, diseases, and environmental stress enables timely intervention, reducing crop losses and improving productivity. Farmers can take preventive measures before problems become severe, resulting in healthier crops and better yields.\r\n\r\nAnother major impact is economic empowerment. Through yield estimation and farm economics analysis, farmers gain valuable insights into costs, expected revenues, and profitability. These insights support better planning and resource allocation, ultimately increasing financial stability.\r\n\r\nKRISHIDRISHTI can also bridge the knowledge gap in rural communities. The multilingual KrishiSaathi assistant makes advanced agricultural intelligence accessible to farmers regardless of technical expertise. Explainable recommendations increase trust and encourage technology adoption.\r\n\r\nAt a larger scale, widespread deployment can contribute to food security by improving agricultural efficiency and crop production. Reduced water consumption and optimized input usage also support environmental sustainability. Governments, agricultural agencies, and cooperatives can leverage the platform for regional agricultural monitoring and planning.\r\n\r\nBy integrating IoT, AI, and accessible advisory services, KRISHIDRISHTI has the potential to improve livelihoods, strengthen agricultural resilience, and promote sustainable farming practices across diverse farming ecosystems.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 4500,
+  "auraDemoHighlight": "KRISHIDRISHTI stands out because it combines multiple cutting-edge technologies into a single practical solution that addresses real-world agricultural challenges. Unlike conventional monitoring systems that only display sensor readings, KRISHIDRISHTI interprets data and provides meaningful recommendations that farmers can immediately act upon.\r\n\r\nThe project demonstrates the effective integration of IoT hardware, cloud-based data management, artificial intelligence, image-based disease detection, and explainable decision support. This multidisciplinary approach showcases innovation across electronics, software engineering, machine learning, and agriculture.\r\n\r\nVisitors will find the real-time sensor monitoring particularly engaging. Live field data can be visualized instantly, demonstrating how environmental conditions influence agricultural decisions. The AI-powered KrishiSaathi assistant adds an interactive element by explaining recommendations in a simple and understandable manner.\r\n\r\nThe disease detection feature further enhances the project's appeal. By uploading crop images, users can experience how artificial intelligence assists in identifying agricultural threats and recommending corrective measures. This creates a compelling demonstration of practical AI implementation.\r\n\r\nBeyond technical sophistication, the project addresses a socially important problem. Agriculture affects millions of livelihoods, and solutions that improve productivity while conserving resources have significant societal value. The project's affordability and scalability make it suitable for real-world deployment rather than remaining a laboratory prototype.\r\n\r\nKRISHIDRISHTI is worth seeing because it transforms complex technologies into an accessible tool that empowers farmers, supports sustainability, and demonstrates how innovation can create meaningful impact in one of the world's most critical sectors.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Safety has been a key consideration in the design and implementation of KRISHIDRISHTI. All electronic components are operated within their specified voltage and current limits to prevent overheating, short circuits, and hardware damage. Proper voltage regulation is employed to ensure stable operation of the ESP32 microcontroller and connected sensors.\r\n\r\nSensor modules deployed in outdoor agricultural environments are enclosed within protective casings to shield them from rain, dust, mud, and excessive moisture. Waterproofing measures help maintain sensor accuracy while protecting electronic circuitry from environmental damage.\r\n\r\nElectrical connections are properly insulated to minimize the risk of accidental short circuits and ensure safe operation in wet farming conditions. Cables are organized and secured to prevent physical damage and accidental disconnections during field activities.\r\n\r\nData safety is also considered. Sensor readings and farmer information are stored securely in the backend database with controlled access mechanisms. This helps protect sensitive agricultural data and ensures system reliability.\r\n\r\nThe AI recommendation engine is designed as a decision-support tool rather than an autonomous controller. Final decisions remain under farmer supervision, reducing risks associated with fully automated actions. Recommendations are accompanied by explanations so that users can verify and understand suggested actions before implementation.\r\n\r\nRegular calibration and testing of sensors are performed to maintain measurement accuracy. Backup mechanisms and validation checks help detect abnormal readings and prevent incorrect recommendations.\r\n\r\nThese safety measures ensure reliable operation, user trust, data security, and long-term sustainability while enabling the system to function effectively in challenging agricultural environments.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-28T17:54:11.407Z",
+  "updatedAt": "2026-10-11T17:32:15.27Z",
+  "abstract": {
+    "originalName": "FINAL.docx",
+    "url": "https://res.cloudinary.com/dxkje9whm/raw/upload/v1790618050/aura-registrations/abstract-docs/FINAL",
+    "filename": "Abstract.docx",
+    "relPath": "assets/Teams/Cache Me If You Can/Abstract.docx",
+    "isDocx": true,
+    "exists": true,
+    "extractedText": "KRISHIDRISHTI KRISHIDRISHTI is a smart agriculture decision-support system that helps farmers optimize irrigation, crop health, and farm productivity using real-time field data. The solution combines IoT sensors, AI-assisted analytics, and a farmer-friendly advisory platform to transform raw measurements into actionable recommendations.The proposed implementation uses an ESP32 microcontroller connected to soil moisture, temperature, humidity, rainfall, and light sensors. Sensor readings are transmitted to a backend server and stored in an SQL database. A Flask-based application processes the data, analyzes trends, and generates recommendations. Farmers can also upload crop images for AI-based pest and disease detection.Methodology:Sense → Transmit → Store → Analyze → Explain → ActField data is continuously collected and transmitted to the backend. Rule-based analysis and trend monitoring identify irrigation needs, crop stress, and environmental risks. AI models assist in pest and disease recognition, while explainable alerts provide the reasoning behind every recommendation. We have KrishiSaathi as our AI model which is proficient enough to help the farmers.Desired Outputs:• Smart irrigation recommendations based on soil and weather conditions.• Water-stress and crop-health alerts.• Pest and disease identification with suggested actions.• Harvest and yield estimation support.• Farm economics insights including cost, revenue, and profit estimation.• Multilingual advisory support through the KrishiSaathi interface.Block Diagram:  Sensors (Moisture, Temperature, Humidity, Rainfall, Light)            ↓  ESP32 Controller            ↓ Communication Layer            ↓ Flask Backend + SQL Database            ↓ Analytics & AI Engine            ↓ Recommendation & Alert System            ↓ Farmer Dashboard / KrishiSaathiKRISHIDRISHTI promotes precision agriculture by enabling data-driven decisions, reducing water wastage, improving crop management, and supporting sustainable farming practices through a scalable and low-cost technology framework."
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Cache Me If You Can/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790618050/aura-registrations/id-cards/yyxrbokvu20n4duzprsi.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Cache Me If You Can/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790618050/aura-registrations/id-cards/n6pnnwgyyhmnkmbnaryw.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Cache Me If You Can/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790618050/aura-registrations/id-cards/uieufwlisw5d2seqppb9.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Cache Me If You Can/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790618050/aura-registrations/id-cards/gqlvi08uiirvls0wsqt8.jpg",
+      "exists": true
+    }
+  ]
+}

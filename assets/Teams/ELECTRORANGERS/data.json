@@ -1,0 +1,98 @@
+{
+  "index": 28,
+  "id": "6ac28d02566021388a34a564",
+  "registrationId": "AURA2K26-HWCZCM",
+  "rawTeamName": "ELECTRORANGERS",
+  "folderName": "ELECTRORANGERS",
+  "folderRelPath": "assets/Teams/ELECTRORANGERS",
+  "projectTitle": "Protecting People's Lives from Electrocution Caused by Electrical Equipment on Waterlogged Streets",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Md Mazharul Haque",
+  "teamLeaderEmail": "haquemazharul201@gmail.com",
+  "teamLeaderPhone": "8420417023",
+  "teamMemberDetails": "Md Gulam Sarwar, Animesh Nandy, Noor Saba",
+  "hardwareProjectCategories": [
+    "Electrical Systems",
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "The Problem:\r\nDuring heavy monsoon rain, many city streets stay waterlogged for hours. Street lights, electrical poles, junction boxes and feeder pillars stand in or beside this water. If insulation fails or a live wire snaps and falls, electric current can leak into the water.\r\nThe danger is invisible. The water looks like any other puddle, there is no sound and no warning, and people only find out when they touch it or step in. Pedestrians, hand-rickshaw pullers, cyclists and two-wheeler riders are the most exposed. The electricity utility often learns about the fault only after someone has already been hurt.\r\n Our idea in one line:\r\n Place a low-cost sensing unit on every high-risk pole. It checks the water for electric leakage, warns people on the spot with a siren and flashing light, and instantly alerts the substation so the dangerous line can be switched off.\r\nProposed Outcome of the Project :\r\nLives saved On-the-spot warning and a quick power cut greatly reduce the chance of electric shock in flooded streets.\r\nLive wire detection Broken or fallen live wires and leaking equipment are detected automatically and located by pole ID.\r\nFaster response The utility gets alerts in seconds instead of waiting for public complaints, so repair crews reach faults sooner.\r\nSafe route information Alarm status helps people and traffic authorities avoid dangerous streets, reducing delays for bikes, hand rickshaws, scooters and pedestrians.\r\nLow cost and scalable Built from simple, low-cost parts, so every high-risk pole in a city can be covered.\r\nData for planning Alarm records show which areas are most flood-prone and fault-prone, helping maintenance planning.",
+  "solutionDescription": "The Problem:\r\nDuring heavy monsoon rain, many city streets stay waterlogged for hours. Street lights, electrical poles, junction boxes and feeder pillars stand in or beside this water. If insulation fails or a live wire snaps and falls, electric current can leak into the water.\r\nThe danger is invisible. The water looks like any other puddle, there is no sound and no warning, and people only find out when they touch it or step in. Pedestrians, hand-rickshaw pullers, cyclists and two-wheeler riders are the most exposed. The electricity utility often learns about the fault only after someone has already been hurt.\r\n Our idea in one line:\r\n Place a low-cost sensing unit on every high-risk pole. It checks the water for electric leakage, warns people on the spot with a siren and flashing light, and instantly alerts the substation so the dangerous line can be switched off.\r\nProposed Outcome of the Project :\r\nLives saved On-the-spot warning and a quick power cut greatly reduce the chance of electric shock in flooded streets.\r\nLive wire detection Broken or fallen live wires and leaking equipment are detected automatically and located by pole ID.\r\nFaster response The utility gets alerts in seconds instead of waiting for public complaints, so repair crews reach faults sooner.\r\nSafe route information Alarm status helps people and traffic authorities avoid dangerous streets, reducing delays for bikes, hand rickshaws, scooters and pedestrians.\r\nLow cost and scalable Built from simple, low-cost parts, so every high-risk pole in a city can be covered.\r\nData for planning Alarm records show which areas are most flood-prone and fault-prone, helping maintenance planning.",
+  "innovationDescription": "The Problem:\r\nDuring heavy monsoon rain, many city streets stay waterlogged for hours. Street lights, electrical poles, junction boxes and feeder pillars stand in or beside this water. If insulation fails or a live wire snaps and falls, electric current can leak into the water.\r\nThe danger is invisible. The water looks like any other puddle, there is no sound and no warning, and people only find out when they touch it or step in. Pedestrians, hand-rickshaw pullers, cyclists and two-wheeler riders are the most exposed. The electricity utility often learns about the fault only after someone has already been hurt.\r\n Our idea in one line:\r\n Place a low-cost sensing unit on every high-risk pole. It checks the water for electric leakage, warns people on the spot with a siren and flashing light, and instantly alerts the substation so the dangerous line can be switched off.\r\nProposed Outcome of the Project :\r\nLives saved On-the-spot warning and a quick power cut greatly reduce the chance of electric shock in flooded streets.\r\nLive wire detection Broken or fallen live wires and leaking equipment are detected automatically and located by pole ID.\r\nFaster response The utility gets alerts in seconds instead of waiting for public complaints, so repair crews reach faults sooner.\r\nSafe route information Alarm status helps people and traffic authorities avoid dangerous streets, reducing delays for bikes, hand rickshaws, scooters and pedestrians.\r\nLow cost and scalable Built from simple, low-cost parts, so every high-risk pole in a city can be covered.\r\nData for planning Alarm records show which areas are most flood-prone and fault-prone, helping maintenance planning.",
+  "workingPrinciple": "Methodology:\r\nThe system works in seven stages, from detecting the hazard to cutting the power. Every stage is built from simple, low-cost hardware that can be assembled and tested as a student prototype.\r\n 1. Sense A stainless steel electrode measures the small voltage that appears in the water when current is leaking. A water-level (float) sensor confirms that the street is really waterlogged.\r\n2. Isolate and condition An optocoupler and op-amp circuit separates the sensor from the microcontroller and scales the tiny signal into a safe range. The electronics stay protected even if the water is live.\r\n3. Decide An ESP32 microcontroller raises the alarm only when two checks pass: water is present AND voltage is present.\r\n4. Warn locally A buzzer, a flashing LED and a STOP signal (toll-gate style barrier) switch on immediately, so people nearby are warned without waiting for any remote action.\r\n5. Travellers stopped Seeing the STOP signal, travellers will not pass through the electrified street, which keeps them out of danger.\r\n6. Communicate A GSM or LoRa module sends the pole ID, voltage reading, water level and time to the substation. A regular \"heartbeat\" message proves the unit is still working.\r\n7. Respond The substation dashboard shows the alarming pole on a map. After operator confirmation (or an automatic trip at a high threshold), a relay opens the breaker and cuts power to that feeder section, covering the whole affected area. A repair crew is sent to the location.",
+  "majorHardwareComponents": [
+    "ESP32",
+    "OPTOCOUPLER",
+    "BUZZER",
+    "BATTERY",
+    "FLOAT SENSOR",
+    "GPS MODULE",
+    "etc."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Urban Communities"
+  ],
+  "potentialImpact": "Lives saved\r\nOn-the-spot warning and a quick power cut greatly reduce the chance of electric shock in flooded streets.\t\tLive wire detection\r\nBroken or fallen live wires and leaking equipment are detected automatically and located by pole ID.\r\n\t\t\r\nFaster response\r\nThe utility gets alerts in seconds instead of waiting for public complaints, so repair crews reach faults sooner.\t\tSafe route information\r\nAlarm status helps people and traffic authorities avoid dangerous streets, reducing delays for bikes, hand rickshaws, scooters and pedestrians.\r\n\t\t\r\nLow cost and scalable\r\nBuilt from simple, low-cost parts, so every high-risk pole in a city can be covered.\t\tData for planning\r\nAlarm records show which areas are most flood-prone and fault-prone, helping maintenance planning.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3000,
+  "auraDemoHighlight": "This project is based on real life problem electrocution death which occurs on September , 2025 in Kolkata.",
+  "safetyHazards": [
+    "none",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Battery is taken as a 12v source, with low Ah rating .",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-04T17:29:38.225Z",
+  "updatedAt": "2026-10-14T18:48:41.666Z",
+  "abstract": {
+    "originalName": "ELECTRO RANGERS_AURA2026_Project_Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791134976/aura-registrations/abstract-docs/ELECTRO%20RANGERS_AURA2026_Project_Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/ELECTRORANGERS/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/ELECTRORANGERS/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791134976/aura-registrations/id-cards/nedehqxyizlejs5vxiqx.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/ELECTRORANGERS/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791134977/aura-registrations/id-cards/tafywpsdk2kweivqjvx8.png",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/ELECTRORANGERS/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791134976/aura-registrations/id-cards/mrpydyekrb62hj5egmdk.png",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/ELECTRORANGERS/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791134977/aura-registrations/id-cards/ahtdnpd9suos1ucqj6s2.png",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "index": 53,
+  "id": "6adc6c1a3c8f516560a56bde",
+  "registrationId": "AURA2K26-CVSXEE",
+  "rawTeamName": "FluidOps",
+  "folderName": "FluidOps",
+  "folderRelPath": "assets/Teams/FluidOps",
+  "projectTitle": "Project Cascade",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "HOSSAIN EKTIAR MONDAL",
+  "teamLeaderEmail": "26f3300185@ae.study.iitm.ac.in",
+  "teamLeaderPhone": "7699861734",
+  "teamMemberDetails": "HOSSAIN EKTIAR MONDAL | ALIAH UNIVERSITY | MEN | 2026 | 7699861734\r\nMD AFZAL ALAM | ALIAH UNIVERSITY | CSE | 2026 | 8710051308\r\nSK RAMIJ | ALIAH UNIVERSITY | ECE | 2026 | 9475327112\r\nMD SAYEED | ALIAH UNIVERSITY | CSE | 2026 | 9007119897",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Embedded Systems",
+    "Automation & Control",
+    "Environmental Technology"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Overhead water tanks in homes, hostels and apartment buildings are usually filled by pumps that people switch on and off by hand. With no easy way to see the level, tanks overflow and waste water and electricity, or run dry and leave users without supply while the pump runs dry and risks damage. This wastage works against sustainability.\r\n\r\nOur solution is a low-cost IoT tank controller. A waterproof JSN-SR04T ultrasonic sensor on the tank lid measures the water level, and an ESP8266 converts it into a percentage and litres and sends it over Wi-Fi to a live web dashboard. The dashboard shows the current level and a graph of water usage over time, and lets users set start and stop thresholds. In automatic mode, the ESP8266 switches the pump through an opto-isolated relay to keep the tank filled just right. In manual mode, the pump is controlled from the website, and the user gets phone notifications for pump on/off, no water and overflow.\r\n\r\nWhat makes it innovative is that the control logic runs on the device itself, so the pump keeps following its rules even if Wi-Fi fails. Built-in safety rules (maximum run time, dry-run detection and sensor-fault shutdown) protect the pump without a float switch, and settings are saved in flash memory so they survive power cuts. Combined with usage analytics and remote control, it is an affordable retrofit for any existing tank and pump.",
+  "solutionDescription": "Overhead water tanks in homes, hostels and apartment buildings are usually filled by pumps that people switch on and off by hand. With no easy way to see the level, tanks overflow and waste water and electricity, or run dry and leave users without supply while the pump runs dry and risks damage. This wastage works against sustainability.\r\n\r\nOur solution is a low-cost IoT tank controller. A waterproof JSN-SR04T ultrasonic sensor on the tank lid measures the water level, and an ESP8266 converts it into a percentage and litres and sends it over Wi-Fi to a live web dashboard. The dashboard shows the current level and a graph of water usage over time, and lets users set start and stop thresholds. In automatic mode, the ESP8266 switches the pump through an opto-isolated relay to keep the tank filled just right. In manual mode, the pump is controlled from the website, and the user gets phone notifications for pump on/off, no water and overflow.\r\n\r\nWhat makes it innovative is that the control logic runs on the device itself, so the pump keeps following its rules even if Wi-Fi fails. Built-in safety rules (maximum run time, dry-run detection and sensor-fault shutdown) protect the pump without a float switch, and settings are saved in flash memory so they survive power cuts. Combined with usage analytics and remote control, it is an affordable retrofit for any existing tank and pump.",
+  "innovationDescription": "Overhead water tanks in homes, hostels and apartment buildings are usually filled by pumps that people switch on and off by hand. With no easy way to see the level, tanks overflow and waste water and electricity, or run dry and leave users without supply while the pump runs dry and risks damage. This wastage works against sustainability.\r\n\r\nOur solution is a low-cost IoT tank controller. A waterproof JSN-SR04T ultrasonic sensor on the tank lid measures the water level, and an ESP8266 converts it into a percentage and litres and sends it over Wi-Fi to a live web dashboard. The dashboard shows the current level and a graph of water usage over time, and lets users set start and stop thresholds. In automatic mode, the ESP8266 switches the pump through an opto-isolated relay to keep the tank filled just right. In manual mode, the pump is controlled from the website, and the user gets phone notifications for pump on/off, no water and overflow.\r\n\r\nWhat makes it innovative is that the control logic runs on the device itself, so the pump keeps following its rules even if Wi-Fi fails. Built-in safety rules (maximum run time, dry-run detection and sensor-fault shutdown) protect the pump without a float switch, and settings are saved in flash memory so they survive power cuts. Combined with usage analytics and remote control, it is an affordable retrofit for any existing tank and pump.",
+  "workingPrinciple": "A JSN-SR04T waterproof ultrasonic sensor is mounted on the tank lid, facing down. It sends a sound pulse and measures the echo time, which gives the distance to the water surface. The ESP8266 takes five readings every few seconds and uses the median to remove ripple and false echoes. After a one-time calibration of the empty and full distances, it converts the distance into a water level percentage and litres.\r\n\r\nThe ESP8266 sends the level and pump status over Wi-Fi through an MQTT cloud broker to a live web dashboard. The dashboard shows the current level and a graph of water usage over time, and lets the user set start and stop thresholds.\r\n\r\nIn automatic mode, the ESP8266 turns the pump ON through an opto-isolated relay when the level falls to the start threshold, and turns it OFF at the stop threshold. In manual mode, the user switches the pump on or off from the website, and phone notifications report pump on/off, no water and overflow.\r\n\r\nThe decision logic runs on the ESP8266 itself, so the pump still follows its rules if Wi-Fi fails. Safety rules in the code stop the pump on a maximum run time, an invalid sensor reading for more than 30 seconds, or no level rise after 10 minutes of running. The relay stays OFF at boot, and thresholds are stored in flash memory so they survive power cuts.",
+  "majorHardwareComponents": [
+    "ESP8266",
+    "JSN-SR04T ultrasonic sensor",
+    "Relay module",
+    "Contactor",
+    "HLK-PM01 power module",
+    "Fuse/MCB",
+    "Resistors",
+    "Water pump",
+    "Terminal block",
+    "Wires",
+    "Cable glands",
+    "IP65 enclosure"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Rural Communities",
+    "Urban Communities",
+    "Agriculture"
+  ],
+  "potentialImpact": "The system benefits households, hostels, apartment buildings, schools and small farms that depend on overhead tanks filled by electric pumps. It removes the need to watch the tank and decide when to run the pump, which is where most overflow and dry-tank problems start.\r\n\r\nAutomatic control stops overflow, which saves treated water and the electricity used to pump it. The dry-run protection (maximum run time, no-level-rise detection and sensor-fault shutdown) protects the pump from damage, which lowers repair costs. The live level in litres and the usage graph show how much water a building consumes, so users can notice leaks or unusual usage and reduce wastage. Phone notifications warn of no water or overflow while the user is away from home.\r\n\r\nCompared with commercial water-level controllers, this system is built from low-cost, easily available parts, with a total component cost of under ₹2,000. It can be fitted to an existing tank and pump without replacing them. This makes automation affordable for ordinary households and rural areas, and it supports water conservation and sustainability",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1652,
+  "auraDemoHighlight": "This is a live demo that judges can interact with. When the water level changes, the web dashboard updates in real time and shows the level in percentage and litres, along with a graph of water usage over time. Judges can set their own start and stop thresholds and watch the pump switch on and off automatically. They can also switch to manual mode, control the pump from the website, and see a phone notification arrive for pump on/off, no water or overflow.\r\n\r\nWhat makes it stand out is that it solves an everyday problem that almost every home and hostel has, using affordable parts. The control logic runs on the device itself, so the pump keeps following its rules even if Wi-Fi fails. Built-in safety rules protect the pump without a float switch. Monitoring, automation, remote control, usage analytics and alerts all come together in one low-cost device that can be fitted to any existing tank.",
+  "safetyHazards": [
+    "high_voltage",
+    "high_current",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "The mains supply goes through a fuse/MCB that protects the circuit from overcurrent. An opto-isolated relay module keeps the ESP8266 electrically isolated from the pump circuit, and a contactor switches the pump when it is 0.5 HP or more, to handle the motor’s inrush current. All electronics sit inside a sealed IP65 enclosure, with cables entering through cable glands, and mains wiring is kept apart from low-voltage wiring. The waterproof JSN-SR04T sensor is mounted above the water line, and a voltage divider protects the ESP8266 from the sensor’s 5V signal.\r\n\r\nThe code adds protection too. The relay stays OFF at boot or reset, and a relay pin that does not flicker at power-up is used. The pump stops after a maximum run time, if the sensor gives an invalid reading for more than 30 seconds, or if the level does not rise within 10 minutes of running, which protects against dry running. A minimum gap between the start and stop levels is enforced in code.\r\n\r\nThe system is first tested with a test lamp instead of the pump, and an experienced person checks the AC wiring before it is powered on.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-24T08:28:10.46Z",
+  "updatedAt": "2026-10-24T08:30:10.641Z",
+  "abstract": {
+    "originalName": "Abstract_Cascade.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792830489/aura-registrations/abstract-docs/Abstract_Cascade.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/FluidOps/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/FluidOps/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792830489/aura-registrations/id-cards/gszy3wy3khtrqvjdzlwo.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/FluidOps/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792830489/aura-registrations/id-cards/pnog3va3cfvhiomyzkru.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/FluidOps/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792830489/aura-registrations/id-cards/wmqhiqh7unswtckkemne.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/FluidOps/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792830489/aura-registrations/id-cards/noy4o7ij2fyfx2uhgzjc.jpg",
+      "exists": true
+    }
+  ]
+}

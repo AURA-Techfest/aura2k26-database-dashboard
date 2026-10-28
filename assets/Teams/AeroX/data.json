@@ -1,0 +1,92 @@
+{
+  "index": 26,
+  "id": "6abe692761a4b5868457515d",
+  "registrationId": "AURA2K26-M3GTU5",
+  "rawTeamName": "AeroX",
+  "folderName": "AeroX",
+  "folderRelPath": "assets/Teams/AeroX",
+  "projectTitle": "Fertilizer-Spraying Drone",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Shershah",
+  "teamLeaderEmail": "shershah78600@gmail.com",
+  "teamLeaderPhone": "9546872911",
+  "teamMemberDetails": "SANIA PARVEEN \\ ALIAH UNIVERSITY \\ EEN \\ 2ND YEAR \\ 7584091556\r\nSUBHRODEEP PAL \\ ALIAH UNIVERSITY \\ ECE \\ 2ND YEAR \\ 8478989369\r\nESHAL EHSAN  \\ ALIAH UNIVERSITY \\ ECE \\ 2ND YEAR \\ 8981327584",
+  "hardwareProjectCategories": [
+    "Drone / Autonomous Systems"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "no_prototype",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem Statement\r\n\r\nManual fertilizer application exposes farmers to hazardous chemicals and often causes uneven and excessive distribution, leading to health risks, fertilizer wastage, and increased costs. Although commercial agricultural spraying drones address these issues, their high cost and dependence on specialized remote controllers and pilot training make them difficult for small-scale farmers to adopt.\r\n\r\nProposed Solution\r\n\r\nWe propose a  low-cost, IoT-enabled smart spraying payload that can be retrofitted onto standard drone frames. Instead of depending on an expensive flight controller, our system operates as an independent spraying module. An ESP32 microcontroller creates a localized Wi-Fi network, allowing the operator to control the spraying mechanism through an intuitive smartphone interface. This enables convenient and safer control of fertilizer application during flight.\r\n\r\n Innovation & Technical Details\r\n\r\nThe system replaces complex proprietary controllers with a smartphone-based interface, reducing the learning curve for operators. From an ECE perspective, the project applies C programming, PWM, embedded systems, and wireless communication. A smartphone slider controls PWM output from the ESP32, dynamically regulating the speed of a 5V DC pump and enabling variable-rate fertilizer application according to crop requirements.\r\n\r\nThe modular hardware architecture separates the spraying mechanism from the drone's flight system, reducing cost and allowing the same payload to be adapted to drones or ground-based agricultural rovers. The Wi-Fi-enabled ESP32 framework also provides a scalable foundation for future integration of soil-moisture, crop-density, and environmental sensors, enabling automated and data-driven precision agriculture.",
+  "solutionDescription": "Problem Statement\r\n\r\nManual fertilizer application exposes farmers to hazardous chemicals and often causes uneven and excessive distribution, leading to health risks, fertilizer wastage, and increased costs. Although commercial agricultural spraying drones address these issues, their high cost and dependence on specialized remote controllers and pilot training make them difficult for small-scale farmers to adopt.\r\n\r\nProposed Solution\r\n\r\nWe propose a  low-cost, IoT-enabled smart spraying payload that can be retrofitted onto standard drone frames. Instead of depending on an expensive flight controller, our system operates as an independent spraying module. An ESP32 microcontroller creates a localized Wi-Fi network, allowing the operator to control the spraying mechanism through an intuitive smartphone interface. This enables convenient and safer control of fertilizer application during flight.\r\n\r\n Innovation & Technical Details\r\n\r\nThe system replaces complex proprietary controllers with a smartphone-based interface, reducing the learning curve for operators. From an ECE perspective, the project applies C programming, PWM, embedded systems, and wireless communication. A smartphone slider controls PWM output from the ESP32, dynamically regulating the speed of a 5V DC pump and enabling variable-rate fertilizer application according to crop requirements.\r\n\r\nThe modular hardware architecture separates the spraying mechanism from the drone's flight system, reducing cost and allowing the same payload to be adapted to drones or ground-based agricultural rovers. The Wi-Fi-enabled ESP32 framework also provides a scalable foundation for future integration of soil-moisture, crop-density, and environmental sensors, enabling automated and data-driven precision agriculture.",
+  "innovationDescription": "Problem Statement\r\n\r\nManual fertilizer application exposes farmers to hazardous chemicals and often causes uneven and excessive distribution, leading to health risks, fertilizer wastage, and increased costs. Although commercial agricultural spraying drones address these issues, their high cost and dependence on specialized remote controllers and pilot training make them difficult for small-scale farmers to adopt.\r\n\r\nProposed Solution\r\n\r\nWe propose a  low-cost, IoT-enabled smart spraying payload that can be retrofitted onto standard drone frames. Instead of depending on an expensive flight controller, our system operates as an independent spraying module. An ESP32 microcontroller creates a localized Wi-Fi network, allowing the operator to control the spraying mechanism through an intuitive smartphone interface. This enables convenient and safer control of fertilizer application during flight.\r\n\r\n Innovation & Technical Details\r\n\r\nThe system replaces complex proprietary controllers with a smartphone-based interface, reducing the learning curve for operators. From an ECE perspective, the project applies C programming, PWM, embedded systems, and wireless communication. A smartphone slider controls PWM output from the ESP32, dynamically regulating the speed of a 5V DC pump and enabling variable-rate fertilizer application according to crop requirements.\r\n\r\nThe modular hardware architecture separates the spraying mechanism from the drone's flight system, reducing cost and allowing the same payload to be adapted to drones or ground-based agricultural rovers. The Wi-Fi-enabled ESP32 framework also provides a scalable foundation for future integration of soil-moisture, crop-density, and environmental sensors, enabling automated and data-driven precision agriculture.",
+  "workingPrinciple": "The system operates on an IoT-based master-slave architecture, completely decoupling the spraying payload from the drone’s main flight controller. The workflow follows three distinct stages: Communication, Processing, and Actuation.\r\n\r\n1. Communication & Interface\r\nThe workflow begins on a smartphone application serving as the operator interface. The app connects to an ESP32 microcontroller via a localized Wi-Fi hotspot, transmitting user commands—such as spray activation and flow rate intensity—as continuous wireless data packets.\r\n\r\n2. Processing & Control Logic\r\nThe ESP32 acts as the core processing unit, executing embedded C programming control flow logic. Upon receiving a data packet, the microcontroller interprets the command. For variable rate spraying, the C code generates a Pulse Width Modulation (PWM) signal. The operator’s slider input on the app dynamically adjusts the PWM duty cycle, enabling precise software-based control over the output rather than a simple binary on/off state.\r\n\r\n3. Actuation & Fluid Delivery\r\nBecause the ESP32’s 3.3V logic pins cannot safely drive high-current hardware, the PWM signal is routed to a motor driver circuit (or a relay module for basic switching). This driver regulates power from an isolated battery pack to a 5V/12V DC machine (the water pump). By altering the DC pump's motor speed via PWM, the system precisely dictates the volume of liquid pushed through the tubing and out the misting nozzle, achieving dynamic, targeted agricultural spraying.",
+  "majorHardwareComponents": [
+    "Microcontroller: ESP32 or NodeMCU (ESP8266)\n\nMotor Control: L298N Motor Driver or Relay Module\n\nPump: 5V or 12V DC Mini Water Pump\n\nPower Source: LiPo Battery or 5V Power Bank\n\nPlumbing: Fluid Reservoir (Tank)",
+    "Silicone Tubing",
+    "and Misting Nozzle\n\nStructure: Mounting Chassis or Dummy Drone Frame"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Agriculture"
+  ],
+  "potentialImpact": "Primary Beneficiaries\r\nSmall-to-medium scale farmers and agricultural workers are the primary beneficiaries. Currently, these groups rely on hazardous manual labor or cannot afford expensive third-party drone services. By making precision technology modular, local farming cooperatives and agricultural entrepreneurs also benefit, allowing them to deploy low-cost spraying operations without requiring specialized RC pilot training.\r\n\r\nImproving Current Standards\r\nThis system disrupts existing agricultural standards in three critical ways:\r\n\r\nHealth and Safety: It replaces the current standard of manual backpack spraying. By controlling the payload remotely via Wi-Fi, it physically removes farmers from the hazardous mist of toxic chemicals, preventing severe respiratory and dermatological diseases.\r\n\r\nCost and Accessibility: Commercial spraying drones are prohibitively expensive and tightly integrate payload control with proprietary flight controllers. Our IoT payload improves this standard by decoupling the hardware. It easily retrofits onto cheap, generic frames and shifts control to a familiar smartphone app, drastically lowering both the financial barrier and the operational learning curve.\r\n\r\nResource Efficiency: Manual application leads to uneven chemical distribution. By utilizing Pulse Width Modulation (PWM) via the microcontroller, our system introduces Variable Rate Application (VRA) to budget-friendly setups. Operators can dynamically adjust the DC pump's speed mid-flight, ensuring exact fluid distribution. This prevents expensive fertilizer waste, minimizes environmental runoff, and improves overall crop yields compared to traditional blanket spraying.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 8000,
+  "auraDemoHighlight": "Judges should pay attention to this project because it democratizes precision agriculture for small-scale farmers through an ultra-low-cost, IoT-driven architecture.\r\n\r\nThe most impressive aspect of our prototype is its decoupled, modular payload system paired with extreme cost efficiency. Commercial spraying drones cost lakhs of rupees and lock their mechanisms behind complex, proprietary flight controllers that require specialized pilot training. We shatter this barrier.\r\n\r\nBy isolating the spraying mechanism into an independent IoT module using an ESP32 microcontroller, we bypass the main flight controller entirely. This allows our smart payload to be retrofitted onto a basic, custom-built drone for a total system cost of just ₹8,000—a fraction of commercial prices.\r\n\r\nFurthermore, we replaced the steep learning curve of an RC transmitter with a familiar smartphone interface. Using fundamental C programming and Pulse Width Modulation (PWM) over a localized Wi-Fi network, operators can dynamically adjust the DC pump's motor speed mid-flight via a simple app slider. This achieves true Variable Rate Application (VRA)—applying precise fertilizer volumes based on crop density, minimizing toxic chemical exposure, and preventing expensive fertilizer waste.\r\n\r\nUltimately, we took a highly exclusive technology and distilled it into an accessible ECE framework. Delivering a complete, smartphone-controlled precision spraying drone for just ₹8,000 proves that advanced agricultural automation can be affordable, highly modular, and directly scalable for the farmers who need it most.",
+  "safetyHazards": [
+    "drone_flying_equipment"
+  ],
+  "safetyPrecautions": "To ensure operational reliability and user safety, our prototype incorporates three layers of hardware and software safeguards:\r\n\r\n1. Electrical Isolation & Circuit Protection\r\nThe ESP32’s delicate 3.3V logic pins are physically isolated from the high-current DC pump. By utilizing an L298N motor driver or an opto-isolated relay, we protect the microcontroller from dangerous voltage spikes and back-EMF generated by the pump motor. We also use separated power domains—driving the microcontroller logic independently from the heavy-load DC motors—which prevents sudden voltage drops from causing unwanted system resets mid-flight.\r\n\r\n2. Software Fail-Safes (Signal Loss Protocol)\r\nBecause agricultural fields often lack internet, our ESP32 hosts its own localized Wi-Fi hotspot. Crucially, the C control logic includes a continuous heartbeat check. If the Wi-Fi connection between the smartphone and the ESP32 drops or lags, the code automatically sets the PWM duty cycle to zero. This immediately shuts off the pump, preventing accidental chemical dumping or motor burnout if the drone flies out of range.\r\n\r\n3. Operator Health Safeguards\r\nThe primary hazard in agriculture is toxic chemical exposure. By shifting control to a smartphone with a 50-100 meter Wi-Fi range, the system fundamentally acts as a physical safeguard. It completely removes the farmer from the chemical drift zone, eliminating the respiratory and dermatological risks associated with traditional manual backpack sprayers.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-01T14:07:35.994Z",
+  "updatedAt": "2026-10-14T18:48:29.267Z",
+  "abstract": {
+    "originalName": "aerox Methodology.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790863655/aura-registrations/abstract-docs/aerox%20Methodology.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/AeroX/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/AeroX/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790863655/aura-registrations/id-cards/if9eruxn0vf9z3lyzrmz.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/AeroX/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790863655/aura-registrations/id-cards/flttm6lqqajgfrzpu2sl.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/AeroX/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790863655/aura-registrations/id-cards/mdbhqvzx91kodcpqdrfj.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/AeroX/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790863655/aura-registrations/id-cards/diyjlyt4mq3pkkt3pelj.jpg",
+      "exists": true
+    }
+  ]
+}

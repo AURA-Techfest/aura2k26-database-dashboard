@@ -1,0 +1,101 @@
+{
+  "index": 4,
+  "id": "6aafaabd6a8988e44e2def9f",
+  "registrationId": "AURA2K26-B3WW38",
+  "rawTeamName": "ResQBot",
+  "folderName": "ResQBot",
+  "folderRelPath": "assets/Teams/ResQBot",
+  "projectTitle": "Smart Search and Rescue Rover for Hazardous Environment",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Vivek Kumar Thakur",
+  "teamLeaderEmail": "vivekkumarthakur744@gmail.com",
+  "teamLeaderPhone": "6296469997",
+  "teamMemberDetails": "Sukanta Pal | Aliah University | Electronics  and Communication | 3rd Year | 9647126162\r\nSamir Maity | Aliah University | Electronics  and Communication | 3rd Year | 8392048750\r\nMousumi Paul | Aliah University | Electronics  and Communication | 3rd Year | 8927843793",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Robotics",
+    "Embedded Systems",
+    "Electronics & Communication"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "1. Problem Statement\r\nDuring disasters such as earthquakes, building collapses, mine accidents, cylinder blasts, fires, and industrial accidents, rescue teams may have to enter areas containing smoke, toxic gases, high temperatures, unstable structures, and hidden obstacles. Entering such areas without knowing the conditions can expose rescuers to additional danger.\r\nThere is a need for a low-cost, remotely operated system that can enter a hazardous area first and provide rescuers with real-time information about the environment.\r\n2. Proposed Solution\r\nResQBot is a compact, remotely operated search-and-rescue rover designed to act as a first-response reconnaissance system. The rover can be deployed into an affected area and remotely controlled through a wireless connection.\r\nIt provides:\r\n1. Live video for visual inspection\r\n2. Gas/smoke detection using MQ-2\r\n3. Temperature monitoring using DHT11\r\n4. Obstacle/distance detection using HC-SR04\r\n5. Hazard alerts using buzzer and LEDs\r\n6. 4-wheel movement for indoor navigation\r\n7. Wireless communication with the operator\r\nThe collected information helps rescue teams assess hazardous conditions before physically entering the area.\r\n3. Innovation Details\r\n1. Multi-Sensor Hazard Reconnaissance\r\nResQBot combines visual, gas, temperature, and distance sensing in one platform, providing a broader picture of the hazardous environment rather than relying only on a camera.\r\n2. Low-Cost Implementation\r\nThe system uses an ESP32-S3-based platform and readily available components, making the prototype accessible for low-cost rescue and disaster-response applications.\r\n3. Human-First-Responder Approach\r\nResQBot acts as a robotic scout, entering hazardous areas ahead of rescuers and providing information that can support safer human intervention.\r\n4. Modular Architecture\r\nThe platform can be upgraded according to the disaster scenario with thermal cameras, advanced gas sensors, microphones/speakers, or AI-based person detection. The ground rover can also be adapted into a tracked/stair-climbing robot or a drone/quadrotor for rough, inaccessible, or aerial environments.\r\n5. Remote Operation\r\nThe operator can control ResQBot from a safer location while receiving live video and sensor information, enabling remote assessment of the affected area.",
+  "solutionDescription": "1. Problem Statement\r\nDuring disasters such as earthquakes, building collapses, mine accidents, cylinder blasts, fires, and industrial accidents, rescue teams may have to enter areas containing smoke, toxic gases, high temperatures, unstable structures, and hidden obstacles. Entering such areas without knowing the conditions can expose rescuers to additional danger.\r\nThere is a need for a low-cost, remotely operated system that can enter a hazardous area first and provide rescuers with real-time information about the environment.\r\n2. Proposed Solution\r\nResQBot is a compact, remotely operated search-and-rescue rover designed to act as a first-response reconnaissance system. The rover can be deployed into an affected area and remotely controlled through a wireless connection.\r\nIt provides:\r\n1. Live video for visual inspection\r\n2. Gas/smoke detection using MQ-2\r\n3. Temperature monitoring using DHT11\r\n4. Obstacle/distance detection using HC-SR04\r\n5. Hazard alerts using buzzer and LEDs\r\n6. 4-wheel movement for indoor navigation\r\n7. Wireless communication with the operator\r\nThe collected information helps rescue teams assess hazardous conditions before physically entering the area.\r\n3. Innovation Details\r\n1. Multi-Sensor Hazard Reconnaissance\r\nResQBot combines visual, gas, temperature, and distance sensing in one platform, providing a broader picture of the hazardous environment rather than relying only on a camera.\r\n2. Low-Cost Implementation\r\nThe system uses an ESP32-S3-based platform and readily available components, making the prototype accessible for low-cost rescue and disaster-response applications.\r\n3. Human-First-Responder Approach\r\nResQBot acts as a robotic scout, entering hazardous areas ahead of rescuers and providing information that can support safer human intervention.\r\n4. Modular Architecture\r\nThe platform can be upgraded according to the disaster scenario with thermal cameras, advanced gas sensors, microphones/speakers, or AI-based person detection. The ground rover can also be adapted into a tracked/stair-climbing robot or a drone/quadrotor for rough, inaccessible, or aerial environments.\r\n5. Remote Operation\r\nThe operator can control ResQBot from a safer location while receiving live video and sensor information, enabling remote assessment of the affected area.",
+  "innovationDescription": "1. Problem Statement\r\nDuring disasters such as earthquakes, building collapses, mine accidents, cylinder blasts, fires, and industrial accidents, rescue teams may have to enter areas containing smoke, toxic gases, high temperatures, unstable structures, and hidden obstacles. Entering such areas without knowing the conditions can expose rescuers to additional danger.\r\nThere is a need for a low-cost, remotely operated system that can enter a hazardous area first and provide rescuers with real-time information about the environment.\r\n2. Proposed Solution\r\nResQBot is a compact, remotely operated search-and-rescue rover designed to act as a first-response reconnaissance system. The rover can be deployed into an affected area and remotely controlled through a wireless connection.\r\nIt provides:\r\n1. Live video for visual inspection\r\n2. Gas/smoke detection using MQ-2\r\n3. Temperature monitoring using DHT11\r\n4. Obstacle/distance detection using HC-SR04\r\n5. Hazard alerts using buzzer and LEDs\r\n6. 4-wheel movement for indoor navigation\r\n7. Wireless communication with the operator\r\nThe collected information helps rescue teams assess hazardous conditions before physically entering the area.\r\n3. Innovation Details\r\n1. Multi-Sensor Hazard Reconnaissance\r\nResQBot combines visual, gas, temperature, and distance sensing in one platform, providing a broader picture of the hazardous environment rather than relying only on a camera.\r\n2. Low-Cost Implementation\r\nThe system uses an ESP32-S3-based platform and readily available components, making the prototype accessible for low-cost rescue and disaster-response applications.\r\n3. Human-First-Responder Approach\r\nResQBot acts as a robotic scout, entering hazardous areas ahead of rescuers and providing information that can support safer human intervention.\r\n4. Modular Architecture\r\nThe platform can be upgraded according to the disaster scenario with thermal cameras, advanced gas sensors, microphones/speakers, or AI-based person detection. The ground rover can also be adapted into a tracked/stair-climbing robot or a drone/quadrotor for rough, inaccessible, or aerial environments.\r\n5. Remote Operation\r\nThe operator can control ResQBot from a safer location while receiving live video and sensor information, enabling remote assessment of the affected area.",
+  "workingPrinciple": "ResQBot is a remotely operated search-and-rescue robot designed to inspect hazardous environments and provide real-time information to rescuers. The ESP32-S3 acts as the main controller, coordinating the camera, sensors, motors, alerts, and wireless communication.\r\nPower & Initialization: The battery powers the ESP32-S3, camera, sensors, and motor driver. The system initializes and establishes Wi-Fi communication with the operator.\r\nRemote Movement: The operator sends movement commands wirelessly. The ESP32-S3 controls the motor driver to operate the four motors, allowing forward, backward, left, and right movement.\r\nLive Monitoring: The camera captures and transmits live video, allowing operators to inspect the affected area remotely.\r\nEnvironmental Monitoring: The MQ-2 detects smoke and combustible gases, the DHT11 measures temperature and humidity, and the HC-SR04 detects nearby obstacles.\r\nHazard Alerts: When sensor readings cross predefined limits, the ESP32-S3 activates the buzzer and LEDs to alert the operator.\r\nData Transmission: Sensor readings and camera information are transmitted wirelessly to the operator for continuous monitoring.\r\nWorking Flow:\r\nSensors + Camera → ESP32-S3 → Wi-Fi → Operator\r\nOperator → Wi-Fi → ESP32-S3 → Motor Driver → Motors",
+  "majorHardwareComponents": [
+    "ESP32 S3 WROOM 1 N16R8 module - Microcontroller board\nMQ-2 - Gas/Smoke Sensor \nDHT11 - Temperature Sensor\nHC-SR04 - Ultrasonic Sensor\nL298N - Motor Driver\n4WD Robot chassis and wheels",
+    "SG90 - Servo Motor\n18650 Li-ion batteries - Power Supply\nLM296 DC-DC Buck controller \nBuzzers",
+    "LEDs",
+    "Resistors",
+    "Jumper wires",
+    "Breadboard"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Healthcare",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "Improves rescuer safety: Allows hazardous areas to be inspected remotely before rescuers enter.\r\nFaster situation assessment: Live video and sensor data can help teams understand conditions such as smoke, gas, temperature, and obstacles.\r\nEarly hazard detection: Gas/smoke and temperature monitoring can provide warnings about potentially dangerous conditions.\r\nUseful in multiple emergencies: The concept can be adapted for fires, building collapses, industrial accidents, gas leaks, and other hazardous indoor environments.\r\nLow-cost accessibility: Uses relatively affordable and widely available components, making the concept suitable for educational institutions, emergency-response research, and future low-cost deployments.\r\nExpandable for future needs: Thermal imaging, improved gas sensing, audio communication, AI-based person detection, tracked mobility, or aerial platforms could extend its capabilities.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2500,
+  "auraDemoHighlight": "Real-World Problem: Designed around situations such as earthquake, building collapses, mine accidents, fires, cylinder blasts, and industrial accidents.\r\n1. Live Remote Monitoring: Provides real-time video and sensor information while the operator remains at a safer distance.\r\n2. Multiple Hazard Sensors: Combines gas/smoke, temperature, humidity, and obstacle detection in one compact platform.\r\n3. Practical Robotics: Integrates ESP32-S3, wireless communication, motor control, sensing, and camera streaming into a single working system.\r\n4. Upgradeable Design: The platform can be expanded with thermal cameras, advanced gas sensors, audio communication, and AI-based person detection.\r\n5. Future Adaptability: The core system can potentially be adapted to different robotic platforms, including tracked/stair-climbing robots or aerial drones, depending on the environment.\r\n6. Low-Cost Approach: Uses accessible hardware to demonstrate a concept that can be further developed into a more capable disaster-response system.",
+  "safetyHazards": [
+    "none",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Protected power connections: Proper voltage regulation and insulated connections are used to prevent short circuits and component damage.\r\nBattery safety: Li-ion batteries are securely mounted and handled using appropriate charging and protection circuitry.\r\nSecure wiring: Jumper wires and electronic modules are firmly connected and insulated to reduce the risk of loose connections.\r\nMotor safety: Moving parts are kept clear during testing, and the motors are operated only when the rover is in a safe position.\r\nRemote operation: The rover is controlled from a safe distance to reduce direct exposure to hazardous environments.\r\nSensor limitations considered: Sensor readings are treated as indicative information, not as certified life-safety measurements.\r\nEnvironmental limits: The prototype is not intentionally exposed to extreme heat, active flames, explosive atmospheres, or structurally unstable areas during testing.\r\nControlled testing: Individual sensors, motors, and communication modules are tested separately before full-system operation.\r\nEmergency shutdown: A physical ON/OFF switch is provided to quickly disconnect the system's power when required.\r\nHuman safety priority: ResQBot is intended to assist professional rescue operations and does not replace trained personnel or certified safety equipment.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-20T09:43:25.988Z",
+  "updatedAt": "2026-10-11T17:31:30.438Z",
+  "abstract": {
+    "originalName": "AI_Search_and_Rescue_Robot_Abstract.docx - Google Docs.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789897405/aura-registrations/abstract-docs/AI_Search_and_Rescue_Robot_Abstract.docx%20-%20Google%20Docs.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/ResQBot/Abstract.pdf",
+    "isDocx": false,
+    "exists": true,
+    "extractedText": ""
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/ResQBot/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789897405/aura-registrations/id-cards/d3dlq5ep1r5srayz1xlg.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/ResQBot/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789897405/aura-registrations/id-cards/jaasqy5kz1xckkee2p7a.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/ResQBot/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789897405/aura-registrations/id-cards/zeqhksopj4cmyoyharqq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/ResQBot/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789897405/aura-registrations/id-cards/zgmdjyhatjax05qosy72.jpg",
+      "exists": true
+    }
+  ]
+}

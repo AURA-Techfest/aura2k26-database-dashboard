@@ -1,0 +1,107 @@
+{
+  "index": 49,
+  "id": "6ad3c1ba9e81220232adca2a",
+  "registrationId": "AURA2K26-2RXUDC",
+  "rawTeamName": "DORA",
+  "folderName": "DORA",
+  "folderRelPath": "assets/Teams/DORA",
+  "projectTitle": "SentinelQ – An Intelligent Hardware Guardian for IoT Security",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Razaul Shoaib",
+  "teamLeaderEmail": "razaulshoaib@gmail.com",
+  "teamLeaderPhone": "7870190316",
+  "teamMemberDetails": "Razaul Shoaib (Leader) | Aliah university | Computer science and engineering | 3rd year | 7870190316\r\n\r\nSaad Ziya | Aliah University | Mechanical Engineering | 2nd year | 9102122331\r\n\r\nSyed Nawedul Hasan | Aliah University | Computer Science and Engineering | 3rd year | 8116985287\r\n\r\nTahira Farheen | Aliah University | Computer Science and Engineering | 2nd year | 9204094287",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems",
+    "IoT & Smart Devices",
+    "Embedded Systems",
+    "Electronics & Communication"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement:\r\nIoT devices are vulnerable to network intrusions, physical tampering, abnormal power consumption, and firmware manipulation. Conventional security systems primarily monitor network traffic and may miss physical or electrical signs of compromise. Many systems also only generate alerts instead of actively containing threats, leaving vulnerable devices exposed.\r\n\r\nProposed Solution:\r\nSentinelQ is a hardware-assisted, intelligent IoT security system built around the Arduino Uno Q. It combines current and power sensing, an IMU-based tamper detector, device-integrity checks, and network-behavior monitoring to establish normal operating patterns. An edge-based detection engine correlates these signals and calculates a dynamic threat score. When suspicious activity is detected, SentinelQ can activate alarms, block or restrict suspicious communication, and trigger a switching mechanism to physically isolate the affected device. A controlled honeypot captures suspicious interactions for analysis, while a web dashboard displays threat levels, device status, evidence, and response events.\r\n\r\nInnovation Details:\r\nSentinelQ transforms hardware from a passive monitoring component into an active cyber-defense layer. Its key innovation is \"multimodal threat correlation\", combining electrical, physical, network, and integrity indicators instead of relying on a single detection source. This approach aims to improve detection confidence and reduce false alarms. The integration of edge intelligence, physical containment, and honeypot-based investigation enables a tangible, real-time demonstration of autonomous IoT defense. All attack simulations and containment tests will be performed within an isolated laboratory environment.",
+  "solutionDescription": "Problem Statement:\r\nIoT devices are vulnerable to network intrusions, physical tampering, abnormal power consumption, and firmware manipulation. Conventional security systems primarily monitor network traffic and may miss physical or electrical signs of compromise. Many systems also only generate alerts instead of actively containing threats, leaving vulnerable devices exposed.\r\n\r\nProposed Solution:\r\nSentinelQ is a hardware-assisted, intelligent IoT security system built around the Arduino Uno Q. It combines current and power sensing, an IMU-based tamper detector, device-integrity checks, and network-behavior monitoring to establish normal operating patterns. An edge-based detection engine correlates these signals and calculates a dynamic threat score. When suspicious activity is detected, SentinelQ can activate alarms, block or restrict suspicious communication, and trigger a switching mechanism to physically isolate the affected device. A controlled honeypot captures suspicious interactions for analysis, while a web dashboard displays threat levels, device status, evidence, and response events.\r\n\r\nInnovation Details:\r\nSentinelQ transforms hardware from a passive monitoring component into an active cyber-defense layer. Its key innovation is \"multimodal threat correlation\", combining electrical, physical, network, and integrity indicators instead of relying on a single detection source. This approach aims to improve detection confidence and reduce false alarms. The integration of edge intelligence, physical containment, and honeypot-based investigation enables a tangible, real-time demonstration of autonomous IoT defense. All attack simulations and containment tests will be performed within an isolated laboratory environment.",
+  "innovationDescription": "Problem Statement:\r\nIoT devices are vulnerable to network intrusions, physical tampering, abnormal power consumption, and firmware manipulation. Conventional security systems primarily monitor network traffic and may miss physical or electrical signs of compromise. Many systems also only generate alerts instead of actively containing threats, leaving vulnerable devices exposed.\r\n\r\nProposed Solution:\r\nSentinelQ is a hardware-assisted, intelligent IoT security system built around the Arduino Uno Q. It combines current and power sensing, an IMU-based tamper detector, device-integrity checks, and network-behavior monitoring to establish normal operating patterns. An edge-based detection engine correlates these signals and calculates a dynamic threat score. When suspicious activity is detected, SentinelQ can activate alarms, block or restrict suspicious communication, and trigger a switching mechanism to physically isolate the affected device. A controlled honeypot captures suspicious interactions for analysis, while a web dashboard displays threat levels, device status, evidence, and response events.\r\n\r\nInnovation Details:\r\nSentinelQ transforms hardware from a passive monitoring component into an active cyber-defense layer. Its key innovation is \"multimodal threat correlation\", combining electrical, physical, network, and integrity indicators instead of relying on a single detection source. This approach aims to improve detection confidence and reduce false alarms. The integration of edge intelligence, physical containment, and honeypot-based investigation enables a tangible, real-time demonstration of autonomous IoT defense. All attack simulations and containment tests will be performed within an isolated laboratory environment.",
+  "workingPrinciple": "SentinelQ uses the Arduino Uno Q to monitor IoT devices through power sensors, an IMU, tamper switches, and network telemetry. It analyzes abnormal electrical behavior, physical disturbances, and suspicious network activity using rule-based detection and optional machine learning. When a threat is detected, it triggers alarms, blocks suspicious communication, or isolates the device using a switching circuit. A web dashboard displays alerts, threat levels, and event logs.",
+  "majorHardwareComponents": [
+    "Arduino Uno Q",
+    "ESP32 development board",
+    "INA219 current sensor",
+    "MPU6050 IMU",
+    "tamper switch",
+    "relay module",
+    "RGB LED",
+    "buzzer",
+    "OLED display (optional)",
+    "Wi-Fi router",
+    "connecting wires",
+    "and regulated power supply."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "usb",
+  "intendedBeneficiaries": [
+    "Industry",
+    "Government / Public Services",
+    "Urban Communities",
+    "Education"
+  ],
+  "potentialImpact": "Beneficiaries include manufacturers, integrators, and operators of smart homes, industrial automation, critical infrastructure, and smart cities where IoT devices are vulnerable to physical tampering, power manipulation, firmware tampering, and network exploitation. SentinelQ improves standard security by moving beyond network-only monitoring to introduce an active, hardware-centric cyber-physical security layer. It fuses electrical behavior (current sensing), mechanical tampering (IMU vibration), device state/firmware checks, and network telemetry into a unified behavioral profile. By combining rule-based logic with ML-driven anomaly detection to compute dynamic risk scores, it reduces false positives compared to single-signal systems and provides automated containment through physical hardware isolation, rate-limiting, honeypot redirection, and alarms.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "SentinelQ transforms edge security from passive detection into an active physical guardian. The most impressive aspects include its cyber-physical signal correlation, fusing physical metrics like vibration/tampering and power consumption with digital state metrics like firmware integrity and network telemetry right on the edge using the Arduino Uno Q. It demonstrates autonomous physical containment by physically disconnecting or isolating compromised IoT devices through high-speed relay switching, blocking communications, and triggering localized alarms. It also offers advanced dynamic honeypot redirection to transparently redirect malicious sessions for real-time forensic evidence collection in controlled laboratory settings, backed by a live multi-signal companion dashboard.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The prototype will operate using low-voltage power. All electronic connections will be checked before powering on the system. Sensors and wiring will be securely connected, and exposed conductive parts will be insulated to prevent accidental short circuits. The switching mechanism will be used within its rated voltage and current limits. The prototype will be placed on a stable, dry surface with adequate ventilation. Power will be disconnected before changing wiring or hardware components. Testing will be conducted in a controlled environment, and any unexpected heating, sparks, or abnormal operation will result in immediate shutdown.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-17T18:43:06.476Z",
+  "updatedAt": "2026-10-17T18:45:06.62Z",
+  "abstract": {
+    "originalName": "SentinelQ-final.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792262584/aura-registrations/abstract-docs/SentinelQ-final.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/DORA/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/DORA/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792262585/aura-registrations/id-cards/bgizvad6lu6o1ge3rnqk.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/DORA/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792262584/aura-registrations/id-cards/n07wmwdehyinydbrpemv.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/DORA/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792262585/aura-registrations/id-cards/bucy9dokdy5mty7htsht.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/DORA/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792262585/aura-registrations/id-cards/axbxcxcubbsofkeqxlig.jpg",
+      "exists": true
+    }
+  ]
+}

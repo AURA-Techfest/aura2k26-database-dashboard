@@ -1,0 +1,99 @@
+{
+  "index": 31,
+  "id": "6ac663a2cdbef90437c943ad",
+  "registrationId": "AURA2K26-CQGEH2",
+  "rawTeamName": "VISION ROAD",
+  "folderName": "VISION ROAD",
+  "folderRelPath": "assets/Teams/VISION ROAD",
+  "projectTitle": "Driver Monitoring Device",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "HASAN IMAM",
+  "teamLeaderEmail": "uddinzaid23@gmail.com",
+  "teamLeaderPhone": "7980614249",
+  "teamMemberDetails": "Zaiduddin/ Aliah University/ EEN/ Second Year/ 62905 43966\r\n\r\nMd. Shaqib/ Aliah University/ EEN/ Second Year/ 82769 57426\r\n\r\nArsalan Akhter/ Aliah University/ ECE/ Second Year/ 93303 25041",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Automation & Control",
+    "Assistive Technology",
+    "Smart Mobility / Transportation",
+    "Safety & Security Systems",
+    "Embedded Systems"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Driver fatigue and drowsiness are leading causes of severe road accidents globally. When a driver falls asleep behind the wheel, their reaction time drops to zero, making high-speed collisions almost inevitable. Most conventional vehicles lack active safety systems that can intervene in real time to detect driver impairment, stop the vehicle safely, and notify help before a tragedy occurs.\r\nHardware Solution\r\nThe proposed system uses an embedded monitoring architecture directly integrated into the vehicle's ignition and communication systems:\r\n Monitoring Sensor/Camera Module: A driver-facing visual or infrared sensor continuously tracks eye closure duration and facial cues to detect micro-sleep.\r\n Microcontroller (Processing Unit): An onboard processor (such as an ESP32 or Arduino) processes the sensor input in real time to detect drowsiness.\r\n Buzzer Alert: A high-decibel piezobuzzer triggers immediately upon sleep detection to startle and awaken the driver.\r\n Engine Immobilizer Relay: An inline relay module wired into the ignition circuit safely cuts engine power to stop the moving vehicle.\r\n GPS & GSM/LTE Module: A location tracking and cellular unit fetches precise coordinates and transmits an automated emergency SMS with live location links to predefined emergency contacts or fleet managers.\r\nKey Innovations\r\n1 Active Intervention Over Passive Warning: Most existing systems only sound an alarm. This solution actively mitigates risk by controlling the vehicle's ignition to prevent high-speed collisions if the driver fails to respond.\r\n2 Integrated Multi-Layered Safety Chain: It unifies real-time detection, instant auditory awakening, active vehicle stopping, and emergency notification into one automated response loop.\r\n3 Automated Incident Localization: Transmitting live GPS coordinates immediately ensures family or emergency responders can locate the vehicle quickly, even on isolated highways.\r\n4 Universal & Low-Cost Retrofitting: Built with accessible, affordable hardware components, making it viable for both commercial fleet management and retrofitting older consumer vehicles.",
+  "solutionDescription": "Driver fatigue and drowsiness are leading causes of severe road accidents globally. When a driver falls asleep behind the wheel, their reaction time drops to zero, making high-speed collisions almost inevitable. Most conventional vehicles lack active safety systems that can intervene in real time to detect driver impairment, stop the vehicle safely, and notify help before a tragedy occurs.\r\nHardware Solution\r\nThe proposed system uses an embedded monitoring architecture directly integrated into the vehicle's ignition and communication systems:\r\n Monitoring Sensor/Camera Module: A driver-facing visual or infrared sensor continuously tracks eye closure duration and facial cues to detect micro-sleep.\r\n Microcontroller (Processing Unit): An onboard processor (such as an ESP32 or Arduino) processes the sensor input in real time to detect drowsiness.\r\n Buzzer Alert: A high-decibel piezobuzzer triggers immediately upon sleep detection to startle and awaken the driver.\r\n Engine Immobilizer Relay: An inline relay module wired into the ignition circuit safely cuts engine power to stop the moving vehicle.\r\n GPS & GSM/LTE Module: A location tracking and cellular unit fetches precise coordinates and transmits an automated emergency SMS with live location links to predefined emergency contacts or fleet managers.\r\nKey Innovations\r\n1 Active Intervention Over Passive Warning: Most existing systems only sound an alarm. This solution actively mitigates risk by controlling the vehicle's ignition to prevent high-speed collisions if the driver fails to respond.\r\n2 Integrated Multi-Layered Safety Chain: It unifies real-time detection, instant auditory awakening, active vehicle stopping, and emergency notification into one automated response loop.\r\n3 Automated Incident Localization: Transmitting live GPS coordinates immediately ensures family or emergency responders can locate the vehicle quickly, even on isolated highways.\r\n4 Universal & Low-Cost Retrofitting: Built with accessible, affordable hardware components, making it viable for both commercial fleet management and retrofitting older consumer vehicles.",
+  "innovationDescription": "Driver fatigue and drowsiness are leading causes of severe road accidents globally. When a driver falls asleep behind the wheel, their reaction time drops to zero, making high-speed collisions almost inevitable. Most conventional vehicles lack active safety systems that can intervene in real time to detect driver impairment, stop the vehicle safely, and notify help before a tragedy occurs.\r\nHardware Solution\r\nThe proposed system uses an embedded monitoring architecture directly integrated into the vehicle's ignition and communication systems:\r\n Monitoring Sensor/Camera Module: A driver-facing visual or infrared sensor continuously tracks eye closure duration and facial cues to detect micro-sleep.\r\n Microcontroller (Processing Unit): An onboard processor (such as an ESP32 or Arduino) processes the sensor input in real time to detect drowsiness.\r\n Buzzer Alert: A high-decibel piezobuzzer triggers immediately upon sleep detection to startle and awaken the driver.\r\n Engine Immobilizer Relay: An inline relay module wired into the ignition circuit safely cuts engine power to stop the moving vehicle.\r\n GPS & GSM/LTE Module: A location tracking and cellular unit fetches precise coordinates and transmits an automated emergency SMS with live location links to predefined emergency contacts or fleet managers.\r\nKey Innovations\r\n1 Active Intervention Over Passive Warning: Most existing systems only sound an alarm. This solution actively mitigates risk by controlling the vehicle's ignition to prevent high-speed collisions if the driver fails to respond.\r\n2 Integrated Multi-Layered Safety Chain: It unifies real-time detection, instant auditory awakening, active vehicle stopping, and emergency notification into one automated response loop.\r\n3 Automated Incident Localization: Transmitting live GPS coordinates immediately ensures family or emergency responders can locate the vehicle quickly, even on isolated highways.\r\n4 Universal & Low-Cost Retrofitting: Built with accessible, affordable hardware components, making it viable for both commercial fleet management and retrofitting older consumer vehicles.",
+  "workingPrinciple": "> System starts\r\nWhen the vehicle is started, the ESP32 turns ON the complete monitoring system.\r\n> Driver's eyes are monitored\r\nThe eye sensor continuously checks whether the driver's eyes are open or closed.\r\n> Drowsiness is detected\r\nIf the driver's eyes remain closed for a predefined time, the ESP32 considers that the driver may be falling asleep.\r\n> Warning alarm\r\nThe ESP32 immediately activates the buzzer.\r\nThe buzzer gives an alarm to wake the driver.\r\n> Driver gets a chance to respond\r\nIf the driver opens their eyes after the alarm, the system returns to normal monitoring.\r\n> Vehicle is stopped if there is no response\r\nIf the driver does not respond and the eyes remain closed, the ESP32 activates the relay module.\r\nThe relay disconnects the vehicle's ignition/control circuit, causing the vehicle to stop safely.\r\n> Location is obtained\r\nThe GPS module continuously provides the vehicle's location.\r\n> Data is sent to the mobile app\r\nThe ESP32 sends information through GSM/Wi-Fi, such as:\r\n- Driver awake/drowsy status\r\n- Alarm status\r\n- Vehicle status\r\n- GPS location\r\nAlert appears in the app\r\nThe mobile app shows an alert such as \"Driver Drowsiness Detected\" and can display the vehicle's current location.",
+  "majorHardwareComponents": [
+    "ESP32 Development Board\nIR Eye Blink Sensor\nBuzzer\nRelay Module\nGPS Module (NEO-6M)\nGSM Module (SIM800L)\nMPU6050\nOLED Display\nLEDs\nPush Button\nBreadboard\nJumper Wires\nResistors\nPower Supply\nBattery"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Industry",
+    "General Public",
+    "Transportation",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "A Driver Monitoring Device can be used in many real-world situations where driver safety is important. The main purpose of this system is to detect driver drowsiness and provide an early warning before an accident occurs.\r\n1. Trucks and Buses:\r\nLong-distance truck and bus drivers often drive for many hours continuously. The device can monitor the driver's eyes and detect signs of sleep. If drowsiness is detected, an alarm can warn the driver.\r\n2. Public Transport:\r\nThe system can be installed in buses and other public transport vehicles to improve passenger safety. The driver's condition can also be monitored by the transport management team.\r\n3. Taxi and Cab Services:\r\nTaxi and cab drivers may work for long hours, especially during night shifts. The device can provide alerts when the driver becomes drowsy.\r\n4. Fleet Management:\r\nLogistics and delivery companies can use the system to monitor multiple vehicles. The mobile application can show driver status, alerts, and vehicle location.\r\n5. Night-Time Driving:\r\nThe device is particularly useful during night journeys when the risk of driver fatigue is higher.\r\n6. Accident Prevention:\r\nThe biggest application is accident prevention. By detecting drowsiness early and providing warnings, the system can help reduce accidents caused by drivers falling asleep while driving.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3500,
+  "auraDemoHighlight": "The Driver Monitoring Device is worth seeing because it combines safety, automation, and real-time monitoring in one system. It can detect when a driver becomes drowsy and immediately provide an alarm to alert the driver. If the driver does not respond, the system can demonstrate an automatic vehicle-stop function in a safe prototype setup.\r\nThe project is also interesting because it connects hardware with a mobile application. The user can see the driver's status, warning alerts, and vehicle location on the app. This makes the system useful not only for the driver but also for fleet owners and transport companies.",
+  "safetyHazards": [
+    "water_near_electrical_equipment",
+    "moving_rotating_machinery"
+  ],
+  "safetyPrecautions": "Keep away from water.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-07T15:22:10.463Z",
+  "updatedAt": "2026-10-14T18:48:56.464Z",
+  "abstract": {
+    "originalName": "driver_monitoring_device_7pages.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791386528/aura-registrations/abstract-docs/driver_monitoring_device_7pages.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/VISION ROAD/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/VISION ROAD/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791386529/aura-registrations/id-cards/xuiymxh8w9zykcurzdsf.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/VISION ROAD/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791386529/aura-registrations/id-cards/qoupxrhsgugig2in4fge.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/VISION ROAD/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791386529/aura-registrations/id-cards/ty1byft0gsljxwxe3bsz.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/VISION ROAD/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791386529/aura-registrations/id-cards/r4olclcrjcqszv8iejkb.jpg",
+      "exists": true
+    }
+  ]
+}

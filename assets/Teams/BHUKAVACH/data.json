@@ -1,0 +1,105 @@
+{
+  "index": 16,
+  "id": "6abbb95af363ac3592fda4e1",
+  "registrationId": "AURA2K26-UWV4S8",
+  "rawTeamName": "BHUKAVACH",
+  "folderName": "BHUKAVACH",
+  "folderRelPath": "assets/Teams/BHUKAVACH",
+  "projectTitle": "BHUKAVACH: AI-ASSISTED UNDERGROUND MINE SAFETY, MONITORING AND RESCUE ROVER",
+  "teamSize": 3,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 3,
+  "teamLeaderName": "SAHANOWAZ HOSSAIN MOLLA",
+  "teamLeaderEmail": "sahanowazhossainmolla@gmail.com",
+  "teamLeaderPhone": "7699771913",
+  "teamMemberDetails": "KISHOR HALDER | SWAMI VIVEKANANDA INSTITUTE OF SCIENCE & TECHNOLOGY | MECHANICAL ENGINEERING | 3RD YEAR | 8293457614\r\nSANDIP BHANDARI | SWAMI VIVEKANANDA INSTITUTE OF SCIENCE & TECHNOLOGY | MECHANICAL ENGINEERING | 3RD YEAR | 8597429042",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Mechanical Systems",
+    "Mechatronics",
+    "Safety & Security Systems",
+    "Other",
+    "Industrial / Manufacturing Technology"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Underground mines are challenging and hazardous environments where rescue and inspection teams may face poor visibility, harmful gases, high temperature, unstable terrain, flooding and other unknown conditions. During an emergency, entering an affected area without sufficient information can increase the risk to rescue personnel. There is a need for a system that can remotely inspect such areas and provide useful information before human entry.\r\nBHUKAVACH is a remotely controlled tracked rover designed to support underground mine safety, inspection and rescue operations. Instead of sending a person directly into an unknown area, the rover can be operated remotely to collect information about the surrounding environment. It uses an HD camera with illumination for visual monitoring, thermal sensing for identifying heat sources, gas sensors for monitoring O₂, CH₄ and CO₂, environmental sensors for temperature, humidity and pressure, and LiDAR for distance measurement and spatial awareness.\r\nThe collected information is transmitted to a surface control station where the operator can monitor the rover and its surroundings. AI-assisted analysis is used to support the identification of possible visual or thermal hazards and changes in gas conditions. The system follows a human-in-the-loop approach, meaning that the operator remains responsible for controlling the rover and making operational decisions.\r\nThe innovation of BHUKAVACH lies in combining remote robotic inspection, multi-sensor environmental monitoring and AI-assisted analysis into a single platform for underground safety support. It follows an “Information First, Human Entry Later” approach, allowing rescue teams to gather useful information before entering a potentially hazardous area. Mission data can also be recorded and organised into a post-mission report, helping preserve information collected during the inspection.",
+  "solutionDescription": "Underground mines are challenging and hazardous environments where rescue and inspection teams may face poor visibility, harmful gases, high temperature, unstable terrain, flooding and other unknown conditions. During an emergency, entering an affected area without sufficient information can increase the risk to rescue personnel. There is a need for a system that can remotely inspect such areas and provide useful information before human entry.\r\nBHUKAVACH is a remotely controlled tracked rover designed to support underground mine safety, inspection and rescue operations. Instead of sending a person directly into an unknown area, the rover can be operated remotely to collect information about the surrounding environment. It uses an HD camera with illumination for visual monitoring, thermal sensing for identifying heat sources, gas sensors for monitoring O₂, CH₄ and CO₂, environmental sensors for temperature, humidity and pressure, and LiDAR for distance measurement and spatial awareness.\r\nThe collected information is transmitted to a surface control station where the operator can monitor the rover and its surroundings. AI-assisted analysis is used to support the identification of possible visual or thermal hazards and changes in gas conditions. The system follows a human-in-the-loop approach, meaning that the operator remains responsible for controlling the rover and making operational decisions.\r\nThe innovation of BHUKAVACH lies in combining remote robotic inspection, multi-sensor environmental monitoring and AI-assisted analysis into a single platform for underground safety support. It follows an “Information First, Human Entry Later” approach, allowing rescue teams to gather useful information before entering a potentially hazardous area. Mission data can also be recorded and organised into a post-mission report, helping preserve information collected during the inspection.",
+  "innovationDescription": "Underground mines are challenging and hazardous environments where rescue and inspection teams may face poor visibility, harmful gases, high temperature, unstable terrain, flooding and other unknown conditions. During an emergency, entering an affected area without sufficient information can increase the risk to rescue personnel. There is a need for a system that can remotely inspect such areas and provide useful information before human entry.\r\nBHUKAVACH is a remotely controlled tracked rover designed to support underground mine safety, inspection and rescue operations. Instead of sending a person directly into an unknown area, the rover can be operated remotely to collect information about the surrounding environment. It uses an HD camera with illumination for visual monitoring, thermal sensing for identifying heat sources, gas sensors for monitoring O₂, CH₄ and CO₂, environmental sensors for temperature, humidity and pressure, and LiDAR for distance measurement and spatial awareness.\r\nThe collected information is transmitted to a surface control station where the operator can monitor the rover and its surroundings. AI-assisted analysis is used to support the identification of possible visual or thermal hazards and changes in gas conditions. The system follows a human-in-the-loop approach, meaning that the operator remains responsible for controlling the rover and making operational decisions.\r\nThe innovation of BHUKAVACH lies in combining remote robotic inspection, multi-sensor environmental monitoring and AI-assisted analysis into a single platform for underground safety support. It follows an “Information First, Human Entry Later” approach, allowing rescue teams to gather useful information before entering a potentially hazardous area. Mission data can also be recorded and organised into a post-mission report, helping preserve information collected during the inspection.",
+  "workingPrinciple": "BHUKAVACH works as a remotely operated underground inspection and monitoring system. The tracked rover is controlled by an operator from a surface control station. Its tracked mechanism helps it move over uneven underground surfaces while maintaining stability.\r\nDuring operation, the HD camera provides a live view of the surroundings with the help of onboard illumination. The thermal sensor provides heat-related information, while gas sensors monitor O₂, CH₄ and CO₂ levels. Environmental sensors collect temperature, humidity and pressure data. LiDAR provides distance measurements and information about nearby objects and the surrounding area.\r\nAn onboard ESP32-based electronics system collects the sensor information and manages communication between the rover and the control station. The collected data is transmitted to the operator for real-time monitoring.\r\nAI-assisted analysis can then be used to support the identification of possible hazards from visual and thermal information and to observe changes in gas conditions. The operator remains in control of rover movement and operational decisions.\r\nDuring and after a mission, important sensor readings, observations and recorded evidence can be stored and used to prepare a structured mission report. This allows the system to provide both real-time information and a record of the inspection.",
+  "majorHardwareComponents": [
+    "The major hardware components of BHUKAVACH include:\n1. Tracked Rover Platform:\nProvides mobility and better traction on uneven underground surfaces.\n2. ESP32-Based Electronics:\nUsed for sensor data acquisition",
+    "onboard control and communication-related functions.\n3. HD Camera:\nProvides live visual monitoring and records the underground environment.\n4. LED Illumination:\nProvides additional lighting for visibility in dark underground areas.\n5. Thermal Sensor:\nProvides thermal information for identifying possible heat sources and supporting situational awareness.\n6. Gas Sensors:\nUsed for planned monitoring of O₂",
+    "CH₄ and CO₂ levels to help identify potentially unsafe atmospheric conditions.\n7. Environmental Sensors:\nMeasure parameters such as temperature",
+    "humidity and air pressure.\n8. LiDAR:\nProvides distance measurements and spatial information about the surrounding area.\n9. Wireless Communication System:\nTransfers live video",
+    "sensor readings and rover status to the surface control station.\n10. Battery and Power System:\nProvides power to the rover",
+    "sensors and onboard electronics.\nTogether",
+    "these components allow BHUKAVACH to combine mobility",
+    "visual monitoring",
+    "environmental sensing and remote operation in a single platform."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "Other",
+    "Industry"
+  ],
+  "potentialImpact": "BHUKAVACH has potential applications in underground mine safety, inspection and emergency response. Its main purpose is to provide information about hazardous areas before rescue or safety personnel enter them.\r\nBy allowing a rover to enter an unknown area first, the system can help reduce unnecessary human exposure during initial inspection. Live camera, thermal and environmental information can give operators a better understanding of conditions underground. Gas monitoring can provide additional information about the atmosphere, while LiDAR can support awareness of nearby obstacles and the surrounding space.\r\nThe system can also record mission information and organise collected data into a post-mission report. This can help preserve observations from an inspection instead of relying only on manual reporting.\r\nBeyond mining, the same approach could potentially be adapted for other environments where remote inspection is useful, such as tunnels, industrial facilities, confined spaces and disaster-affected areas. However, application in actual mines would require further testing, appropriate sensor validation, communication testing, environmental ruggedisation and compliance with applicable safety and regulatory requirements.\r\nOverall, BHUKAVACH aims to support a safer approach to hazardous-area inspection by helping teams gather information remotely before making decisions about human entry.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 250000,
+  "auraDemoHighlight": "BHUKAVACH is worth seeing because it demonstrates how robotics, sensing and AI-assisted analysis can be combined to address a real industrial safety challenge.\r\nThe system is not designed to replace mine rescue personnel. Instead, it works as a remote information-gathering platform that can enter a potentially hazardous area while the operator remains outside. This makes the project different from a simple remote-controlled rover.\r\nVisitors can see multiple types of information being collected from the same platform, including live camera footage, thermal information, gas readings, environmental measurements and LiDAR-based distance information. The system also demonstrates how these different data sources can be brought together at a surface control station.\r\nAnother important aspect is the human-in-the-loop approach. AI is used to assist with analysing collected information and identifying possible hazards, while the operator remains responsible for controlling the rover and making decisions.\r\nBHUKAVACH therefore demonstrates a practical engineering concept based on “Information First, Human Entry Later”—using a robotic system to help people understand a hazardous environment before entering it. This combination of hardware, sensing, remote operation and AI-assisted analysis makes it relevant to real-world industrial safety challenges.",
+  "safetyHazards": [
+    "none",
+    "moving_rotating_machinery"
+  ],
+  "safetyPrecautions": "BHUKAVACH is designed with a remote-operation approach so that the operator can control the rover from a safer location rather than directly entering the area being inspected. This reduces the need for immediate human exposure during initial remote assessment.\r\nThe system follows a human-in-the-loop approach. The rover does not independently make rescue decisions or replace trained personnel. Movement and operational decisions remain under the control of the human operator.\r\nDuring testing and demonstration, the rover is operated in controlled conditions and its movement, communication and sensor readings are monitored. The battery-powered electrical system and onboard electronics are handled carefully during operation and testing.\r\nThe gas, thermal and environmental sensors are intended to provide monitoring information and support hazard awareness. Their readings are treated as information for the operator rather than as a substitute for certified mine-safety instruments.\r\nBHUKAVACH is currently intended as a technology demonstration and requires further validation before operation in actual underground mines. Future development will include more extensive testing of communication reliability, sensor accuracy, battery performance, environmental protection and other mine-specific safety requirements.\r\nThe system therefore prioritises remote operation, human oversight and controlled testing while avoiding unsupported claims of mine-safety certification or field deployment.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-29T13:12:58.534Z",
+  "updatedAt": "2026-10-11T17:32:29.511Z",
+  "abstract": {
+    "originalName": "BHUKAVACH.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790687578/aura-registrations/abstract-docs/BHUKAVACH.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/BHUKAVACH/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/BHUKAVACH/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790687577/aura-registrations/id-cards/smhgwotjmtjloesfpiak.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/BHUKAVACH/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790687577/aura-registrations/id-cards/gzlq1bqukdtrj3x6i2y1.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/BHUKAVACH/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790687577/aura-registrations/id-cards/fionhbeccz9vkaf9q4pi.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/BHUKAVACH/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

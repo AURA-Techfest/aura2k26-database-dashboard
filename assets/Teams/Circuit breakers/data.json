@@ -1,0 +1,92 @@
+{
+  "index": 33,
+  "id": "6ac8af37214102ba1613bbca",
+  "registrationId": "AURA2K26-2HBT5D",
+  "rawTeamName": "Circuit breakers",
+  "folderName": "Circuit breakers",
+  "folderRelPath": "assets/Teams/Circuit breakers",
+  "projectTitle": "Ultrasonic glasses",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Md Reyaz Mosharraf",
+  "teamLeaderEmail": "mosharrafmdreyaz@gmail.com",
+  "teamLeaderPhone": "8789322323",
+  "teamMemberDetails": "Syed Md Bader Uddin | Aliah University | ECE | 2nd year | 7634870997\r\nRahmtullah siddique | Aliah University | ECE | 2nd year | 9835707094",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Wearable Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "Problem Statement: Visually impaired people face difficulty detecting obstacles and knowing their direction and distance while walking. Conventional mobility aids may not provide immediate directional feedback.\r\nHardware Solution: Wearable ultrasonic glasses use two ultrasonic sensors to detect obstacles in front-left and front-right regions. An Arduino Nano calculates real-time distance and controls two buzzers, producing side-specific and distance-based sound alerts. The system is powered by a 9V battery and designed to be lightweight and hands-free.\r\nInnovation: The system combines real-time sensing, directional warning, synchronized central alerts, and distance-based beep patterns in a low-cost wearable device, enabling safer and intuitive navigation for users.",
+  "solutionDescription": "Problem Statement: Visually impaired people face difficulty detecting obstacles and knowing their direction and distance while walking. Conventional mobility aids may not provide immediate directional feedback.\r\nHardware Solution: Wearable ultrasonic glasses use two ultrasonic sensors to detect obstacles in front-left and front-right regions. An Arduino Nano calculates real-time distance and controls two buzzers, producing side-specific and distance-based sound alerts. The system is powered by a 9V battery and designed to be lightweight and hands-free.\r\nInnovation: The system combines real-time sensing, directional warning, synchronized central alerts, and distance-based beep patterns in a low-cost wearable device, enabling safer and intuitive navigation for users.",
+  "innovationDescription": "Problem Statement: Visually impaired people face difficulty detecting obstacles and knowing their direction and distance while walking. Conventional mobility aids may not provide immediate directional feedback.\r\nHardware Solution: Wearable ultrasonic glasses use two ultrasonic sensors to detect obstacles in front-left and front-right regions. An Arduino Nano calculates real-time distance and controls two buzzers, producing side-specific and distance-based sound alerts. The system is powered by a 9V battery and designed to be lightweight and hands-free.\r\nInnovation: The system combines real-time sensing, directional warning, synchronized central alerts, and distance-based beep patterns in a low-cost wearable device, enabling safer and intuitive navigation for users.",
+  "workingPrinciple": "The Ultrasonic Glasses work on the principle of ultrasonic distance measurement.",
+  "majorHardwareComponents": [
+    "Ultrasonic sensors",
+    "Arduino nano",
+    "Buzzer"
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Persons with Disabilities"
+  ],
+  "potentialImpact": "THE BLIND PEOPLES GET BENIFITS FROM THIS. IT WILL HELP THEM BY VOICE ALERT",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "IT WILL HELP SOME DISABLE PEOPLE AND SAVE THEM FROM ACCIDENTS",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "USING ORIGNAL COMPONENTS",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-09T09:09:11.442Z",
+  "updatedAt": "2026-10-14T18:49:06.219Z",
+  "abstract": {
+    "originalName": "project idea.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791536950/aura-registrations/abstract-docs/project%20idea.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Circuit breakers/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Circuit breakers/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791536950/aura-registrations/id-cards/tzw7bhinhcuhxcnml3e3.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Circuit breakers/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791536949/aura-registrations/id-cards/c55xbeg1jwuoorkn4z9l.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Circuit breakers/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791536949/aura-registrations/id-cards/fneobx1ukb9vjwmvon3w.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Circuit breakers/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

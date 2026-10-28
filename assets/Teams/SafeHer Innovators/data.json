@@ -1,0 +1,105 @@
+{
+  "index": 62,
+  "id": "6adf9adb24a8ca63ab856157",
+  "registrationId": "AURA2K26-4VTD78",
+  "rawTeamName": "SafeHer Innovators",
+  "folderName": "SafeHer Innovators",
+  "folderRelPath": "assets/Teams/SafeHer Innovators",
+  "projectTitle": "Smart Women Safety Wearable: A Low-Cost Emergency Alert and Location Tracking System",
+  "teamSize": 2,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "ABU RAIHAN BISWAS",
+  "teamLeaderEmail": "aburaihanbiswas2@gmail.com",
+  "teamLeaderPhone": "9093647489",
+  "teamMemberDetails": "SARAF AL HAQUE | ALIAH UNIVERSITY | ECE | 2025- 2029 | 8145215731",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Electronics & Communication",
+    "Embedded Systems",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Wearable Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Women’s safety remains a major concern, especially in situations where a person cannot easily access a mobile phone or call for help. Conventional safety solutions often depend on manually using a phone or pressing an emergency button, which may not always be convenient during an emergency.\r\n\r\nOur proposed project, Smart Women Safety Wearable, is a compact, low-cost hardware device designed to provide quick emergency assistance through a wearable form such as a bracelet, pendant, or keychain. The system will use a microcontroller, an SOS button, an inertial measurement unit (IMU), and a GPS module. A GSM module or suitable communication interface will be used to send emergency alerts to predefined contacts.\r\n\r\nThe user can activate Silent SOS by pressing and holding the emergency button. The device will attempt to capture the user’s location and send an alert containing a map link. The IMU will be explored for detecting sudden falls or abnormal movement patterns. A short cancellation window will help reduce false alerts before an automatically triggered emergency notification is sent.\r\n\r\nThe proposed system aims to provide an affordable, portable, and easy-to-use alternative to smartphone-dependent safety solutions. Its key innovation is the integration of manual silent emergency activation, location sharing, and experimental movement-based detection in a single wearable device. The prototype will be evaluated through controlled demonstrations of SOS activation, location reporting, communication reliability, and false-trigger handling. Future improvements may include secure evidence logging and a monitoring dashboard.",
+  "solutionDescription": "Women’s safety remains a major concern, especially in situations where a person cannot easily access a mobile phone or call for help. Conventional safety solutions often depend on manually using a phone or pressing an emergency button, which may not always be convenient during an emergency.\r\n\r\nOur proposed project, Smart Women Safety Wearable, is a compact, low-cost hardware device designed to provide quick emergency assistance through a wearable form such as a bracelet, pendant, or keychain. The system will use a microcontroller, an SOS button, an inertial measurement unit (IMU), and a GPS module. A GSM module or suitable communication interface will be used to send emergency alerts to predefined contacts.\r\n\r\nThe user can activate Silent SOS by pressing and holding the emergency button. The device will attempt to capture the user’s location and send an alert containing a map link. The IMU will be explored for detecting sudden falls or abnormal movement patterns. A short cancellation window will help reduce false alerts before an automatically triggered emergency notification is sent.\r\n\r\nThe proposed system aims to provide an affordable, portable, and easy-to-use alternative to smartphone-dependent safety solutions. Its key innovation is the integration of manual silent emergency activation, location sharing, and experimental movement-based detection in a single wearable device. The prototype will be evaluated through controlled demonstrations of SOS activation, location reporting, communication reliability, and false-trigger handling. Future improvements may include secure evidence logging and a monitoring dashboard.",
+  "innovationDescription": "Women’s safety remains a major concern, especially in situations where a person cannot easily access a mobile phone or call for help. Conventional safety solutions often depend on manually using a phone or pressing an emergency button, which may not always be convenient during an emergency.\r\n\r\nOur proposed project, Smart Women Safety Wearable, is a compact, low-cost hardware device designed to provide quick emergency assistance through a wearable form such as a bracelet, pendant, or keychain. The system will use a microcontroller, an SOS button, an inertial measurement unit (IMU), and a GPS module. A GSM module or suitable communication interface will be used to send emergency alerts to predefined contacts.\r\n\r\nThe user can activate Silent SOS by pressing and holding the emergency button. The device will attempt to capture the user’s location and send an alert containing a map link. The IMU will be explored for detecting sudden falls or abnormal movement patterns. A short cancellation window will help reduce false alerts before an automatically triggered emergency notification is sent.\r\n\r\nThe proposed system aims to provide an affordable, portable, and easy-to-use alternative to smartphone-dependent safety solutions. Its key innovation is the integration of manual silent emergency activation, location sharing, and experimental movement-based detection in a single wearable device. The prototype will be evaluated through controlled demonstrations of SOS activation, location reporting, communication reliability, and false-trigger handling. Future improvements may include secure evidence logging and a monitoring dashboard.",
+  "workingPrinciple": "The system is designed as a compact, battery-powered women’s safety wearable. When the user presses and holds the SOS button, the microcontroller activates Silent SOS mode. The GPS module obtains the user's location, when a valid GPS fix is available. A GSM communication module then sends an emergency SMS containing the alert and location information to predefined emergency contacts. An IMU sensor can be used to monitor sudden falls or unusual movement patterns as possible emergency indicators. A short cancellation window is proposed to help prevent false alerts. The system is designed to use affordable, modular electronic components instead of expensive AI computing hardware. Its performance will depend on GPS availability, network coverage, and component integration.",
+  "majorHardwareComponents": [
+    "ESP32 or a suitable microcontroller",
+    "SOS push-button",
+    "MPU6050 IMU sensor",
+    "GPS module",
+    "GSM module (such as SIM800L",
+    "subject to network compatibility)",
+    "rechargeable battery",
+    "voltage regulator and charging circuit",
+    "connecting wires",
+    "and a compact enclosure. The final component selection will depend on cost",
+    "power requirements",
+    "and prototype testing."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Government / Public Services"
+  ],
+  "potentialImpact": "The device is intended to help women and other vulnerable users quickly notify trusted contacts during an emergency without needing to unlock a smartphone. Silent SOS activation can be useful when making a phone call or raising a loud alarm is difficult. Location sharing can help contacts identify the user's approximate position when GPS and mobile networks are available. The proposed movement-sensing feature may provide an additional way to identify possible emergencies, subject to testing. The project focuses on affordability, portability, ease of use, and modular design. It is intended to complement existing safety measures and cannot guarantee rescue or prevent every emergency.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2500,
+  "auraDemoHighlight": "Aura combines discreet SOS activation, GPS-based location sharing, and a proposed motion-sensing feature in a compact wearable concept. Instead of depending only on a smartphone application or a loud alarm, the device aims to provide a simple hardware-based emergency alert system. Its modular architecture allows the team to start with essential functions and add improvements later without relying on expensive AI hardware. The most important demonstration will be the complete sequence from SOS activation to location retrieval and emergency SMS delivery. The project emphasizes practical affordability, ease of use, and responsible testing.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The prototype is designed to use low-voltage battery-powered electronics. The team will check wiring polarity, insulation, and component ratings before powering the circuit. The battery and charging circuit will be selected to match the required voltage and current ratings. Exposed conductors will be insulated, and the device will be checked for overheating or loose connections during testing. Charging will be supervised, and damaged batteries or wires will not be used. Initial tests will be conducted in a controlled environment before any wearable demonstration.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T18:24:27.726Z",
+  "updatedAt": "2026-10-26T18:26:27.896Z",
+  "abstract": {
+    "originalName": "AURA2K26_Smart_Women_Safety_Wearable_Abstract_Color (1).pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039066/aura-registrations/abstract-docs/AURA2K26_Smart_Women_Safety_Wearable_Abstract_Color%20%281%29.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/SafeHer Innovators/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/SafeHer Innovators/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039066/aura-registrations/id-cards/ejdaoaud7k6k5wt7d0il.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/SafeHer Innovators/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039066/aura-registrations/id-cards/wim4wn5acd8zglcsyl11.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/SafeHer Innovators/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/SafeHer Innovators/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

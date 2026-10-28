@@ -1,0 +1,100 @@
+{
+  "index": 44,
+  "id": "6ad06817e82ac79bf0336627",
+  "registrationId": "REG-044",
+  "rawTeamName": "CYBERPUNKS",
+  "folderName": "CYBERPUNKS",
+  "folderRelPath": "assets/Teams/CYBERPUNKS",
+  "projectTitle": "SENTINEL -  smart emergency notification through impact and event level monitoring",
+  "teamSize": 4,
+  "teamAffiliation": "mixed",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 1,
+  "teamLeaderName": "Riyan Chowdhury",
+  "teamLeaderEmail": "chowdhuryriyan8080@gmail.com",
+  "teamLeaderPhone": "6296040695",
+  "teamMemberDetails": "Sania Afrin | Aliah University | EEN | First Year |+91 74310 20076\r\nShana Parween | Aliah University | EEN | First Year | +91 96474 77976\r\nSumit Sarkar | Techno International | IT | First Year | +91 62948 07500",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "SENTINEL – Smart Wearable Accident Detection and Emergency Alert System\r\n\r\nProblem Statement: After an accident, a person may be unable to contact family members or request assistance quickly. This can be especially concerning for people travelling alone, elderly individuals, and people in situations where immediate help is difficult to obtain.\r\n\r\nProposed Solution: SENTINEL is a compact, watch-like wearable designed to detect potentially dangerous impacts using an ADXL accelerometer connected to an ESP32 microcontroller. The controller analyses acceleration readings against programmed detection criteria. When a possible accident is identified, the device provides a warning and allows the wearer to cancel a false alarm using a button. If the alert is not cancelled, the system is intended to transmit an emergency notification to registered contacts through an IoT-connected website.\r\n\r\nInnovation: SENTINEL combines motion sensing, user-controlled alert cancellation, embedded processing, and web-based notifications in an affordable wearable concept. Its focus is on accessibility, compact design, and reducing dependence on manual emergency calls. The team will evaluate detection thresholds, false alarms, response time, connectivity, and battery performance during prototype testing.\r\n\r\nProposed Outcome: A working prototype demonstrating the process from motion detection to emergency notification, with scope for future improvements in reliability, miniaturisation, and usability. SENTINEL is an assistive prototype, not a certified medical or emergency-response device.",
+  "solutionDescription": "SENTINEL – Smart Wearable Accident Detection and Emergency Alert System\r\n\r\nProblem Statement: After an accident, a person may be unable to contact family members or request assistance quickly. This can be especially concerning for people travelling alone, elderly individuals, and people in situations where immediate help is difficult to obtain.\r\n\r\nProposed Solution: SENTINEL is a compact, watch-like wearable designed to detect potentially dangerous impacts using an ADXL accelerometer connected to an ESP32 microcontroller. The controller analyses acceleration readings against programmed detection criteria. When a possible accident is identified, the device provides a warning and allows the wearer to cancel a false alarm using a button. If the alert is not cancelled, the system is intended to transmit an emergency notification to registered contacts through an IoT-connected website.\r\n\r\nInnovation: SENTINEL combines motion sensing, user-controlled alert cancellation, embedded processing, and web-based notifications in an affordable wearable concept. Its focus is on accessibility, compact design, and reducing dependence on manual emergency calls. The team will evaluate detection thresholds, false alarms, response time, connectivity, and battery performance during prototype testing.\r\n\r\nProposed Outcome: A working prototype demonstrating the process from motion detection to emergency notification, with scope for future improvements in reliability, miniaturisation, and usability. SENTINEL is an assistive prototype, not a certified medical or emergency-response device.",
+  "innovationDescription": "SENTINEL – Smart Wearable Accident Detection and Emergency Alert System\r\n\r\nProblem Statement: After an accident, a person may be unable to contact family members or request assistance quickly. This can be especially concerning for people travelling alone, elderly individuals, and people in situations where immediate help is difficult to obtain.\r\n\r\nProposed Solution: SENTINEL is a compact, watch-like wearable designed to detect potentially dangerous impacts using an ADXL accelerometer connected to an ESP32 microcontroller. The controller analyses acceleration readings against programmed detection criteria. When a possible accident is identified, the device provides a warning and allows the wearer to cancel a false alarm using a button. If the alert is not cancelled, the system is intended to transmit an emergency notification to registered contacts through an IoT-connected website.\r\n\r\nInnovation: SENTINEL combines motion sensing, user-controlled alert cancellation, embedded processing, and web-based notifications in an affordable wearable concept. Its focus is on accessibility, compact design, and reducing dependence on manual emergency calls. The team will evaluate detection thresholds, false alarms, response time, connectivity, and battery performance during prototype testing.\r\n\r\nProposed Outcome: A working prototype demonstrating the process from motion detection to emergency notification, with scope for future improvements in reliability, miniaturisation, and usability. SENTINEL is an assistive prototype, not a certified medical or emergency-response device.",
+  "workingPrinciple": "SENTINEL is a wearable accident-detection and emergency alert system designed to identify potentially dangerous impacts or sudden movements. The device uses an accelerometer-based motion sensor connected to an ESP32 microcontroller. The sensor measures acceleration along multiple axes, and the ESP32 processes this data to identify movement patterns that may indicate an accident. When a possible accident is detected, the system initiates a warning period during which the wearer can press a cancellation button if they are safe. If the alert is not cancelled, the system is designed to send an emergency notification through an IoT-connected platform to inform registered family members or emergency contacts. The goal is to provide a compact, affordable, and responsive wearable solution for faster accident awareness. Detection thresholds and alert logic will be refined through testing to reduce false alarms.",
+  "majorHardwareComponents": [
+    "ESP32 development board (microcontroller with Wi-Fi and Bluetooth)",
+    "ADXL-series accelerometer module (for measuring acceleration and detecting sudden impacts)",
+    "push button (for cancelling false emergency alerts)",
+    "buzzer (for warning indication)",
+    "rechargeable battery with a suitable charging and protection circuit",
+    "connecting wires",
+    "and a compact watch-like enclosure. The final circuit and sensor thresholds will be refined through prototype testing."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Healthcare"
+  ],
+  "potentialImpact": "SENTINEL aims to improve accident awareness by providing an affordable wearable system for detecting potentially dangerous impacts and notifying designated contacts. It could benefit students, elderly individuals, people who travel alone, cyclists, and other users who may need assistance after an accident. By combining motion sensing, a user-controlled cancellation mechanism, and internet-based notifications, the proposed device seeks to reduce delays in communicating a possible emergency. Its compact, watch-like form is intended to make it convenient for everyday use. Compared with systems that depend entirely on a person manually requesting help, SENTINEL to initiate an alert when a potentially serious impact is detected. Prototype testing will focus on detection reliability, false alarms, battery life, connectivity, and usability. SENTINEL is an early-stage assistive technology concept and is not intended to replace emergency services or certified medical devices.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1600,
+  "auraDemoHighlight": "SENTINEL is an affordable, wearable accident-detection and emergency alert prototype designed to help people get assistance when a potentially dangerous impact occurs. Using an ADXL accelerometer and ESP32 microcontroller, the system aims to detect sudden acceleration patterns, provide a warning and cancellation option, and send notifications to registered emergency contacts through an IoT-connected platform. Its watch-like design focuses on portability, practical everyday use, and affordability. SENTINEL brings together electronics, embedded programming, and web technology to address a real-world safety challenge. Visitors can explore how motion sensing is translated into an emergency alert workflow and how the design can be improved through testing. The project is currently under development, with detection accuracy and false-alarm reduction among its key engineering challenges.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "SENTINEL is designed as a low-voltage, battery-powered wearable prototype. The circuit will be assembled with correct polarity and insulated connections to reduce the risk of short circuits. A suitable battery protection and charging circuit will be used, and the device will be checked for abnormal heating before testing. The electronics will be secured inside a compact enclosure to reduce accidental contact with exposed connections. Initial testing will be conducted under controlled conditions, with the device removed immediately if overheating, battery swelling, or unusual behaviour occurs. The prototype is intended for demonstration and evaluation, not as a certified medical or life-safety device.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-15T05:43:51.45Z",
+  "updatedAt": "2026-10-15T05:43:51.45Z",
+  "abstract": {
+    "originalName": "inbound469506224264808083.docx",
+    "url": "https://res.cloudinary.com/dxkje9whm/raw/upload/v1792043030/aura-registrations/abstract-docs/inbound469506224264808083",
+    "filename": "Abstract.docx",
+    "relPath": "assets/Teams/CYBERPUNKS/Abstract.docx",
+    "isDocx": true,
+    "exists": true,
+    "extractedText": "SENTINEL\n\nSmart Emergency Notification through Impact and Event Level Monitoring\n\nProblem Statement\n\nAfter an accident or sudden impact, a person may be unable to contact family members or request assistance promptly. This can be especially concerning for people travelling alone, elderly individuals, and others who may have difficulty making a manual emergency call.\n\nProposed Solution and Methodology\n\nSENTINEL (Smart Emergency Notification through Impact and Event Level Monitoring) is a compact, watch-like wearable prototype intended to identify potentially dangerous impacts. An ADXL-series accelerometer measures acceleration, and an ESP32 microcontroller processes the readings against programmed criteria. When a possible event is detected, the device is intended to issue a warning and provide a cancellation button so the wearer can dismiss a false alarm. If the alert is not cancelled, the ESP32 can use Wi-Fi to send an emergency notification through an IoT-connected website to registered contacts. Detection thresholds and alert behaviour will be refined through controlled testing.\n\nProposed Block Diagram\n\n[ADXL Accelerometer] → [ESP32: Event Analysis] → [Warning + Cancel Button]                                                    ↓ if not cancelled[Registered Contacts] ← [Website / IoT Service] ← [ESP32 Wi-Fi]\n\nInnovation\n\nSENTINEL combines impact sensing, embedded processing, a user-controlled alert cancellation mechanism, and web-based notifications in an affordable wearable concept. Its focus is portability and reducing dependence on manual emergency calls. The project integrates electronics, embedded programming, and web development in one system.\n\nProposed Outcome\n\nThe intended outcome is a prototype demonstrating the workflow from motion sensing to an emergency notification. Testing will focus on detection reliability, false alarms, response time, connectivity, and battery performance. SENTINEL is an assistive prototype and is not a certified medical or emergency-response device.\n\nPlanned hardware: ESP32 development board, ADXL-series accelerometer module, push button, warning buzzer, battery with suitable charging/protection, and prototype enclosure."
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/CYBERPUNKS/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792043030/aura-registrations/id-cards/vkpmqjthuyifmmdzzz2t.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/CYBERPUNKS/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792043030/aura-registrations/id-cards/himfffqid9pthiwyysuc.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/CYBERPUNKS/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792043030/aura-registrations/id-cards/oak78fetdidgdtkyrs9m.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/CYBERPUNKS/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792043030/aura-registrations/id-cards/bgl5eusp5bhzsj3d9l19.jpg",
+      "exists": true
+    }
+  ]
+}

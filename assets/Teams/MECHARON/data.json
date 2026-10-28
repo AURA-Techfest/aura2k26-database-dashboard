@@ -1,0 +1,96 @@
+{
+  "index": 36,
+  "id": "6aca21730db23efcd0d9febf",
+  "registrationId": "AURA2K26-R5NSSP",
+  "rawTeamName": "MECHARON",
+  "folderName": "MECHARON",
+  "folderRelPath": "assets/Teams/MECHARON",
+  "projectTitle": "Intravascular Micro-Sieve System for Localized Drug Delivery and Target Particle Capture (IMS-LDD-TPC)",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Mir Md Minhaajuddin",
+  "teamLeaderEmail": "mirmdminhaajuddin20@gmail.com",
+  "teamLeaderPhone": "7431916507",
+  "teamMemberDetails": "Jiaul Haque | Aliah University | Dept of MEN | PhD | +91 98001 11975\r\nMahabub Alam | Aliah University | Dept of MEN | UG 4th Year | +91 94751 83884\r\nSafiur Rahman | Aliah University | Dept of MEN | UG 4th Year | +91 7645 897 396",
+  "hardwareProjectCategories": [
+    "Biomedical / Healthcare Devices"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "In modern medical science to treat Cancer, conventional systemic drug administration distributes therapeutic agents throughout the body, potentially exposing healthy tissues to undesirable side effects. Localized drug delivery aims to concentrate therapeutic action near the intended target. Additionally, selective capture of target particles while maintaining continuous fluid flow presents an engineering challenge.\r\n\r\nThe proposed Intravascular Micro-Sieve System for Localized Drug Delivery and Target Particle Capture (IMS-LDD-TPC) is a laboratory-scale hardware concept integrating localized model-drug release and selective particle retention within a compact, retrievable intravascular device. The system comprises an Intravascular Micro-Cage (IMC), a drug-carrier capsule, an external ultrasonic transducer, and a controlled-flow experimental setup using transparent IV tubing to simulate a vessel. Acoustic excitation is proposed to induce capsule vibration and release a model agent, such as coloured water, near the target region. A mesh-covered cage with proposed one-way capture valves is designed to retain suitably sized target particles while permitting fluid passage.\r\n\r\nThe key innovation is integrating acoustic-actuated localized release, physical particle capture, continuous flow, and device retrievability into a single conceptual engineering platform. The prototype will be experimentally evaluated for release behaviour, particle retention, flow continuity, and retrieval feasibility. The project aims to establish the engineering feasibility and identify design limitations for future optimization and research.",
+  "solutionDescription": "In modern medical science to treat Cancer, conventional systemic drug administration distributes therapeutic agents throughout the body, potentially exposing healthy tissues to undesirable side effects. Localized drug delivery aims to concentrate therapeutic action near the intended target. Additionally, selective capture of target particles while maintaining continuous fluid flow presents an engineering challenge.\r\n\r\nThe proposed Intravascular Micro-Sieve System for Localized Drug Delivery and Target Particle Capture (IMS-LDD-TPC) is a laboratory-scale hardware concept integrating localized model-drug release and selective particle retention within a compact, retrievable intravascular device. The system comprises an Intravascular Micro-Cage (IMC), a drug-carrier capsule, an external ultrasonic transducer, and a controlled-flow experimental setup using transparent IV tubing to simulate a vessel. Acoustic excitation is proposed to induce capsule vibration and release a model agent, such as coloured water, near the target region. A mesh-covered cage with proposed one-way capture valves is designed to retain suitably sized target particles while permitting fluid passage.\r\n\r\nThe key innovation is integrating acoustic-actuated localized release, physical particle capture, continuous flow, and device retrievability into a single conceptual engineering platform. The prototype will be experimentally evaluated for release behaviour, particle retention, flow continuity, and retrieval feasibility. The project aims to establish the engineering feasibility and identify design limitations for future optimization and research.",
+  "innovationDescription": "In modern medical science to treat Cancer, conventional systemic drug administration distributes therapeutic agents throughout the body, potentially exposing healthy tissues to undesirable side effects. Localized drug delivery aims to concentrate therapeutic action near the intended target. Additionally, selective capture of target particles while maintaining continuous fluid flow presents an engineering challenge.\r\n\r\nThe proposed Intravascular Micro-Sieve System for Localized Drug Delivery and Target Particle Capture (IMS-LDD-TPC) is a laboratory-scale hardware concept integrating localized model-drug release and selective particle retention within a compact, retrievable intravascular device. The system comprises an Intravascular Micro-Cage (IMC), a drug-carrier capsule, an external ultrasonic transducer, and a controlled-flow experimental setup using transparent IV tubing to simulate a vessel. Acoustic excitation is proposed to induce capsule vibration and release a model agent, such as coloured water, near the target region. A mesh-covered cage with proposed one-way capture valves is designed to retain suitably sized target particles while permitting fluid passage.\r\n\r\nThe key innovation is integrating acoustic-actuated localized release, physical particle capture, continuous flow, and device retrievability into a single conceptual engineering platform. The prototype will be experimentally evaluated for release behaviour, particle retention, flow continuity, and retrieval feasibility. The project aims to establish the engineering feasibility and identify design limitations for future optimization and research.",
+  "workingPrinciple": "The system uses a controlled-flow experimental setup to simulate an intravascular environment. A pump circulates water or saline through transparent IV tubing containing a retrievable Intravascular Micro-Cage (IMC). The cage houses a drug-carrier capsule and incorporates fine mesh surfaces with proposed inward-facing one-way capture valves. An external ultrasonic transducer applies acoustic excitation to induce capsule vibration and investigate localized release of a model agent, such as coloured water. During flow, suitably sized model target particles are intended to enter and remain within the cage, while the working fluid and smaller particles pass through.",
+  "majorHardwareComponents": [
+    "1. Transparent IV tubing to simulate a blood vessel.\n2. Miniature pump and reservoir for controlled continuous flow.\n3. Intravascular Micro-Cage (IMC) with fine-mesh surfaces and proposed one-way capture valves (Will be made by our team).\n4. Drug-carrier capsule containing a model agent",
+    "such as coloured water.\n5. External ultrasonic transducer and its driving circuit.\n6. Model target particles of selected sizes.\n7. Connecting rods",
+    "cage supports",
+    "and retrieval mechanism.\n8. Suitable tubing connectors",
+    "seals",
+    "and mounting components."
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "dc_power_supply",
+  "intendedBeneficiaries": [
+    "Healthcare"
+  ],
+  "potentialImpact": "The proposed system explores an engineering approach to localized drug delivery and selective particle retention. If successfully developed and validated, the concept could inform future research into devices that combine localized therapeutic release with physical capture of selected particles. The laboratory prototype will help assess the feasibility and limitations of integrating acoustic actuation, porous structures, controlled fluid flow, and retrieval in a compact system. Its immediate value lies in experimental learning and proof-of-concept development, rather than direct clinical application. Further research, biocompatibility testing, and safety validation would be essential before any medical use.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "IMS-LDD-TPC combines several mechanical and biomedical engineering principles in one compact, retrievable hardware concept. Its distinctive feature is the proposed integration of acoustic-actuated model-drug release, a mesh-covered micro-cage with one-way particle-capture valves, and continuous fluid passage. The prototype offers a tangible demonstration of how advanced microfabrication, acoustics, fluid mechanics, and device design can work together to address a complex engineering challenge. Rather than relying solely on simulation, the project aims to evaluate the concept through a physical laboratory-scale setup and identify practical design limitations for future improvement.",
+  "safetyHazards": [
+    "moving_rotating_machinery",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "The prototype is intended for laboratory demonstration only and will use water or saline as the working fluid, along with non-hazardous model particles and a coloured-water surrogate instead of actual drugs or biological samples. The fluid circuit will be checked for leakage and connections secured before operation. Electrical components, including the pump and ultrasonic driver, will be kept away from liquid and operated using appropriate power ratings and insulation. Acoustic actuation will be performed at controlled settings, avoiding direct contact with the transducer during operation. The prototype will be tested on a stable work surface. The device is not intended for use inside a human or animal body.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-10T11:28:51.142Z",
+  "updatedAt": "2026-10-14T18:49:19.408Z",
+  "abstract": {
+    "originalName": "IMS-LDD-TPC.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791631729/aura-registrations/abstract-docs/IMS-LDD-TPC.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/MECHARON/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/MECHARON/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791631729/aura-registrations/id-cards/avyfpcm1ehtm0ljkeckw.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/MECHARON/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791631729/aura-registrations/id-cards/lrlespcbppwvvksinkpd.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/MECHARON/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791631730/aura-registrations/id-cards/l2v6kfr1mblipk7pwg7f.png",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/MECHARON/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791631729/aura-registrations/id-cards/jqiwey32i5yyxm4tdqs8.jpg",
+      "exists": true
+    }
+  ]
+}

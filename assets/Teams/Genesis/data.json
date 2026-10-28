@@ -1,0 +1,102 @@
+{
+  "index": 52,
+  "id": "6ad86903a971e88aec40d24f",
+  "registrationId": "AURA2K26-EY49VA",
+  "rawTeamName": "Genesis",
+  "folderName": "Genesis",
+  "folderRelPath": "assets/Teams/Genesis",
+  "projectTitle": "RainAlgae- A Rainwater-powered, Self-monitoring Algae Bioreactor for CO2 capture",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Irshadia Neshat",
+  "teamLeaderEmail": "irshadianeshat62@gmail.com",
+  "teamLeaderPhone": "7980013463",
+  "teamMemberDetails": "Md.Atyab Nadim | Aliah University | CSE | 3rd year |  94770 25582\r\nSara Jahan | Aliah University | CSE-BCA | 3rd year | 91429 60892\r\nMd.Kasif Ali  | Aliah University | CSE | 3rd year | 98362 63368",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement:-\r\n\r\nIndustrial emissions release large amounts of carbon dioxide, and most capture technologies are expensive and hard to place near small factories, leaving them with few practical options. Low-cost algae demonstrations do exist, but they mostly show only that algae are growing. They rarely give measured, repeatable proof of how much CO₂ is actually removed. They also cannot protect the algae if conditions turn harmful, such as the water becoming too acidic or too alkaline. There is a clear need for an affordable, compact system that proves its results with data and looks after its own algae culture.\r\n\r\nProposed Solution:-\r\n\r\nRainAlgae is a compact, low-cost bioreactor that grows Chlorella in filtered, nutrient-enriched rainwater under LED light on a day and night cycle. A CO₂-rich gas stream is diluted with air to a sensor-safe level and bubbled through the algae, which absorb part of the CO₂ through photosynthesis. For safe testing, a yeast-sugar fermentation bottle replaces real factory smoke, which can contain toxic gases.\r\n\r\nTwo NDIR CO₂ sensors measure the gas before and after the algae chamber, while pH, temperature and light sensors monitor the culture. An identical control chamber without algae runs alongside, so the difference shows the algae’s real contribution. An ESP32 sends the readings to a FastAPI backend and a live dashboard that displays capture percentage, CO₂ removed in mg per hour, and a running total. If the pH leaves the safe range, the system raises an alert and pauses the CO₂ supply at critical levels.\r\n\r\nInnovation:-\r\nLive removal tracking: The dashboard calculates capture percentage and CO₂ removed in mg per hour in real time, with a running total and a comparison against the control chamber, so every claim is backed by measured data.\r\npH-based protective alert: Excess dissolved CO₂ acidifies the water, while heavy photosynthesis can push pH too high. The system alerts on either side and automatically pauses the CO₂ supply at critical levels, keeping the culture healthy.\r\nResource-smart, scalable design: It reuses rainwater, uses simple low-cost parts with a safe yeast CO₂ source, and can be built as modular panels near small emission points. Harvested algae can become biofertiliser, so the captured carbon is put to use.",
+  "solutionDescription": "Problem Statement:-\r\n\r\nIndustrial emissions release large amounts of carbon dioxide, and most capture technologies are expensive and hard to place near small factories, leaving them with few practical options. Low-cost algae demonstrations do exist, but they mostly show only that algae are growing. They rarely give measured, repeatable proof of how much CO₂ is actually removed. They also cannot protect the algae if conditions turn harmful, such as the water becoming too acidic or too alkaline. There is a clear need for an affordable, compact system that proves its results with data and looks after its own algae culture.\r\n\r\nProposed Solution:-\r\n\r\nRainAlgae is a compact, low-cost bioreactor that grows Chlorella in filtered, nutrient-enriched rainwater under LED light on a day and night cycle. A CO₂-rich gas stream is diluted with air to a sensor-safe level and bubbled through the algae, which absorb part of the CO₂ through photosynthesis. For safe testing, a yeast-sugar fermentation bottle replaces real factory smoke, which can contain toxic gases.\r\n\r\nTwo NDIR CO₂ sensors measure the gas before and after the algae chamber, while pH, temperature and light sensors monitor the culture. An identical control chamber without algae runs alongside, so the difference shows the algae’s real contribution. An ESP32 sends the readings to a FastAPI backend and a live dashboard that displays capture percentage, CO₂ removed in mg per hour, and a running total. If the pH leaves the safe range, the system raises an alert and pauses the CO₂ supply at critical levels.\r\n\r\nInnovation:-\r\nLive removal tracking: The dashboard calculates capture percentage and CO₂ removed in mg per hour in real time, with a running total and a comparison against the control chamber, so every claim is backed by measured data.\r\npH-based protective alert: Excess dissolved CO₂ acidifies the water, while heavy photosynthesis can push pH too high. The system alerts on either side and automatically pauses the CO₂ supply at critical levels, keeping the culture healthy.\r\nResource-smart, scalable design: It reuses rainwater, uses simple low-cost parts with a safe yeast CO₂ source, and can be built as modular panels near small emission points. Harvested algae can become biofertiliser, so the captured carbon is put to use.",
+  "innovationDescription": "Problem Statement:-\r\n\r\nIndustrial emissions release large amounts of carbon dioxide, and most capture technologies are expensive and hard to place near small factories, leaving them with few practical options. Low-cost algae demonstrations do exist, but they mostly show only that algae are growing. They rarely give measured, repeatable proof of how much CO₂ is actually removed. They also cannot protect the algae if conditions turn harmful, such as the water becoming too acidic or too alkaline. There is a clear need for an affordable, compact system that proves its results with data and looks after its own algae culture.\r\n\r\nProposed Solution:-\r\n\r\nRainAlgae is a compact, low-cost bioreactor that grows Chlorella in filtered, nutrient-enriched rainwater under LED light on a day and night cycle. A CO₂-rich gas stream is diluted with air to a sensor-safe level and bubbled through the algae, which absorb part of the CO₂ through photosynthesis. For safe testing, a yeast-sugar fermentation bottle replaces real factory smoke, which can contain toxic gases.\r\n\r\nTwo NDIR CO₂ sensors measure the gas before and after the algae chamber, while pH, temperature and light sensors monitor the culture. An identical control chamber without algae runs alongside, so the difference shows the algae’s real contribution. An ESP32 sends the readings to a FastAPI backend and a live dashboard that displays capture percentage, CO₂ removed in mg per hour, and a running total. If the pH leaves the safe range, the system raises an alert and pauses the CO₂ supply at critical levels.\r\n\r\nInnovation:-\r\nLive removal tracking: The dashboard calculates capture percentage and CO₂ removed in mg per hour in real time, with a running total and a comparison against the control chamber, so every claim is backed by measured data.\r\npH-based protective alert: Excess dissolved CO₂ acidifies the water, while heavy photosynthesis can push pH too high. The system alerts on either side and automatically pauses the CO₂ supply at critical levels, keeping the culture healthy.\r\nResource-smart, scalable design: It reuses rainwater, uses simple low-cost parts with a safe yeast CO₂ source, and can be built as modular panels near small emission points. Harvested algae can become biofertiliser, so the captured carbon is put to use.",
+  "workingPrinciple": "Working Principle:-\r\n\r\n1. Culture setup. Chlorella grows in filtered, boiled rainwater with added nutrients, under LED light on a day and night cycle.\r\n\r\n2. CO₂ generation and dilution. A yeast-sugar fermentation bottle produces CO₂ as a safe stand-in for factory smoke. This gas is diluted with air to a level the sensors can handle, then bubbled through the algae chamber.\r\n\r\n3. Photosynthetic capture. Under light, the algae absorb part of the dissolved CO₂ through photosynthesis, so the gas leaving the chamber has less CO₂ than the gas entering it.\r\n\r\n4. Measurement. One NDIR CO₂ sensor reads the inlet gas and another reads the outlet gas. pH, temperature and light sensors monitor the culture. An identical control chamber without algae runs under the same conditions, so any difference between the two chambers is due to the algae alone.\r\n\r\n5. Data transmission. An ESP32 controller reads all sensors and sends the data to a FastAPI backend, which stores it and feeds a live dashboard.\r\n\r\n6. Live calculation. The system works out capture percentage from the inlet and outlet readings, converts it to CO₂ removed in mg per hour, and keeps a running total, compared against the control.\r\n\r\n7. Safety control. Dissolved CO₂ makes the water acidic, and heavy photosynthesis can push pH too high. If pH leaves the safe range, the dashboard raises an alert. At critical levels, the ESP32 switches off the pump to pause the CO₂ supply until conditions recover.",
+  "majorHardwareComponents": [
+    "Major Hardware Components:-\n\n1. Bioreactor chambers. Two identical transparent chambers: an algae chamber holding Chlorella in filtered",
+    "nutrient-enriched rainwater",
+    "and a control chamber with the same setup but no algae.\n\n2. ESP32 microcontroller. The central controller. It reads all sensors",
+    "sends data to the backend",
+    "and switches the pump on or off for the safety control.\n\n3. NDIR CO₂ sensors (two). One measures CO₂ in the inlet gas and the other in the outlet gas",
+    "giving the before-and-after readings used to calculate capture. The abstract’s methodology implies the control chamber is measured the same way",
+    "so you may need an additional pair of sensors",
+    "or a way to switch one pair between chambers.\n\n4. pH sensor. Monitors the acidity of the culture water to detect harmful drift in either direction.\n\n5. Temperature sensor. Tracks culture temperature",
+    "which affects algae growth and CO₂ absorption.\n\n6. Light sensor. Measures the light the culture receives during the day and night cycle.\n\n7. LED grow lights. Provide controlled illumination for photosynthesis on a day and night cycle.\n\n8. Air pump with tubing and diffuser. Moves the diluted CO₂ gas through the algae and releases it as bubbles. The ESP32 switches it off to pause the CO₂ supply.\n\n9. Yeast-sugar fermentation bottle. The safe CO₂ source used in place of factory smoke.\n\n10. Power supply and wiring. Powers the ESP32",
+    "sensors",
+    "pump and LEDs."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "solar",
+  "intendedBeneficiaries": [
+    "Industry",
+    "General Public"
+  ],
+  "potentialImpact": "Potential Real-World Impact:-\r\n\r\n1.Cleaner emissions at small factories. Most capture technologies are built for large plants. RainAlgae’s low-cost, modular panels could be placed near small emission points, which are usually left without options.\r\n\r\n2.Water savings. Using filtered rainwater instead of freshwater reduces demand on local supplies, which matters where water is scarce.\r\n\r\n3.Carbon put to use. Harvested algae can become biofertiliser, so the captured carbon supports farming instead of decaying and re-releasing CO₂.\r\n\r\n4.Trustworthy reporting. Live capture percentage and mg per hour, checked against a no-algae control, give sustainability teams and regulators figures they can verify.\r\n\r\n5.Reliable operation. The pH alert and automatic CO₂ pausing protect the culture, so the system can run with less manual supervision.\r\n\r\n6.A base for further research. The logged data can train a machine learning model, planned as a future enhancement, to predict CO₂ absorption from light and temperature.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "Why It’s Worth Seeing:-\r\n\r\n1.It proves its results. Many algae demos only show green water. RainAlgae shows measured CO₂ removal side by side with a control chamber, so viewers see evidence of the algae’s contribution.\r\n\r\n2.It’s live and visual. The dashboard updates capture percentage, mg per hour and a running total in real time, which makes the science easy to follow even for non-experts.\r\n\r\n3.It protects itself. Watching the pH alert trigger and the system pause the CO₂ supply shows the algae are being looked after automatically.\r\n\r\n4.It combines several fields. Biology, IoT hardware (ESP32 and sensors), a FastAPI backend and a dashboard come together in one working system, so it shows both sustainability and engineering skill.\r\n\r\n5.It’s safe and approachable. A yeast-sugar bottle replaces toxic factory smoke, so it can be demonstrated up close without hazardous gases.\r\n\r\n6.It’s practical. Low-cost parts, reused rainwater and a modular design make it feel buildable, not a distant concept.\r\n\r\n7.It tells a complete story. From emission to capture, measurement, protection and reuse as biofertiliser, the whole carbon journey is visible in one prototype.",
+  "safetyHazards": [
+    "pressurized_systems",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Pressure in the fermentation bottle. A fully sealed bottle with a blocked outlet could build up pressure. \r\nSolution: We use a plastic bottle with a clear gas outlet or airlock.\r\nElectricity near water. \r\nSolution:- Using a low-voltage 12 V supply and keep the electronics in a separate enclosure above the water level.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-21T07:25:55.98Z",
+  "updatedAt": "2026-10-21T07:27:56.186Z",
+  "abstract": {
+    "originalName": "Team_Genesis_abstract(RainAlgae).pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792567555/aura-registrations/abstract-docs/Team_Genesis_abstract%28RainAlgae%29.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Genesis/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Genesis/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792567554/aura-registrations/id-cards/z3h5wgb5fpmqgnxsj3vv.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Genesis/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792567554/aura-registrations/id-cards/opd1v6kt44yuzikbvjfu.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Genesis/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792567554/aura-registrations/id-cards/devutaru9ned95vv8y4l.png",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Genesis/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792567554/aura-registrations/id-cards/mmqhmz4dcxdwk8yam1x2.jpg",
+      "exists": true
+    }
+  ]
+}

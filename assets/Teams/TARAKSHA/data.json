@@ -1,0 +1,97 @@
+{
+  "index": 20,
+  "id": "6abc8d2087ebbaa70b081851",
+  "registrationId": "AURA2K26-4D8PRS",
+  "rawTeamName": "TARAKSHA",
+  "folderName": "TARAKSHA",
+  "folderRelPath": "assets/Teams/TARAKSHA",
+  "projectTitle": "TARAKSA – Smart Flood Rescue & Relief Delivery Boat",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "SNEHA DUTTA",
+  "teamLeaderEmail": "snehadutta1011@gmail.com",
+  "teamLeaderPhone": "9476419594",
+  "teamMemberDetails": "SUBHAM SAMUI | SWAMI VIVEKANANDA INSTITUTE SCIENCE & TECHNOLOGY | ELECTRONICS & COMMUNICATION ENGINEERING | 3RD YEAR | 6297 218 712\r\nSHUVA PRADHAN | SWAMI VIVEKANANDA INSTITUTE SCIENCE & TECHNOLOGY | MECHANICAL ENGINEERING | 3RD YEAR | 9732722325\r\nSUBHAM SAHA | SWAMI VIVEKANANDA INSTITUTE SCIENCE & TECHNOLOGY | MECHANICAL ENGINEERING | 3RD YEAR | 8972786106",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "IoT & Smart Devices",
+    "Electronics & Communication",
+    "Industrial / Manufacturing Technology",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Floods can isolate communities, make roads unusable and create dangerous conditions for rescue personnel. In many situations, affected people may require rapid visual assessment, drinking water, food or first-aid supplies before a full rescue team can safely reach them.\r\n\r\nTARAKSA is a compact, remotely operated flood-rescue and relief boat designed to support these situations. An ESP32-based control system manages propulsion and onboard sensors, while a 4G router provides long-range internet connectivity where cellular coverage is available. A 360° camera provides live situational awareness, and GPS, compass and IMU data help the operator understand the boat’s position and movement. Ultrasonic sensing assists with nearby obstacle detection.\r\n\r\nThe boat also carries a waterproof emergency-storage compartment for small relief supplies. A remote-release mechanism can deliver supplies without requiring a person to approach the flooded location. An independent RC transmitter/receiver is included as a backup control link.\r\n\r\nThe innovation lies in combining remote operation, live visual monitoring, location awareness, environmental sensing, obstacle awareness and relief delivery in a relatively low-cost platform. TARAKSA is intended as a support tool for trained rescue personnel, helping them assess flooded areas and deliver essential supplies while reducing unnecessary exposure to hazardous conditions.",
+  "solutionDescription": "Floods can isolate communities, make roads unusable and create dangerous conditions for rescue personnel. In many situations, affected people may require rapid visual assessment, drinking water, food or first-aid supplies before a full rescue team can safely reach them.\r\n\r\nTARAKSA is a compact, remotely operated flood-rescue and relief boat designed to support these situations. An ESP32-based control system manages propulsion and onboard sensors, while a 4G router provides long-range internet connectivity where cellular coverage is available. A 360° camera provides live situational awareness, and GPS, compass and IMU data help the operator understand the boat’s position and movement. Ultrasonic sensing assists with nearby obstacle detection.\r\n\r\nThe boat also carries a waterproof emergency-storage compartment for small relief supplies. A remote-release mechanism can deliver supplies without requiring a person to approach the flooded location. An independent RC transmitter/receiver is included as a backup control link.\r\n\r\nThe innovation lies in combining remote operation, live visual monitoring, location awareness, environmental sensing, obstacle awareness and relief delivery in a relatively low-cost platform. TARAKSA is intended as a support tool for trained rescue personnel, helping them assess flooded areas and deliver essential supplies while reducing unnecessary exposure to hazardous conditions.",
+  "innovationDescription": "Floods can isolate communities, make roads unusable and create dangerous conditions for rescue personnel. In many situations, affected people may require rapid visual assessment, drinking water, food or first-aid supplies before a full rescue team can safely reach them.\r\n\r\nTARAKSA is a compact, remotely operated flood-rescue and relief boat designed to support these situations. An ESP32-based control system manages propulsion and onboard sensors, while a 4G router provides long-range internet connectivity where cellular coverage is available. A 360° camera provides live situational awareness, and GPS, compass and IMU data help the operator understand the boat’s position and movement. Ultrasonic sensing assists with nearby obstacle detection.\r\n\r\nThe boat also carries a waterproof emergency-storage compartment for small relief supplies. A remote-release mechanism can deliver supplies without requiring a person to approach the flooded location. An independent RC transmitter/receiver is included as a backup control link.\r\n\r\nThe innovation lies in combining remote operation, live visual monitoring, location awareness, environmental sensing, obstacle awareness and relief delivery in a relatively low-cost platform. TARAKSA is intended as a support tool for trained rescue personnel, helping them assess flooded areas and deliver essential supplies while reducing unnecessary exposure to hazardous conditions.",
+  "workingPrinciple": "TARAKSA operates as a remotely controlled surface vehicle. The operator sends navigation commands through the primary communication link using a 4G router and SIM-based internet connection, subject to cellular network availability. The ESP32 receives the control information and generates commands for the propulsion system through the motor controllers/ESCs.\r\n\r\nAt the same time, onboard sensors continuously provide operational information. GPS supplies geographical position, while the compass and IMU provide heading and motion-related data. Ultrasonic sensors assist with identifying nearby obstacles. The camera supplies live visual information so the operator can observe the surrounding flood environment. A battery-monitoring circuit helps track the power condition, and a water-leak sensor provides an early warning of water entering the electronics enclosure.\r\n\r\nFor emergency relief, the boat carries a waterproof payload compartment. When the boat reaches the intended location, the operator can activate the release mechanism to deliver a limited quantity of supplies. If the primary internet-based link becomes unavailable, the independent RC system can be used as a backup, within its operating range.\r\n\r\nThe system is designed as a supervised rescue-support platform rather than an autonomous replacement for trained rescue personnel.",
+  "majorHardwareComponents": [
+    "• ESP32 development board – main control and communication interface\n• 4G router with SIM – primary long-range internet connectivity\n• 360° Wi-Fi camera with microphone – live visual monitoring\n• GPS module – position tracking\n• Digital compass and IMU – heading and motion sensing\n• Ultrasonic sensors – nearby obstacle detection\n• BME280 – environmental sensing\n• Water-leak sensor – electronics enclosure protection\n• Battery voltage/level indicator and BMS – power monitoring and battery protection\n• Motor controllers/ESCs and propulsion motors – boat movement\n• RC transmitter and receiver – independent backup control\n• Solar panel and charging interface – auxiliary charging support\n• SD card/storage – local data/video support where applicable\n• Waterproof electronics enclosure and wiring\n• Waterproof relief-supply compartment with remote-release mechanism\n• Switches",
+    "connectors",
+    "fuses/protection and mounting hardware"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Industry",
+    "Other"
+  ],
+  "potentialImpact": "TARAKSA is intended to support disaster-response teams during flood situations by providing a remotely operated platform for visual assessment, location-based monitoring and delivery of small emergency supplies. It can help responders inspect areas that may be difficult or temporarily unsafe to access directly.\r\n\r\nThe system combines live video, GPS location, basic obstacle awareness, environmental and water-leak monitoring, and battery-status information in one platform. This can provide the operator with useful situational information before deciding how and where to deploy human rescuers.\r\n\r\nThe relief compartment can carry limited quantities of drinking water, dry food, first-aid materials or other essential items. This makes the platform useful not only for reconnaissance but also for short-distance relief delivery.\r\n\r\nThe design is modular, allowing future upgrades such as night-vision or thermal cameras, improved navigation, stronger communication links, higher-capacity payloads and additional safety systems. The project therefore has potential as a low-cost experimental platform for flood-response technology and engineering education.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 80000,
+  "auraDemoHighlight": "The most notable aspect of TARAKSA is that it combines several practical rescue functions in a single compact surface platform. Instead of being limited to simple RC movement, the prototype integrates remote control, 4G connectivity, live camera monitoring, GPS, motion sensing, obstacle detection, battery monitoring and emergency-supply delivery.\r\n\r\nThe project is also designed with redundancy in mind: the 4G-based control path is supported by an independent RC link. This makes the communication architecture more practical for a prototype intended for unpredictable flood environments, although all operation remains dependent on network and radio conditions.\r\n\r\nAnother important feature is the relief-delivery mechanism. A small payload can be transported to an isolated location and released remotely, reducing the need for a person to immediately enter the water.\r\n\r\nTARAKSA demonstrates how affordable embedded electronics and communication technologies can be integrated into a physical rescue-support system. The prototype provides a clear foundation for future development toward improved autonomy, navigation, sensing and disaster-response applications.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The electronics are housed inside a sealed/water-resistant enclosure to reduce the risk of water reaching electrical components. Battery wiring is arranged with appropriate insulation and protection, and a battery-management/protection system is used with the rechargeable battery pack.\r\n\r\nPropulsion components are mechanically secured and should be operated only when the boat is in a suitable test area. Moving propellers/motors are kept away from people during testing, and the system should be powered down before mechanical servicing.\r\n\r\nThe prototype is intended for controlled and supervised demonstrations. Operators should maintain a safe distance from the boat, use appropriate personal safety precautions near water, and avoid operation during unsafe weather or water conditions.\r\n\r\nThe payload release mechanism is designed to operate remotely, reducing the need for direct contact with the moving boat. A manual power cutoff should be available to stop the system in an emergency.\r\n\r\nThe prototype is a rescue-support device and is not certified life-saving equipment. Field deployment should be performed only by trained personnel after appropriate testing, risk assessment and local authorization.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-30T04:16:32.358Z",
+  "updatedAt": "2026-10-11T17:32:49.839Z",
+  "abstract": {
+    "originalName": "TARAKSHA_Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790741791/aura-registrations/abstract-docs/TARAKSHA_Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/TARAKSHA/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/TARAKSHA/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790741791/aura-registrations/id-cards/g3dckifvzpky5zzvqrdn.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/TARAKSHA/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790741791/aura-registrations/id-cards/ly5nvhwbwb3ll3bxpme6.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/TARAKSHA/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790741791/aura-registrations/id-cards/czwiem6zyo37kthdn0js.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/TARAKSHA/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790741791/aura-registrations/id-cards/vd3kt3zegsarfpcax1n0.jpg",
+      "exists": true
+    }
+  ]
+}

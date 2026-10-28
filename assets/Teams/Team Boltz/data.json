@@ -1,0 +1,102 @@
+{
+  "index": 25,
+  "id": "6abe01c1ed528cc7a12871d9",
+  "registrationId": "AURA2K26-5FF8P8",
+  "rawTeamName": "Team Boltz",
+  "folderName": "Team Boltz",
+  "folderRelPath": "assets/Teams/Team Boltz",
+  "projectTitle": "WASTE HEAT TO ELECTRICAL ENERGY CONVERSION USING THERMOELECTRIC GENERATOR",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Mir Farid Ahmad",
+  "teamLeaderEmail": "mir.ee.au25@gmail.com",
+  "teamLeaderPhone": "9907698930",
+  "teamMemberDetails": "1. Megha Ahmed | Aliah University | Electronics And Communication Engineering | 4th Year | 9330436360\r\n2. Zeba Ahmed | Aliah University | Electronics And Communication Engineering | 3rd Year | 7980218400\r\n3. Minhaz Ul Islam | Aliah University | Electronics And Communication Engineering | 3rd Year | 9641699500",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Renewable Energy / Clean Technology"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement: A large amount of energy is lost as waste heat from vehicle exhausts, industrial machinery, generators, and cooking systems. This heat is rarely recovered, which wastes energy, raises costs, and harms the environment. Remote sensors and off-grid areas also lack simple, maintenance-free power sources.\r\nSolution: A thermoelectric generator (TEG) is placed between hot surface and cooled heatsink. The temperature difference produces a low DC voltage through the Seebeck effect. An MT3608 boost converter raises it, and an LM7805 regulates it to 5 V to power a load and charge a Li-ion battery through a TP4056 module.\r\nInnovation: The design combines heat recovery with smart power management. Sensors (DS18B20, INA219) and an Arduino/ESP32 display temperature, ΔT, voltage, current, power, and efficiency in real time on an LCD. It is compact, has no moving parts in the generator, needs little maintenance, and works wherever a temperature gradient exists.",
+  "solutionDescription": "Problem Statement: A large amount of energy is lost as waste heat from vehicle exhausts, industrial machinery, generators, and cooking systems. This heat is rarely recovered, which wastes energy, raises costs, and harms the environment. Remote sensors and off-grid areas also lack simple, maintenance-free power sources.\r\nSolution: A thermoelectric generator (TEG) is placed between hot surface and cooled heatsink. The temperature difference produces a low DC voltage through the Seebeck effect. An MT3608 boost converter raises it, and an LM7805 regulates it to 5 V to power a load and charge a Li-ion battery through a TP4056 module.\r\nInnovation: The design combines heat recovery with smart power management. Sensors (DS18B20, INA219) and an Arduino/ESP32 display temperature, ΔT, voltage, current, power, and efficiency in real time on an LCD. It is compact, has no moving parts in the generator, needs little maintenance, and works wherever a temperature gradient exists.",
+  "innovationDescription": "Problem Statement: A large amount of energy is lost as waste heat from vehicle exhausts, industrial machinery, generators, and cooking systems. This heat is rarely recovered, which wastes energy, raises costs, and harms the environment. Remote sensors and off-grid areas also lack simple, maintenance-free power sources.\r\nSolution: A thermoelectric generator (TEG) is placed between hot surface and cooled heatsink. The temperature difference produces a low DC voltage through the Seebeck effect. An MT3608 boost converter raises it, and an LM7805 regulates it to 5 V to power a load and charge a Li-ion battery through a TP4056 module.\r\nInnovation: The design combines heat recovery with smart power management. Sensors (DS18B20, INA219) and an Arduino/ESP32 display temperature, ΔT, voltage, current, power, and efficiency in real time on an LCD. It is compact, has no moving parts in the generator, needs little maintenance, and works wherever a temperature gradient exists.",
+  "workingPrinciple": "A thermoelectric generator (TEG) sits between a hot plate and a cooled heatsink. The temperature difference (∆T) produces a DC voltage via the Seebeck effect (V ≈ S × ∆T). A boost converter raises this low voltage, a regulator stabilizes it to 5V, and it powers a load or charges a battery.",
+  "majorHardwareComponents": [
+    "TEG module",
+    "Esp-32",
+    "Heatsink and fan",
+    "Boost converter",
+    "Voltage Regulator",
+    "Charging Module",
+    "Temperature sensors",
+    "Current sensor",
+    "LCD display",
+    "DC load"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "other",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry",
+    "Transportation"
+  ],
+  "potentialImpact": "This project could make waste heat a useful energy source. Recovering even a small fraction of heat lost from vehicle exhausts, industrial machinery, generators, and stoves would improve overall energy efficiency and reduce fuel consumption and carbon emissions. Because TEGs have no moving parts and need little maintenance, they can power remote sensors, IoT devices, and industrial monitoring systems without frequent battery replacement. In off-grid and rural areas, the same approach could provide basic electricity for lighting or phone charging from cooking fires. At scale, it supports sustainable energy recovery, lowers operating costs, and encourages cleaner, more resource-efficient technology across many sectors.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 2800,
+  "auraDemoHighlight": "This project is worth seeing because it turns energy that's normally thrown away into usable electricity, with no moving parts and almost no maintenance. It combines several skills in one build: thermoelectrics, power electronics (boost converter, regulator, battery charging), and sensor-based monitoring with a live LCD display of temperature, voltage, current, and power.It's also practical. The same idea applies to car exhausts, industrial machines, stoves, and remote IoT sensors, including off-grid areas. You can watch heat become electricity in real time, making it a clear, hands-on demonstration of sustainable energy recovery.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Keep the heatsink and fan running, since overheating can damage the TEG, and check its maximum rated temperature. Use a protected TP4056 module for the Li-ion battery, and never short it or charge it unattended. Verify polarity and connections before powering on, and insulate all exposed wires. Finally, place the setup on a stable, non-flammable surface with good ventilation, and keep a fire extinguisher nearby.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-01T06:46:25.123Z",
+  "updatedAt": "2026-10-14T18:48:21.805Z",
+  "abstract": {
+    "originalName": "Team-Boltz Project.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790837184/aura-registrations/abstract-docs/Team-Boltz%20Project.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Team Boltz/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Team Boltz/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790837183/aura-registrations/id-cards/xso2b3f6lb1yvltghrne.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Team Boltz/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790837183/aura-registrations/id-cards/splu7avfplkvzpqdvjhy.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Team Boltz/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790837183/aura-registrations/id-cards/gygqyqqwedapjveclrym.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Team Boltz/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790837183/aura-registrations/id-cards/cvnzjetkzf8ndmtieler.png",
+      "exists": true
+    }
+  ]
+}

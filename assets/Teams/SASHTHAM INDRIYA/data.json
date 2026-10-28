@@ -1,0 +1,108 @@
+{
+  "index": 21,
+  "id": "6abcefb71e01160fb6dfffca",
+  "registrationId": "AURA2K26-CDGP69",
+  "rawTeamName": "SASHTHAM INDRIYA",
+  "folderName": "SASHTHAM INDRIYA",
+  "folderRelPath": "assets/Teams/SASHTHAM INDRIYA",
+  "projectTitle": "SASHTHAM INDRIYA: AI POWERED BREATH-BASED NARCOTICS DETECTION DEVICE",
+  "teamSize": 2,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 2,
+  "teamLeaderName": "KUSHAL MAKAR",
+  "teamLeaderEmail": "kushal.m2580@gmail.com",
+  "teamLeaderPhone": "8910858500",
+  "teamMemberDetails": "SUNITA DAS | SWAMI VIVEKANANDA INSTITUTE OF SCIENCE & TECHNOLOGY | ECE | 3rd | 9007361753",
+  "hardwareProjectCategories": [
+    "Biomedical / Healthcare Devices",
+    "Safety & Security Systems",
+    "Embedded Systems",
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "SASHTHAM INDRIYA: AI-Powered Breath Analysis for Immediate Narcotics Screening\r\nThe Challenge:\r\nCurrent law enforcement protocols for field drug detection rely on invasive, time-consuming (24-48 Hrs) blood and urine tests. There is a critical absence of a rapid, portable, and non-invasive screening tool capable of providing real-time intelligence at checkpoints and borders.\r\nThe Solution:\r\nSASHTHAM INDRIYA is a fully functional, indigenous handheld prototype that translates the simplicity of an alcohol breathalyzer to narcotics detection. Utilizing multi-sensor fusion (Bosch BME688 AI Gas Sensors and MQ series) combined with Edge AI, the device captures and fingerprints the Volatile Organic Compounds (VOCs) and biomarkers present in human breath after narcotic consumption.\r\nThe Innovation of Project: We did not just design a concept; we built a deployable reality. SASHTHAM INDRIYA is an accessible, working hardware prototype capable of immediate breath-sample analysis.\r\nNear Real-Time Results: The device provides rapid feedback directly at the point of testing. From the moment a subject exhales into the device, it captures, processes, and outputs the result in under 15 seconds.\r\nwe are proving that India does not need to rely on vastly expensive (₹50,000+), imported forensic laboratory kits to secure its communities.\r\nOur device directly supports the National Action Plan for Drug Demand Reduction (NAPDDR). By equipping our police forces, border security, and de-addiction centers with a handheld, cost-effective (under ₹3,000), and highly accurate indigenous tool, we are enabling proactive deterrence and rapid intervention. SASHTHAM INDRIYA is not just a hackathon submission; it is a scalable, self-reliant leap forward in safeguarding the health, safety, and future of our nation.",
+  "solutionDescription": "SASHTHAM INDRIYA: AI-Powered Breath Analysis for Immediate Narcotics Screening\r\nThe Challenge:\r\nCurrent law enforcement protocols for field drug detection rely on invasive, time-consuming (24-48 Hrs) blood and urine tests. There is a critical absence of a rapid, portable, and non-invasive screening tool capable of providing real-time intelligence at checkpoints and borders.\r\nThe Solution:\r\nSASHTHAM INDRIYA is a fully functional, indigenous handheld prototype that translates the simplicity of an alcohol breathalyzer to narcotics detection. Utilizing multi-sensor fusion (Bosch BME688 AI Gas Sensors and MQ series) combined with Edge AI, the device captures and fingerprints the Volatile Organic Compounds (VOCs) and biomarkers present in human breath after narcotic consumption.\r\nThe Innovation of Project: We did not just design a concept; we built a deployable reality. SASHTHAM INDRIYA is an accessible, working hardware prototype capable of immediate breath-sample analysis.\r\nNear Real-Time Results: The device provides rapid feedback directly at the point of testing. From the moment a subject exhales into the device, it captures, processes, and outputs the result in under 15 seconds.\r\nwe are proving that India does not need to rely on vastly expensive (₹50,000+), imported forensic laboratory kits to secure its communities.\r\nOur device directly supports the National Action Plan for Drug Demand Reduction (NAPDDR). By equipping our police forces, border security, and de-addiction centers with a handheld, cost-effective (under ₹3,000), and highly accurate indigenous tool, we are enabling proactive deterrence and rapid intervention. SASHTHAM INDRIYA is not just a hackathon submission; it is a scalable, self-reliant leap forward in safeguarding the health, safety, and future of our nation.",
+  "innovationDescription": "SASHTHAM INDRIYA: AI-Powered Breath Analysis for Immediate Narcotics Screening\r\nThe Challenge:\r\nCurrent law enforcement protocols for field drug detection rely on invasive, time-consuming (24-48 Hrs) blood and urine tests. There is a critical absence of a rapid, portable, and non-invasive screening tool capable of providing real-time intelligence at checkpoints and borders.\r\nThe Solution:\r\nSASHTHAM INDRIYA is a fully functional, indigenous handheld prototype that translates the simplicity of an alcohol breathalyzer to narcotics detection. Utilizing multi-sensor fusion (Bosch BME688 AI Gas Sensors and MQ series) combined with Edge AI, the device captures and fingerprints the Volatile Organic Compounds (VOCs) and biomarkers present in human breath after narcotic consumption.\r\nThe Innovation of Project: We did not just design a concept; we built a deployable reality. SASHTHAM INDRIYA is an accessible, working hardware prototype capable of immediate breath-sample analysis.\r\nNear Real-Time Results: The device provides rapid feedback directly at the point of testing. From the moment a subject exhales into the device, it captures, processes, and outputs the result in under 15 seconds.\r\nwe are proving that India does not need to rely on vastly expensive (₹50,000+), imported forensic laboratory kits to secure its communities.\r\nOur device directly supports the National Action Plan for Drug Demand Reduction (NAPDDR). By equipping our police forces, border security, and de-addiction centers with a handheld, cost-effective (under ₹3,000), and highly accurate indigenous tool, we are enabling proactive deterrence and rapid intervention. SASHTHAM INDRIYA is not just a hackathon submission; it is a scalable, self-reliant leap forward in safeguarding the health, safety, and future of our nation.",
+  "workingPrinciple": "SASHTHAM INDRIYA operates on a streamlined, five-step electrochemical and AI-driven workflow: Warmup, Exhale, VOC Capture, AI Classify, and Display.  \r\nThe process begins when a subject exhales into the device, releasing a complex mixture of breath trace elements. The breath passes over a multi-sensor fusion array—anchored by the Bosch BME688 AI Gas Sensor and MQ-series chemiresistive sensors. These sensors capture the unique Volatile Organic Compounds (VOCs) and chemical biomarkers indicative of recent narcotic consumption, such as opioids.  \r\nThe raw analog data is instantly sampled by the core ESP32 microcontroller. Instead of sending data to the cloud, the ESP32 utilizes the embedded Bosch BSEC2 AI Library to perform on-device edge classification. The AI model, pre-trained using BME AI-Studio to recognize specific biomarker fingerprints, analyzes the gas resistance patterns in near real-time.  \r\nFinally, the microcontroller outputs the classification. It hosts its own offline Wi-Fi hotspot and WebServer, pushing a definitive Positive, Negative, or Inconclusive result to a secure mobile dashboard in under 15 seconds. Visual and auditory indicators (LEDs and a buzzer) provide immediate physical feedback. This creates a rapid, non-invasive, and fully offline detection loop.",
+  "majorHardwareComponents": [
+    "The SASHTHAM INDRIYA prototype is engineered using accessible",
+    "commercially viable hardware to ensure low cost (under ₹3",
+    "000) and high scalability:  \nESP32 Microcontroller: The core processing unit. It handles real-time analog-to-digital (ADC) sensor sampling",
+    "runs the embedded C/C++ firmware",
+    "executes the on-device AI classification",
+    "and hosts the standalone Wi-Fi WebServer for the offline dashboard.  \nBosch BME688 AI Gas Sensor: An industry-grade",
+    "highly sensitive environmental and gas sensor capable of detecting Volatile Organic Compounds (VOCs). It is the primary hardware responsible for capturing the distinct chemical \"fingerprints\" of exhaled breath.  \nChemiresistive Sensor Array (MQ Series): Supplementary gas sensors working in tandem with the BME688 to detect volatile solvents",
+    "hydrocarbon inhalants",
+    "and specific chemical biomarkers",
+    "creating a robust multi-sensor fusion setup.  \nVisual & Auditory Indicators: Integrated LEDs (Green for clean",
+    "Red for detected) and a buzzer provide immediate",
+    "unambiguous physical alerts to the field officer the moment a substance is classified.  \nPower & Portability Architecture: Housed in a compact",
+    "handheld form factor designed for USB or battery operation",
+    "making it entirely independent of specialized medical infrastructure and ready for field deployment."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "usb",
+  "intendedBeneficiaries": [
+    "Healthcare",
+    "Government / Public Services",
+    "Industry"
+  ],
+  "potentialImpact": "SASHTHAM INDRIYA fundamentally transforms how authorities conduct preliminary narcotics screening, offering massive improvements over existing blood or urine tests that are invasive, expensive (₹50,000+ per lab kit), and take 24–72 hours for results. Our device provides a non-invasive, accurate readout in under 15 seconds at a fraction of the cost (<₹3,000).  \r\nWho Benefits?\r\nLaw Enforcement: Enables rapid roadside screening at traffic stops and checkpoints, directly acting as a proactive deterrence tool.  \r\nDe-addiction Centers & Rehabilitation: Allows for non-invasive patient compliance monitoring and quick relapse detection.  \r\nWorkplaces & Educational Institutions: Facilitates pre-shift safety screenings in high-risk sectors (transport, construction) and deterrence programs in campus hostels.  \r\nImproving Standards:\r\nBy eliminating the need for specialized medical personnel and laboratory infrastructure for initial screening, it democratizes drug detection. It directly champions the Atmanirbhar Bharat initiative by replacing imported forensic kits with an indigenous solution. Furthermore, it actively supports India’s National Action Plan for Drug Demand Reduction (NAPDDR) by equipping frontline workers with a highly accessible, rapid-response tool to secure communities and enforce safety protocols instantaneously.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3000,
+  "auraDemoHighlight": "What sets SASHTHAM INDRIYA apart is that it is not a theoretical whitepaper—it is a fully functional, tangible prototype that has already proven its field viability. Evaluators should pay attention for three critical reasons:\r\nOfficial Stakeholder Validation: We didn't just build this in a lab; we took it directly to the end-users. The prototype has been successfully demonstrated to the West Bengal Police, who validated its extreme operational necessity and 15-second response time. We have documented this endorsement and our live testing on video via a single QR code.  \r\nIngenious, Legal Validation Methodology: To prove our electrochemical VOC detection works for opioids without handling illegal narcotics, we successfully tested the device using \"Opium 200CH\" (a legal homeopathic medicine containing active Opium). This innovative approach achieved a 50–75% accuracy baseline on our self-generated test set, proving technical feasibility perfectly within hackathon constraints.\r\nTrue Edge-AI: Unlike many IoT devices that rely on cloud APIs, our ESP32 and BSEC2 AI library execute complex biomarker classification entirely offline. It hosts its own Wi-Fi dashboard, meaning a police officer can use this device in the most remote, internet-deprived checkpoint in India with zero lag.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Building a MedTech/HealthTech device requires rigorous safety and operational safeguards. We have integrated several key precautions into SASHTHAM INDRIYA:\r\nLegal & Safe Development: To ensure absolute safety and regulatory compliance during development, we strictly utilized legal medicinal drug analogues (like Opium 200CH) for AI model training and testing. No illegal or dangerous narcotics were handled.  \r\nCross-Sensitivity Mitigation: A major risk in breath analysis is false positives from everyday items (food, perfumes, mouthwash). We safeguard against this using multi-sensor fusion and AI-filtering algorithms that are specifically trained to distinguish targeted narcotic VOC fingerprints from common environmental anomalies.  \r\nEnvironmental Stability Safeguards: Sensor accuracy can drift due to external temperature or humidity changes. The firmware includes automated auto-calibration routines and baseline tracking to ensure the sensors remain accurate regardless of the operating environment.  \r\nHygienic, Non-Invasive Design: By relying entirely on exhaled breath, the device completely eliminates the biohazard risks associated with handling bodily fluids like blood or urine.  \r\nDefined Operational Scope: The device is explicitly safeguarded by its intended use case: it is a preliminary screening tool. The dashboard and documentation clearly state that positive readings provide probable cause and require standard laboratory confirmation before any legal or punitive action is taken, protecting both the user and the subject.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-30T11:17:11.819Z",
+  "updatedAt": "2026-10-11T17:32:54.158Z",
+  "abstract": {
+    "originalName": "SASHTHAM_INDRIYA_Writeup.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790767031/aura-registrations/abstract-docs/SASHTHAM_INDRIYA_Writeup.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/SASHTHAM INDRIYA/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/SASHTHAM INDRIYA/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790767030/aura-registrations/id-cards/dkcnpn3atmmolhpsvni4.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/SASHTHAM INDRIYA/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790767030/aura-registrations/id-cards/ey97uumxfnjaamysmvb8.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/SASHTHAM INDRIYA/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/SASHTHAM INDRIYA/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

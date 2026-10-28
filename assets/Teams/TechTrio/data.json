@@ -1,0 +1,90 @@
+{
+  "index": 15,
+  "id": "6abba3e479d425f326b5b8e4",
+  "registrationId": "AURA2K26-YN5YAK",
+  "rawTeamName": "TechTrio",
+  "folderName": "TechTrio",
+  "folderRelPath": "assets/Teams/TechTrio",
+  "projectTitle": "Smart Driver Safety System",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "RABIA PARVEEN",
+  "teamLeaderEmail": "rabiaparveen888@gmail.com",
+  "teamLeaderPhone": "6289142291",
+  "teamMemberDetails": "Dilshad Fatma - Aliah University - ECE(28) - ph: 78120 39652\r\n\r\nAdiba Naushad - Aliah University - CSE(28)\r\n\r\nAribah Tahseen Btech(CSE) | CSE244039",
+  "hardwareProjectCategories": [
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement: Road accidents can happen when drivers fall asleep while driving or drive after drinking alcohol. A sleepy driver may not notice the road properly, and an alcohol-influenced driver may lose control. Therefore, a simple and low-cost safety system is needed to warn the driver and stop the vehicle when alcohol is detected.\r\n\r\nSolution: Our project is a smart driver safety system that detects both sleepiness and alcohol. An eye-blink sensor checks the driver's eyes. If the driver's eyes stay closed for about 3 seconds, the system turns on a buzzer to wake and alert the driver.\r\nAn MQ-3 alcohol sensor checks for alcohol. If alcohol is detected, the Arduino Nano sends a signal to the control circuit, which stops the BO motor. The motor represents the vehicle engine in our prototype. Therefore, the vehicle cannot operate when alcohol is detected.\r\n\r\nInnovation Details: The main innovation of this project is that it combines two safety features in one system:\r\n1.Anti-sleep alarm for detecting driver drowsiness.\r\n2.Alcohol detection with engine lock for preventing drunk driving.\r\nThe system uses simple and low-cost components such as an Arduino Nano, eye-blink sensor, MQ-3 alcohol sensor, buzzer, LED, transistor, and motor. It is easy to build and can be used as a basic model for a real vehicle safety system in the future.",
+  "solutionDescription": "Problem Statement: Road accidents can happen when drivers fall asleep while driving or drive after drinking alcohol. A sleepy driver may not notice the road properly, and an alcohol-influenced driver may lose control. Therefore, a simple and low-cost safety system is needed to warn the driver and stop the vehicle when alcohol is detected.\r\n\r\nSolution: Our project is a smart driver safety system that detects both sleepiness and alcohol. An eye-blink sensor checks the driver's eyes. If the driver's eyes stay closed for about 3 seconds, the system turns on a buzzer to wake and alert the driver.\r\nAn MQ-3 alcohol sensor checks for alcohol. If alcohol is detected, the Arduino Nano sends a signal to the control circuit, which stops the BO motor. The motor represents the vehicle engine in our prototype. Therefore, the vehicle cannot operate when alcohol is detected.\r\n\r\nInnovation Details: The main innovation of this project is that it combines two safety features in one system:\r\n1.Anti-sleep alarm for detecting driver drowsiness.\r\n2.Alcohol detection with engine lock for preventing drunk driving.\r\nThe system uses simple and low-cost components such as an Arduino Nano, eye-blink sensor, MQ-3 alcohol sensor, buzzer, LED, transistor, and motor. It is easy to build and can be used as a basic model for a real vehicle safety system in the future.",
+  "innovationDescription": "Problem Statement: Road accidents can happen when drivers fall asleep while driving or drive after drinking alcohol. A sleepy driver may not notice the road properly, and an alcohol-influenced driver may lose control. Therefore, a simple and low-cost safety system is needed to warn the driver and stop the vehicle when alcohol is detected.\r\n\r\nSolution: Our project is a smart driver safety system that detects both sleepiness and alcohol. An eye-blink sensor checks the driver's eyes. If the driver's eyes stay closed for about 3 seconds, the system turns on a buzzer to wake and alert the driver.\r\nAn MQ-3 alcohol sensor checks for alcohol. If alcohol is detected, the Arduino Nano sends a signal to the control circuit, which stops the BO motor. The motor represents the vehicle engine in our prototype. Therefore, the vehicle cannot operate when alcohol is detected.\r\n\r\nInnovation Details: The main innovation of this project is that it combines two safety features in one system:\r\n1.Anti-sleep alarm for detecting driver drowsiness.\r\n2.Alcohol detection with engine lock for preventing drunk driving.\r\nThe system uses simple and low-cost components such as an Arduino Nano, eye-blink sensor, MQ-3 alcohol sensor, buzzer, LED, transistor, and motor. It is easy to build and can be used as a basic model for a real vehicle safety system in the future.",
+  "workingPrinciple": "The system works using an Arduino Nano, an eye-blink sensor, and an MQ-3 alcohol sensor. When the system is switched ON, the eye-blink sensor continuously checks the driver’s eyes. If the driver’s eyes remain closed for about 3 seconds, the Arduino detects drowsiness and turns ON the 5V buzzer. The buzzer gives a warning to the driver to wake up.\r\nAt the same time, the MQ-3 alcohol sensor checks for alcohol. If alcohol is detected above the set limit, the sensor sends a signal to the Arduino. The Arduino then controls the BD139 transistor, which stops the BO motor. The motor represents the vehicle engine in our prototype. Therefore, the vehicle cannot start or operate when alcohol is detected.\r\nAn LED gives a visual indication of the system status.The TP4056 Type-C module is used to provide power to the project from an adapter. A switch is used to turn the system ON and OFF.",
+  "majorHardwareComponents": [
+    "Arduino Nano\nEye Blink Sensor\nMQ-3 Alcohol Sensor\n5V Buzzer\nBO Motor\nBD139 Transistor\nLED\nTP4056 Type-C Module\nBreadboard\nSwitch\n220Ω & 1kΩ Resistors"
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "usb",
+  "intendedBeneficiaries": [
+    "Transportation"
+  ],
+  "potentialImpact": "This project can help improve road safety by detecting two common causes of accidents: driver drowsiness and alcohol consumption. When the driver’s eyes remain closed for about 3 seconds, the system gives a buzzer alert to make the driver aware and awake. If alcohol is detected, the system locks the engine and prevents the motor from operating.\r\nThe project is low-cost, simple, and easy to use, making it suitable for further development. It can be improved and used in cars, buses, trucks, and other vehicles. The system can also help reduce the risk of accidents and protect the driver, passengers, and other people on the road.\r\nIn the future, the project can be connected with GPS, mobile alerts, or IoT features to provide emergency information. Overall, this system can be developed into a useful vehicle safety device for safer transportation.",
+  "productPotential": "potentially",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "This project is worth seeing because it focuses on real road safety problems using a simple and low-cost solution.\r\n\r\n1. Prevents accidents: Detects driver drowsiness and alcohol use.\r\n2. Detects sleepiness: If the driver's eyes stay closed for about 3 seconds, the buzzer gives an alert.\r\n3.Detects alcohol: The MQ-3 sensor checks for alcohol before vehicle operation.\r\n4. Engine lock: When alcohol is detected, the system stops the motor, representing an engine lock.\r\n5. Low cost: Uses easily available and affordable components.\r\n6. Simple technology: Arduino Nano controls the complete system.\r\n7. Easy power supply: The prototype can be powered through a Type-C adapter.\r\n8.Real-world potential: The idea can be further developed for cars, buses, and other vehicles.\r\n\r\nThe key point is that our project does not only detect danger but it also gives an immediate warning or safety action. This makes it a practical concept for building safer transportation systems.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The project is powered through a USB/Type-C power supply. All wires and connections are checked properly before switching ON the system. Proper resistors are used with the LED and buzzer. The circuit is kept away from water and moisture. The BO motor is handled carefully while running. The prototype is operated under supervision during the demo. The USB power supply is disconnected before changing or checking any circuit connection. These precautions help ensure safe operation during testing and demonstration.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-29T11:41:24.676Z",
+  "updatedAt": "2026-10-11T17:32:23.935Z",
+  "abstract": {
+    "originalName": "Smart Driver Safety System(abstract).pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790682083/aura-registrations/abstract-docs/Smart%20Driver%20Safety%20System%28abstract%29.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/TechTrio/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/TechTrio/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790682083/aura-registrations/id-cards/n2q0j9c9yc2nivsr2ws6.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/TechTrio/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790682083/aura-registrations/id-cards/tgsvo8bxodtowef5atnc.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/TechTrio/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790682083/aura-registrations/id-cards/grpwrgdpobkz6hraduhm.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/TechTrio/4.jpg",
+      "url": "to_be_added_manually",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "index": 19,
+  "id": "6abbfb9c1041785b648de982",
+  "registrationId": "AURA2K26-CK3YMN",
+  "rawTeamName": "INDROVE",
+  "folderName": "INDROVE",
+  "folderRelPath": "assets/Teams/INDROVE",
+  "projectTitle": "INDROVE: A New Version of India's Pipeline Health",
+  "teamSize": 2,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 2,
+  "teamLeaderName": "Arijit Naskar",
+  "teamLeaderEmail": "arijitnaskar4521@gmail.com",
+  "teamLeaderPhone": "7686940559",
+  "teamMemberDetails": "Mou Rani Hutait | Swami Vivekananda Institute of Science & Technology | Mechanical Engineering | 2nd Year | 7601823733",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Embedded Systems",
+    "Mechanical Systems",
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Pipeline blockages in drainage and utility networks are commonly difficult to locate and remove because the affected section is inside a confined pipeline. Conventional maintenance often depends on access through manholes, manual intervention, or surface-level removal of accumulated waste. These approaches can be time-consuming, labour-intensive and difficult to perform safely, particularly when the blockage is located deep inside a horizontal pipeline.\r\nINDROVE is an in-pipe robotic rover developed to address this problem by enabling direct access inside horizontal cylindrical pipelines. The project aims to provide a remotely operated platform capable of moving inside the pipe, reaching the blockage location and supporting inspection and future blockage-removal operations without requiring human entry into the pipeline.\r\nA key innovation of INDROVE is its sprocket-chain mechanised wheel system, developed specifically for controlled movement and improved traction inside the pipeline. The rover also incorporates a three-arm expandable support mechanism that provides multi-point contact with the pipe wall and helps maintain stability while travelling through the pipeline. The arms can be expanded or retracted according to the pipe diameter.\r\nThe current prototype is externally controlled through a wired system and operates using a 220 V power supply. A camera-based live visual system enables the operator to observe the internal environment during operation.\r\nThe project is designed with a modular architecture so that additional functions can be incorporated later. A dedicated mechanical blockage-removal mechanism is proposed as the next operational module. Additional sensing and automated inspection capabilities are also planned for future development.\r\nThus, INDROVE combines in-pipe mobility, mechanical stability and remote operation into a single robotic platform aimed at making pipeline inspection and maintenance more accessible and safer.",
+  "solutionDescription": "Pipeline blockages in drainage and utility networks are commonly difficult to locate and remove because the affected section is inside a confined pipeline. Conventional maintenance often depends on access through manholes, manual intervention, or surface-level removal of accumulated waste. These approaches can be time-consuming, labour-intensive and difficult to perform safely, particularly when the blockage is located deep inside a horizontal pipeline.\r\nINDROVE is an in-pipe robotic rover developed to address this problem by enabling direct access inside horizontal cylindrical pipelines. The project aims to provide a remotely operated platform capable of moving inside the pipe, reaching the blockage location and supporting inspection and future blockage-removal operations without requiring human entry into the pipeline.\r\nA key innovation of INDROVE is its sprocket-chain mechanised wheel system, developed specifically for controlled movement and improved traction inside the pipeline. The rover also incorporates a three-arm expandable support mechanism that provides multi-point contact with the pipe wall and helps maintain stability while travelling through the pipeline. The arms can be expanded or retracted according to the pipe diameter.\r\nThe current prototype is externally controlled through a wired system and operates using a 220 V power supply. A camera-based live visual system enables the operator to observe the internal environment during operation.\r\nThe project is designed with a modular architecture so that additional functions can be incorporated later. A dedicated mechanical blockage-removal mechanism is proposed as the next operational module. Additional sensing and automated inspection capabilities are also planned for future development.\r\nThus, INDROVE combines in-pipe mobility, mechanical stability and remote operation into a single robotic platform aimed at making pipeline inspection and maintenance more accessible and safer.",
+  "innovationDescription": "Pipeline blockages in drainage and utility networks are commonly difficult to locate and remove because the affected section is inside a confined pipeline. Conventional maintenance often depends on access through manholes, manual intervention, or surface-level removal of accumulated waste. These approaches can be time-consuming, labour-intensive and difficult to perform safely, particularly when the blockage is located deep inside a horizontal pipeline.\r\nINDROVE is an in-pipe robotic rover developed to address this problem by enabling direct access inside horizontal cylindrical pipelines. The project aims to provide a remotely operated platform capable of moving inside the pipe, reaching the blockage location and supporting inspection and future blockage-removal operations without requiring human entry into the pipeline.\r\nA key innovation of INDROVE is its sprocket-chain mechanised wheel system, developed specifically for controlled movement and improved traction inside the pipeline. The rover also incorporates a three-arm expandable support mechanism that provides multi-point contact with the pipe wall and helps maintain stability while travelling through the pipeline. The arms can be expanded or retracted according to the pipe diameter.\r\nThe current prototype is externally controlled through a wired system and operates using a 220 V power supply. A camera-based live visual system enables the operator to observe the internal environment during operation.\r\nThe project is designed with a modular architecture so that additional functions can be incorporated later. A dedicated mechanical blockage-removal mechanism is proposed as the next operational module. Additional sensing and automated inspection capabilities are also planned for future development.\r\nThus, INDROVE combines in-pipe mobility, mechanical stability and remote operation into a single robotic platform aimed at making pipeline inspection and maintenance more accessible and safer.",
+  "workingPrinciple": "INDROVE works as a remotely operated robotic rover inside a horizontal cylindrical pipeline. The system receives power through a 220 V supply and is operated externally using a wired control arrangement.\r\nMovement is generated through the sprocket-chain mechanised wheel system developed for INDROVE. The mechanism provides traction against the pipeline surface and enables the rover to travel forward and backward inside the pipe.\r\nA three-arm expandable support mechanism maintains contact with the internal pipe wall. The arms can be expanded or retracted to accommodate variations in pipeline diameter and provide stability during movement.\r\nDuring operation, the rover is guided by the external operator towards the required location. A camera provides live visual feedback, allowing the operator to observe the internal pipeline environment and identify the approximate location of an obstruction.\r\nThe current project primarily demonstrates in-pipe movement, stability and visual observation. A mechanical blockage-removal mechanism is proposed as a future operational module. Once developed, it will allow the rover to approach and mechanically act upon a blockage from inside the pipeline.\r\nThe modular design allows further inspection and maintenance functions to be added without fundamentally changing the rover's core mobility system.",
+  "majorHardwareComponents": [
+    "The major hardware components of the INDROVE project include:\n•\tSprocket-chain mechanised wheel system: Developed by the team to provide traction and controlled movement inside cylindrical pipelines.\n•\tThree-arm expandable support mechanism: Provides multi-point contact with the internal pipe wall and helps maintain rover stability.\n•\tDrive mechanism: Transfers mechanical power to the sprocket-chain wheel system for forward and reverse movement.\n•\tMain control system: Receives operator commands and controls the rover's movement.\n•\tWired control unit: Allows the operator to control the rover externally without entering the pipeline.\n•\tCamera system: Provides live visual feedback of the internal pipeline environment during operation.\n•\t220 V power supply: Provides the electrical power required by the current prototype.\n•\tMechanical frame and structural components: Provide the required support for the drive",
+    "wheel and expandable-arm mechanisms.\nThe current prototype is primarily focused on mobility",
+    "stability and visual inspection. An independent mechanical blockage-removal mechanism is proposed for the next development stage and is therefore not considered a currently integrated hardware component.\nSimilarly",
+    "advanced sensors and IR-camera integration are not included in the present prototype."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry",
+    "Government / Public Services",
+    "Urban Communities"
+  ],
+  "potentialImpact": "INDROVE has the potential to improve the way horizontal pipeline blockages are inspected and maintained. Instead of requiring a person to enter a confined pipeline, the robotic platform can be remotely operated from outside, allowing inspection and intervention to be performed from a safer position.\r\nThe rover's in-pipe mobility can help operators reach locations that are difficult to access directly from the surface. Its live visual feedback can assist in identifying the location and nature of an obstruction before maintenance action is planned.\r\nThe proposed blockage-removal module could further enable targeted mechanical intervention directly at the blockage location, reducing dependence on repeated surface-level access through manholes.\r\nThe project's modular architecture also provides scope for future integration of additional sensors and inspection capabilities. This could support applications in building drainage systems, institutional facilities, municipal drainage networks and other cylindrical pipeline environments, subject to further testing and adaptation.\r\nBy combining remote operation with direct in-pipe access, INDROVE aims to contribute towards safer, more targeted and efficient pipeline maintenance.\r\nAt its current stage, the project is a developing prototype, and further engineering validation, environmental testing and field trials are required before large-scale real-world deployment.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1000000,
+  "auraDemoHighlight": "INDROVE is worth seeing because it demonstrates a practical attempt to put a robotic system inside a real-world pipeline maintenance problem rather than limiting robotics to conventional open environments.\r\nThe most distinctive part of the prototype is its sprocket-chain mechanised wheel system, developed by the team for movement inside a cylindrical pipeline. The rover also uses a three-arm expandable support mechanism, allowing it to maintain multi-point contact with the pipe wall while moving.\r\nVisitors can observe the actual mechanical principles behind the system, including in-pipe movement, traction, expandable support and remote operation. The live camera system also demonstrates how an operator can obtain visual information from inside the pipeline while remaining outside it.\r\nAnother important aspect is the project's modular development approach. The current prototype establishes the mobility and inspection platform, while a dedicated mechanical blockage-removal mechanism is being developed as the next stage.\r\nINDROVE therefore offers a combination of mechanical design, robotics, control and practical infrastructure application in one physical prototype.\r\nSeeing the project in operation provides a clearer understanding of how a compact robotic system can enter a confined cylindrical environment and perform controlled movement where conventional inspection and maintenance can be challenging.",
+  "safetyHazards": [
+    "sharp_mechanical_components"
+  ],
+  "safetyPrecautions": "Safety is considered in the operation and testing of the INDROVE prototype by keeping the operator outside the pipeline during robotic movement and inspection. The rover is controlled externally through a wired control system, allowing the operator to remain at a safe distance from the confined operating environment.\r\nThe prototype is tested in a controlled setup rather than being immediately deployed in live public infrastructure. This allows the movement, mechanical mechanisms and control system to be observed and evaluated before considering field applications.\r\nThe current prototype uses a 220 V power supply, so electrical operation is restricted to controlled testing conditions and requires appropriate handling of the power connection and electrical components.\r\nThe mechanical system is also operated under controlled conditions so that the movement of the sprocket-chain mechanism and expandable support arms can be monitored during testing.\r\nAt the present development stage, INDROVE is a prototype and does not claim complete environmental protection or field-safety certification. Waterproofing protection, additional electrical protection and other safety enhancements will require further engineering development and validation before operation in actual drainage or utility pipelines.\r\nThe project therefore follows a controlled-test-first approach, with further safety validation planned alongside future field deployment.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": true,
+  "previousExhibitionDetails": "TA 2.0 Symposium Kolkata 2026 (Know Your TA), Dhono Dhanyo Auditorium\r\n33rd West Bengal State Science & Technology, Biswa Bangla Convention Centre\r\nCII ICT East (CII Eastern Region Hackathon 2026), ITC Sonar",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-29T17:55:40.644Z",
+  "updatedAt": "2026-10-11T17:32:44.411Z",
+  "abstract": {
+    "originalName": "INDROVE abstruct.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790704539/aura-registrations/abstract-docs/INDROVE%20abstruct.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/INDROVE/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/INDROVE/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790704539/aura-registrations/id-cards/japzac8vessd3gqkcebt.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/INDROVE/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790704539/aura-registrations/id-cards/kpivcaurhiibu3akmvdk.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/INDROVE/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/INDROVE/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

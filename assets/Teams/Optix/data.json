@@ -1,0 +1,96 @@
+{
+  "index": 10,
+  "id": "6ab9eeb67b6ef896b8f78257",
+  "registrationId": "AURA2K26-CYHF2B",
+  "rawTeamName": "Optix",
+  "folderName": "Optix",
+  "folderRelPath": "assets/Teams/Optix",
+  "projectTitle": "NightPulse",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Md Tahseen alam",
+  "teamLeaderEmail": "alamtahseen.dev@gmail.com",
+  "teamLeaderPhone": "6200568732",
+  "teamMemberDetails": "Warish imam / aliah university/mechanical engineering department/MEN244069\r\nSK MD ferdosh/aliah university/computer science and engineering/CSE253003\r\nMD Afzal hussain/ aliah university/mechanical engineering department/MEN244029",
+  "hardwareProjectCategories": [
+    "Electronics & Communication",
+    "IoT & Smart Devices"
+  ],
+  "prototypeType": "Wearable Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "Problem Statement\r\nProfessional night vision systems are prohibitively expensive for civilian, academic, or low-resource emergency use. Traditional goggles rely on costly analog image intensifier tubes or expensive microbolometers, creating a massive financial barrier to entry for accessible zero-light navigation and monitoring.\r\n\r\n​Hardware Solution\r\nNightPulse bridges this gap by repurposing off-the-shelf consumer electronics into a cohesive wearable device. By modifying standard digital CMOS cameras to remove their factory IR-cut filters, the sensors become highly sensitive to near-infrared light. The environment is actively illuminated using a 940nm invisible infrared LED array, capturing a high-resolution video feed in total darkness. This feed is routed to an integrated smartphone, where software renders the image into a stereoscopic side-by-side (SBS) display. Housed within a standard VR headset shell, it provides the user with an immersive, hands-free night vision experience.\r\n\r\n​Innovation Details\r\nThe core innovation is achieving functional, stereoscopic depth perception at a fraction of the cost of commercial equivalents. NightPulse democratizes active-IR technology by fusing repurposed camera hardware with accessible smartphone VR capabilities. This modular approach transforms everyday electronics into a specialized smart device, proving that effective, real-time spatial navigation in zero-light conditions does not require military-grade budgets.",
+  "solutionDescription": "Problem Statement\r\nProfessional night vision systems are prohibitively expensive for civilian, academic, or low-resource emergency use. Traditional goggles rely on costly analog image intensifier tubes or expensive microbolometers, creating a massive financial barrier to entry for accessible zero-light navigation and monitoring.\r\n\r\n​Hardware Solution\r\nNightPulse bridges this gap by repurposing off-the-shelf consumer electronics into a cohesive wearable device. By modifying standard digital CMOS cameras to remove their factory IR-cut filters, the sensors become highly sensitive to near-infrared light. The environment is actively illuminated using a 940nm invisible infrared LED array, capturing a high-resolution video feed in total darkness. This feed is routed to an integrated smartphone, where software renders the image into a stereoscopic side-by-side (SBS) display. Housed within a standard VR headset shell, it provides the user with an immersive, hands-free night vision experience.\r\n\r\n​Innovation Details\r\nThe core innovation is achieving functional, stereoscopic depth perception at a fraction of the cost of commercial equivalents. NightPulse democratizes active-IR technology by fusing repurposed camera hardware with accessible smartphone VR capabilities. This modular approach transforms everyday electronics into a specialized smart device, proving that effective, real-time spatial navigation in zero-light conditions does not require military-grade budgets.",
+  "innovationDescription": "Problem Statement\r\nProfessional night vision systems are prohibitively expensive for civilian, academic, or low-resource emergency use. Traditional goggles rely on costly analog image intensifier tubes or expensive microbolometers, creating a massive financial barrier to entry for accessible zero-light navigation and monitoring.\r\n\r\n​Hardware Solution\r\nNightPulse bridges this gap by repurposing off-the-shelf consumer electronics into a cohesive wearable device. By modifying standard digital CMOS cameras to remove their factory IR-cut filters, the sensors become highly sensitive to near-infrared light. The environment is actively illuminated using a 940nm invisible infrared LED array, capturing a high-resolution video feed in total darkness. This feed is routed to an integrated smartphone, where software renders the image into a stereoscopic side-by-side (SBS) display. Housed within a standard VR headset shell, it provides the user with an immersive, hands-free night vision experience.\r\n\r\n​Innovation Details\r\nThe core innovation is achieving functional, stereoscopic depth perception at a fraction of the cost of commercial equivalents. NightPulse democratizes active-IR technology by fusing repurposed camera hardware with accessible smartphone VR capabilities. This modular approach transforms everyday electronics into a specialized smart device, proving that effective, real-time spatial navigation in zero-light conditions does not require military-grade budgets.",
+  "workingPrinciple": "NightPulse operates on the principle of active infrared (IR) digital imaging. Standard CMOS camera sensors are inherently sensitive to near-infrared light but are typically blocked by factory-installed IR-cut filters. By removing this filter, the camera can capture IR wavelengths. The workflow begins with an active illuminator—a 940nm IR LED ring—flooding the dark environment with infrared light, which remains completely invisible to the human eye. The modified UVC USB camera captures the IR light reflected off the surroundings. This continuous video stream is transmitted via a USB-OTG connection to an integrated Android smartphone. Custom software on the smartphone processes the raw UVC data and splits the feed into a stereoscopic Side-by-Side (SBS) display. Finally, the smartphone is mounted inside a plastic VR headset shell. The lenses in the VR shell bend the SBS display to accommodate the user's focal length, rendering a unified, immersive image with restored depth perception in total darkness.",
+  "majorHardwareComponents": [
+    "​1. Vision Sensor: 1080p UVC USB Camera Module (modified via the manual removal of the IR-cut filter) equipped with an M12 wide-angle lens.\n​2. Active Illuminator: 940nm Infrared (IR) LED Ring",
+    "providing invisible low-light illumination.\n​3. Power Delivery: A portable 7.4V Lithium-ion Battery Pack (e.g.",
+    "2x 18650 cells).\n4. ​Voltage Regulation: MT3608 DC-DC Step-Up Boost Converter (to step the 7.4V up to 12V DC for the LED ring).\n​5. Data Transmission: High-speed USB-OTG (On-The-Go) adapter for UVC protocol streaming.\n​6. Computing & Display: Android Smartphone capable of running SBS (Side-by-Side) VR camera applications and acting as the stereoscopic screen.\n​7. Mechanical Housing: Plastic VR Headset Shell to mount the smartphone",
+    "focus the lenses",
+    "and secure the external hardware."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "Other",
+    "General Public"
+  ],
+  "potentialImpact": "The primary beneficiaries of NightPulse are low-resource emergency responders, night-shift security personnel, wildlife observers, and amateur explorers. Currently, functional zero-light navigation requires military-grade analog image intensifier tubes or high-resolution thermal microbolometers, both of which cost thousands of dollars. NightPulse dramatically improves upon these current financial and accessibility standards by democratizing night vision technology. By leveraging off-the-shelf, low-cost consumer electronics and repurposing the immense processing power and display capabilities of everyday smartphones, this prototype achieves stereoscopic active-IR vision at a fraction of the traditional cost. Furthermore, it eliminates the single-eye fatigue common in cheap monocular night vision scopes by utilizing a dual-lens VR approach, preserving user depth perception and reducing motion sickness during physical navigation. This makes hands-free, zero-light mobility accessible to civilian sectors, rural watch groups, and academic researchers who were previously priced out of the market.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "NightPulse stands out because it solves a high-cost hardware problem using accessible, everyday consumer electronics. While traditional night vision goggles cost thousands of dollars and remain restricted to military or high-end commercial sectors, NightPulse achieves effective active-infrared capability for under ₹5,000.\r\n​The most impressive aspect of this prototype is its clever integration of existing technologies. By taking an inexpensive UVC camera, stripping its IR-cut filter, and pairing it with the processing power and high-resolution display of a standard smartphone, it completely bypasses the need for expensive analog image intensifier tubes. Furthermore, it leverages basic VR headset housings to provide a stereoscopic Side-by-Side (SBS) display. This restores the user's natural depth perception—a critical feature for physical navigation that is entirely missing from budget monocular night vision scopes.\r\nJudges should pay attention to NightPulse because it is a prime example of frugal innovation. It proves that hands-free spatial navigation in total darkness does not require military-grade budgets. It is a highly practical, ready-to-use wearable device that successfully democratizes zero-light navigation for civilians, low-resource emergency responders, and academic researchers.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "The NightPulse prototype incorporates multiple safety measures to ensure safe wearable operation during live demonstrations:\r\n​1. Electrical & Battery Safeguards: The 18650 Lithium-ion power source is equipped with a Battery Management System (BMS) protection circuit to guard against overcharging, over-discharging, and short-circuits. All internal wiring between the step-up boost converter and the IR LED array is fully heat-shrink insulated.\r\n2. ​Thermal Management: Operating strictly under low-voltage DC (12V max), the system poses no electrical shock hazard. Passive heat-dissipating mounts isolate the warm IR LED ring from direct contact with the user or the VR shell.\r\n3. ​Ergonomic Safety: All hardware components are securely mounted to the exterior housing using non-conductive materials. The user's face remains fully cushioned by the headset's factory foam padding, completely isolating skin from electrical components and preventing optical strain.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-28T04:36:06.797Z",
+  "updatedAt": "2026-10-11T17:32:01.752Z",
+  "abstract": {
+    "originalName": "DOC-20260927-WA0018 (1).pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790570165/aura-registrations/abstract-docs/DOC-20260927-WA0018%20%281%29.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Optix/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Optix/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790570166/aura-registrations/id-cards/axmyiyibnboc8vsbckxu.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Optix/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790570165/aura-registrations/id-cards/z9sogwzaehzh1fykrtix.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Optix/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790570165/aura-registrations/id-cards/jbwxvnzi5ubaltjw9zxp.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Optix/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790570166/aura-registrations/id-cards/pvvycwborjzeifyd21az.jpg",
+      "exists": true
+    }
+  ]
+}

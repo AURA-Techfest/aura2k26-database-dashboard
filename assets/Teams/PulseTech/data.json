@@ -1,0 +1,96 @@
+{
+  "index": 57,
+  "id": "6ade54569fefa4bce563a101",
+  "registrationId": "AURA2K26-4H5W6C",
+  "rawTeamName": "PulseTech",
+  "folderName": "PulseTech",
+  "folderRelPath": "assets/Teams/PulseTech",
+  "projectTitle": "Unified Railway Infrastructure & Safety Mesh (URISM): A Decentralized IoT Digital Twin with Piezoelectric Energy Harvesting.",
+  "teamSize": 2,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "SARAMAHABSAR",
+  "teamLeaderEmail": "saramahabsar37@gmail.com",
+  "teamLeaderPhone": "8509229629",
+  "teamMemberDetails": "NAME- RASAMAHA ABSAR, ALIAH UNIVERSITY, PH NO- 8250896373, EMAIL ID- rasamahaabsar@gmail.com",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "IoT Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem\r\n\r\nMillions of people rely on railways every day, yet safety checks still depend heavily on people inspecting tracks and structures by hand. This is slow and infrequent, so small issues, such as a hairline crack in a rail, a bridge slowly losing strength, or a passenger standing too close to a platform edge, can go unnoticed until they become serious. Remote locations make things harder because power and connectivity are limited. Sending large amounts of raw sensor data to a central server adds delays and cost. Platforms, tracks and bridges are also usually monitored separately, so no one gets a clear picture of the whole network.\r\n\r\nSolution\r\n\r\nWe propose a smart monitoring system built from small units placed at key points on platforms, tracks and bridges. Each unit collects local information such as vibration, strain and load, and processes it on the spot, so risks are caught quickly without waiting for a distant server. Piezoelectric harvesters turn vibrations from passing trains into small amounts of electricity, helping power the units. On bridges, continuous structural health monitoring tracks changes in load and stress that may point to hidden weakness. Only essential information, such as alerts and status summaries, is sent onward and shown on a centralised digital twin, a live virtual model of the railway.\r\n\r\nInnovation\r\n\r\nThe novelty lies in combining everything in one framework: unified monitoring of platforms, tracks and bridges, local intelligence, partial self-powering and lightweight communication. Together, these give earlier warnings, fewer manual inspections, lower costs and a safer, more affordable railway.",
+  "solutionDescription": "Problem\r\n\r\nMillions of people rely on railways every day, yet safety checks still depend heavily on people inspecting tracks and structures by hand. This is slow and infrequent, so small issues, such as a hairline crack in a rail, a bridge slowly losing strength, or a passenger standing too close to a platform edge, can go unnoticed until they become serious. Remote locations make things harder because power and connectivity are limited. Sending large amounts of raw sensor data to a central server adds delays and cost. Platforms, tracks and bridges are also usually monitored separately, so no one gets a clear picture of the whole network.\r\n\r\nSolution\r\n\r\nWe propose a smart monitoring system built from small units placed at key points on platforms, tracks and bridges. Each unit collects local information such as vibration, strain and load, and processes it on the spot, so risks are caught quickly without waiting for a distant server. Piezoelectric harvesters turn vibrations from passing trains into small amounts of electricity, helping power the units. On bridges, continuous structural health monitoring tracks changes in load and stress that may point to hidden weakness. Only essential information, such as alerts and status summaries, is sent onward and shown on a centralised digital twin, a live virtual model of the railway.\r\n\r\nInnovation\r\n\r\nThe novelty lies in combining everything in one framework: unified monitoring of platforms, tracks and bridges, local intelligence, partial self-powering and lightweight communication. Together, these give earlier warnings, fewer manual inspections, lower costs and a safer, more affordable railway.",
+  "innovationDescription": "Problem\r\n\r\nMillions of people rely on railways every day, yet safety checks still depend heavily on people inspecting tracks and structures by hand. This is slow and infrequent, so small issues, such as a hairline crack in a rail, a bridge slowly losing strength, or a passenger standing too close to a platform edge, can go unnoticed until they become serious. Remote locations make things harder because power and connectivity are limited. Sending large amounts of raw sensor data to a central server adds delays and cost. Platforms, tracks and bridges are also usually monitored separately, so no one gets a clear picture of the whole network.\r\n\r\nSolution\r\n\r\nWe propose a smart monitoring system built from small units placed at key points on platforms, tracks and bridges. Each unit collects local information such as vibration, strain and load, and processes it on the spot, so risks are caught quickly without waiting for a distant server. Piezoelectric harvesters turn vibrations from passing trains into small amounts of electricity, helping power the units. On bridges, continuous structural health monitoring tracks changes in load and stress that may point to hidden weakness. Only essential information, such as alerts and status summaries, is sent onward and shown on a centralised digital twin, a live virtual model of the railway.\r\n\r\nInnovation\r\n\r\nThe novelty lies in combining everything in one framework: unified monitoring of platforms, tracks and bridges, local intelligence, partial self-powering and lightweight communication. Together, these give earlier warnings, fewer manual inspections, lower costs and a safer, more affordable railway.",
+  "workingPrinciple": "The system works as a continuous cycle of sensing, local processing, energy harvesting, communication and visualisation. 1. Sensing. Monitoring units installed on platforms, tracks and bridges collect real-time data. Platform units detect crowding and people near the edge. Track units measure vibration, strain and movement that may indicate cracks or misalignment. Bridge units record load, stress and structural response as trains pass. 2. Local processing. Each unit has a small processor that analyses its own data on site. It filters out noise, compares readings against normal patterns and flags anything unusual, such as a sudden spike in strain or a gradual rise in stress. Because the decision is made locally, the response is fast. 3. Energy harvesting. When a train passes, it causes vibrations in the rails and bridge. Piezoelectric elements fixed at these points convert the mechanical stress into small electrical charges. A circuit conditions this energy and stores it in a battery or capacitor, which helps power the sensors and processor and reduces dependence on external supply. 4. Essential data transmission. Instead of sending all raw readings, each unit sends only summaries, health indicators and alerts through a wireless link. This keeps delay and bandwidth use low. 5. Digital twin visualisation. The central digital twin receives data from all units and updates a virtual model of the railway. It shows the condition of platforms, tracks and bridges in one view, and compares current behaviour with past trends to spot gradual deterioration. 6. Alert and action. When a risk.",
+  "majorHardwareComponents": [
+    "esp32",
+    "sensors",
+    "battery",
+    "zener diode..etc"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Transportation"
+  ],
+  "potentialImpact": "Potential Real-World Impact\r\n\r\nSafer journeys. Cracks in rails, tired bridges and risky moments on crowded platforms can be spotted early, before they turn into derailments, collapses or injuries. Local alerts mean staff can respond within moments rather than hours.\r\n\r\nLower costs. Instead of sending crews out on a fixed schedule, railways can repair what actually needs attention. That means fewer routine inspections, less unplanned downtime, and tracks and bridges that last longer because problems are fixed while they are still small.\r\n\r\nLess energy, fewer batteries. Because passing trains help power the units, there is less dependence on the grid and less battery replacement. This also makes monitoring practical in remote stretches where reliable power is hard to find.\r\n\r\nBetter decisions. The digital twin gives railway authorities one clear picture of platforms, tracks and bridges, so planning and prioritising repairs becomes easier. Sending only essential data keeps communication fast and affordable.\r\n\r\nSafer work. Fewer people need to walk along live tracks or climb bridges for inspections, which reduces risk for workers.\r\n\r\nRoom to grow. The design is modular, so it can begin at a single station or bridge and expand across a whole network. Its low cost makes it especially useful for countries like India, where a vast, ageing railway system needs smarter upkeep.\r\n\r\nPublic trust. Fewer accidents and more reliable services help passengers feel confident travelling by rail, supporting wider smart transport goals.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "It tackles a real, life-and-death problem. Railway failures are rare but devastating. This project aims to catch the warning signs early, before a small crack or a weakening bridge becomes a tragedy.\r\n\r\nIt brings everything together. Most systems watch platforms, tracks or bridges separately. This one covers all three in a single framework, giving a complete picture of railway health.\r\n\r\nIt powers itself, at least partly. Passing trains shake the tracks every day, and that wasted vibration is turned into usable electricity. It is a clever way to make monitoring work in remote places without reliable power.\r\n\r\nIt thinks locally. Each unit analyses its own data on the spot, so warnings come quickly instead of waiting on a distant server.\r\n\r\nIt keeps communication light. Only the essential information is sent, which saves bandwidth, cost and time.\r\n\r\nIt shows the whole railway at a glance. The digital twin turns scattered sensor readings into one live, easy-to-read view that helps officials plan and prioritise repairs.\r\n\r\nIt is practical and affordable. Built from widely available components, it can start small at one station or bridge and scale across a national network, making it realistic for countries like India.\r\n\r\nIt makes a human difference. Fewer accidents, safer workers and greater passenger confidence are the real measures of success",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Power Isolation: Uses a 12V battery safely stepped down via buck converters to 5V logic with fully insulated wiring.\r\nVoltage Protection: 5.1V Zener diodes and 1MΩ bleed resistors clamp unexpected voltage spikes from piezoelectric harvesters.\r\nEnclosed Circuitry: All components are soldered onto perfboards and housed in protective enclosures beneath the diorama to prevent short circuits.\r\nStructural Stability: The model base and transit bridge are firmly secured to prevent tipping or physical strain during demos.\r\nSoftware Fail-Safes: Automated dashboard monitoring instantly flags any node disconnection or power fluctuation.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-25T19:11:18.085Z",
+  "updatedAt": "2026-10-25T19:13:18.17Z",
+  "abstract": {
+    "originalName": "AURA_Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792955476/aura-registrations/abstract-docs/Aura_Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/PulseTech/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/PulseTech/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792955476/aura-registrations/id-cards/jdlsbvvpnpja1b8tnsle.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/PulseTech/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792955476/aura-registrations/id-cards/ajxyhep1kk6rg0qbpjxt.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/PulseTech/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/PulseTech/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

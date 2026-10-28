@@ -1,0 +1,109 @@
+{
+  "index": 51,
+  "id": "6ad7b7460d61f75d250efaba",
+  "registrationId": "AURA2K26-PLUACP",
+  "rawTeamName": "Virgin Mojito",
+  "folderName": "Virgin Mojito",
+  "folderRelPath": "assets/Teams/Virgin Mojito",
+  "projectTitle": "STRATA: Resource-Aware Distributed AI Inference on Heterogeneous Computers",
+  "teamSize": 2,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 2,
+  "teamLeaderName": "Bappaditya Kuilya",
+  "teamLeaderEmail": "fariduddin1.online@gmail.com",
+  "teamLeaderPhone": "9883867522",
+  "teamMemberDetails": "Fariduddin Ahmed | University of engineering and Management, Kolkata | CSE | 3rd Year | 8100242647",
+  "hardwareProjectCategories": [
+    "AI-Enabled Hardware",
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Assistive Technology",
+    "Industrial / Manufacturing Technology",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "STRATA addresses the challenge of running large AI models on ordinary computers with limited memory and compute power, where a single machine may not be able to run the model, and distributing workloads across computers introduces network latency, communication overhead, and varying hardware capabilities. Proposed solution. STRATA is a proposed CPU-first distributed AI inference system that divides a model into stages and runs them across multiple connected computers. A central coordinator will monitor available memory, compute resources, and network conditions to select a feasible execution plan, while a live dashboard displays worker status, resource usage, communication latency, and inference performance. Innovation details. The innovation lies in combining resource-aware scheduling with network-aware planning, rather than relying on fixed model partitions. STRATA will investigate how changing network conditions affect planning decisions and compare adaptive strategies against static distribution. The project aims to demonstrate both the benefits and limitations of distributed AI inference on ordinary computers.",
+  "solutionDescription": "STRATA addresses the challenge of running large AI models on ordinary computers with limited memory and compute power, where a single machine may not be able to run the model, and distributing workloads across computers introduces network latency, communication overhead, and varying hardware capabilities. Proposed solution. STRATA is a proposed CPU-first distributed AI inference system that divides a model into stages and runs them across multiple connected computers. A central coordinator will monitor available memory, compute resources, and network conditions to select a feasible execution plan, while a live dashboard displays worker status, resource usage, communication latency, and inference performance. Innovation details. The innovation lies in combining resource-aware scheduling with network-aware planning, rather than relying on fixed model partitions. STRATA will investigate how changing network conditions affect planning decisions and compare adaptive strategies against static distribution. The project aims to demonstrate both the benefits and limitations of distributed AI inference on ordinary computers.",
+  "innovationDescription": "STRATA addresses the challenge of running large AI models on ordinary computers with limited memory and compute power, where a single machine may not be able to run the model, and distributing workloads across computers introduces network latency, communication overhead, and varying hardware capabilities. Proposed solution. STRATA is a proposed CPU-first distributed AI inference system that divides a model into stages and runs them across multiple connected computers. A central coordinator will monitor available memory, compute resources, and network conditions to select a feasible execution plan, while a live dashboard displays worker status, resource usage, communication latency, and inference performance. Innovation details. The innovation lies in combining resource-aware scheduling with network-aware planning, rather than relying on fixed model partitions. STRATA will investigate how changing network conditions affect planning decisions and compare adaptive strategies against static distribution. The project aims to demonstrate both the benefits and limitations of distributed AI inference on ordinary computers.",
+  "workingPrinciple": "Working Principle of STRATA:\r\n\r\nSTRATA is a proposed CPU-first distributed AI inference system designed to run a supported AI language model across multiple ordinary computers.\r\n\r\nFirst, a central coordinator collects information about each computer, including available memory, computing capacity, and network conditions. Based on this information, it evaluates possible execution plans and checks whether each computer can handle its assigned part of the model within its resource limits.\r\n\r\nNext, the selected model is divided into sequential stages and distributed across connected computers. When a user submits a prompt, the first computer processes it through its assigned model layers and sends the intermediate data to the next computer. Each computer processes its respective layers and forwards the results until the final stage generates the response.\r\n\r\nMeanwhile, STRATA monitors memory usage, network latency, worker health, and inference time. If network conditions or available resources change, the coordinator reevaluates the available plans before the next request and selects a suitable alternative when possible. If no plan satisfies the required constraints, the system reports that no feasible plan is available.\r\n\r\nA dashboard displays the model-stage distribution, system status, performance measurements, and reasons behind the coordinator's decisions. The system's performance will be evaluated through controlled experiments comparing distributed execution with baseline approaches.\r\n\r\nSTRATA aims to make distributed AI inference more resource-aware, measurable, and understandable without treating the computers' memory as one unified pool.",
+  "majorHardwareComponents": [
+    "1. Laptops/Computers (3 units): Serve as the primary computing nodes",
+    "with each computer processing a different stage of the AI model.\n\n2. Raspberry Pi Boards (2 units): Support system coordination",
+    "resource monitoring",
+    "telemetry collection",
+    "and experiment observation.\n\n3. Arduino UNO Q Boards (2 units): Support hardware status monitoring",
+    "node health reporting",
+    "and optional small-scale computing experiments.\n\n4. Arduino Uno Boards (2 units): Provide physical control buttons and LED indicators for starting experiments",
+    "selecting network test scenarios",
+    "and displaying system status.\n\n5. Ethernet Switch and Network Cables: Connect the computers and other compatible devices to enable communication and transfer intermediate model data between processing stages.\n\n6. Smartphones (3 units): Provide access to the dashboard",
+    "system monitoring",
+    "and operator controls over the local network.\n\n7. LEDs",
+    "Push Buttons",
+    "Breadboard",
+    "and Jumper Wires: Support the physical control panel and visual indication of system status.\n\n8. Power Supplies and Power Cables: Supply reliable power to the hardware components during experiments and demonstrations."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "usb",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry"
+  ],
+  "potentialImpact": "Potential Real-World Impact:\r\n\r\nSTRATA aims to make AI inference more accessible by exploring how large AI models can run across multiple ordinary computers instead of depending entirely on a single high-memory machine or expensive specialized hardware. This could help students, researchers, educational institutions, and small development teams experiment with AI using existing computing resources.\r\n\r\nBy considering available memory, computing capacity, and network conditions, STRATA could help users understand when distributing AI workloads is practical and when communication overhead makes it less effective. Its monitoring dashboard and performance measurements would provide insights into resource usage, execution time, and system behavior.\r\n\r\nThe project could also support learning and research in distributed computing, AI infrastructure, and resource-aware scheduling. In the future, its approach could be explored for small laboratories, educational environments, and organizations seeking cost-conscious ways to experiment with AI workloads.\r\n\r\nSTRATA is currently at the proposal and architecture stage. Its actual benefits, performance, and scalability will need to be validated through implementation and controlled experiments.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 3000,
+  "auraDemoHighlight": "STRATA is worth seeing because it explores how multiple ordinary computers can work together to run an AI model when a single computer has limited memory. Its resource-aware planner will consider computing capacity, available memory, and network conditions to identify a feasible execution plan. The proposed system will combine distributed AI inference, real-time monitoring, and a dashboard that explains execution decisions. Through controlled experiments, STRATA aims to measure performance and demonstrate when distributing AI workloads is beneficial and when it is not. By focusing on practical resource utilization, transparent decisions, and measurable results, STRATA offers an interesting approach to making AI experimentation more accessible using existing computing hardware.",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "Safety Precautions:\r\n\r\n- Use properly rated power supplies and compatible cables for all electronic components.\r\n- Ensure all electrical connections are secure and insulated to prevent short circuits.\r\n- Keep computers and electronic boards in well-ventilated areas to prevent overheating.\r\n- Switch off and disconnect power before changing wiring or connecting hardware components.\r\n- Keep liquids away from computers, circuit boards, and electrical connections.\r\n- Arrange network and power cables neatly to prevent accidental tripping or disconnection.\r\n- Follow the manufacturer's instructions when installing and operating Raspberry Pi and Arduino boards.\r\n- Monitor system temperatures and hardware status during experiments.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-20T18:47:34.92Z",
+  "updatedAt": "2026-10-20T18:49:35.316Z",
+  "abstract": {
+    "originalName": "ABTRACT_IDEA_STRATA.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792046373/aura-registrations/abstract-docs/ABTRACT_IDEA_STRATA.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Virgin Mojito/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Virgin Mojito/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792522054/aura-registrations/id-cards/zopvvykfwetsayqppavn.png",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Virgin Mojito/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1792522053/aura-registrations/id-cards/ytzdksip8s25mumvav1x.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Virgin Mojito/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Virgin Mojito/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "index": 60,
+  "id": "6adf5994223df45ca516fdc6",
+  "registrationId": "AURA2K26-9QLGUF",
+  "rawTeamName": "AeroForge",
+  "folderName": "AeroForge",
+  "folderRelPath": "assets/Teams/AeroForge",
+  "projectTitle": "AeroSentinel : Active Predictive Gas Isolation Matrix",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Sankhadeep Pal",
+  "teamLeaderEmail": "palsankhadeep3@gmail.com",
+  "teamLeaderPhone": "9903980715",
+  "teamMemberDetails": "Ayushi De | Aliah University | MEN | 1st yr | 9330253146\r\nNarmada Raut | Aliah University | CEN | 1st year | 9749606492\r\nJisanalfaed Anjum Alvi | Aliah University | CSE | 2nd year | 6295653139",
+  "hardwareProjectCategories": [
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Electrical Systems",
+    "Assistive Technology",
+    "Safety & Security Systems"
+  ],
+  "prototypeType": "Embedded System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement : Gas leaks and combustible hazards in homes and industrial facilities can cause fires, explosions, and toxic exposure. Conventional gas detectors primarily rely on fixed concentration thresholds and alarms, leaving subsequent intervention dependent on human reaction. Their limited sampling coverage can also overlook uneven gas distribution caused by gas density, buoyancy, and airflow.\r\n\r\nHardware Solution : AeroSentinel is an active gas-safety system combining multi-level air sampling, sensor fusion, predictive processing, and automated mitigation. A 5V micro air pump and custom dual-level aspiration manifold draw air from near the floor and ceiling into a shared sensing chamber. An MQ-2 sensor monitors combustible-gas and smoke-related signatures, while an MQ-135 provides broader gas-response information, supported by a BME280 for environmental measurements. An Arduino UNO processes sensor readings and evaluates concentration trends to identify developing threats. When the threat criteria are met, a relay matrix can activate a connected exhaust fan and isolate the gas supply through a compatible solenoid valve. An ESP8266 gateway transmits telemetry through MQTT to a web dashboard.\r\n\r\nHardware Innovation : AeroSentinel integrates active air sampling, trend-based hazard assessment, and dual-actuation mitigation within a modular, cost-conscious architecture. Unlike alarm-only approaches, it is designed to initiate physical intervention automatically. Its local processing keeps core response logic independent of internet connectivity, while MQTT-based telemetry supports remote monitoring and future multi-node expansion.",
+  "solutionDescription": "Problem Statement : Gas leaks and combustible hazards in homes and industrial facilities can cause fires, explosions, and toxic exposure. Conventional gas detectors primarily rely on fixed concentration thresholds and alarms, leaving subsequent intervention dependent on human reaction. Their limited sampling coverage can also overlook uneven gas distribution caused by gas density, buoyancy, and airflow.\r\n\r\nHardware Solution : AeroSentinel is an active gas-safety system combining multi-level air sampling, sensor fusion, predictive processing, and automated mitigation. A 5V micro air pump and custom dual-level aspiration manifold draw air from near the floor and ceiling into a shared sensing chamber. An MQ-2 sensor monitors combustible-gas and smoke-related signatures, while an MQ-135 provides broader gas-response information, supported by a BME280 for environmental measurements. An Arduino UNO processes sensor readings and evaluates concentration trends to identify developing threats. When the threat criteria are met, a relay matrix can activate a connected exhaust fan and isolate the gas supply through a compatible solenoid valve. An ESP8266 gateway transmits telemetry through MQTT to a web dashboard.\r\n\r\nHardware Innovation : AeroSentinel integrates active air sampling, trend-based hazard assessment, and dual-actuation mitigation within a modular, cost-conscious architecture. Unlike alarm-only approaches, it is designed to initiate physical intervention automatically. Its local processing keeps core response logic independent of internet connectivity, while MQTT-based telemetry supports remote monitoring and future multi-node expansion.",
+  "innovationDescription": "Problem Statement : Gas leaks and combustible hazards in homes and industrial facilities can cause fires, explosions, and toxic exposure. Conventional gas detectors primarily rely on fixed concentration thresholds and alarms, leaving subsequent intervention dependent on human reaction. Their limited sampling coverage can also overlook uneven gas distribution caused by gas density, buoyancy, and airflow.\r\n\r\nHardware Solution : AeroSentinel is an active gas-safety system combining multi-level air sampling, sensor fusion, predictive processing, and automated mitigation. A 5V micro air pump and custom dual-level aspiration manifold draw air from near the floor and ceiling into a shared sensing chamber. An MQ-2 sensor monitors combustible-gas and smoke-related signatures, while an MQ-135 provides broader gas-response information, supported by a BME280 for environmental measurements. An Arduino UNO processes sensor readings and evaluates concentration trends to identify developing threats. When the threat criteria are met, a relay matrix can activate a connected exhaust fan and isolate the gas supply through a compatible solenoid valve. An ESP8266 gateway transmits telemetry through MQTT to a web dashboard.\r\n\r\nHardware Innovation : AeroSentinel integrates active air sampling, trend-based hazard assessment, and dual-actuation mitigation within a modular, cost-conscious architecture. Unlike alarm-only approaches, it is designed to initiate physical intervention automatically. Its local processing keeps core response logic independent of internet connectivity, while MQTT-based telemetry supports remote monitoring and future multi-node expansion.",
+  "workingPrinciple": "AeroSentinel operates through a continuous workflow of air aspiration, sensor measurement, predictive analysis, autonomous actuation, and remote monitoring.\r\n\r\n1. Active Air Sampling: A 5V micro air pump draws air from near the floor and ceiling through a dual-intake aspiration manifold, directing the samples into a shared sensing chamber.\r\n\r\n2. Sensor Fusion: The MQ-2 detects combustible-gas and smoke-related responses, while the MQ-135 provides broader gas-response measurements. The BME280 supplies environmental measurements to support contextual interpretation. The Arduino UNO processes these sensor readings continuously.\r\n\r\n3. Predictive Threat Assessment: The controller evaluates gas-concentration changes over time rather than relying exclusively on a fixed threshold. Its trend-based processing identifies sustained increases that satisfy the programmed hazard criteria, enabling intervention when a developing threat is detected.\r\n\r\n4. Dual-Actuation Response: When the trigger conditions are met, the Arduino activates a relay matrix to control connected mitigation hardware. One channel can activate an exhaust fan to purge contaminated air, while another controls a compatible normally closed solenoid valve to isolate the gas supply. A manual override preserves operator control.\r\n\r\n5. Edge Telemetry: The ESP8266 gateway receives system data from the Arduino over a serial connection and publishes telemetry using MQTT to a web dashboard for remote monitoring. This communication pathway is separate from the core local safety logic, allowing essential detection and response functions to operate without internet connectivity.\r\n\r\nThis workflow combines continuous monitoring with automated physical intervention to address developing gas hazards.",
+  "majorHardwareComponents": [
+    "Arduino UNO R3 compatible board",
+    "ESP8266",
+    "MQ-2 gas sensor",
+    "MQ-135 gas sensor",
+    "BME280 sensor",
+    "5V micro air pump",
+    "2-channel relay module",
+    "AMS1117-3.3V Regulator",
+    "0.96\" OLED Display",
+    "5V DC power adapter"
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "ac_supply",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry"
+  ],
+  "potentialImpact": "AeroSentinel is designed to benefit households, commercial kitchens, small factories, laboratories, and industrial facilities where gas leaks and combustible hazards threaten human life and property.\r\n\r\nConventional gas detectors often serve primarily as warning systems, requiring people or separate control systems to respond after an alarm. AeroSentinel aims to improve this approach by combining dual-level air sampling with trend-based hazard assessment and automatic physical intervention. Sampling air from near the floor and ceiling helps address uneven gas distribution, while continuous analysis of sensor readings supports the identification of sustained increases that may indicate a developing threat.\r\n\r\nIts dual-actuation architecture can activate a connected exhaust fan and trigger gas-source isolation through a compatible solenoid valve. This approach aims to reduce dependence on human reaction time and provide an additional layer of protection beyond alarm-only detection.\r\n\r\nAeroSentinel also prioritizes operational resilience. Its Arduino-based local processing supports core detection and response without dependence on internet connectivity. Meanwhile, the ESP8266 gateway, MQTT communication, and web dashboard enable remote monitoring and provide a foundation for supervising multiple sentinel nodes across larger facilities.\r\n\r\nBy combining accessible microcontrollers, modular hardware, automated mitigation, and scalable telemetry, AeroSentinel aims to make proactive gas-safety capabilities more accessible to smaller establishments as well as industrial users. Following rigorous testing, calibration, and appropriate safety certification, it could complement existing safety systems and contribute to more responsive and resilient gas-hazard management.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1900,
+  "auraDemoHighlight": "AeroSentinel stands out because it aims to do more than detect danger—it is designed to act on it.\r\n\r\nIts most distinctive feature is a custom dual-level aspiration manifold that actively draws air from near both the floor and ceiling into a shared sensing chamber. Combined with sensor fusion and Arduino-based trend analysis, this approach addresses uneven gas distribution and enables the system to identify sustained rising gas concentrations rather than relying exclusively on fixed thresholds.\r\n\r\nWhat makes the project particularly compelling is its dual-actuation response. When programmed hazard criteria are met, the system can activate an exhaust fan while simultaneously initiating gas-source isolation through a compatible solenoid valve. This transforms the prototype from a conventional alarm concept into an integrated detection-and-mitigation system.\r\n\r\nAeroSentinel also demonstrates how accessible embedded hardware can support a more advanced safety architecture. An Arduino UNO handles local sensing and response, while an ESP8266 gateway uses MQTT to transmit telemetry to a web dashboard. Importantly, the core safety logic is designed to operate independently of internet connectivity.\r\n\r\nJudges and visitors can explore how fluid dynamics, sensor integration, embedded processing, relay-controlled hardware, and networked monitoring work together in a single modular platform.\r\n\r\nAeroSentinel's defining idea is simple: detect a developing hazard, evaluate its progression, and initiate a physical response. By bringing these functions together in a cost-conscious design, the project presents an engaging, practical approach to making proactive gas-safety technology more accessible.",
+  "safetyHazards": [
+    "chemicals"
+  ],
+  "safetyPrecautions": "Butane used during demonstrations will be treated as a flammable hazard. Gas-sensing demonstrations will preferably use simulated inputs to avoid releasing combustible gas near powered electronics. The sensor chamber and aspiration manifold will be assessed for ignition risks.\r\n\r\nAppropriately rated electrical protection will address short circuits and overcurrent conditions, while manual override and emergency isolation controls will remain accessible. The system will be designed to detect missing or faulty actuators where supported and enter an appropriate safe state. Sensor faults, power interruptions, and communication failures will be assessed before demonstrations.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T13:45:56.702Z",
+  "updatedAt": "2026-10-26T13:47:56.788Z",
+  "abstract": {
+    "originalName": "Team_AeroForge_abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793022355/aura-registrations/abstract-docs/Team_AeroForge_abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/AeroForge/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/AeroForge/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793022355/aura-registrations/id-cards/dkn8lwlsx2ir4rhptusg.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/AeroForge/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793022355/aura-registrations/id-cards/ozv8ubioqa9lxgnwdfci.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/AeroForge/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793022355/aura-registrations/id-cards/dh7jn7bqdbjsdmdpqz3v.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/AeroForge/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793022355/aura-registrations/id-cards/a0avhtvv8igk2xjuqdap.jpg",
+      "exists": true
+    }
+  ]
+}

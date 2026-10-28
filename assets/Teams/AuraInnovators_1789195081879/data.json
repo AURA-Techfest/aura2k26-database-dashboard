@@ -1,0 +1,99 @@
+{
+  "index": 1,
+  "id": "6aa4f34d64f0bd98ae1fdc42",
+  "registrationId": "AURA2K26-UVEV4Z",
+  "rawTeamName": "AuraInnovators_1789195081879",
+  "folderName": "AuraInnovators_1789195081879",
+  "folderRelPath": "assets/Teams/AuraInnovators_1789195081879",
+  "projectTitle": "Smart Autonomous Solar UAV",
+  "teamSize": 3,
+  "teamAffiliation": "mixed",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 1,
+  "teamLeaderName": "Tariq Ali",
+  "teamLeaderEmail": "tariq_1789195081879@example.com",
+  "teamLeaderPhone": "9876543210",
+  "teamMemberDetails": "Tariq Ali | Aliah | CSE | 4th Year\r\nSamir Khan | Aliah | ECE | 3rd Year\r\nAlex Roy | IIT | ME | 3rd Year",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Drone / Autonomous Systems",
+    "AI-Enabled Hardware"
+  ],
+  "prototypeType": "Autonomous System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Crop disease surveillance is expensive and manual. Our autonomous solar UAV surveys fields and detects pests in real time.",
+  "solutionDescription": "Crop disease surveillance is expensive and manual. Our autonomous solar UAV surveys fields and detects pests in real time.",
+  "innovationDescription": "Crop disease surveillance is expensive and manual. Our autonomous solar UAV surveys fields and detects pests in real time.",
+  "workingPrinciple": "Solar panels trickle-charge custom 4S LiPo battery pack while flight controller runs PX4 autopilot and Jetson Nano processes NDVI imagery.",
+  "majorHardwareComponents": [
+    "Pixhawk 6C",
+    "Jetson Nano",
+    "Multispectral Camera",
+    "Solar MPPT",
+    "LiPo 4S 5000mAh"
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "solar",
+  "intendedBeneficiaries": [
+    "Agriculture",
+    "Rural Communities"
+  ],
+  "potentialImpact": "Empowers smallholder farmers with low-cost early disease detection.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 25000,
+  "auraDemoHighlight": "Live hover demonstration and live multispectral video transmission.",
+  "safetyHazards": [
+    "drone_flying_equipment",
+    "high_power_batteries",
+    "moving_rotating_machinery"
+  ],
+  "safetyPrecautions": "Geofencing, propeller guards, automatic RTL on low battery.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-12T06:38:05.046Z",
+  "updatedAt": "2026-10-11T17:31:06.939Z",
+  "abstract": {
+    "originalName": "uav_abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789195083/aura-registrations/abstract-docs/uav_abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/AuraInnovators_1789195081879/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/AuraInnovators_1789195081879/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789195083/aura-registrations/id-cards/yubry0q1m0exjr6bywe5.png",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/AuraInnovators_1789195081879/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789195083/aura-registrations/id-cards/ldzvrczpfvv64oumjcay.png",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/AuraInnovators_1789195081879/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789195083/aura-registrations/id-cards/u40oolxatgp1xaillkit.png",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/AuraInnovators_1789195081879/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

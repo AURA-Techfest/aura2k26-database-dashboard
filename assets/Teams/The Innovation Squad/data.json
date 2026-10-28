@@ -1,0 +1,120 @@
+{
+  "index": 39,
+  "id": "6aca7795d56d2e9507ee24e2",
+  "registrationId": "AURA2K26-VGMSU3",
+  "rawTeamName": "The Innovation Squad",
+  "folderName": "The Innovation Squad",
+  "folderRelPath": "assets/Teams/The Innovation Squad",
+  "projectTitle": "Distributed Edge-AI UAV and Ground Sensing IOT WSN Ecosystem for Multi-Tier Crop Health Analytics",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "DEEPAN DEB",
+  "teamLeaderEmail": "debdeepan448@gmail.com",
+  "teamLeaderPhone": "9051338512",
+  "teamMemberDetails": "1. Fatma Khatoon | Aliah University | Data Science | Masters 2nd Year | 9163289988\r\n2. Puspam Adak | Aliah University | Electrical Engineering | Masters 2nd Year | 8017787239",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Embedded Systems",
+    "IoT & Smart Devices",
+    "Electronics & Communication",
+    "AI-Enabled Hardware",
+    "Smart Agriculture",
+    "Drone / Autonomous Systems",
+    "Other"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "Problem Statement :\r\n\r\n- Modern precision agriculture faces technical and economic barriers in multi-tier, full-spectrum vegetation diagnostics. Elite solutions, including multispectral drones and hyperspectral arrays, depend on high-latency cloud architectures, expensive computing payloads (NVIDIA Jetson), and complex, toxic manufacturing, making them unsuitable for resource-constrained farms. Cellular dead zones cause operational failures, while Lithium-Polymer (LiPo) batteries risk thermal runaway and field fires following crashes into mango canopies or dry wheat fields. Furthermore, disconnected aerial analytics and subsurface telemetry leave root-zone stress, nutrient lockout, and localized infestations undetected until crop damage occurs.\r\n\r\nProposed Solution\r\n\r\n- The proposed distributed, three-module Edge-AI Agritech Platform enables affordable precision scouting. The Airborne AI Analytics Payload uses an STM32 flight controller running real-time ArduPilot protocols, isolated from propulsion circuits through optocouplers. Its detachable payload combines an Arduino Nano ESP32 and Orange Pi 5 Pro with an integrated 6 TOPS NPU, running offline YOLOv26-Nano, MobileViTv2, and CoAtNet-0 models compiled using RKNN-Toolkit2 to identify canopy anomalies.\r\n\r\n- The Core Base Ground Module uses an Arduino Nano ESP32 with solderless I2C connections for capacitive soil moisture sensors, BME280 microclimate sensors, and TSL2591 high-dynamic-range light sensors.\r\n\r\n- The Plug-and-Play Sub-Surface Add-On Module integrates an ESP32-C6 coprocessor, RS485 Modbus-connected 7-in-1 NPK/pH/EC soil probe, and multi-depth capacitive moisture cross-validation array.\r\n\r\n- Ground nodes execute Python-based TinyML (TensorFlow Lite Micro) routines, compressing telemetry into a Health Index Vector transmitted through connectionless 2.4GHz ESP-NOW. The drone delivers unified analytical maps to offline smartphone applications through local Wi-Fi Access Point or Bluetooth Low Energy, using SQLite without cloud dependence.\r\n\r\nUnique Novel Innovation :\r\n\r\n- Four advancements distinguish this ecosystem:\r\n\r\na. Zero-Cloud Dual-Spectrum Edge Fusion combines MobileViTv2 aerial analysis with ground-based Python TinyML chemical pattern recognition, correlating canopy stress with subsurface NPK variations offline.\r\n\r\nb. Non-Explosive 3C LiFePO4 Power Dynamics replaces fire-prone LiPo batteries with stable Lithium Iron Phosphate (LiFePO4) 3C cells across aerial and ground modules, reducing combustion and thermal runaway risks.\r\n\r\nc. Connectionless Fly-By Data Gathering uses optimized ESP-NOW to collect compressed telemetry from multiple ground nodes mid-flight, minimizing wireless handshakes and conserving battery life.\r\n\r\nd. 100% Solderless, Safe-to-Touch Architecture employs pre-crimped JST-SH Qwiic, STEMMA QT, Gravity, and Grove interconnects, eliminating toxic lead fluxes and complex assembly tools for safer rural maintenance.",
+  "solutionDescription": "Problem Statement :\r\n\r\n- Modern precision agriculture faces technical and economic barriers in multi-tier, full-spectrum vegetation diagnostics. Elite solutions, including multispectral drones and hyperspectral arrays, depend on high-latency cloud architectures, expensive computing payloads (NVIDIA Jetson), and complex, toxic manufacturing, making them unsuitable for resource-constrained farms. Cellular dead zones cause operational failures, while Lithium-Polymer (LiPo) batteries risk thermal runaway and field fires following crashes into mango canopies or dry wheat fields. Furthermore, disconnected aerial analytics and subsurface telemetry leave root-zone stress, nutrient lockout, and localized infestations undetected until crop damage occurs.\r\n\r\nProposed Solution\r\n\r\n- The proposed distributed, three-module Edge-AI Agritech Platform enables affordable precision scouting. The Airborne AI Analytics Payload uses an STM32 flight controller running real-time ArduPilot protocols, isolated from propulsion circuits through optocouplers. Its detachable payload combines an Arduino Nano ESP32 and Orange Pi 5 Pro with an integrated 6 TOPS NPU, running offline YOLOv26-Nano, MobileViTv2, and CoAtNet-0 models compiled using RKNN-Toolkit2 to identify canopy anomalies.\r\n\r\n- The Core Base Ground Module uses an Arduino Nano ESP32 with solderless I2C connections for capacitive soil moisture sensors, BME280 microclimate sensors, and TSL2591 high-dynamic-range light sensors.\r\n\r\n- The Plug-and-Play Sub-Surface Add-On Module integrates an ESP32-C6 coprocessor, RS485 Modbus-connected 7-in-1 NPK/pH/EC soil probe, and multi-depth capacitive moisture cross-validation array.\r\n\r\n- Ground nodes execute Python-based TinyML (TensorFlow Lite Micro) routines, compressing telemetry into a Health Index Vector transmitted through connectionless 2.4GHz ESP-NOW. The drone delivers unified analytical maps to offline smartphone applications through local Wi-Fi Access Point or Bluetooth Low Energy, using SQLite without cloud dependence.\r\n\r\nUnique Novel Innovation :\r\n\r\n- Four advancements distinguish this ecosystem:\r\n\r\na. Zero-Cloud Dual-Spectrum Edge Fusion combines MobileViTv2 aerial analysis with ground-based Python TinyML chemical pattern recognition, correlating canopy stress with subsurface NPK variations offline.\r\n\r\nb. Non-Explosive 3C LiFePO4 Power Dynamics replaces fire-prone LiPo batteries with stable Lithium Iron Phosphate (LiFePO4) 3C cells across aerial and ground modules, reducing combustion and thermal runaway risks.\r\n\r\nc. Connectionless Fly-By Data Gathering uses optimized ESP-NOW to collect compressed telemetry from multiple ground nodes mid-flight, minimizing wireless handshakes and conserving battery life.\r\n\r\nd. 100% Solderless, Safe-to-Touch Architecture employs pre-crimped JST-SH Qwiic, STEMMA QT, Gravity, and Grove interconnects, eliminating toxic lead fluxes and complex assembly tools for safer rural maintenance.",
+  "innovationDescription": "Problem Statement :\r\n\r\n- Modern precision agriculture faces technical and economic barriers in multi-tier, full-spectrum vegetation diagnostics. Elite solutions, including multispectral drones and hyperspectral arrays, depend on high-latency cloud architectures, expensive computing payloads (NVIDIA Jetson), and complex, toxic manufacturing, making them unsuitable for resource-constrained farms. Cellular dead zones cause operational failures, while Lithium-Polymer (LiPo) batteries risk thermal runaway and field fires following crashes into mango canopies or dry wheat fields. Furthermore, disconnected aerial analytics and subsurface telemetry leave root-zone stress, nutrient lockout, and localized infestations undetected until crop damage occurs.\r\n\r\nProposed Solution\r\n\r\n- The proposed distributed, three-module Edge-AI Agritech Platform enables affordable precision scouting. The Airborne AI Analytics Payload uses an STM32 flight controller running real-time ArduPilot protocols, isolated from propulsion circuits through optocouplers. Its detachable payload combines an Arduino Nano ESP32 and Orange Pi 5 Pro with an integrated 6 TOPS NPU, running offline YOLOv26-Nano, MobileViTv2, and CoAtNet-0 models compiled using RKNN-Toolkit2 to identify canopy anomalies.\r\n\r\n- The Core Base Ground Module uses an Arduino Nano ESP32 with solderless I2C connections for capacitive soil moisture sensors, BME280 microclimate sensors, and TSL2591 high-dynamic-range light sensors.\r\n\r\n- The Plug-and-Play Sub-Surface Add-On Module integrates an ESP32-C6 coprocessor, RS485 Modbus-connected 7-in-1 NPK/pH/EC soil probe, and multi-depth capacitive moisture cross-validation array.\r\n\r\n- Ground nodes execute Python-based TinyML (TensorFlow Lite Micro) routines, compressing telemetry into a Health Index Vector transmitted through connectionless 2.4GHz ESP-NOW. The drone delivers unified analytical maps to offline smartphone applications through local Wi-Fi Access Point or Bluetooth Low Energy, using SQLite without cloud dependence.\r\n\r\nUnique Novel Innovation :\r\n\r\n- Four advancements distinguish this ecosystem:\r\n\r\na. Zero-Cloud Dual-Spectrum Edge Fusion combines MobileViTv2 aerial analysis with ground-based Python TinyML chemical pattern recognition, correlating canopy stress with subsurface NPK variations offline.\r\n\r\nb. Non-Explosive 3C LiFePO4 Power Dynamics replaces fire-prone LiPo batteries with stable Lithium Iron Phosphate (LiFePO4) 3C cells across aerial and ground modules, reducing combustion and thermal runaway risks.\r\n\r\nc. Connectionless Fly-By Data Gathering uses optimized ESP-NOW to collect compressed telemetry from multiple ground nodes mid-flight, minimizing wireless handshakes and conserving battery life.\r\n\r\nd. 100% Solderless, Safe-to-Touch Architecture employs pre-crimped JST-SH Qwiic, STEMMA QT, Gravity, and Grove interconnects, eliminating toxic lead fluxes and complex assembly tools for safer rural maintenance.",
+  "workingPrinciple": "The system operates as a decentralized, cloud-independent edge-computing framework. The Core Ground Module uses an Arduino Nano ESP32 to continuously poll surface microclimate data through BME280, TSL2591, and STEMMA moisture sensors. The plug-and-play Add-On Module measures subsurface NPK chemical structures using an ESP32-C6 gateway over RS485 Modbus.\r\n\r\nGround nodes execute Python-based TinyML (TensorFlow Lite Micro) models to filter, clean, and compress multidimensional telemetry into a lightweight Health Index Vector, reducing bandwidth requirements.\r\n\r\nGround Telemetry + TinyML → (2.4GHz ESP-NOW) → UAV Payload Hub → (Hardware Serial) → Orange Pi 5 Pro NPU → Local Wi-Fi AP/BLE → Farmer Mobile App (SQLite)\r\n\r\nDuring scouting flights, the ground-level Arduino Nano ESP32 transmits compressed vector packets to the drone payload's receiving Arduino Nano ESP32 through a low-overhead, connectionless 2.4GHz ESP-NOW wireless uplink.\r\n\r\nThe payload hub streams ground telemetry through high-speed hardware serial to the Orange Pi 5 Pro companion computer. Its integrated 6 TOPS NPU executes a three-tier offline neural architecture comprising YOLOv26-Nano, MobileViTv2, and CoAtNet-0, dynamically cross-referencing camera frames with subsurface ground data.\r\n\r\nAfter processing, the Orange Pi 5 Pro generates a comprehensive field status report. Upon completing its route, the UAV payload operates as a local Wi-Fi Access Point/Bluetooth Low Energy gateway, transferring the final analytical map directly to the farmer's offline smartphone application. The application updates its internal SQLite database without requiring cloud infrastructure or internet connectivity.",
+  "majorHardwareComponents": [
+    "1. UAV Flight & Detachable AI Payload Module :\nUAV platform with dedicated STM32 F4/F7 flight controller running ArduPilot.\nArduino Nano ESP32 Wi-Fi payload sensor hub.\nOrange Pi 5 Pro with integrated 6 TOPS NPU and 256GB M.2 NVMe SSD.\nICM20948 9-axis IMU",
+    "BME280 barometric sensor",
+    "HC-SR04 ultrasonic sensor",
+    "and Quectel L89HA Multi-GNSS module.\nRedundant flight and payload sensor matrices.\nBidirectional logic-level converters",
+    "high-speed optocouplers",
+    "shock resistors",
+    "and antennas.\nLiFePO4 3C battery (3.2V",
+    "19.2Wh)",
+    "BMS",
+    "and voltage step-down regulators.\n2. Core Base Ground Module :\nArduino Nano ESP32 telemetry hub running MicroPython-based TinyML scripts.\nAdafruit STEMMA Capacitive Soil Sensor (I2C).\n7semi BME280 microclimate sensor.\nAdafruit TSL2591 High Dynamic Range light sensor (STEMMA QT/I2C).\nLiFePO4 3C battery",
+    "BMS",
+    "voltage regulation",
+    "and inline LC noise filters.\n3. Plug-and-Play Sub-Surface Add-On Module :\nWaveshare or Seeed Studio ESP32-C6 coprocessor with RS485 Modbus gateway.\n7-in-1 industrial soil probe measuring Nitrogen",
+    "Phosphorus",
+    "Potassium",
+    "moisture",
+    "electrical conductivity (EC)",
+    "pH",
+    "and temperature.\nSeeed Studio Grove Capacitive Moisture Sensor.\nCytron Maker Soil Moisture Sensor Kit.\nGravity V2.0 Capacitive Soil Moisture Sensor.\n\nIntegration Note: The Add-On Module connects directly to the Core Ground Module through a plug-and-play interface",
+    "sharing its power system and communication infrastructure without requiring separate power supplies or independent wireless protocols."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Agriculture",
+    "Rural Communities",
+    "Other"
+  ],
+  "potentialImpact": "1. Transforming Rural Digital Inclusion :\r\nZero-Cloud Field Independence: Operates entirely offline using local ESP-NOW communication and on-device SQLite mobile applications, bringing smart farming tools to remote regions without cellular infrastructure or internet access.\r\n2. Unlocking Multi-Tier Crop Yield Optimization :\r\nVertical Canopy Scaling: Combines aerial vision pipelines with subsurface NPK monitoring across tall fruit trees, such as mango, and low-ground crops, such as wheat, enabling early detection of nutrient deficiencies before visible crop damage.\r\n3. Advancing Sustainable Field Resource Management :\r\nPrecision Chemical Regulation: Provides immediate soil diagnostics to prevent over-fertilisation, reduce chemical input costs, protect groundwater from toxic runoff, and preserve long-term soil health.\r\n4. Setting New Standards for Field Hardware Safety :\r\nCombustion-Resistant Agritech Platforms: Uses stable LiFePO4 batteries to reduce field-fire risks associated with drone crashes into dry crops, protecting agricultural assets and lowering long-term operating costs through extended battery lifespan.\r\n5. Democratising Advanced Agricultural Tools :\r\nSolderless, Open-Source Maintenance: Employs a plug-and-play, non-toxic architecture that enables local technicians to repair modules without expensive equipment, reducing maintenance barriers for small-scale rural farmers.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 68000,
+  "auraDemoHighlight": "Why the Judges Must See It :\r\n\r\nThis platform demonstrates production-ready engineering maturity by addressing critical hardware constraints: cost optimization and field safety. It avoids expensive, power-hungry computing equipment and cloud dependencies, instead using dual-loop microcontroller isolation, connectionless data routing, and non-toxic, completely solderless components. This architecture demonstrates that industrial-grade agricultural analytics can be delivered cost-effectively.\r\n\r\nWhy the Audience Will Be Captivated :\r\n\r\nThe audience witnesses real-time automation in a rugged field environment. A drone flies over a simulation zone and retrieves subsurface data packets from ground sensors through ESP-NOW wireless communication while displaying interactive maps on an offline smartphone application. This live demonstration proves that advanced agricultural technology can operate without internet connectivity and remain accessible to everyday farmers.\r\n\r\nThe Most Impressive Part :\r\n\r\nThe standout achievement is the 100% Offline Edge-AI Data Fusion Pipeline. An airborne 6 TOPS NPU runs a three-tier neural network framework (YOLOv26-Nano, MobileViTv2, CoAtNet-0), while ground microcontrollers execute optimized Python TinyML models. Together, they transform raw data into actionable crop insights directly at the field edge, independently of remote networks.\r\n\r\nThe Most Unique Part :\r\n\r\nThe project's key innovation is its Combustion-Resistant, Explosion-Safe Power Design. Replacing conventional Lithium-Polymer (LiPo) batteries with stable LiFePO4 3C chemistry, combined with automated hardware shutdown protocols, reduces battery-fire risks during canopy crashes and establishes a stronger safety approach for precision agricultural equipment.",
+  "safetyHazards": [
+    "drone_flying_equipment"
+  ],
+  "safetyPrecautions": "1. Airborne Propulsion & Impact Fail-Safes :\r\nOptocoupler Logic Isolation: Separates low-voltage STM32 and Orange Pi logic from high-current motor ESC circuits, suppressing inductive back-EMF spikes.\r\nAutomated Motor Kill-Switch: Disables PWM motor outputs when orientation exceeds a 90-degree flip or a severe impact is detected, reducing motor-stall fire risks.\r\nDual-Antenna Spatial Diversity: Uses redundant external Quectel L89HA GNSS antennas to improve navigation signal reception beneath dense tree canopies.\r\nMAVLink Obstacle Override: Triggers auto-hover or return-to-launch when payload sensors detect nearby obstacles or sudden pressure drops.\r\n2. Electrical & Chemical Fire Prevention :\r\nLiFePO4 Battery Chemistry: Uses LiFePO4 3C cells instead of conventional LiPo packs to reduce thermal runaway and fire risks following punctures or impacts.\r\nSegmented Synchronous Regulation: Employs step-down regulators, inline LC filters, and TVS diodes to suppress voltage surges and protect electronics.\r\n3. Subsurface & Ground Ingress Protections :\r\nAnti-Electrolysis Duty Cycles: Cuts probe current between readings to minimize soil electrolysis, protect water quality, and extend probe lifespan.\r\nIndustrial Epoxy Potting: Seals underground electronics against acidic, alkaline, and chemical fertilizer mixtures, reducing short-circuit risks.\r\n4. User Health & Handling Safety :\r\n100% Solderless Assembly: Uses plug-and-play Grove, Gravity, and STEMMA QT connections, simplifying maintenance and avoiding toxic lead exposure during assembly.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-10T17:36:21.316Z",
+  "updatedAt": "2026-10-14T18:49:33.055Z",
+  "abstract": {
+    "originalName": "AI_Based_Smart_Agritech_System.docx",
+    "url": "https://res.cloudinary.com/dxkje9whm/raw/upload/v1791653780/aura-registrations/abstract-docs/AI_Based_Smart_Agritech_System",
+    "filename": "Abstract.docx",
+    "relPath": "assets/Teams/The Innovation Squad/Abstract.docx",
+    "isDocx": true,
+    "exists": true,
+    "extractedText": "Title\n\nDistributed Edge-AI UAV & Ground Sensing IOT WSN Ecosystem for Multi-Tier Crop Health Analytics\n\nMethodology\n\nThis platform delivers full-spectrum precision agritech analytics across diverse crop heights—from large mango trees to short wheat fields—entirely independent of cloud architecture. The system decouples critical processing domains into three hardware nodes. The UAV Flight Control Frame isolates flight stability (handled by a dedicated STM32 flight controller running ArduPilot and a micro-sensor array) from the Detachable AI Analytics Payload via optocouplers to prevent high-current inductive feedback.\n\nThe AI Payload combines an Arduino Nano ESP32 sensor hub with an Orange Pi 5 Pro companion computer (6 TOPS NPU) executing a three-tiered offline computer vision model (YOLOv26-Nano, MobileViTv2, CoAtNet-0) compiled via RKNN-Toolkit2. Ground data is acquired by the Core Ground Module (Arduino Nano ESP32) polling capacitive soil moisture, micro-climate (BME280), and high-dynamic-range light sensors. Subsurface validation is scaled via a plug-and-play Add-On Module powered by an ESP32-C6 coprocessor that manages a 7-in-1 NPK/pH/EC probe via RS485 Modbus alongside multi-depth moisture check matrices.\n\nPython-based TinyML (TensorFlow Lite Micro) operates natively on the ground boards, compressing telemetry into localized anomaly stress indexes. Ground-to-air telemetry runs connectionless over 2.4GHz ESP-NOW profiles during flight passes. Final unified field reports are fetched offline by the farmer via local Wi-Fi AP or BLE direct transmissions into a decentralized smartphone SQLite database.\n\nProposed Block Diagram\n\nProposed Outcome\n\nThe architecture establishes an affordable, ultra-reliable farming solution that avoids standard vulnerabilities. First, using structurally resilient 3C LiFePO4 battery dynamics managed by segmented, filtered power rails and emergency hardware-software shutdown interrupts completely eliminates field thermal runaway or crash-fire hazards. Second, 100% offline edge execution bypasses rural connectivity deficits, allowing real-time mapping of crop stress distributions without operational reliance on expensive cloud structures or specialized, toxic assemblies. Third, the plug-and-play non-toxic solderless modular design ensures rapid configuration adjustment and safe physical handling, delivering professional industrial-grade multi-tier analytic capabilities directly to resource-constrained agriculturalists."
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/The Innovation Squad/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791653780/aura-registrations/id-cards/yherfa6xrvccrkungoii.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/The Innovation Squad/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791653780/aura-registrations/id-cards/pkynmanfzfgy3skbximp.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/The Innovation Squad/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791653780/aura-registrations/id-cards/kyupkrsjmzexpjdrh3gp.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/The Innovation Squad/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

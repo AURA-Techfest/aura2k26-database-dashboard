@@ -1,0 +1,449 @@
+Complete Technical Thesis
+
+Design, Architecture, and Error Mitigation of a High-Precision Multiparameter Wearable Health MonitorIntegrating Raspberry Pi Pico 2W, High-Resolution External ADCs, Adaptive Noise Cancellation, and BLE RTOS
+
+Master Engineering BlueprintPrepared byTeam Red RangersMeherab Chowdhury Mir Sania Mobinul Hoque Tuhina Mallick
+
+MentorSunirnay ChatterjeeSeptember 2026
+
+Abstract
+
+The transition of physiological monitoring from controlled clinical environments to ambulatory wearable form factors introduces severe engineering challenges. This comprehensive thesis details the end-to-end design of a multiparameter medical device utilizing the Raspberry Pi Pico 2W. The foundational hardware architecture integrates photoplethysmography (MAX30102), electrocardiography (AD8232), clinical-grade tissue thermometry (MAX30205), and tri-axial inertial tracking (LSM6DSOX). To overcome the quantization bottlenecks of standard microcontrollers, the design employs a 16-bit Sigma-Delta external Analog-to-Digital Converter (ADS1115), dramatically increasing the Signal-to-Noise Ratio (SNR) for microvolt ECG signals.
+
+Crucially, this complete report details rigorous error eradication strategies for both physiological and environmental noise. It models countermeasures for (1) Skin Pigmentation Disparities via dynamic Automatic Gain Control (AGC); (2) Motion Artifacts via Normalized Least Mean Squares (NLMS) Adaptive Noise Cancellation; (3) 50Hz Ambient Light Interference (ALI); and (4) LED Thermal Drift. Standard IIR/FIR filters for baseline wander are derived mathematically alongside the adaptive algorithms. Finally, the system utilizes a Bluetooth Low Energy (BLE) Generic Attribute Profile (GATT) architecture with an interrupt-driven deep sleep state machine, ensuring multi-day 24/7 continuous monitoring capability.
+
+Chapter 1: Introduction & System Objectives
+
+1.1 The Paradigm Shift in Continuous Monitoring
+
+In clinical environments, physiological parameters are monitored using tethered machinery under heavily controlled conditions. The shift towards ambulatory, continuous monitoring devices offers unparalleled advantages for preventative cardiology. However, a wearable device must operate accurately on a person who is jogging, sweating, under indoor fluorescent lights, and possessing varying levels of epidermal melanin.
+
+1.2 System Specifications
+
+This project aims to engineer a master architecture that achieves:
+
+High-Fidelity Data Acquisition: Utilizing external 16-bit ADCs to bypass standard 12-bit microcontroller limitations, revealing the full cardiac QRS complex.
+
+Demographic Equity in Sensing: Implementing dynamic LED drive controls to equalize SNR across all Fitzpatrick skin types.
+
+Algorithmic Resilience to Motion: Implementation of real-time Adaptive Noise Cancellation (ANC) utilizing multi-axis IMU data.
+
+Micro-power Telemetry: Utilization of GATT over BLE for multi-day operation.
+
+Chapter 2: Hardware Architecture and Circuit Design
+
+2.1 Core Processing: Raspberry Pi Pico 2W
+
+The RP2350-based Pico 2W is selected due to its dual-core architecture. Core 0 is dedicated to real-time hardware interrupts and intensive DSP filtering (IIR, FIR, LMS), while Core 1 autonomously manages the BLE radio stack, ensuring wireless transmission does not interrupt rigid sensor polling intervals.
+
+2.2 Overcoming the ADC Bottleneck
+
+Microcontrollers inherently suffer from internal ground bounce and digital noise coupling into their built-in ADCs. The Pico 2W's internal ADC yields a resolution of ≈ 0.8mV. By routing the AD8232 analog output to an external ADS1115 (16-bit Sigma-Delta ADC) via I2C, the resolution increases to 65536 levels (a quantization step of ≈ 0.05mV), revealing the delicate P and T waves.
+
+2.3 Hardware Interface Mapping
+
+Module
+
+Function
+
+Interface Bus
+
+MAX30102
+
+PPG (SpO2, Heart Rate)
+
+I2C0 (SDA: GP4, SCL: GP5)
+
+MAX30205
+
+Skin Temperature Calibration
+
+I2C0 (SDA: GP4, SCL: GP5)
+
+LSM6DSOX
+
+Motion Reference Vector
+
+I2C1 (SDA: GP14, SCL: GP15)
+
+ADS1115
+
+16-bit ADC for ECG
+
+I2C1 (SDA: GP14, SCL: GP15)
+
+AD8232
+
+Cardiac Biopotential AFE
+
+Analog → external ADC
+
+ Figure 2.1: Complete System Architecture and Data Bus Routing Strategy
+
+Figure 2.2: This flowchart visually breaks down the 6-step deep sleep cycle that the RTOS uses to manage power
+
+Chapter 3: Error Modeling and Hardware Mitigation
+
+3.1 Skin Pigmentation Disparities (The Melanin Problem)
+
+Epidermal melanin acts as a broadband optical attenuator. The Modified Beer-Lambert Law is:
+
+I(t) = I_0 * e^[-(μ_dc * d_dc + μ_ac * d_ac(t))]
+
+Higher melanin increases the static coefficient μ_dc. To eliminate this demographic bias, the firmware utilizes an Automatic Gain Control (AGC) feedback loop. If the DC baseline falls below a threshold, the Pico dynamically increases the LED drive current via I2C registers:
+
+I_LED[n+1] = I_LED[n] + K_p * (DC_target - DC_current)
+
+3.2 Environmental Noise Mitigations
+
+3.2.1 Ambient Light Interference (ALI)
+
+Indoor lighting (AC mains) flickers at exactly 50Hz. The MAX30102 utilizes active Ambient Light Cancellation (ALC) by measuring photodiode dark current while LEDs are off, mathematically subtracting this 50Hz interference.
+
+3.2.2 Thermal Drift Compensation
+
+LED emission wavelengths shift relative to junction temperature (≈ 0.1 nm / °C). The MAX30205 Clinical Thermometer continually feeds data to dynamically offset the SpO2 calibration matrices:
+
+λ_actual = λ_nominal + ΔT * τ_drift
+
+Chapter 4: Digital Signal Processing (DSP) and Adaptive Filters
+
+Hardware filters alone cannot isolate the cardiac band (0.5Hz - 4.0Hz).
+
+4.1 Standard Filtering: Baseline Wander and High-Frequency Noise
+
+To remove the baseline wander (<0.5Hz) from breathing, a discrete-time IIR high-pass filter is implemented:
+
+y[n] = x[n] - x[n-1] + α * y[n-1]
+
+For high-frequency noise (50Hz), a Moving Average (FIR) filter is applied:
+
+y_smooth[n] = (1/W) * Σ y[n-k]
+
+Figure 4.1: Simulated PPG Pipeline: Removal of low-frequency baseline wander using the IIR high-pass filter.
+
+Figure 4.2: Simulated ECG Pipeline: 16-bit quantization and 50Hz notch rejection revealing the QRS complex.
+
+4.2 Motion Artifact Elimination via Adaptive Noise Cancellation (ANC)
+
+Because walking step frequencies (1.0Hz - 3.0Hz) overlap the cardiac band, standard filters fail. This architecture uses the LSM6DSOX IMU to generate a reference vector v[n]. A Normalized Least Mean Squares (NLMS) algorithm estimates and subtracts the motion artifact. The recovered clean cardiac signal e[n] is:
+
+e[n] = d[n] - Σ (w_k[n] * v[n-k])
+
+The filter weights update iteratively to track movement patterns:
+
+w_k[n+1] = w_k[n] + (μ / (||v[n]||² + ε)) * e[n] * v[n-k]
+
+Figure 4.3: Elimination of Motion Artifacts: The IMU accelerometer vector is used by the LMS adaptive filter to mathematically subtract the walking/jogging artifact from the corrupted PPG signal.
+
+Chapter 5: Firmware and RTOS Implementation
+
+5.1 Bluetooth Low Energy (BLE) GATT Architecture
+
+The Pico 2W operates as a GATT Server to conserve power. Data is structured into Standard UUIDs:
+
+Heart Rate Service: 0x180D
+
+Health Thermometer Service: 0x1809
+
+5.2 Deep Sleep State Machine
+
+To achieve multi-day operation on a 500mAh LiPo battery:
+
+HIBERNATE: Pico in deep sleep (Draw: ≈ 1.5mA).
+
+WAKEUP: Hardware timer triggers every 5 minutes.
+
+ACQUIRE: Sensors power up. Data arrays filled for 10 seconds.
+
+PROCESS: Core 0 executes IIR, FIR, and LMS DSP algorithms.
+
+BROADCAST: Core 1 BLE radio advertises characteristic payload for 3 seconds.
+
+SHUTDOWN: Return to HIBERNATE.
+
+Chapter 6: Conclusion
+
+This thesis culminates in a fully realized blueprint for an ambulatory, clinical-grade medical monitor. By merging precision analog external components (ADS1115), robust sensor arrays (PPG, ECG, IMU, Temp), and advanced mathematically proven adaptive filters (NLMS, AGC), this architecture definitively solves the quantization, melanin bias, and motion artifact bottlenecks that cripple standard hobbyist microcontrollers.
+
+Appendix: pseudocode
+
+A.1 DSP Pipeline (IIR and FIR Filters)
+
+// ========================================================
+
+// INITIALIZATION AND CONSTANT DEFINITIONS
+
+// ========================================================
+
+CONST WAKEUP_INTERVAL_SEC = 300       // Wakes up every 5 minutes
+
+CONST ACQUISITION_TIME_SEC = 10       // Polling duration
+
+CONST SAMPLE_RATE_HZ = 50             // Sensor sampling frequency
+
+CONST SAMPLES_NEEDED = ACQUISITION_TIME_SEC * SAMPLE_RATE_HZ
+
+CONST DC_THRESHOLD_MIN = 10000        // AGC minimum baseline
+
+CONST LED_CURRENT_LOW = 10            // 10mA Default
+
+CONST LED_CURRENT_HIGH = 30           // 30mA Boost for dark skin
+
+// Filter Variables
+
+GLOBAL iir_prev_x = 0.0, iir_prev_y = 0.0
+
+GLOBAL fir_buffer = ARRAY of size 8
+
+GLOBAL fir_idx = 0
+
+GLOBAL lms_weights = ARRAY of size 16 initialized to 0.0
+
+GLOBAL lms_buffer = ARRAY of size 16 initialized to 0.0
+
+// ========================================================
+
+// CORE HARDWARE INTERRUPT LOOP
+
+// ========================================================
+
+FUNCTION MainLoop()
+
+    WHILE True DO
+
+        // 1. Wake from Deep Sleep
+
+        PowerOnPeripherals()
+
+        Set_LED_Current(LED_CURRENT_LOW)
+
+        
+
+        ARRAY raw_ppg_buffer = []
+
+        ARRAY clean_ppg_buffer = []
+
+        
+
+        // 2. Acquisition Cycle
+
+        FOR count = 1 TO SAMPLES_NEEDED DO
+
+            // Read Sensors via I2C
+
+            raw_red = Read_MAX30102_Red()
+
+            accel_x, accel_y, accel_z = Read_LSM6DSOX()
+
+            temp_c = Read_MAX30205()
+
+            
+
+            // Calculate Motion Vector Magnitude
+
+            accel_mag = SQRT(accel_x^2 + accel_y^2 + accel_z^2)
+
+            
+
+            Append raw_red TO raw_ppg_buffer
+
+            
+
+            // Run DSP Pipeline instantly on the sample
+
+            clean_sample = ExecuteDSP(raw_red, accel_mag)
+
+            Append clean_sample TO clean_ppg_buffer
+
+            
+
+            Wait(1 / SAMPLE_RATE_HZ)
+
+        END FOR
+
+        // 3. Automatic Gain Control (AGC) Validation
+
+        dc_baseline = CalculateAverage(raw_ppg_buffer)
+
+        IF dc_baseline < DC_THRESHOLD_MIN THEN
+
+            // Melanin absorption too high or poor perfusion
+
+            Set_LED_Current(LED_CURRENT_HIGH)
+
+            CONTINUE // Abort this loop and acquire 10s of data again with higher power
+
+        END IF
+
+        // 4. Feature Extraction (Physiological Calculation)
+
+        heart_rate = ExtractBPM(clean_ppg_buffer)
+
+        spo2_raw = CalculateSpO2(raw_ppg_buffer)
+
+        spo2_compensated = ApplyThermalDriftCorrection(spo2_raw, temp_c)
+
+        // 5. Telemetry / Transmission
+
+        IF heart_rate > 30 AND heart_rate < 240 THEN
+
+            UpdateBLE_GATT_Characteristics(heart_rate, spo2_compensated, temp_c)
+
+            TurnOnBLERadio()
+
+            AdvertiseBLE(duration = 3 seconds)
+
+            TurnOffBLERadio()
+
+        END IF
+
+        // 6. Hibernate
+
+        PowerDownPeripherals()
+
+        DeepSleep(WAKEUP_INTERVAL_SEC)
+
+    END WHILE
+
+END FUNCTION
+
+// ========================================================
+
+// SIGNAL PROCESSING PIPELINE
+
+// ========================================================
+
+FUNCTION ExecuteDSP(raw_val, noise_reference)
+
+    
+
+    // A. IIR High-Pass Filter (Removes Baseline Wander)
+
+    ALPHA = 0.95
+
+    y_hp = raw_val - iir_prev_x + (ALPHA * iir_prev_y)
+
+    
+
+    iir_prev_x = raw_val
+
+    iir_prev_y = y_hp
+
+    // B. FIR Low-Pass Filter (Moving Average for 50Hz/Fuzz)
+
+    fir_buffer[fir_idx] = y_hp
+
+    fir_idx = (fir_idx + 1) MODULO 8
+
+    
+
+    y_smooth = Sum(fir_buffer) / 8
+
+    // C. LMS Adaptive Noise Cancellation (Removes Motion)
+
+    Insert noise_reference at beginning of lms_buffer
+
+    Remove last element of lms_buffer
+
+    
+
+    // Estimate motion artifact
+
+    y_est = 0.0
+
+    FOR i = 0 TO 15 DO
+
+        y_est = y_est + (lms_weights[i] * lms_buffer[i])
+
+    END FOR
+
+    
+
+    // Calculate the error (which is our target clean cardiac signal)
+
+    clean_cardiac = y_smooth - y_est
+
+    
+
+    // Update Filter Weights (Normalized LMS)
+
+    LMS_MU = 0.01
+
+    norm = SumOfSquares(lms_buffer) + 0.000001
+
+    
+
+    FOR i = 0 TO 15 DO
+
+        lms_weights[i] = lms_weights[i] + (LMS_MU / norm) * clean_cardiac * lms_buffer[i]
+
+    END FOR
+
+    RETURN clean_cardiac
+
+END FUNCTION
+
+// ========================================================
+
+// FEATURE EXTRACTION (BPM)
+
+// ========================================================
+
+FUNCTION ExtractBPM(clean_array)
+
+    // Dynamic Thresholding
+
+    sorted_array = Sort(clean_array)
+
+    top_10_percent = ExtractTop10Percent(sorted_array)
+
+    dynamic_threshold = CalculateAverage(top_10_percent) * 0.75
+
+    
+
+    ARRAY peaks = []
+
+    
+
+    FOR i = 1 TO length(clean_array) - 2 DO
+
+        current = clean_array[i]
+
+        prev = clean_array[i-1]
+
+        next = clean_array[i+1]
+
+        
+
+        // Find local maxima above threshold
+
+        IF current > dynamic_threshold AND current > prev AND current > next THEN
+
+            Append i TO peaks
+
+        END IF
+
+    END FOR
+
+    
+
+    IF length(peaks) < 2 THEN
+
+        RETURN 0 // Error: Not enough data
+
+    END IF
+
+    
+
+    // Calculate BPM
+
+    avg_interval_samples = CalculateAverageDistanceBetweenPeaks(peaks)
+
+    bpm = (60.0 * SAMPLE_RATE_HZ) / avg_interval_samples
+
+    
+
+    RETURN bpm
+
+END FUNCTION

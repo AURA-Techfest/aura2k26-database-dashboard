@@ -1,0 +1,99 @@
+{
+  "index": 2,
+  "id": "6aaad470dcdc33dcd527b262",
+  "registrationId": "AURA2K26-2BPHM7",
+  "rawTeamName": "Proto-Electra",
+  "folderName": "Proto-Electra",
+  "folderRelPath": "assets/Teams/Proto-Electra",
+  "projectTitle": "Modification of Charging and Regenerative Breaking in EVs",
+  "teamSize": 3,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Amlan Samanta",
+  "teamLeaderEmail": "workspace.amlan11@gmail.com",
+  "teamLeaderPhone": "9733910946",
+  "teamMemberDetails": "Member 1: Sumaiya Azmi, Ph No: 8101220373, Email: sumaiyaazmi2025@gmail.com\r\nMember 2: Sania Molla, Ph No: 9332633658, Email: saniamolla4739@gmail.com",
+  "hardwareProjectCategories": [
+    "IoT & Smart Devices",
+    "Robotics"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Working on the smart wireless fast-charging concepts, regenerative braking system of EVs.",
+  "solutionDescription": "Working on the smart wireless fast-charging concepts, regenerative braking system of EVs.",
+  "innovationDescription": "Working on the smart wireless fast-charging concepts, regenerative braking system of EVs.",
+  "workingPrinciple": "The system operates on an embedded real-time feedback loop managed by a central microcontroller. Ultrasonic sensors continuously emit high-frequency acoustic pulses and measure the time-of-flight of the reflected echo to determine the distance of forward obstacles. If a barrier is detected within a predefined threshold (e.g., 20 cm), the microcontroller sends PWM signals to an H-bridge motor driver, halting the DC gear motors and executing a timed directional turn to chart a clear path. Simultaneously, auxiliary analog and digital sensors (such as DHT11 for temperature/humidity) sample environmental parameters at periodic intervals. These readings are parsed and instantly updated on a local I2C display interface to provide real-time telemetry.",
+  "majorHardwareComponents": [
+    "Microcontroller: Arduino Uno (ATmega328P) / ESP32 development board\nSensing Units: HC-SR04 Ultrasonic Sensor",
+    "DHT11 Temperature & Humidity Sensor\nActuation & Drive: L298N Dual H-Bridge Motor Driver Module",
+    "2x TT Gear DC Motors",
+    "1x Micro Servo Motor (SG90)\nPower Management: 2x 18650 Li-ion batteries (7.4V nominal) with LM2596 step-down buck converter (regulated 5V logic rail)\nDisplay & Chassis: 16x2 I2C LCD screen",
+    "custom acrylic robot chassis",
+    "caster wheel",
+    "toggle switch."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public"
+  ],
+  "potentialImpact": "Hazardous Environment Inspection: Replaces human personnel in tight, toxic, or unstable structures—such as collapsed buildings, chemical storage rooms, or underground pipelines—to assess physical integrity and ambient safety without risking human life.\r\nCost-Effective Industrial Automation: Serves as a modular, low-cost baseline for automated internal logistics, periodic warehouse monitoring, and routine floor inspections in small-to-medium enterprises (SMEs) that cannot afford complex enterprise robotic fleets.\r\nPrecision Agriculture & Greenhouses: Automates localized microclimate surveying in indoor farming facilities, detecting hot spots or humidity pockets directly at canopy level for targeted climate control.\r\nDisaster Response & First-Line Reconnaissance: Provides first responders with rapid ground-truth environmental data (air temperature, path accessibility, structural clearances) before rescue crews enter compromised disaster sites.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 6000,
+  "auraDemoHighlight": "Tangible Autonomous Decision-Making: Unlike standard remote-controlled rovers, it demonstrates full edge-level autonomy—processing ultrasonic spatial data in real time to calculate clearances and execute collision-avoidance maneuvers without external human intervention.\r\nLow-Cost Engineering Feasibility: Proves that an industrial-grade inspection and monitoring concept can be functional, reliable, and deployable under ₹2,000 using standard embedded hardware.\r\nCompact Multi-Disciplinary Integration: Combines mechanical chassis dynamics, precise H-bridge motor driver PWM control, low-voltage power regulation, and live sensor telemetry into a single unified mobile unit.\r\nModular, Scalable Architecture: Serves as a versatile physical testbed that can be quickly upgraded with additional payload modules—such as gas detectors, thermal probes, or wireless communication—with zero foundational redesign.",
+  "safetyHazards": [
+    "high_voltage",
+    "moving_rotating_machinery",
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Battery Protection: Integrated BMS prevents overcharge, deep discharge, and short circuits in the 18650 Li-ion cells to eliminate fire risk.\r\nElectrical Isolation: Independent voltage regulation via an LM2596 buck converter shields sensitive microcontroller logic from inductive back-EMF voltage spikes.\r\nInductive Clamp Diodes: Built-in flyback diodes on the motor driver suppress transient surges from DC gear motors.\r\nFirmware Fail-Safes: Hard-coded emergency stall logic instantly cuts motor power if forward distance drops below a critical threshold (under 5 cm).",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-16T17:40:00.944Z",
+  "updatedAt": "2026-10-11T17:31:18.45Z",
+  "abstract": {
+    "originalName": "EV_Wireless_Charging_Regen_Abstract (1).pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789580399/aura-registrations/abstract-docs/EV_Wireless_Charging_Regen_Abstract%20%281%29.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Proto-Electra/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Proto-Electra/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789580399/aura-registrations/id-cards/y24o32paooxuwiqteubn.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Proto-Electra/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789580399/aura-registrations/id-cards/v2vh3tslcr80d0zywuap.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Proto-Electra/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1789580399/aura-registrations/id-cards/ncjwssdarbrhwzzpoclo.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Proto-Electra/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}

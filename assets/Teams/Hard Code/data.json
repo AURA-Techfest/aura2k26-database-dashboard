@@ -1,0 +1,91 @@
+{
+  "index": 41,
+  "id": "6acbfe044fdec8fe292e9f18",
+  "registrationId": "AURA2K26-4AJ3LG",
+  "rawTeamName": "Hard Code",
+  "folderName": "Hard Code",
+  "folderRelPath": "assets/Teams/Hard Code",
+  "projectTitle": "SMART BLIND STICK",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "John Ali",
+  "teamLeaderEmail": "johnali2732@gmail.com",
+  "teamLeaderPhone": "9874214690",
+  "teamMemberDetails": "MOHAMMAD MOSHARRAF | CEN254071 | 9088063012\r\nABDUL ALIM | ECE254004 | 9875508006\r\nSAQUIB RAZA | MEN254017 | 8229076518",
+  "hardwareProjectCategories": [
+    "Assistive Technology"
+  ],
+  "prototypeType": "Standalone Hardware Device",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "Problem Statement\r\n\r\nVisually impaired people often face difficulties while moving independently because conventional walking sticks cannot detect obstacles located ahead or at different distances. Commercial electronic smart sticks may also be expensive and can require complex electronics or programming. There is a need for an affordable, lightweight, reliable, and easy-to-use mobility aid that can provide immediate warnings about obstacles.\r\n\r\nProposed Solution\r\n\r\nThe proposed Smart Blind Stick is an affordable assistive mobility device that uses an HC-SR04 ultrasonic sensor to detect obstacles. A 9V battery supplies power, which is regulated to 5V using an LM7805 voltage regulator. A timing circuit based on an NE555 generates the required trigger pulses for the ultrasonic sensor. When the ultrasonic waves reflect from an obstacle, the echo signal provides information about the obstacle's distance.\r\n\r\nA BC547 transistor switching circuit processes the detection condition and activates a 5V active buzzer and high-intensity LED when an obstacle enters the defined danger range. This provides instant audible and visual feedback to the user without requiring a microcontroller or software. The proposed system can detect obstacles up to approximately 400 cm.\r\n\r\nInnovation Idea\r\n\r\nThe main innovation is the microcontroller-free design. Instead of using an Arduino or other programmable processor, the system uses discrete electronic components such as an NE555 timer and BC547 transistor for timing and switching. This reduces cost, eliminates programming requirements, and avoids software-related crashes or delays.\r\n\r\nThe compact design can also be retrofitted onto a standard walking cane, making it lightweight and accessible. The combination of ultrasonic obstacle detection with immediate audio and LED alerts provides a simple, low-maintenance, and practical solution for safer and more independent mobility.",
+  "solutionDescription": "Problem Statement\r\n\r\nVisually impaired people often face difficulties while moving independently because conventional walking sticks cannot detect obstacles located ahead or at different distances. Commercial electronic smart sticks may also be expensive and can require complex electronics or programming. There is a need for an affordable, lightweight, reliable, and easy-to-use mobility aid that can provide immediate warnings about obstacles.\r\n\r\nProposed Solution\r\n\r\nThe proposed Smart Blind Stick is an affordable assistive mobility device that uses an HC-SR04 ultrasonic sensor to detect obstacles. A 9V battery supplies power, which is regulated to 5V using an LM7805 voltage regulator. A timing circuit based on an NE555 generates the required trigger pulses for the ultrasonic sensor. When the ultrasonic waves reflect from an obstacle, the echo signal provides information about the obstacle's distance.\r\n\r\nA BC547 transistor switching circuit processes the detection condition and activates a 5V active buzzer and high-intensity LED when an obstacle enters the defined danger range. This provides instant audible and visual feedback to the user without requiring a microcontroller or software. The proposed system can detect obstacles up to approximately 400 cm.\r\n\r\nInnovation Idea\r\n\r\nThe main innovation is the microcontroller-free design. Instead of using an Arduino or other programmable processor, the system uses discrete electronic components such as an NE555 timer and BC547 transistor for timing and switching. This reduces cost, eliminates programming requirements, and avoids software-related crashes or delays.\r\n\r\nThe compact design can also be retrofitted onto a standard walking cane, making it lightweight and accessible. The combination of ultrasonic obstacle detection with immediate audio and LED alerts provides a simple, low-maintenance, and practical solution for safer and more independent mobility.",
+  "innovationDescription": "Problem Statement\r\n\r\nVisually impaired people often face difficulties while moving independently because conventional walking sticks cannot detect obstacles located ahead or at different distances. Commercial electronic smart sticks may also be expensive and can require complex electronics or programming. There is a need for an affordable, lightweight, reliable, and easy-to-use mobility aid that can provide immediate warnings about obstacles.\r\n\r\nProposed Solution\r\n\r\nThe proposed Smart Blind Stick is an affordable assistive mobility device that uses an HC-SR04 ultrasonic sensor to detect obstacles. A 9V battery supplies power, which is regulated to 5V using an LM7805 voltage regulator. A timing circuit based on an NE555 generates the required trigger pulses for the ultrasonic sensor. When the ultrasonic waves reflect from an obstacle, the echo signal provides information about the obstacle's distance.\r\n\r\nA BC547 transistor switching circuit processes the detection condition and activates a 5V active buzzer and high-intensity LED when an obstacle enters the defined danger range. This provides instant audible and visual feedback to the user without requiring a microcontroller or software. The proposed system can detect obstacles up to approximately 400 cm.\r\n\r\nInnovation Idea\r\n\r\nThe main innovation is the microcontroller-free design. Instead of using an Arduino or other programmable processor, the system uses discrete electronic components such as an NE555 timer and BC547 transistor for timing and switching. This reduces cost, eliminates programming requirements, and avoids software-related crashes or delays.\r\n\r\nThe compact design can also be retrofitted onto a standard walking cane, making it lightweight and accessible. The combination of ultrasonic obstacle detection with immediate audio and LED alerts provides a simple, low-maintenance, and practical solution for safer and more independent mobility.",
+  "workingPrinciple": "The Smart Blind Stick works using an HC-SR04 ultrasonic sensor to detect obstacles in front of a visually impaired person. A 9V battery supplies power, which is regulated to 5V using an LM7805 voltage regulator. An NE555-based timing circuit generates trigger pulses for the ultrasonic sensor. The sensor emits ultrasonic waves that reflect off nearby objects and return as echo signals. When an obstacle enters the predefined danger range, a BC547 transistor switching circuit activates a 5V buzzer and an LED to provide audible and visual warnings. The device is designed to offer an affordable, lightweight, and microcontroller-free solution for safer and more independent mobility.",
+  "majorHardwareComponents": [
+    "HC-SR04 Ultrasonic Sensor\nBC547 NPN Transistor\n5V Active Buzzer\nLED\n220Ω Resistor\n1kΩ Resistor\n9V Battery\n9V Battery Clip\nMini Breadboard\nConnecting Wires\nSPST Switch\nPVC Pipe"
+  ],
+  "useAi": false,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public"
+  ],
+  "potentialImpact": "The Smart Blind Stick can improve the daily lives of visually impaired people by helping them detect nearby obstacles and move with greater confidence and independence. Its affordable design makes assistive technology more accessible to people with limited financial resources. The buzzer and LED provide immediate warnings when obstacles enter the predefined danger range. By using simple electronic components without a microcontroller, the device can reduce complexity and maintenance requirements. It can also be attached to a conventional walking stick, potentially making it a practical and low-cost mobility aid for wider public use. The device is intended to support safer mobility but should be used alongside a traditional cane and other established mobility techniques.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 1000,
+  "auraDemoHighlight": "The Smart Blind Stick is worth seeing because it presents an affordable and innovative approach to improving mobility for visually impaired people. Unlike complex electronic devices, it uses simple components without a microcontroller or programming. Its ultrasonic sensor detects obstacles and activates a buzzer and LED to provide immediate warnings. The lightweight, retrofittable design makes it practical and accessible. This project combines low-cost electronics with meaningful social impact, demonstrating how simple engineering can help people move more independently and confidently.",
+  "safetyHazards": [
+    "none",
+    "high_current"
+  ],
+  "safetyPrecautions": "The following safety precautions are considered for the Smart Blind Stick: The 9V battery supply is regulated to 5V using an LM7805 voltage regulator to provide a stable power supply. All electronic connections are checked to prevent loose wiring and short circuits. The ultrasonic sensor and circuit components are mounted securely on the stick to avoid damage during use. The buzzer and LED are tested to ensure proper warning signals. The circuit is checked for overheating and electrical faults before operation. The device should be protected from moisture and tested in a controlled environment before practical use. It should be used as an additional aid alongside a conventional white cane.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-11T21:22:12.302Z",
+  "updatedAt": "2026-10-14T18:49:43.703Z",
+  "abstract": {
+    "originalName": "Hard Code.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791753731/aura-registrations/abstract-docs/Hard%20Code.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Hard Code/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Hard Code/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791753731/aura-registrations/id-cards/bwckdn2nnqujdiz1ftrs.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Hard Code/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791753731/aura-registrations/id-cards/awl5jhvhkvbd2w374efm.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Hard Code/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791753731/aura-registrations/id-cards/efpr2px7feoool5avfae.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Hard Code/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1791753731/aura-registrations/id-cards/jiesfsrqb0ag5sqmcl9m.jpg",
+      "exists": true
+    }
+  ]
+}

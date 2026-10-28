@@ -1,0 +1,106 @@
+{
+  "index": 64,
+  "id": "6adf9c0424a8ca63ab856159",
+  "registrationId": "AURA2K26-7TC59M",
+  "rawTeamName": "SHOWTIME",
+  "folderName": "SHOWTIME",
+  "folderRelPath": "assets/Teams/SHOWTIME",
+  "projectTitle": "HYDROBOT AI",
+  "teamSize": 4,
+  "teamAffiliation": "mixed",
+  "aliahMembers": 3,
+  "otherInstitutionMembers": 1,
+  "teamLeaderName": "Sougata Roy",
+  "teamLeaderEmail": "meetingwithsougata@gmail.com",
+  "teamLeaderPhone": "9382272947",
+  "teamMemberDetails": "DEEPAK DAS BISWAS , INSTITUTE OF ENGINEERING AND MANAGEMENT, CSE, 2ND YEAR , 7365974880\r\nKHAYRUL SHAH , ALIAH UNIVERSITY, PHYSICS, 2ND YEAR, 7319458518\r\nHYATUL SEIKH, ALIAH UNIVERSITY , PHYSICS, 2ND YEAR, 9733737035",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Drone / Autonomous Systems",
+    "AI-Enabled Hardware",
+    "Automation & Control"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "no_prototype",
+  "currentWorkingStatus": "Functional under controlled conditions",
+  "problemStatement": "Problem Statement: Early-stage fire containment and toxic gas detection in industrial, commercial, and residential environments require rapid autonomous intervention. Traditional safety systems rely on basic infrared flame sensors and cellular GSM modules. However, standard IR sensors suffer from high false-positive rates due to ambient sunlight or reflections and lack spatial orientation. Additionally, GSM modules incur recurring costs and fail inside reinforced structures.\r\n\r\nSolution: HydroBot-AI is an autonomous edge-AI vision and sensor-fusion rover for real-time fire suppression and hazardous gas monitoring. It features a dual-brain architecture: a Raspberry Pi running offline deep learning YOLOv8-Nano for computer vision, paired with an ESP32 microcontroller managing motor kinematics, servo aiming, and wireless telemetry. Upon detecting a hazard, the rover navigates to the source, uses a 2-axis metal-gear servo turret to lock onto the flame base, and activates a high-pressure 12V diaphragm pump to extinguish the fire.\r\n\r\nInnovation Details: 100% offline edge-AI processing runs local deep-learning flame and smoke detection without cloud dependency. Dual-interlock false alarm elimination combines visual YOLO bounding boxes with an MLX90614 thermal sensor and an MQ-2 gas sensor for high accuracy. High-efficiency MOSFET actuation uses TB6612FNG and IRF520 modules to eliminate voltage drops and maximize torque and pressure. Zero-tariff Wi-Fi IoT telemetry replaces cellular SIM hardware with asynchronous MQTT protocols over local Wi-Fi to broadcast real-time sensor metrics and alerts with zero ongoing fees.",
+  "solutionDescription": "Problem Statement: Early-stage fire containment and toxic gas detection in industrial, commercial, and residential environments require rapid autonomous intervention. Traditional safety systems rely on basic infrared flame sensors and cellular GSM modules. However, standard IR sensors suffer from high false-positive rates due to ambient sunlight or reflections and lack spatial orientation. Additionally, GSM modules incur recurring costs and fail inside reinforced structures.\r\n\r\nSolution: HydroBot-AI is an autonomous edge-AI vision and sensor-fusion rover for real-time fire suppression and hazardous gas monitoring. It features a dual-brain architecture: a Raspberry Pi running offline deep learning YOLOv8-Nano for computer vision, paired with an ESP32 microcontroller managing motor kinematics, servo aiming, and wireless telemetry. Upon detecting a hazard, the rover navigates to the source, uses a 2-axis metal-gear servo turret to lock onto the flame base, and activates a high-pressure 12V diaphragm pump to extinguish the fire.\r\n\r\nInnovation Details: 100% offline edge-AI processing runs local deep-learning flame and smoke detection without cloud dependency. Dual-interlock false alarm elimination combines visual YOLO bounding boxes with an MLX90614 thermal sensor and an MQ-2 gas sensor for high accuracy. High-efficiency MOSFET actuation uses TB6612FNG and IRF520 modules to eliminate voltage drops and maximize torque and pressure. Zero-tariff Wi-Fi IoT telemetry replaces cellular SIM hardware with asynchronous MQTT protocols over local Wi-Fi to broadcast real-time sensor metrics and alerts with zero ongoing fees.",
+  "innovationDescription": "Problem Statement: Early-stage fire containment and toxic gas detection in industrial, commercial, and residential environments require rapid autonomous intervention. Traditional safety systems rely on basic infrared flame sensors and cellular GSM modules. However, standard IR sensors suffer from high false-positive rates due to ambient sunlight or reflections and lack spatial orientation. Additionally, GSM modules incur recurring costs and fail inside reinforced structures.\r\n\r\nSolution: HydroBot-AI is an autonomous edge-AI vision and sensor-fusion rover for real-time fire suppression and hazardous gas monitoring. It features a dual-brain architecture: a Raspberry Pi running offline deep learning YOLOv8-Nano for computer vision, paired with an ESP32 microcontroller managing motor kinematics, servo aiming, and wireless telemetry. Upon detecting a hazard, the rover navigates to the source, uses a 2-axis metal-gear servo turret to lock onto the flame base, and activates a high-pressure 12V diaphragm pump to extinguish the fire.\r\n\r\nInnovation Details: 100% offline edge-AI processing runs local deep-learning flame and smoke detection without cloud dependency. Dual-interlock false alarm elimination combines visual YOLO bounding boxes with an MLX90614 thermal sensor and an MQ-2 gas sensor for high accuracy. High-efficiency MOSFET actuation uses TB6612FNG and IRF520 modules to eliminate voltage drops and maximize torque and pressure. Zero-tariff Wi-Fi IoT telemetry replaces cellular SIM hardware with asynchronous MQTT protocols over local Wi-Fi to broadcast real-time sensor metrics and alerts with zero ongoing fees.",
+  "workingPrinciple": "HydroBot-AI operates on a dual-brain edge computing workflow. The Raspberry Pi runs a quantized YOLOv8-Nano model offline to detect flames and smoke from video frames. It calculates the target centroid coordinates and sends them via UART serial to the ESP32 microcontroller. The ESP32 drives the motor driver to navigate toward the hazard, positions a 2-axis servo turret to aim the water nozzle, verifies the threat using thermal and gas sensors, and activates the high-pressure water pump while broadcasting Wi-Fi alerts.",
+  "majorHardwareComponents": [
+    "Raspberry Pi 4",
+    "ESP32 DevKit V1 microcontroller",
+    "wide-angle camera",
+    "TB6612FNG motor driver",
+    "4WD chassis and gear motors",
+    "two MG90S metal-gear servos",
+    "MLX90614 infrared thermal sensor",
+    "MQ-2 gas sensor",
+    "HC-SR04 ultrasonic sensors",
+    "12V R385 diaphragm pump",
+    "IRF520 MOSFET module",
+    "XL4015 buck converter",
+    "and 3S 12.6V li-ion battery pack with BMS."
+  ],
+  "useAi": true,
+  "useIot": true,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry"
+  ],
+  "potentialImpact": "This project benefits industrial warehouses, laboratories, chemical plants, and residential buildings by providing rapid, automated early-stage fire containment and hazardous gas leak detection. It eliminates human risk by deploying an unmanned rover into dangerous or toxic environments before emergency services arrive, reducing property damage and preventing catastrophic accidents.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 15000,
+  "auraDemoHighlight": "HydroBot-AI solves the high false-positive rates of traditional IR sensors by combining offline deep-learning computer vision with contactless thermal and gas sensor fusion. It operates 100 percent offline without cloud dependency, features a high-efficiency MOSFET-driven suppression mechanism, and delivers instant Wi-Fi IoT alerts with zero ongoing cellular SIM costs.",
+  "safetyHazards": [
+    "water_near_electrical_equipment"
+  ],
+  "safetyPrecautions": "Safety Precautions Taken: The prototype incorporates a 3S 12.6V lithium-ion battery pack protected by a 20A BMS board to prevent overcharging, short-circuiting, and thermal runaway. All electrical and electronic components are isolated from the water tank and tubing to protect against moisture exposure. The high-pressure water pump is controlled via a solid-state IRF520 MOSFET module with built-in switching isolation, and the system operates on a safe, regulated 5V low-voltage logic level for all microcontrollers and sensors.",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T18:29:24.003Z",
+  "updatedAt": "2026-10-26T18:31:24.089Z",
+  "abstract": {
+    "originalName": "AURA 2K26 Abstract - HydroBot-AI.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039363/aura-registrations/abstract-docs/AURA%202K26%20Abstract%20-%20HydroBot-AI.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/SHOWTIME/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/SHOWTIME/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039362/aura-registrations/id-cards/mv5oecvnzaqod40gfd93.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/SHOWTIME/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039363/aura-registrations/id-cards/zdtdagtqyrujb4nnrej8.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/SHOWTIME/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039363/aura-registrations/id-cards/jw35ohpguvxagqyr7lnt.png",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/SHOWTIME/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793039363/aura-registrations/id-cards/cgahkrqqdyp9cyoun249.jpg",
+      "exists": true
+    }
+  ]
+}

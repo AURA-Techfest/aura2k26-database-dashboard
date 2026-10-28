@@ -1,0 +1,95 @@
+{
+  "index": 7,
+  "id": "6ab7d7f238ddaf2dc688577e",
+  "registrationId": "AURA2K26-ARTBG4",
+  "rawTeamName": "Robotics & Things",
+  "folderName": "Robotics & Things",
+  "folderRelPath": "assets/Teams/Robotics & Things",
+  "projectTitle": "SMART POLICE PATROL ROBOT",
+  "teamSize": 4,
+  "teamAffiliation": "all_other",
+  "aliahMembers": 0,
+  "otherInstitutionMembers": 4,
+  "teamLeaderName": "LOKESH BANNERJEE",
+  "teamLeaderEmail": "lokeshbanerjee2007@gmail.com",
+  "teamLeaderPhone": "8479015939",
+  "teamMemberDetails": "RAJEN PATI | NARULA INSTITUTE OF TECHNOLOGY | ECE(B.TECH) | 1ST YEAR | +91 77184 21756\r\n\r\nMIRZA MAHAMMAD FAIZ | NARULA INSTITUTE OF TECHNOLOGY | ECE(B.TECH) | 1ST YEAR | +91 78108 51015\r\n\r\nPRITAM DAS | NARULA INSTITUTE OF TECHNOLOGY | ECE(B.TECH) | 1ST YEAR | +91 92397 95183",
+  "hardwareProjectCategories": [
+    "Robotics"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "1. Real-Life Problem Statement\r\nTraditional security patrols in large campuses, warehouses, and restricted zones still rely heavily on manual human oversight — a model that is costly, physically demanding, and increasingly unreliable as fatigue sets in during long, repetitive surveillance shifts. Continuous monitoring of hazardous, isolated, or high-risk perimeter zones further exposes personnel to safety risks that automation could largely remove.\r\n2. The Hardware Solution\r\nOur answer is a compact, low-cost autonomous Smart Patrol Robot built on an Arduino Uno with a dual-motor drive chassis. A servo-mounted HC-SR04 ultrasonic sensor performs a continuous 180-degree sweep for real-time obstacle detection, while an ESP32-CAM streams live video to a remote operator. Onboard red/blue warning LEDs and a buzzer deliver instant, visible deterrence the moment a threat is detected.\r\n3. Project Innovation & Creativity\r\nWhat sets this project apart is how it democratizes smart surveillance — fusing autonomous navigation, on-site deterrence, and live remote streaming into one modular platform built from readily available parts. The rotating sensor-sweep algorithm handles obstacle avoidance without expensive LiDAR, while the low-power pan-tilt camera delivers genuinely enterprise-style patrol capability at a fraction of commercial system costs, proving effective security automation doesn't have to be out of reach for smaller institutions and budgets.",
+  "solutionDescription": "1. Real-Life Problem Statement\r\nTraditional security patrols in large campuses, warehouses, and restricted zones still rely heavily on manual human oversight — a model that is costly, physically demanding, and increasingly unreliable as fatigue sets in during long, repetitive surveillance shifts. Continuous monitoring of hazardous, isolated, or high-risk perimeter zones further exposes personnel to safety risks that automation could largely remove.\r\n2. The Hardware Solution\r\nOur answer is a compact, low-cost autonomous Smart Patrol Robot built on an Arduino Uno with a dual-motor drive chassis. A servo-mounted HC-SR04 ultrasonic sensor performs a continuous 180-degree sweep for real-time obstacle detection, while an ESP32-CAM streams live video to a remote operator. Onboard red/blue warning LEDs and a buzzer deliver instant, visible deterrence the moment a threat is detected.\r\n3. Project Innovation & Creativity\r\nWhat sets this project apart is how it democratizes smart surveillance — fusing autonomous navigation, on-site deterrence, and live remote streaming into one modular platform built from readily available parts. The rotating sensor-sweep algorithm handles obstacle avoidance without expensive LiDAR, while the low-power pan-tilt camera delivers genuinely enterprise-style patrol capability at a fraction of commercial system costs, proving effective security automation doesn't have to be out of reach for smaller institutions and budgets.",
+  "innovationDescription": "1. Real-Life Problem Statement\r\nTraditional security patrols in large campuses, warehouses, and restricted zones still rely heavily on manual human oversight — a model that is costly, physically demanding, and increasingly unreliable as fatigue sets in during long, repetitive surveillance shifts. Continuous monitoring of hazardous, isolated, or high-risk perimeter zones further exposes personnel to safety risks that automation could largely remove.\r\n2. The Hardware Solution\r\nOur answer is a compact, low-cost autonomous Smart Patrol Robot built on an Arduino Uno with a dual-motor drive chassis. A servo-mounted HC-SR04 ultrasonic sensor performs a continuous 180-degree sweep for real-time obstacle detection, while an ESP32-CAM streams live video to a remote operator. Onboard red/blue warning LEDs and a buzzer deliver instant, visible deterrence the moment a threat is detected.\r\n3. Project Innovation & Creativity\r\nWhat sets this project apart is how it democratizes smart surveillance — fusing autonomous navigation, on-site deterrence, and live remote streaming into one modular platform built from readily available parts. The rotating sensor-sweep algorithm handles obstacle avoidance without expensive LiDAR, while the low-power pan-tilt camera delivers genuinely enterprise-style patrol capability at a fraction of commercial system costs, proving effective security automation doesn't have to be out of reach for smaller institutions and budgets.",
+  "workingPrinciple": "Working Principles\r\n​The Smart Police Patrol Robot operates through an intelligent, synchronized synergy of hardware sensing, localized processing, and wireless monitoring.\r\n​Autonomous Navigation & Scanning: Powered by an Arduino Uno, the patrol Robot moves forward on patrol mode while a servo-mounted ultrasonic sensor continuously measures distances to map the immediate environment.  \r\n​Real-Time Obstacle Avoidance: Upon detecting a barrier within a predefined threshold, the system halts movement, commands the servo to sweep left and right to analyze clearance gaps, calculates the safest pathway, and executes a calculated avoidance maneuver.  \r\n​Active Threat Deterrence: When a security trigger or warning condition is met, the system instantly engages local deterrents by flashing high-visibility red and blue status LEDs alongside an active audio buzzer.  \r\n​Wireless Surveillance Stream: Concurrently, an integrated ESP32-CAM module streams live video footage over a wireless network, allowing operators to conduct remote observation without requiring physical movement.",
+  "majorHardwareComponents": [
+    "Major Hardware Components\n​Arduino Uno: The central processing brain that executes navigation logic and coordinates all system inputs and outputs.  \n​L298N Motor Driver: Manages current distribution and directional control for the rover's mobility system.  \n​4 Geared DC Motors & Chassis: Provides robust 4-wheel drive locomotion designed for smooth terrain traversal.  \n​HC-SR04 Ultrasonic Sensor: Actively measures real-time distances to detect obstacles along the patrol route.  \n​SG90 Servo Motor: Powers a dynamic 180-degree sweep mechanism to expand the sensor and camera field of view.  \n​ESP32-CAM Module: Streams live video feeds wirelessly to enable remote observation and monitoring.  \n​Red & Blue LEDs & Active Buzzer: Delivers high-visibility flashing warning indicators and audio signals for immediate local threat deterrence.  \n​20V Battery Pack & 5V Buck Converter: Supplies energy to the system while ensuring stable voltage regulation across sensitive logic and drive circuits."
+  ],
+  "useAi": true,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public"
+  ],
+  "potentialImpact": "POTENTIAL REAL-WORLD IMPACT (under 250 words)\r\nThe Smart Police Patrol Robot addresses the shortage of continuous human patrol coverage in campuses, warehouses, and restricted zones. By automating routine surveillance, it reduces manpower strain on security personnel while ensuring round-the-clock monitoring of vulnerable areas.\r\nCampus and industrial security teams benefit directly — the robot's obstacle-aware navigation and live visual monitoring let a single operator oversee multiple zones remotely instead of relying on physical foot patrols. The red/blue LED and buzzer alert system provides instant local warning during abnormal conditions, improving response time to intrusions or hazards.\r\nFor warehouse operators, the platform offers a low-cost alternative to expensive commercial security robots, making autonomous patrol accessible to smaller organizations with limited budgets. Its modular design means it can scale from a basic obstacle-avoidance patroller to a more advanced system with GPS route logging and video analytics — without redesigning the core drive system.\r\nOverall, it improves current security standards by combining continuous, fatigue-free monitoring with real-time remote visibility, reducing dependency on constant human presence in high-risk or hard-to-monitor areas, and giving public-safety and private-security teams a scalable, affordable surveillance tool.\r\n(Based on Arduino Uno, HC-SR04 sensor, L298N motor driver, 4WD chassis + motors, servo, ESP32-CAM, LEDs, buzzer, and rechargeable battery.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "HIGHLIGHT WHY THIS IS WORTH SEEING:\r\nThe Smart Police Patrol Robot stands out for solving a real, everyday security gap — continuous patrol coverage — with a genuinely low-cost, accessible build. Unlike commercial security robots that cost lakhs, this prototype achieves autonomous obstacle-aware navigation, live remote video monitoring, and instant local alerting for a fraction of the price, making it practical for campuses, warehouses, and small organizations that can't afford expensive alternatives.\r\nIts most impressive aspect is the integration of multiple subsystems — ultrasonic obstacle sensing, 4WD motor control, pan/tilt live video via ESP32-CAM, and dual-mode alerting (visual + audible) — into a single compact, coordinated unit driven by just an Arduino Uno. This shows efficient hardware-software coordination on minimal, affordable components.\r\nThe design is also built for growth: its modular architecture allows future upgrades like GPS route logging and intelligent video analytics to be added without touching the core drive system. That means judges are looking at a foundation for a genuinely deployable product, not just a one-off demo.\r\nIn short, it combines affordability, functional autonomy, and real security value — a practical prototype that directly benefits public-safety teams, campus security, and warehouse operators looking for low-cost remote patrol support.",
+  "safetyHazards": [
+    "water_near_electrical_equipment",
+    "high_temperature",
+    "moving_rotating_machinery",
+    "fire_combustion",
+    "chemicals",
+    "sharp_mechanical_components"
+  ],
+  "safetyPrecautions": "Safety Precautions Taken:\r\nThe Smart Police Petrol Robot has been designed with safety as a priority. The robot operates at a controlled speed to reduce the risk of collisions and accidents. Sensors are used to detect obstacles and avoid collisions with people or objects. The motors and electronic components are securely mounted to prevent loose connections during movement. The battery and power supply are properly insulated to reduce the risk of short circuits and overheating. A suitable protective enclosure is provided for sensitive electronic components such as the microcontroller, motor driver and wiring. The robot can be stopped immediately using a manual power switch in case of an emergency. All exposed wires and terminals are properly covered to prevent accidental contact. The prototype is tested at low speed in a controlled area before demonstration. During testing, the robot is kept away from water, fire and other hazardous materials. These precautions help ensure safe operation for the users, surroundings and the prototype itself.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-26T14:34:26.15Z",
+  "updatedAt": "2026-10-11T17:31:47.057Z",
+  "abstract": {
+    "originalName": "smart_patrol_robot_compact.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790433264/aura-registrations/abstract-docs/smart_patrol_robot_compact.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Robotics & Things/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Robotics & Things/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790433265/aura-registrations/id-cards/ym42oxxjywwl0a2zkuhq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Robotics & Things/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790433265/aura-registrations/id-cards/xtb36ajyx42umcxbtcbh.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Robotics & Things/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790433265/aura-registrations/id-cards/idty9ejfqx2g1xoq3gpq.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Robotics & Things/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790433264/aura-registrations/id-cards/pdk5ncegqstavdiqwrs7.jpg",
+      "exists": true
+    }
+  ]
+}

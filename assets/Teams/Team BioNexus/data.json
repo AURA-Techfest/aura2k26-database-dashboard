@@ -1,0 +1,102 @@
+{
+  "index": 59,
+  "id": "6adf40b80d7b3931306f894f",
+  "registrationId": "AURA2K26-BMNY37",
+  "rawTeamName": "Team BioNexus",
+  "folderName": "Team BioNexus",
+  "folderRelPath": "assets/Teams/Team BioNexus",
+  "projectTitle": "SMARTCARE – IoT-Based Patient Monitoring and Intelligent Emergency Alert System",
+  "teamSize": 4,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 4,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "INJAMAM MULHASAN SIDDIQUI",
+  "teamLeaderEmail": "siddiquibibiaisha1001@gmail.com",
+  "teamLeaderPhone": "9525063287",
+  "teamMemberDetails": "JIAUR RAHAMAN | ALIAH UNIVERSITY | EEN | 4TH YEAR | 8597539858\r\nMD ASIF ALI | ALIAH UNIVERSITY | ECE | 3RD YEAR | 9572414228\r\nMD AZIM GAYEN | ALIAH UNIVERSITY | EEN | 4TH YEAR | 7699912797",
+  "hardwareProjectCategories": [
+    "Biomedical / Healthcare Devices"
+  ],
+  "prototypeType": "Hardware + Software System",
+  "hasWorkingPrototype": "fully_working",
+  "currentWorkingStatus": "Fully functional and ready for live demonstration",
+  "problemStatement": "**Problem Statement:**\r\n\r\nContinuous monitoring of vital health parameters is essential for identifying potentially abnormal physiological conditions. However, conventional patient monitoring systems can be expensive, less portable, and may lack accessible real-time remote monitoring features. In situations where continuous observation is difficult, abnormal readings may go unnoticed. There is a need for an affordable, portable, and integrated system capable of monitoring multiple health parameters and generating timely alerts.\r\n\r\n**Proposed Solution:**\r\n\r\nSMARTCARE is an ESP32-based IoT patient monitoring and intelligent emergency alert system designed to measure heart rate (BPM), blood oxygen saturation (SpO₂), ECG signals, and temperature in real time.\r\n\r\nThe proposed system integrates MAX30102, AD8232, and temperature sensors with an ESP32 microcontroller. Sensor readings will be processed and transmitted via Wi-Fi to an interactive web dashboard, enabling real-time visualization of physiological parameters, ECG waveforms, and historical trends.\r\n\r\nAn intelligent alert mechanism will continuously evaluate sensor readings, verify signal quality, and detect persistent abnormal conditions before triggering warning or critical alerts through a buzzer and dashboard notifications. The system will also feature an OLED display, historical data logging, and portable battery-powered operation.\r\n\r\n**Innovation Details:**\r\n\r\nSMARTCARE combines biomedical sensing, IoT connectivity, and intelligent alert mechanisms into a single affordable and portable monitoring prototype.\r\n\r\nIts key innovative features include:\r\n\r\n1. **Multi-Parameter Monitoring:** Integration of ECG, heart rate, SpO₂, and temperature monitoring within one compact device.\r\n2. **Intelligent Emergency Alerts:** Configurable thresholds, signal-quality verification, and persistence-based detection to minimize false alarms.\r\n3. **Real-Time Web Dashboard:** Wireless monitoring with live ECG visualization, health parameter tracking, and historical data analysis.\r\n4. **Dual Display System:** Local OLED display and remote browser-based dashboard for convenient access.\r\n5. **Affordable and Portable Design:** Low-cost components, battery-powered operation, and expandable architecture for future cloud or mobile integration.\r\n\r\nSMARTCARE aims to demonstrate an accessible, cost-effective healthcare technology solution that combines real-time monitoring, intelligent alerts, and IoT-based visualization. It is intended as an educational engineering prototype, not a certified medical diagnostic device.",
+  "solutionDescription": "**Problem Statement:**\r\n\r\nContinuous monitoring of vital health parameters is essential for identifying potentially abnormal physiological conditions. However, conventional patient monitoring systems can be expensive, less portable, and may lack accessible real-time remote monitoring features. In situations where continuous observation is difficult, abnormal readings may go unnoticed. There is a need for an affordable, portable, and integrated system capable of monitoring multiple health parameters and generating timely alerts.\r\n\r\n**Proposed Solution:**\r\n\r\nSMARTCARE is an ESP32-based IoT patient monitoring and intelligent emergency alert system designed to measure heart rate (BPM), blood oxygen saturation (SpO₂), ECG signals, and temperature in real time.\r\n\r\nThe proposed system integrates MAX30102, AD8232, and temperature sensors with an ESP32 microcontroller. Sensor readings will be processed and transmitted via Wi-Fi to an interactive web dashboard, enabling real-time visualization of physiological parameters, ECG waveforms, and historical trends.\r\n\r\nAn intelligent alert mechanism will continuously evaluate sensor readings, verify signal quality, and detect persistent abnormal conditions before triggering warning or critical alerts through a buzzer and dashboard notifications. The system will also feature an OLED display, historical data logging, and portable battery-powered operation.\r\n\r\n**Innovation Details:**\r\n\r\nSMARTCARE combines biomedical sensing, IoT connectivity, and intelligent alert mechanisms into a single affordable and portable monitoring prototype.\r\n\r\nIts key innovative features include:\r\n\r\n1. **Multi-Parameter Monitoring:** Integration of ECG, heart rate, SpO₂, and temperature monitoring within one compact device.\r\n2. **Intelligent Emergency Alerts:** Configurable thresholds, signal-quality verification, and persistence-based detection to minimize false alarms.\r\n3. **Real-Time Web Dashboard:** Wireless monitoring with live ECG visualization, health parameter tracking, and historical data analysis.\r\n4. **Dual Display System:** Local OLED display and remote browser-based dashboard for convenient access.\r\n5. **Affordable and Portable Design:** Low-cost components, battery-powered operation, and expandable architecture for future cloud or mobile integration.\r\n\r\nSMARTCARE aims to demonstrate an accessible, cost-effective healthcare technology solution that combines real-time monitoring, intelligent alerts, and IoT-based visualization. It is intended as an educational engineering prototype, not a certified medical diagnostic device.",
+  "innovationDescription": "**Problem Statement:**\r\n\r\nContinuous monitoring of vital health parameters is essential for identifying potentially abnormal physiological conditions. However, conventional patient monitoring systems can be expensive, less portable, and may lack accessible real-time remote monitoring features. In situations where continuous observation is difficult, abnormal readings may go unnoticed. There is a need for an affordable, portable, and integrated system capable of monitoring multiple health parameters and generating timely alerts.\r\n\r\n**Proposed Solution:**\r\n\r\nSMARTCARE is an ESP32-based IoT patient monitoring and intelligent emergency alert system designed to measure heart rate (BPM), blood oxygen saturation (SpO₂), ECG signals, and temperature in real time.\r\n\r\nThe proposed system integrates MAX30102, AD8232, and temperature sensors with an ESP32 microcontroller. Sensor readings will be processed and transmitted via Wi-Fi to an interactive web dashboard, enabling real-time visualization of physiological parameters, ECG waveforms, and historical trends.\r\n\r\nAn intelligent alert mechanism will continuously evaluate sensor readings, verify signal quality, and detect persistent abnormal conditions before triggering warning or critical alerts through a buzzer and dashboard notifications. The system will also feature an OLED display, historical data logging, and portable battery-powered operation.\r\n\r\n**Innovation Details:**\r\n\r\nSMARTCARE combines biomedical sensing, IoT connectivity, and intelligent alert mechanisms into a single affordable and portable monitoring prototype.\r\n\r\nIts key innovative features include:\r\n\r\n1. **Multi-Parameter Monitoring:** Integration of ECG, heart rate, SpO₂, and temperature monitoring within one compact device.\r\n2. **Intelligent Emergency Alerts:** Configurable thresholds, signal-quality verification, and persistence-based detection to minimize false alarms.\r\n3. **Real-Time Web Dashboard:** Wireless monitoring with live ECG visualization, health parameter tracking, and historical data analysis.\r\n4. **Dual Display System:** Local OLED display and remote browser-based dashboard for convenient access.\r\n5. **Affordable and Portable Design:** Low-cost components, battery-powered operation, and expandable architecture for future cloud or mobile integration.\r\n\r\nSMARTCARE aims to demonstrate an accessible, cost-effective healthcare technology solution that combines real-time monitoring, intelligent alerts, and IoT-based visualization. It is intended as an educational engineering prototype, not a certified medical diagnostic device.",
+  "workingPrinciple": "**Working Principle of SMARTCARE**\r\n\r\nSMARTCARE operates on the principle of real-time physiological data acquisition, processing, wireless transmission, and intelligent alert generation using an ESP32 microcontroller.\r\n\r\nThe system integrates multiple sensors to monitor essential health parameters. The MAX30102 sensor uses optical sensing to estimate heart rate (BPM) and blood oxygen saturation (SpO₂), while the AD8232 ECG module captures electrical signals from the heart for waveform visualization. A temperature sensor measures temperature, and the BME280 monitors environmental conditions.\r\n\r\nThe ESP32 collects sensor readings, performs basic signal filtering and processing, and calculates the required parameters. The processed data is transmitted through Wi-Fi to an interactive web dashboard, where users can view real-time measurements, ECG waveforms, historical trends, and device status. An OLED display provides local monitoring without requiring continuous access to the dashboard.\r\n\r\nThe intelligent alert mechanism compares sensor readings against configurable thresholds. To minimize false alarms, the system verifies signal quality and checks whether abnormal readings persist before generating warning or critical alerts through a buzzer and dashboard notifications.\r\n\r\nAdditionally, the system supports data logging for future analysis and operates using a portable battery-powered design.\r\n\r\nSMARTCARE is designed as an affordable educational prototype demonstrating the integration of biomedical sensors, IoT technology, and automated monitoring. It is not intended for clinical diagnosis or as a replacement for certified medical equipment.",
+  "majorHardwareComponents": [
+    "**Major Hardware Components of SMARTCARE**\n\n1. **ESP32 Development Board:** Acts as the central microcontroller",
+    "responsible for sensor data acquisition",
+    "signal processing",
+    "Wi-Fi communication",
+    "and system control.\n\n2. **AD8232 ECG Sensor:** Captures the heart's electrical signals for real-time ECG waveform visualization.\n\n3. **MAX30102 Pulse Oximeter Sensor:** Measures heart rate (BPM) and estimates blood oxygen saturation (SpO₂) using optical sensing technology.\n\n4. **ADS1115 ADC Module:** Provides higher-resolution analog-to-digital conversion for improved ECG signal acquisition.\n\n5. **NTC Temperature Sensor (10K):** Used for temperature measurement within the monitoring system.\n\n6. **BME280 Environmental Sensor:** Measures surrounding temperature and humidity to monitor environmental conditions.\n\n7. **0.96-inch OLED Display:** Displays essential health parameters and device status locally.\n\n8. **Buzzer",
+    "LEDs",
+    "and Push Buttons:** Provide audible and visual alerts along with basic system controls.\n\n9. **Rechargeable Battery and TP4056 Charging Module:** Enable portable operation and battery charging.\n\n10. **Breadboard/PCB",
+    "Connecting Wires",
+    "and Enclosure:** Support circuit assembly",
+    "electrical connections",
+    "and physical protection of the prototype.\n\nThese components work together to develop a compact",
+    "affordable",
+    "and portable IoT-based patient monitoring and intelligent alert system."
+  ],
+  "useAi": false,
+  "useIot": true,
+  "powerSource": "dc_power_supply",
+  "intendedBeneficiaries": [
+    "Healthcare"
+  ],
+  "potentialImpact": "**Potential Real-World Impact of SMARTCARE**\r\n\r\nSMARTCARE has the potential to make basic health monitoring more affordable, accessible, and convenient through the integration of IoT technology and biomedical sensors. By combining multiple physiological monitoring functions into a single portable device, the proposed system could reduce dependence on separate monitoring instruments for basic health parameter tracking.\r\n\r\n**1. Affordable Health Monitoring:** The low-cost design could make basic monitoring technology more accessible to individuals, small healthcare facilities, and resource-constrained communities.\r\n\r\n**2. Remote Monitoring:** Real-time transmission of heart rate, SpO₂, ECG signals, and temperature readings through a web dashboard could allow caregivers and healthcare professionals to observe physiological trends remotely.\r\n\r\n**3. Timely Alerts:** The intelligent alert mechanism could help users notice persistent abnormal readings through audible warnings and dashboard notifications, encouraging timely attention.\r\n\r\n**4. Rural Healthcare Applications:** With further development and validation, the system could support basic monitoring in rural and underserved areas where access to advanced medical equipment may be limited.\r\n\r\n**5. Educational and Research Applications:** SMARTCARE could serve as a practical platform for students and researchers exploring biomedical instrumentation, embedded systems, IoT, and real-time data processing.\r\n\r\n**6. Future Scalability:** The system could be expanded with cloud connectivity, mobile applications, and additional sensors.\r\n\r\nOverall, SMARTCARE aims to demonstrate the potential of affordable, portable, and connected healthcare technology. As an educational prototype, it would require clinical validation and appropriate safety certification before use in actual patient care.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 5000,
+  "auraDemoHighlight": "**Why SMARTCARE Is Worth Seeing**\r\n\r\nSMARTCARE is more than just a health-monitoring prototype; it demonstrates how affordable technology can be combined with IoT and biomedical sensing to address real-world healthcare challenges.\r\n\r\nWhat makes SMARTCARE worth exploring is its integration of multiple physiological monitoring features into a single compact and portable system. Using an ESP32 microcontroller, the proposed device combines real-time ECG waveform visualization, heart rate monitoring, blood oxygen saturation (SpO₂) estimation, temperature sensing, and intelligent emergency alerts.\r\n\r\n**The key attraction is its interactive live demonstration.** Visitors will be able to explore how sensor readings are acquired, processed, and transmitted wirelessly to a web dashboard, where physiological parameters and trends can be visualized in real time.\r\n\r\nUnlike a basic monitoring setup, SMARTCARE proposes a signal-quality verification mechanism and persistence-based alert logic to reduce false alarms caused by temporary fluctuations or noisy sensor readings.\r\n\r\nWith an estimated development cost of approximately ₹5,000, the project highlights the potential of affordable and portable biomedical monitoring technology.\r\n\r\nSMARTCARE also demonstrates the practical integration of embedded systems, biomedical instrumentation, IoT connectivity, and web development. Its expandable architecture creates opportunities for future cloud integration, mobile applications, and additional sensing capabilities.\r\n\r\n**SMARTCARE is worth seeing because it transforms an important healthcare challenge into an interactive engineering demonstration, combining innovation, affordability, and meaningful real-world potential.**",
+  "safetyHazards": [
+    "none"
+  ],
+  "safetyPrecautions": "**Safety Precautions Taken – SMARTCARE**\r\n\r\nSMARTCARE is designed as a low-voltage, DC-powered educational prototype with a focus on electrical safety, reliable operation, and responsible handling of biomedical sensors.\r\n\r\nThe following safety precautions are proposed:\r\n\r\n1. **Low-Voltage Operation:** The ESP32 and sensors will operate using regulated low-voltage DC power to minimize electrical hazards.\r\n\r\n2. **Electrical Isolation:** Proper electrical isolation and safe power arrangements will be ensured for ECG electrodes and patient-connected circuits. ECG testing will only be conducted under appropriate supervision after safety verification.\r\n\r\n3. **Battery Protection:** A suitable rechargeable battery and charging module will be used with appropriate protection against overcharging, overheating, and short circuits.\r\n\r\n4. **Secure Wiring:** All electrical connections will be properly insulated, and components will be securely mounted inside a protective enclosure to prevent accidental contact and short circuits.\r\n\r\n5. **Sensor Safety:** Sensors will be handled carefully, and their operating voltages and connections will be verified before testing.\r\n\r\n6. **Reliable Alert Mechanism:** Signal-quality verification and persistence-based threshold checking will help minimize false alerts caused by noisy or temporary readings.\r\n\r\n7. **Supervised Testing:** Initial testing will be performed using simulated signals wherever possible, followed by supervised testing under appropriate safety conditions.\r\n\r\n8. **Non-Clinical Use:** SMARTCARE will be used strictly for educational demonstrations and will not be presented as a certified medical device or used for clinical diagnosis.\r\n\r\nThese precautions aim to ensure safe development, testing, and demonstration of the proposed system.",
+  "requiresContinuousSupervision": true,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-10-26T11:59:52.43Z",
+  "updatedAt": "2026-10-26T12:01:52.58Z",
+  "abstract": {
+    "originalName": "SMARTCARE_One_Page_Abstract.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793015991/aura-registrations/abstract-docs/SMARTCARE_One_Page_Abstract.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/Team BioNexus/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/Team BioNexus/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793015991/aura-registrations/id-cards/lpogq4cpk37mghws1yrw.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/Team BioNexus/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793015991/aura-registrations/id-cards/qg1bke1nmg9mm1vyeaxy.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/Team BioNexus/3.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793015991/aura-registrations/id-cards/nzuikbftruzodcdgiyby.jpg",
+      "exists": true
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/Team BioNexus/4.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1793015991/aura-registrations/id-cards/y30wto5byj72mh0ybqgi.jpg",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "index": 9,
+  "id": "6ab943e4487ebf4abc5ed157",
+  "registrationId": "AURA2K26-U5T7AH",
+  "rawTeamName": "SAOANA",
+  "folderName": "SAOANA",
+  "folderRelPath": "assets/Teams/SAOANA",
+  "projectTitle": "SAOANA- Smart Autonomous Obstacle Avoidance & Navigation Robot",
+  "teamSize": 2,
+  "teamAffiliation": "all_aliah",
+  "aliahMembers": 2,
+  "otherInstitutionMembers": 0,
+  "teamLeaderName": "Md Arif BIllah Laskar",
+  "teamLeaderEmail": "mdheremdarif@gmail.com",
+  "teamLeaderPhone": "9332325739",
+  "teamMemberDetails": "Saif Parvez ,Electical Engineering student in Aliah university",
+  "hardwareProjectCategories": [
+    "Robotics",
+    "Drone / Autonomous Systems",
+    "Automation & Control"
+  ],
+  "prototypeType": "Robotic System",
+  "hasWorkingPrototype": "minor_limitations",
+  "currentWorkingStatus": "Functional but requires minor setup/calibration",
+  "problemStatement": "1. Problem Statement\r\nNowadays, robots are being used in many areas to reduce human effort and to perform tasks automatically. One common problem in mobile robots is how they can move safely without hitting obstacles. Many simple obstacle-avoiding robots are programmed with a fixed rule, such as turning left or right whenever an obstacle comes in front of them. This method may not always be effective because the selected direction can also be blocked or may not be the better path. The robot can also get stuck in narrow spaces or dead ends. Therefore, there is a need for a simple and low-cost robot that can detect obstacles, check the available space around it and make a suitable movement decision automatically.\r\n2. Solution Details\r\nTo solve this problem, we are developing SAOANA – Smart Autonomous Obstacle Avoidance & Navigation Robot. The main controller of the robot is an Arduino UNO. An ultrasonic sensor is used to measure the distance between the robot and an obstacle. The sensor is mounted on a servo motor so that it can look towards different directions. When the path in front of the robot is clear, the robot moves forward. If an obstacle is detected within a fixed safe distance, the robot stops and checks the left and right sides. The Arduino compares the measured distances and decides which side has more free space. The robot then moves in that direction using its four DC gear motors and motor driver. If both sides are blocked, the robot moves backward and changes its direction to find another path.\r\n3. Innovation Details\r\nThe main innovation of our project is that the robot does not simply turn in one fixed direction whenever it finds an obstacle. Instead, it first checks different directions and then chooses a path according to the available space. This makes the movement more logical and useful in different situations. Another feature is the dead-end recovery system, where the robot can reverse and try another direction if it finds that both sides are blocked. The project is designed using affordable and easily available components such as Arduino UNO, ultrasonic sensor, servo motor, L293D motor driver and DC gear motors. Our aim is to make a simple, low-cost and practical autonomous robot that demonstrates how sensors, programming and mechanical movement can work together to solve a real-world navigation problem.\r\n                                                                    it's works any sector",
+  "solutionDescription": "1. Problem Statement\r\nNowadays, robots are being used in many areas to reduce human effort and to perform tasks automatically. One common problem in mobile robots is how they can move safely without hitting obstacles. Many simple obstacle-avoiding robots are programmed with a fixed rule, such as turning left or right whenever an obstacle comes in front of them. This method may not always be effective because the selected direction can also be blocked or may not be the better path. The robot can also get stuck in narrow spaces or dead ends. Therefore, there is a need for a simple and low-cost robot that can detect obstacles, check the available space around it and make a suitable movement decision automatically.\r\n2. Solution Details\r\nTo solve this problem, we are developing SAOANA – Smart Autonomous Obstacle Avoidance & Navigation Robot. The main controller of the robot is an Arduino UNO. An ultrasonic sensor is used to measure the distance between the robot and an obstacle. The sensor is mounted on a servo motor so that it can look towards different directions. When the path in front of the robot is clear, the robot moves forward. If an obstacle is detected within a fixed safe distance, the robot stops and checks the left and right sides. The Arduino compares the measured distances and decides which side has more free space. The robot then moves in that direction using its four DC gear motors and motor driver. If both sides are blocked, the robot moves backward and changes its direction to find another path.\r\n3. Innovation Details\r\nThe main innovation of our project is that the robot does not simply turn in one fixed direction whenever it finds an obstacle. Instead, it first checks different directions and then chooses a path according to the available space. This makes the movement more logical and useful in different situations. Another feature is the dead-end recovery system, where the robot can reverse and try another direction if it finds that both sides are blocked. The project is designed using affordable and easily available components such as Arduino UNO, ultrasonic sensor, servo motor, L293D motor driver and DC gear motors. Our aim is to make a simple, low-cost and practical autonomous robot that demonstrates how sensors, programming and mechanical movement can work together to solve a real-world navigation problem.\r\n                                                                    it's works any sector",
+  "innovationDescription": "1. Problem Statement\r\nNowadays, robots are being used in many areas to reduce human effort and to perform tasks automatically. One common problem in mobile robots is how they can move safely without hitting obstacles. Many simple obstacle-avoiding robots are programmed with a fixed rule, such as turning left or right whenever an obstacle comes in front of them. This method may not always be effective because the selected direction can also be blocked or may not be the better path. The robot can also get stuck in narrow spaces or dead ends. Therefore, there is a need for a simple and low-cost robot that can detect obstacles, check the available space around it and make a suitable movement decision automatically.\r\n2. Solution Details\r\nTo solve this problem, we are developing SAOANA – Smart Autonomous Obstacle Avoidance & Navigation Robot. The main controller of the robot is an Arduino UNO. An ultrasonic sensor is used to measure the distance between the robot and an obstacle. The sensor is mounted on a servo motor so that it can look towards different directions. When the path in front of the robot is clear, the robot moves forward. If an obstacle is detected within a fixed safe distance, the robot stops and checks the left and right sides. The Arduino compares the measured distances and decides which side has more free space. The robot then moves in that direction using its four DC gear motors and motor driver. If both sides are blocked, the robot moves backward and changes its direction to find another path.\r\n3. Innovation Details\r\nThe main innovation of our project is that the robot does not simply turn in one fixed direction whenever it finds an obstacle. Instead, it first checks different directions and then chooses a path according to the available space. This makes the movement more logical and useful in different situations. Another feature is the dead-end recovery system, where the robot can reverse and try another direction if it finds that both sides are blocked. The project is designed using affordable and easily available components such as Arduino UNO, ultrasonic sensor, servo motor, L293D motor driver and DC gear motors. Our aim is to make a simple, low-cost and practical autonomous robot that demonstrates how sensors, programming and mechanical movement can work together to solve a real-world navigation problem.\r\n                                                                    it's works any sector",
+  "workingPrinciple": "Our project SAOANA (Smart Autonomous Obstacle Avoidance & Navigation Robot) works by detecting obstacles and automatically choosing a suitable direction. An Arduino UNO is used as the main controller of the robot. An HC-SR04 ultrasonic sensor is used to detect obstacles and measure their distance from the robot.\r\nWhen the robot starts moving, the ultrasonic sensor continuously checks the path in front of it. If there is no obstacle within the safe distance, the Arduino gives signals to the L293D motor driver, and the four motors move the robot forward.\r\nIf an obstacle is detected in front of the robot, the robot stops. The ultrasonic sensor is attached to an SG90 servo motor, so the sensor can turn towards the left and right sides. The robot checks the distance on both sides and sends the information to the Arduino.\r\nThe Arduino compares the left and right distances. If the left side has more free space, the robot turns left. If the right side has more free space, it turns right. If both sides are blocked, the robot moves backward for a short time and then changes its direction.\r\nIn this way, SAOANA can detect obstacles, make its own direction decision and move without continuous human control. The main aim of our project is to demonstrate a simple and low-cost method of autonomous robot navigation.",
+  "majorHardwareComponents": [
+    "1. Arduino UNO – Main controller of the robot\n2. HC-SR04 Ultrasonic Sensor – Detects obstacles and measures distance\n3. SG90 Servo Motor – Rotates the ultrasonic sensor left and right\n4. L293D Motor Driver – Controls the DC motors\n5 .4 DC Gear Motors – Moves the robot\n6. 4 Wheels + Robot Chassis – Mechanical structure\n7. 2 × Li-ion Batteries + Battery Holder – Power supply\n8. Jumper Wires & Breadboard – For electrical connections\n9. Push Button – For ON/OFF or starting the robot"
+  ],
+  "useAi": true,
+  "useIot": false,
+  "powerSource": "battery",
+  "intendedBeneficiaries": [
+    "General Public",
+    "Industry",
+    "Transportation",
+    "Government / Public Services",
+    "Persons with Disabilities",
+    "Education",
+    "Healthcare",
+    "Agriculture"
+  ],
+  "potentialImpact": "SAOANA can have useful applications in different real-world situations where robots need to move safely without continuous human control. The basic idea can be used in delivery robots, warehouse robots, indoor service robots, and smart vehicles to detect obstacles and choose a suitable direction. It can help reduce collisions and make robotic movement more automatic.\r\n\r\nSince our prototype uses low-cost and easily available components, it can also be useful for students and beginners who want to learn about robotics and autonomous navigation. The project can be further developed by adding more sensors, wheel encoders, cameras, GPS, or IoT features. In the future, a more advanced version could be used for applications such as automatic material transportation in factories and obstacle-aware assistance robots.\r\n\r\nOverall, SAOANA demonstrates a simple and affordable approach to autonomous obstacle detection and navigation.",
+  "productPotential": "yes",
+  "prototypeDevelopmentCost": 2000,
+  "auraDemoHighlight": "SAOANA is worth seeing because it demonstrates autonomous decision-making in a simple and practical way. The robot does not just move forward and turn at fixed angles; it detects obstacles, scans the surroundings, compares the available space, and chooses a suitable direction on its own. The live movement makes the working principle easy to understand and interesting to observe. It is also built using low-cost and easily available components, making the project affordable and suitable for students.",
+  "safetyHazards": [
+    "none",
+    "moving_rotating_machinery"
+  ],
+  "safetyPrecautions": "All electrical connections are properly insulated and checked before use.\r\nThe battery voltage is kept within the safe operating range.\r\nThe robot is tested at low speed in an open area to avoid collisions.\r\nThe power supply is switched off before changing .",
+  "requiresContinuousSupervision": false,
+  "prototypeDevelopedByTeam": "yes",
+  "previouslyExhibited": false,
+  "previousExhibitionDetails": "",
+  "registrationFeeStatus": "no_fee",
+  "registrationFee": 0,
+  "createdAt": "2026-09-27T16:27:16.91Z",
+  "updatedAt": "2026-10-11T17:31:56.987Z",
+  "abstract": {
+    "originalName": "DOC-20260926-WA0039.pdf",
+    "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790526436/aura-registrations/abstract-docs/DOC-20260926-WA0039.pdf",
+    "filename": "Abstract.pdf",
+    "relPath": "assets/Teams/SAOANA/Abstract.pdf",
+    "isDocx": false,
+    "exists": true
+  },
+  "idCards": [
+    {
+      "slot": 1,
+      "filename": "1.jpg",
+      "relPath": "assets/Teams/SAOANA/1.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790526435/aura-registrations/id-cards/irx6fzqrf9dtduahadhi.jpg",
+      "exists": true
+    },
+    {
+      "slot": 2,
+      "filename": "2.jpg",
+      "relPath": "assets/Teams/SAOANA/2.jpg",
+      "url": "https://res.cloudinary.com/dxkje9whm/image/upload/v1790526435/aura-registrations/id-cards/u66i8mn4ly3jh4i5ysgb.jpg",
+      "exists": true
+    },
+    {
+      "slot": 3,
+      "filename": "3.jpg",
+      "relPath": "assets/Teams/SAOANA/3.jpg",
+      "url": null,
+      "exists": false
+    },
+    {
+      "slot": 4,
+      "filename": "4.jpg",
+      "relPath": "assets/Teams/SAOANA/4.jpg",
+      "url": null,
+      "exists": false
+    }
+  ]
+}
